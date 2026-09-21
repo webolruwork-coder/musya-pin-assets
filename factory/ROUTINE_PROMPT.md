@@ -15,7 +15,7 @@
    npm run factory:create -- --slug <короткий-английский-slug>
    ```
 
-3. На стадии `queued` открой Pinterest через Playwright MCP по `search.query` из manifest:
+3. На стадии `queued` открой Pinterest через Playwright MCP по `search.query` из manifest. Если анонимная выдача не показывает карточки, используй поисковую выдачу с ограничением домена `pinterest.com` как fallback и зафиксируй это в истории запуска:
    - просмотри не более `search.result_limit` карточек;
    - исключи рекламу;
    - остановись через `timeout_seconds`, даже если результатов меньше;

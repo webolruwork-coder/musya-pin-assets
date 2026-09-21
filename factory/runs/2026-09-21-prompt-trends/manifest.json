@@ -2,24 +2,56 @@
   "version": 1,
   "id": "2026-09-21-prompt-trends",
   "created_at": "2026-09-21T20:21:26.024Z",
-  "updated_at": "2026-09-21T20:21:26.024Z",
-  "status": "queued",
+  "updated_at": "2026-09-21T20:43:32.029Z",
+  "status": "validated",
   "search": {
     "query": "промпт",
     "result_limit": 10,
-    "reference_urls": [],
-    "reference_fingerprints": [],
-    "pattern_summary": ""
+    "reference_urls": [
+      "https://ru.pinterest.com/pin/926334217111212671/",
+      "https://ru.pinterest.com/pin/987625393289805377/",
+      "https://ru.pinterest.com/pin/11329436558576082/",
+      "https://ru.pinterest.com/pin/1110629958117752759/",
+      "https://ru.pinterest.com/pin/nel-2024--651614639866723546/",
+      "https://ru.pinterest.com/pin/764345368046389048/",
+      "https://ru.pinterest.com/pin/588212401375890443/",
+      "https://no.pinterest.com/pin/100275529199440692/",
+      "https://ru.pinterest.com/pin/749779037999022166/",
+      "https://ru.pinterest.com/pin/775885842091333333/"
+    ],
+    "reference_fingerprints": [
+      "07ee669d70d70363f06171963d1354d496c81445da51b95f4af120c974fd7ff1",
+      "1cd9ea3c9b0707a84ad29c209971000c08e61de9562121f71926aa6811bfc2fd",
+      "6394b85e7c0d10fead45ca2381dda26f9447eabe11138c543b92bacb60362efb",
+      "49a76687ceb6380b00428955103f5c394fc05c22e20502dc6cd5c13e2432917b",
+      "60a3188914bd2e56967b7aa23e7e41be61bb67e3381c496bf5e0ac314a634d4e",
+      "3e7b422a0eea9d57b53d960748ce39e7c58fa378430db1858f24ae5615f8ef96",
+      "9407d3d496ce0d7852487f1381aa5297882e79bae750bb824b544266f2a151ac",
+      "df3e70486f3d2005af58101b5ee57abb24bdbccffd6a31faba1064ba98740461",
+      "7013e4203194db5575416636c29325adb5cf8c27f7020d34843aa33797e1bcb6",
+      "a3cb6982aea83f8a7fad74362b41cd54e36ba6c70cfe4fb1213eccb9b8676b62"
+    ],
+    "pattern_summary": "В выдаче повторяются три формата: готовый промпт с крупным заголовком, сравнение результата одного промпта в разных моделях и короткий разбор ошибок. Сильные карточки обещают конкретный визуальный результат, показывают его крупно и оставляют сам промпт читаемым. Для нового пина берём полезность готового промпта и выразительный вертикальный hero-образ, не копируя композицию или графику референсов."
   },
   "content": {
-    "prompt_ru": "",
-    "title_ru": "",
-    "description_ru": "",
-    "keywords_ru": []
+    "prompt_ru": "Сюрреалистичная предметная съёмка: прозрачная стеклянная клавиша Enter раскрыта как шкатулка, из неё взлетают полупрозрачные карточки идей. Персиково-розовый фон, кобальтовые акценты, мягкий студийный свет, премиальная журнальная эстетика, высокая детализация, без текста и логотипов.",
+    "title_ru": "Промпт для эффектной предметной съёмки с нейросетью",
+    "description_ru": "Сохраните готовый промпт для создания выразительной предметной фотографии в нейросети: стекло, воздушные карточки, мягкий свет и журнальная эстетика. Больше понятных промптов и идей для AI-контента — в Telegram @musya_gpt.",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "промпт для фото",
+      "предметная съемка",
+      "генерация изображений",
+      "нейросети для дизайна",
+      "идеи для контента",
+      "AI фотография",
+      "промпты на русском",
+      "Musya GPT"
+    ]
   },
   "assets": {
-    "source_image": "",
-    "final_image": "",
+    "source_image": "factory/runs/2026-09-21-prompt-trends/source.png",
+    "final_image": "factory/runs/2026-09-21-prompt-trends/pin.png",
     "media_url": ""
   },
   "publishing": {
@@ -29,9 +61,21 @@
     "metricool_post_id": null
   },
   "validation": {
-    "passed": false,
-    "checked_at": null,
-    "checks": {},
+    "passed": true,
+    "checked_at": "2026-09-21T20:43:32.029Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
     "errors": []
   },
   "history": [
@@ -39,6 +83,31 @@
       "status": "queued",
       "at": "2026-09-21T20:21:26.024Z",
       "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-09-21T20:39:04.733Z",
+      "note": "10 organic Pinterest references captured via domain-search fallback after anonymous Playwright returned no cards"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-09-21T20:39:04.759Z",
+      "note": "Original concept and Russian publishing copy prepared"
+    },
+    {
+      "status": "generated",
+      "at": "2026-09-21T20:40:25.857Z",
+      "note": "Original source image generated with built-in ImageGen; no reference images supplied"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-09-21T20:43:21.742Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-09-21T20:43:32.029Z",
+      "note": "Automated manifest and image checks passed"
     }
   ]
 }
