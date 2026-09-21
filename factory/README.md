@@ -9,6 +9,7 @@ npm run factory:init
 npm run factory:create -- --slug glass-apple --query "промпт для нейросети"
 npm run factory:next
 node factory/cli.mjs set-status 2026-09-21-glass-apple research_ready
+npm run factory:render -- 2026-09-21-glass-apple
 npm run factory:validate -- 2026-09-21-glass-apple
 npm run factory:report
 ```
@@ -29,5 +30,7 @@ queued → research_ready → concept_ready → generated → rendered
 - `runs/<id>/manifest.json` — источник правды по конкретному пину;
 - `ROUTINE_PROMPT.md` — инструкция для ежедневной Claude Routine;
 - `manifest.schema.json` — контракт данных.
+
+`render.mjs` берёт исходную картинку и `prompt_ru` из manifest, создаёт SVG-карточку в текущем стиле и рендерит `1000×1500` через локальные Playwright и Google Chrome. Пути задаются в `config.json`; сейчас используется уже установленный Playwright из `~/tailwind-rebuild`.
 
 Публикация по умолчанию выключена. После ручного E2E через Metricool изменить `publishing.enabled` осознанным отдельным коммитом.

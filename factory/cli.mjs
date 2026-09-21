@@ -31,7 +31,7 @@ function now() {
   return new Date().toISOString();
 }
 
-async function readJson(file) {
+export async function readJson(file) {
   return JSON.parse(await fs.readFile(file, "utf8"));
 }
 
@@ -104,7 +104,7 @@ async function saveState(state) {
   await writeJson(STATE_PATH, state);
 }
 
-async function loadManifest(id) {
+export async function loadManifest(id) {
   return readJson(manifestPath(id));
 }
 
@@ -119,7 +119,7 @@ function summarize(manifest) {
   };
 }
 
-async function syncManifest(manifest) {
+export async function syncManifest(manifest) {
   manifest.updated_at = now();
   await writeJson(manifestPath(manifest.id), manifest);
   const state = await loadState();

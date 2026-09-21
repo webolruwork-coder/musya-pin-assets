@@ -15,6 +15,10 @@
     "height": 1500,
     "queue_target_days": 7
   },
+  "renderer": {
+    "playwright_module": "~/tailwind-rebuild/node_modules/playwright",
+    "chrome_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  },
   "publishing": {
     "enabled": false,
     "provider": "metricool",

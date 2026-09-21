@@ -10,6 +10,7 @@ import {
   imageDimensions,
   transitionManifest,
 } from "../cli.mjs";
+import { escapeXml, makeSvg, wrapText } from "../render.mjs";
 
 test("linear stages cannot be skipped", () => {
   assert.equal(canTransition("queued", "research_ready"), true);
@@ -54,4 +55,13 @@ test("reads dimensions from a PNG header", async () => {
   header.writeUInt32BE(1500, 20);
   await fs.writeFile(file, header);
   assert.deepEqual(await imageDimensions(file), { width: 1000, height: 1500, format: "png" });
+});
+
+test("renderer wraps and escapes prompt text", () => {
+  const lines = wrapText("один два три четыре пять", 10, 3);
+  assert.deepEqual(lines, ["один два", "три четыре", "пять"]);
+  assert.equal(escapeXml("A&B <C>"), "A&amp;B &lt;C&gt;");
+  const svg = makeSvg({ sourceImage: "/tmp/source image.png", prompt: "Мода & свет" });
+  assert.match(svg, /Мода &amp; свет/);
+  assert.match(svg, /width="1000" height="1500"/);
 });
