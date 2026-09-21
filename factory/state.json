@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-21T20:21:26.025Z",
+  "runs": [
+    {
+      "id": "2026-09-21-prompt-trends",
+      "manifest": "factory/runs/2026-09-21-prompt-trends/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-09-21T20:21:26.024Z"
+    }
+  ]
+}

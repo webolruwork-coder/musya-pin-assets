@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://webol.ru/schemas/pinterest-pin-manifest.schema.json",
+  "title": "Musya Pinterest pin manifest",
+  "type": "object",
+  "required": [
+    "version",
+    "id",
+    "created_at",
+    "updated_at",
+    "status",
+    "search",
+    "content",
+    "assets",
+    "publishing",
+    "validation",
+    "history"
+  ],
+  "properties": {
+    "version": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "status": {
+      "enum": [
+        "queued",
+        "research_ready",
+        "concept_ready",
+        "generated",
+        "rendered",
+        "validated",
+        "hosted",
+        "scheduled",
+        "published",
+        "needs_review",
+        "failed"
+      ]
+    },
+    "search": {
+      "type": "object",
+      "required": ["query", "result_limit", "reference_urls", "reference_fingerprints", "pattern_summary"],
+      "properties": {
+        "query": { "type": "string", "minLength": 1 },
+        "result_limit": { "type": "integer", "minimum": 1, "maximum": 20 },
+        "reference_urls": { "type": "array", "items": { "type": "string", "format": "uri" }, "maxItems": 20 },
+        "reference_fingerprints": { "type": "array", "items": { "type": "string" }, "maxItems": 20 },
+        "pattern_summary": { "type": "string" }
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": ["prompt_ru", "title_ru", "description_ru", "keywords_ru"],
+      "properties": {
+        "prompt_ru": { "type": "string" },
+        "title_ru": { "type": "string" },
+        "description_ru": { "type": "string" },
+        "keywords_ru": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "required": ["source_image", "final_image", "media_url"],
+      "properties": {
+        "source_image": { "type": "string" },
+        "final_image": { "type": "string" },
+        "media_url": { "type": "string" }
+      }
+    },
+    "publishing": {
+      "type": "object",
+      "required": ["board", "target_url", "scheduled_at", "metricool_post_id"],
+      "properties": {
+        "board": { "type": "string" },
+        "target_url": { "type": "string", "format": "uri" },
+        "scheduled_at": { "type": ["string", "null"] },
+        "metricool_post_id": { "type": ["string", "null"] }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "required": ["passed", "checked_at", "checks", "errors"],
+      "properties": {
+        "passed": { "type": "boolean" },
+        "checked_at": { "type": ["string", "null"] },
+        "checks": { "type": "object" },
+        "errors": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["status", "at", "note"],
+        "properties": {
+          "status": { "type": "string" },
+          "at": { "type": "string", "format": "date-time" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

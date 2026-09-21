@@ -1,0 +1,13 @@
+{
+  "name": "musya-pinterest-factory",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "factory:init": "node factory/cli.mjs init",
+    "factory:create": "node factory/cli.mjs create",
+    "factory:next": "node factory/cli.mjs next",
+    "factory:report": "node factory/cli.mjs report",
+    "factory:validate": "node factory/cli.mjs validate",
+    "test": "node --test factory/test/*.test.mjs"
+  }
+}

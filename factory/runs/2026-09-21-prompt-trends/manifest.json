@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "id": "2026-09-21-prompt-trends",
+  "created_at": "2026-09-21T20:21:26.024Z",
+  "updated_at": "2026-09-21T20:21:26.024Z",
+  "status": "queued",
+  "search": {
+    "query": "промпт",
+    "result_limit": 10,
+    "reference_urls": [],
+    "reference_fingerprints": [],
+    "pattern_summary": ""
+  },
+  "content": {
+    "prompt_ru": "",
+    "title_ru": "",
+    "description_ru": "",
+    "keywords_ru": []
+  },
+  "assets": {
+    "source_image": "",
+    "final_image": "",
+    "media_url": ""
+  },
+  "publishing": {
+    "board": "Промпты для нейросетей",
+    "target_url": "https://t.me/musya_gpt",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": false,
+    "checked_at": null,
+    "checks": {},
+    "errors": []
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-09-21T20:21:26.024Z",
+      "note": "Run created"
+    }
+  ]
+}
