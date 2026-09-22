@@ -6,7 +6,10 @@
     "result_limit": 10,
     "organic_only": true,
     "timeout_seconds": 90,
-    "dedupe_window_days": 30
+    "dedupe_window_days": 30,
+    "min_posts_analyzed": 10,
+    "min_reference_images_reviewed": 3,
+    "require_performance_evidence": true
   },
   "content": {
     "board": "Промпты для нейросетей",

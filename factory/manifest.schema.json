@@ -54,7 +54,10 @@
         "prompt_ru": { "type": "string" },
         "title_ru": { "type": "string" },
         "description_ru": { "type": "string" },
-        "keywords_ru": { "type": "array", "items": { "type": "string" } }
+        "keywords_ru": { "type": "array", "items": { "type": "string" } },
+        "layout": {
+          "enum": ["bottom_dark_editorial", "top_light_editorial"]
+        }
       }
     },
     "assets": {
@@ -97,6 +100,18 @@
         "checked_at": { "type": ["string", "null"] },
         "checks": { "type": "object" },
         "errors": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "research_evidence": {
+      "type": "object",
+      "properties": {
+        "source": { "type": "string" },
+        "date_range": { "type": "string" },
+        "posts_analyzed": { "type": "integer", "minimum": 0 },
+        "reference_images_reviewed": { "type": "integer", "minimum": 0 },
+        "selected_reference": { "type": "object" },
+        "transferred_features": { "type": "array", "items": { "type": "string" } },
+        "deliberate_changes": { "type": "array", "items": { "type": "string" } }
       }
     },
     "history": {
