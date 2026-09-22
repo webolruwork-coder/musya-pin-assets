@@ -182,6 +182,10 @@ function createManifest({ id, query, config }) {
       media_url: "",
     },
     publishing: {
+      provider: config.publishing.provider,
+      brand: config.publishing.brand,
+      blog_id: config.publishing.blog_id,
+      timezone: config.timezone,
       board: config.content.board,
       target_url: config.content.target_url,
       scheduled_at: null,
@@ -296,8 +300,17 @@ export async function validateManifest(manifest, config) {
     errors.push("Set assets.final_image");
   }
 
-  checks.publishing_fields = Boolean(manifest.publishing.board && manifest.publishing.target_url);
-  if (!checks.publishing_fields) errors.push("Set publishing board and target URL");
+  checks.publishing_fields = Boolean(
+    manifest.publishing.provider &&
+      manifest.publishing.brand &&
+      manifest.publishing.blog_id &&
+      manifest.publishing.timezone &&
+      manifest.publishing.board &&
+      manifest.publishing.target_url,
+  );
+  if (!checks.publishing_fields) {
+    errors.push("Set publishing provider, brand, blog_id, timezone, board and target URL");
+  }
 
   manifest.validation = {
     passed: errors.length === 0,

@@ -11,6 +11,9 @@ npm run factory:next
 node factory/cli.mjs set-status 2026-09-21-glass-apple research_ready
 npm run factory:render -- 2026-09-21-glass-apple
 npm run factory:validate -- 2026-09-21-glass-apple
+npm run factory:prepare-host -- 2026-09-21-glass-apple
+# После commit + push и появления файла на GitHub Pages:
+npm run factory:confirm-host -- 2026-09-21-glass-apple
 npm run factory:report
 ```
 
@@ -30,6 +33,8 @@ queued → research_ready → concept_ready → generated → rendered
 - `runs/<id>/manifest.json` — источник правды по конкретному пину;
 - `ROUTINE_PROMPT.md` — инструкция для ежедневной Claude Routine;
 - `manifest.schema.json` — контракт данных.
+
+`config.json` также хранит подтверждённые параметры Metricool: бренд `musya_gpt`, `blog_id` `6880455`, таймзону `Europe/Moscow` и точное имя Pinterest-доски `Промпты для нейросетей`. Числовой `boardId` для планирования не нужен.
 
 `render.mjs` берёт исходную картинку и `prompt_ru` из manifest, создаёт SVG-карточку в текущем стиле и рендерит `1000×1500` через локальные Playwright и Google Chrome. Пути задаются в `config.json`; сейчас используется уже установленный Playwright из `~/tailwind-rebuild`.
 

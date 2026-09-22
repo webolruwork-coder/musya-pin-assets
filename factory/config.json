@@ -19,9 +19,15 @@
     "playwright_module": "~/tailwind-rebuild/node_modules/playwright",
     "chrome_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
   },
+  "hosting": {
+    "directory": "pins",
+    "public_base_url": "https://webolruwork-coder.github.io/musya-pin-assets"
+  },
   "publishing": {
     "enabled": false,
     "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
     "default_time": "10:00"
   }
 }

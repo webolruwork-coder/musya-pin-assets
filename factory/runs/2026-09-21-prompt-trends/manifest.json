@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-09-21-prompt-trends",
   "created_at": "2026-09-21T20:21:26.024Z",
-  "updated_at": "2026-09-21T20:43:32.029Z",
+  "updated_at": "2026-09-22T12:29:53.733Z",
   "status": "validated",
   "search": {
     "query": "промпт",
@@ -52,9 +52,13 @@
   "assets": {
     "source_image": "factory/runs/2026-09-21-prompt-trends/source.png",
     "final_image": "factory/runs/2026-09-21-prompt-trends/pin.png",
-    "media_url": ""
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-09-21-prompt-trends.png"
   },
   "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://t.me/musya_gpt",
     "scheduled_at": null,
@@ -62,7 +66,7 @@
   },
   "validation": {
     "passed": true,
-    "checked_at": "2026-09-21T20:43:32.029Z",
+    "checked_at": "2026-09-22T12:29:53.733Z",
     "checks": {
       "content": true,
       "references": true,

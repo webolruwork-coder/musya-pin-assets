@@ -10,6 +10,7 @@ import {
   imageDimensions,
   transitionManifest,
 } from "../cli.mjs";
+import { publicAsset } from "../host.mjs";
 import { escapeXml, makeSvg, wrapText } from "../render.mjs";
 
 test("linear stages cannot be skipped", () => {
@@ -64,4 +65,15 @@ test("renderer wraps and escapes prompt text", () => {
   const svg = makeSvg({ sourceImage: "/tmp/source image.png", prompt: "Мода & свет" });
   assert.match(svg, /Мода &amp; свет/);
   assert.match(svg, /width="1000" height="1500"/);
+});
+
+test("host path and public URL use the run id", () => {
+  const asset = publicAsset(
+    { hosting: { directory: "pins", public_base_url: "https://example.com/assets/" } },
+    "2026-09-22-glass-key",
+  );
+  assert.deepEqual(asset, {
+    relativePath: "pins/2026-09-22-glass-key.png",
+    url: "https://example.com/assets/pins/2026-09-22-glass-key.png",
+  });
 });

@@ -68,8 +68,21 @@
     },
     "publishing": {
       "type": "object",
-      "required": ["board", "target_url", "scheduled_at", "metricool_post_id"],
+      "required": [
+        "provider",
+        "brand",
+        "blog_id",
+        "timezone",
+        "board",
+        "target_url",
+        "scheduled_at",
+        "metricool_post_id"
+      ],
       "properties": {
+        "provider": { "const": "metricool" },
+        "brand": { "type": "string", "minLength": 1 },
+        "blog_id": { "type": "integer", "minimum": 1 },
+        "timezone": { "type": "string", "minLength": 1 },
         "board": { "type": "string" },
         "target_url": { "type": "string", "format": "uri" },
         "scheduled_at": { "type": ["string", "null"] },
