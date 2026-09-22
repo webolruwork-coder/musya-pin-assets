@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T12:29:53.734Z",
+  "updated_at": "2026-09-22T13:10:56.398Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
       "manifest": "factory/runs/2026-09-21-prompt-trends/manifest.json",
-      "status": "validated",
-      "scheduled_at": null,
-      "metricool_post_id": null,
-      "updated_at": "2026-09-22T12:29:53.733Z"
+      "status": "scheduled",
+      "scheduled_at": "2026-09-22T16:40:00+03:00",
+      "metricool_post_id": "380074785",
+      "updated_at": "2026-09-22T13:10:56.396Z"
     }
   ]
 }
