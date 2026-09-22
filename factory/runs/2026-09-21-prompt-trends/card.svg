@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="bottom-scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050505" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#050505" stop-opacity="0.54"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0.94"/>
+    </linearGradient>
+  </defs>
+  <image x="0" y="0" width="1000" height="1500" preserveAspectRatio="xMidYMid slice" href="file:///Users/nataliakorcagina/projects/wt-pinterest-factory/factory/runs/2026-09-21-prompt-trends/source.png" xlink:href="file:///Users/nataliakorcagina/projects/wt-pinterest-factory/factory/runs/2026-09-21-prompt-trends/source.png"/>
+  <rect x="0" y="760" width="1000" height="740" fill="url(#bottom-scrim)"/>
+  <text x="500" y="52" fill="#ffffff" fill-opacity="0.82" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="16" letter-spacing="0.4">больше про нейросети → @musya_gpt</text>
+  <text x="500" y="1150" fill="#ffffff" text-anchor="middle" font-family="Georgia, Times New Roman, serif" font-size="76" font-weight="700" letter-spacing="1">ПРОМПТ</text>
+  <line x1="154" y1="1185" x2="846" y2="1185" stroke="#ffffff" stroke-opacity="0.48" stroke-width="1"/>
+  <text x="500" y="1235" fill="#ffffff" fill-opacity="0.96" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="400"><tspan x="500" dy="0">Сюрреалистичная предметная съёмка: прозрачная стеклянная клавиша</tspan><tspan x="500" dy="28">Enter раскрыта как шкатулка, из неё взлетают полупрозрачные</tspan><tspan x="500" dy="28">карточки идей. Персиково-розовый фон, кобальтовые акценты,</tspan><tspan x="500" dy="28">мягкий студийный свет, премиальная журнальная эстетика, высокая</tspan><tspan x="500" dy="28">детализация, без текста и логотипов.</tspan></text>
+</svg>

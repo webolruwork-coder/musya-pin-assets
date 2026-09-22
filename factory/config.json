@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "timezone": "Europe/Moscow",
+  "search": {
+    "query": "промпт",
+    "result_limit": 10,
+    "organic_only": true,
+    "timeout_seconds": 90,
+    "dedupe_window_days": 30
+  },
+  "content": {
+    "board": "Промпты для нейросетей",
+    "target_url": "https://t.me/musya_gpt",
+    "width": 1000,
+    "height": 1500,
+    "queue_target_days": 7
+  },
+  "renderer": {
+    "playwright_module": "~/tailwind-rebuild/node_modules/playwright",
+    "chrome_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  },
+  "hosting": {
+    "directory": "pins",
+    "public_base_url": "https://webolruwork-coder.github.io/musya-pin-assets"
+  },
+  "publishing": {
+    "enabled": false,
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "default_time": "10:00"
+  }
+}
