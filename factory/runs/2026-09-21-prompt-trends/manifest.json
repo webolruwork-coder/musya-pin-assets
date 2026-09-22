@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-09-21-prompt-trends",
   "created_at": "2026-09-21T20:21:26.024Z",
-  "updated_at": "2026-09-22T12:29:53.733Z",
-  "status": "validated",
+  "updated_at": "2026-09-22T13:10:56.396Z",
+  "status": "scheduled",
   "search": {
     "query": "промпт",
     "result_limit": 10,
@@ -61,8 +61,8 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://t.me/musya_gpt",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-09-22T16:40:00+03:00",
+    "metricool_post_id": "380074785"
   },
   "validation": {
     "passed": true,
@@ -112,6 +112,16 @@
       "status": "validated",
       "at": "2026-09-21T20:43:32.029Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-09-22T12:47:54.412Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-09-21-prompt-trends.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-09-22T13:10:56.392Z",
+      "note": "Metricool post 380074785 verified as PENDING for 2026-09-22 16:40 Europe/Moscow"
     }
   ]
 }
