@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="top-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <image x="0" y="0" width="1000" height="1500" preserveAspectRatio="xMidYMid slice" href="file:///Users/nataliakorcagina/projects/wt-pinterest-factory/factory/runs/2026-09-22-liquid-glass-bookmark/source.png" xlink:href="file:///Users/nataliakorcagina/projects/wt-pinterest-factory/factory/runs/2026-09-22-liquid-glass-bookmark/source.png"/>
+  <rect x="0" y="0" width="1000" height="460" fill="url(#top-light)"/>
+  <g transform="translate(52 62)" fill="#171717">
+    <text x="1" y="21" font-family="Avenir Next, Avenir, Helvetica Neue, sans-serif" font-size="18" font-weight="600" letter-spacing="0.8">@musya_gpt</text>
+    <text x="-1" y="135" font-family="Avenir Next Demi Bold, Avenir Next, Helvetica Neue, sans-serif" font-size="116" font-weight="600" letter-spacing="1.4">ПРОМПТ</text>
+    <text x="1" y="179" font-family="Avenir Next, Avenir, Helvetica Neue, sans-serif" font-size="18" font-weight="500" letter-spacing="0.1" opacity="0.96"><tspan x="1" dy="0">Sculptural bookmark icon made from thick transparent liquid glass, softly</tspan><tspan x="1" dy="23">folded ribbon silhouette, luminous iridescent refraction, warm ivory studio</tspan><tspan x="1" dy="23">surface, physically plausible caustics and premium 3D detail.</tspan></text>
+  </g>
+</svg>

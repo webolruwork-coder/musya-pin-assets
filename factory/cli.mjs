@@ -197,6 +197,21 @@ function createManifest({ id, query, config }) {
       checks: {},
       errors: [],
     },
+    research_evidence: {
+      source: "",
+      date_range: "",
+      posts_analyzed: 0,
+      reference_images_reviewed: 0,
+      selected_reference: {
+        url: "",
+        title: "",
+        impressions: null,
+        saves: null,
+        clicks: null,
+      },
+      transferred_features: [],
+      deliberate_changes: [],
+    },
     history: [{ status: "queued", at: timestamp, note: "Run created" }],
   };
 }
@@ -278,6 +293,23 @@ export async function validateManifest(manifest, config) {
   const duplicates = current.filter((value) => seen.has(value));
   checks.references_unique = duplicates.length === 0;
   if (!checks.references_unique) errors.push("One or more references were already used by another run");
+
+  const evidence = manifest.research_evidence;
+  checks.research_evidence = Boolean(
+    !config.search.require_performance_evidence ||
+      (evidence &&
+        evidence.posts_analyzed >= config.search.min_posts_analyzed &&
+        evidence.reference_images_reviewed >= config.search.min_reference_images_reviewed &&
+        evidence.selected_reference?.url &&
+        Number.isFinite(evidence.selected_reference?.impressions) &&
+        evidence.transferred_features?.length >= 3 &&
+        evidence.deliberate_changes?.length >= 1),
+  );
+  if (!checks.research_evidence) {
+    errors.push(
+      `Analyze at least ${config.search.min_posts_analyzed} posts, visually inspect at least ${config.search.min_reference_images_reviewed} references, and record a measured selected reference`,
+    );
+  }
 
   const finalImage = resolveAsset(manifest.assets.final_image);
   checks.final_image_exists = Boolean(finalImage);

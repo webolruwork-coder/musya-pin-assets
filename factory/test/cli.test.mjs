@@ -67,6 +67,17 @@ test("renderer wraps and escapes prompt text", () => {
   assert.match(svg, /width="1000" height="1500"/);
 });
 
+test("top light layout keeps typography above a light image", () => {
+  const svg = makeSvg({
+    sourceImage: "/tmp/source.png",
+    prompt: "Sculptural glass bookmark on an ivory surface",
+    layout: "top_light_editorial",
+  });
+  assert.match(svg, /id="top-light"/);
+  assert.match(svg, /transform="translate\(52 62\)"/);
+  assert.doesNotMatch(svg, /bottom-scrim/);
+});
+
 test("host path and public URL use the run id", () => {
   const asset = publicAsset(
     { hosting: { directory: "pins", public_base_url: "https://example.com/assets/" } },

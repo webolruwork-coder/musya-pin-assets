@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "id": "2026-09-22-liquid-glass-bookmark",
+  "created_at": "2026-09-22T19:47:51.103Z",
+  "updated_at": "2026-09-22T19:53:23.008Z",
+  "status": "validated",
+  "search": {
+    "query": "liquid glass prompt",
+    "result_limit": 10,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/1152851204651000670",
+      "https://www.pinterest.com/pin/1152851204650930832",
+      "https://www.pinterest.com/pin/1152851204651467300",
+      "https://www.pinterest.com/pin/1152851204651470073",
+      "https://www.pinterest.com/pin/1152851204650930825"
+    ],
+    "reference_fingerprints": [
+      "c9a09a31a70e456667620f471e74f4f02dd0bba56c65d0773296d4c88ed432eb",
+      "52db987f826a3567726221d0919252553115e5bece34904a6b3460b1d64f6ddb",
+      "5bd005d385b48ca0911a12d11ef0ffbb6af82f7dc3aec618b2a223c026f61122",
+      "e079d8578444aab55f7fa1544d0b9521ad26b85fd93716b3e877fa206b685a65",
+      "0214fa39a37c726eeef4fa32f987d42ff805bb806cdca3c8dc0412e5d3aa19f1"
+    ],
+    "pattern_summary": "Основной референс выбран по реальным данным Metricool, а не придуман: liquid glass folder — №1 из 44 пинов за 30 дней, 31 819 показов, 123 сохранения и 374 клика. Переносим доказанный паттерн: один крупный скульптурный объект, молочный фон, физически правдоподобное стекло и каустика, большое свободное поле сверху, чёрная редакционная типографика. Меняем только объект — папку на закладку/save icon — и не добавляем лишние карточки, свечение, градиентный фон или нижний тёмный блок."
+  },
+  "content": {
+    "prompt_ru": "Sculptural bookmark icon made from thick transparent liquid glass, softly folded ribbon silhouette, luminous iridescent refraction, warm ivory studio surface, physically plausible caustics and premium 3D detail.",
+    "title_ru": "Промпт: 3D-закладка из жидкого стекла",
+    "description_ru": "Готовый промпт для премиальной 3D-иконки из жидкого стекла: мягкая форма закладки, радужные преломления, тёплый студийный фон и реалистичная каустика. Сохраняйте и пробуйте в своей нейросети. Больше визуальных промптов — @musya_gpt.",
+    "keywords_ru": [
+      "liquid glass prompt",
+      "промпт для 3D",
+      "3D иконка",
+      "жидкое стекло",
+      "AI дизайн",
+      "промпт для нейросети",
+      "генерация изображений",
+      "Pinterest prompt",
+      "Musya GPT"
+    ],
+    "layout": "top_light_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-09-22-liquid-glass-bookmark/source.png",
+    "final_image": "factory/runs/2026-09-22-liquid-glass-bookmark/pin.png",
+    "media_url": ""
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://t.me/musya_gpt",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-09-22T19:53:23.007Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "research_evidence": {
+    "source": "Metricool Pinterest post analytics",
+    "date_range": "2026-08-24/2026-09-22",
+    "posts_analyzed": 44,
+    "reference_images_reviewed": 10,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/1152851204651000670",
+      "title": "Grok prompt: liquid glass folder / 3D AI art / @musya_gpt",
+      "impressions": 31819,
+      "saves": 123,
+      "clicks": 374,
+      "outbound_clicks": 10
+    },
+    "transferred_features": [
+      "single oversized sculptural object",
+      "transparent iridescent liquid glass",
+      "warm ivory seamless studio background",
+      "large quiet area above the object",
+      "black top-left editorial typography"
+    ],
+    "deliberate_changes": [
+      "folder becomes a bookmark/save icon",
+      "new geometry and camera angle",
+      "new prompt and publishing copy"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-09-22T19:47:51.103Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-09-22T19:48:44.180Z",
+      "note": "Selected from 44 Metricool-measured Pinterest posts; primary reference ranked #1 with 31,819 impressions and 123 saves"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-09-22T19:48:44.236Z",
+      "note": "Concept changes only the object while preserving the measured winning material, composition, lighting and editorial layout"
+    },
+    {
+      "status": "generated",
+      "at": "2026-09-22T19:50:39.557Z",
+      "note": "Generated from the #1 measured pin source as a style reference; changed only the subject geometry"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-09-22T19:50:42.266Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-09-22T19:50:55.338Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

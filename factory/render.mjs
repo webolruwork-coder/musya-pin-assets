@@ -47,8 +47,30 @@ export function wrapText(value, maxCharacters = 64, maxLines = 7) {
   return lines;
 }
 
-export function makeSvg({ sourceImage, prompt }) {
+export function makeSvg({ sourceImage, prompt, layout = "bottom_dark_editorial" }) {
   const imageUrl = pathToFileURL(sourceImage).href;
+  if (layout === "top_light_editorial") {
+    const lines = wrapText(prompt, 76, 4)
+      .map((line, index) => `<tspan x="1" dy="${index === 0 ? 0 : 23}">${escapeXml(line)}</tspan>`)
+      .join("");
+    return `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1500" viewBox="0 0 1000 1500">
+  <defs>
+    <linearGradient id="top-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <image x="0" y="0" width="1000" height="1500" preserveAspectRatio="xMidYMid slice" href="${escapeXml(imageUrl)}" xlink:href="${escapeXml(imageUrl)}"/>
+  <rect x="0" y="0" width="1000" height="460" fill="url(#top-light)"/>
+  <g transform="translate(52 62)" fill="#171717">
+    <text x="1" y="21" font-family="Avenir Next, Avenir, Helvetica Neue, sans-serif" font-size="18" font-weight="600" letter-spacing="0.8">@musya_gpt</text>
+    <text x="-1" y="135" font-family="Avenir Next Demi Bold, Avenir Next, Helvetica Neue, sans-serif" font-size="116" font-weight="600" letter-spacing="1.4">ПРОМПТ</text>
+    <text x="1" y="179" font-family="Avenir Next, Avenir, Helvetica Neue, sans-serif" font-size="18" font-weight="500" letter-spacing="0.1" opacity="0.96">${lines}</text>
+  </g>
+</svg>`;
+  }
+
   const lines = wrapText(prompt)
     .map((line, index) => `<tspan x="500" dy="${index === 0 ? 0 : 28}">${escapeXml(line)}</tspan>`)
     .join("");
@@ -126,7 +148,15 @@ async function main() {
   const runDirectory = path.join(FACTORY_DIR, "runs", id);
   const svgFile = path.join(runDirectory, "card.svg");
   const outputFile = path.join(runDirectory, "pin.png");
-  await fs.writeFile(svgFile, makeSvg({ sourceImage, prompt: manifest.content.prompt_ru }), "utf8");
+  await fs.writeFile(
+    svgFile,
+    makeSvg({
+      sourceImage,
+      prompt: manifest.content.prompt_ru,
+      layout: manifest.content.layout,
+    }),
+    "utf8",
+  );
   await renderWithPlaywright(svgFile, outputFile, config.renderer);
 
   manifest.assets.final_image = path.relative(ROOT_DIR, outputFile);
