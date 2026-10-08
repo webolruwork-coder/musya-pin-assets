@@ -4,7 +4,7 @@
 
 ## Промпт: 3D-закладка из жидкого стекла
 
-**Решение:** Ждёт просмотра<br>
+**Решение:** Одобрен<br>
 **Статус:** `validated`<br>
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Grok prompt: liquid glass folder / 3D AI art / @musya_gpt — 31 819 показов, 123 сохранений
