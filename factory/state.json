@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-08T20:27:56.175Z",
+  "updated_at": "2026-10-08T21:08:41.906Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -13,10 +13,10 @@
     {
       "id": "2026-09-22-liquid-glass-bookmark",
       "manifest": "factory/runs/2026-09-22-liquid-glass-bookmark/manifest.json",
-      "status": "validated",
-      "scheduled_at": null,
-      "metricool_post_id": null,
-      "updated_at": "2026-10-08T20:27:56.166Z"
+      "status": "published",
+      "scheduled_at": "2026-10-08T23:45:00+03:00",
+      "metricool_post_id": "391533783",
+      "updated_at": "2026-10-08T21:08:41.900Z"
     }
   ]
 }
