@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "id": "2026-10-09-slot-14-minimal-studio-still-life-prompt",
+  "created_at": "2026-10-08T21:30:41.720Z",
+  "updated_at": "2026-10-08T22:12:20.510Z",
+  "status": "validated",
+  "search": {
+    "query": "Промпт для дорогой женской аватарки",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/25684660372774510/"
+    ],
+    "reference_fingerprints": [
+      "7b020523e804504b33e6b57354fcb21b059c5a6ca7ea80b2b39d4aa597f75676"
+    ],
+    "pattern_summary": "Глобальный результат #18 по запросу «промпт», 7 публичных сохранений. Переносится визуальный паттерн «Luxury avatar», сюжет и детали созданы заново."
+  },
+  "content": {
+    "prompt_ru": "Создай мягкий портрет женщины в жемчужно-бежевой гамме: боковой свет, капли как украшения на коже, воздушные пряди и деликатное золотое сияние.",
+    "title_ru": "Промпт для дорогой женской аватарки",
+    "description_ru": "Создай мягкий портрет женщины в жемчужно-бежевой гамме: боковой свет, капли как украшения на коже, воздушные пряди и деликатное золотое сияние. Скопируйте промпт и создайте собственную вариацию в генераторе Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "нейросеть",
+      "генерация изображений",
+      "AI фото",
+      "luxury avatar",
+      "Musya"
+    ],
+    "layout": "top_light_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-09-slot-14-minimal-studio-still-life-prompt/source.png",
+    "final_image": "factory/runs/2026-10-09-slot-14-minimal-studio-still-life-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-14-minimal-studio-still-life-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-08T22:12:11.093Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-08T22:12:11.094Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-09",
+    "slot_index": 14,
+    "planned_at_local": "2026-10-09T22:00:00",
+    "pillar": "Luxury avatar"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-09/global-prompt-search.json",
+    "date_range": "captured 2026-10-08T22:01:22.090Z",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 15,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/25684660372774510/",
+      "title": "Промпт для дорогой женской аватарки с мягким сиянием кожи | Леди-босс, Леди ди, Лица",
+      "public_saves": 7,
+      "search_rank": 18,
+      "impressions": 20120,
+      "saves": 107,
+      "clicks": 484
+    },
+    "transferred_features": [
+      "тип композиции",
+      "световая схема",
+      "плотность кадра"
+    ],
+    "deliberate_changes": [
+      "Новые персонажи или предметы, палитра и детали; чужое изображение и брендинг не копируются"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-08T21:30:41.720Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-08T22:10:48.952Z",
+      "note": "Selected from measured global Pinterest search"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-08T22:10:48.952Z",
+      "note": "Original variation planned"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-08T22:10:48.952Z",
+      "note": "Original ImageGen source saved"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-08T22:11:50.205Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-08T22:12:11.094Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

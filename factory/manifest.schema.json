@@ -38,12 +38,13 @@
     },
     "search": {
       "type": "object",
-      "required": ["query", "result_limit", "reference_urls", "reference_fingerprints", "pattern_summary"],
+      "required": ["query", "global_query", "result_limit", "reference_urls", "reference_fingerprints", "pattern_summary"],
       "properties": {
         "query": { "type": "string", "minLength": 1 },
-        "result_limit": { "type": "integer", "minimum": 1, "maximum": 20 },
-        "reference_urls": { "type": "array", "items": { "type": "string", "format": "uri" }, "maxItems": 20 },
-        "reference_fingerprints": { "type": "array", "items": { "type": "string" }, "maxItems": 20 },
+        "global_query": { "const": "промпт" },
+        "result_limit": { "type": "integer", "minimum": 1, "maximum": 30 },
+        "reference_urls": { "type": "array", "items": { "type": "string", "format": "uri" }, "maxItems": 30 },
+        "reference_fingerprints": { "type": "array", "items": { "type": "string" }, "maxItems": 30 },
         "pattern_summary": { "type": "string" }
       }
     },
@@ -106,6 +107,8 @@
       "type": "object",
       "properties": {
         "source": { "type": "string" },
+        "global_query": { "type": "string" },
+        "global_search_report": { "type": "string" },
         "date_range": { "type": "string" },
         "posts_analyzed": { "type": "integer", "minimum": 0 },
         "reference_images_reviewed": { "type": "integer", "minimum": 0 },

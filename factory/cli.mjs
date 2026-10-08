@@ -165,6 +165,7 @@ export function createManifest({ id, query, config, production = null }) {
     status: "queued",
     search: {
       query,
+      global_query: config.search.query,
       result_limit: config.search.result_limit,
       reference_urls: [],
       reference_fingerprints: [],
@@ -205,12 +206,16 @@ export function createManifest({ id, query, config, production = null }) {
     ...(production ? { production } : {}),
     research_evidence: {
       source: "",
+      global_query: config.search.query,
+      global_search_report: "",
       date_range: "",
       posts_analyzed: 0,
       reference_images_reviewed: 0,
       selected_reference: {
         url: "",
         title: "",
+        public_saves: null,
+        search_rank: null,
         impressions: null,
         saves: null,
         clicks: null,
@@ -242,6 +247,14 @@ export function productionSlots(config, date) {
     pillar: topics[index].pillar,
     query: topics[index].query,
   }));
+}
+
+export function autoApprovalEligible(manifest, config, validation = manifest.validation) {
+  return Boolean(
+    config.production?.approval_mode === "automatic_quality_gate" &&
+      manifest.production &&
+      validation?.passed,
+  );
 }
 
 export function fingerprintReference(url) {
@@ -323,19 +336,30 @@ export async function validateManifest(manifest, config) {
   if (!checks.references_unique) errors.push("One or more references were already used by another run");
 
   const evidence = manifest.research_evidence;
+  const selected = evidence?.selected_reference;
+  const hasGlobalPinterestEvidence = Boolean(
+    !manifest.production ||
+      (evidence?.source === "Pinterest public global search" &&
+        evidence?.global_query === config.search.query &&
+        evidence?.global_search_report &&
+        Number.isFinite(selected?.public_saves) &&
+        selected.public_saves > 0 &&
+        Number.isFinite(selected?.search_rank) &&
+        selected.search_rank > 0),
+  );
   checks.research_evidence = Boolean(
     !config.search.require_performance_evidence ||
       (evidence &&
         evidence.posts_analyzed >= config.search.min_posts_analyzed &&
         evidence.reference_images_reviewed >= config.search.min_reference_images_reviewed &&
-        evidence.selected_reference?.url &&
-        Number.isFinite(evidence.selected_reference?.impressions) &&
+        selected?.url &&
+        hasGlobalPinterestEvidence &&
         evidence.transferred_features?.length >= 3 &&
         evidence.deliberate_changes?.length >= 1),
   );
   if (!checks.research_evidence) {
     errors.push(
-      `Analyze at least ${config.search.min_posts_analyzed} posts, visually inspect at least ${config.search.min_reference_images_reviewed} references, and record a measured selected reference`,
+      `Analyze at least ${config.search.min_posts_analyzed} global Pinterest results for “${config.search.query}”, visually inspect at least ${config.search.min_reference_images_reviewed} references, and record public saves plus search rank for the selected reference`,
     );
   }
 
@@ -468,6 +492,13 @@ async function commandValidate(args) {
     }
     if (manifest.status === "rendered") {
       transitionManifest(manifest, "validated", "Automated manifest and image checks passed");
+    }
+    if (manifest.status === "validated" && autoApprovalEligible(manifest, config, result)) {
+      manifest.approval = {
+        status: "approved",
+        reviewed_at: now(),
+        note: "Automatically approved after research, image and publishing quality gates passed",
+      };
     }
   } else if (!result.passed && manifest.status !== "needs_review") {
     transitionManifest(manifest, "needs_review", result.errors.join("; "));

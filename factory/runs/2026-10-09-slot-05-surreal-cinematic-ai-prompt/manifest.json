@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "id": "2026-10-09-slot-05-surreal-cinematic-ai-prompt",
+  "created_at": "2026-10-08T21:30:41.716Z",
+  "updated_at": "2026-10-08T22:12:19.600Z",
+  "status": "validated",
+  "search": {
+    "query": "Промпт для модного beauty-портрета",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/1125968743172864/"
+    ],
+    "reference_fingerprints": [
+      "57ce87e4d91c05b2879a704ca5c67bb3102399009a4037999f3cb2060a686f3b"
+    ],
+    "pattern_summary": "Глобальный результат #3 по запросу «промпт», 308 публичных сохранений. Переносится визуальный паттерн «Editorial makeup», сюжет и детали созданы заново."
+  },
+  "content": {
+    "prompt_ru": "Сними модель снизу крупным планом: гладкая укладка, графичный коралловый румянец, влажный блеск губ, белый фон и смелая журнальная пластика.",
+    "title_ru": "Промпт для модного beauty-портрета",
+    "description_ru": "Сними модель снизу крупным планом: гладкая укладка, графичный коралловый румянец, влажный блеск губ, белый фон и смелая журнальная пластика. Скопируйте промпт и создайте собственную вариацию в генераторе Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "нейросеть",
+      "генерация изображений",
+      "AI фото",
+      "editorial makeup",
+      "Musya"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-09-slot-05-surreal-cinematic-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-09-slot-05-surreal-cinematic-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-05-surreal-cinematic-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-08T22:12:10.304Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-08T22:12:10.305Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-09",
+    "slot_index": 5,
+    "planned_at_local": "2026-10-09T08:30:00",
+    "pillar": "Editorial makeup"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-09/global-prompt-search.json",
+    "date_range": "captured 2026-10-08T22:01:22.090Z",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 15,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/1125968743172864/",
+      "title": "재미있는 광고 | 향수, 프로모션, 화장품",
+      "public_saves": 308,
+      "search_rank": 3,
+      "impressions": 13216,
+      "saves": 128,
+      "clicks": 575
+    },
+    "transferred_features": [
+      "тип композиции",
+      "световая схема",
+      "плотность кадра"
+    ],
+    "deliberate_changes": [
+      "Новые персонажи или предметы, палитра и детали; чужое изображение и брендинг не копируются"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-08T21:30:41.716Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-08T22:10:48.654Z",
+      "note": "Selected from measured global Pinterest search"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-08T22:10:48.654Z",
+      "note": "Original variation planned"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-08T22:10:48.654Z",
+      "note": "Original ImageGen source saved"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-08T22:11:41.769Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-08T22:12:10.305Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

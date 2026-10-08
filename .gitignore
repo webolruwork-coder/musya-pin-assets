@@ -1,1 +1,9 @@
 .playwright-mcp/
+factory/runs/*/source.png
+factory/runs/*/pin.png
+factory/research/*/global-references/
+factory/research/*/references/
+factory/research/*/*contact-sheet*
+factory/research/*/global-prompt-response.json
+factory/research/*/generated-map.json
+factory/research/*/network.txt

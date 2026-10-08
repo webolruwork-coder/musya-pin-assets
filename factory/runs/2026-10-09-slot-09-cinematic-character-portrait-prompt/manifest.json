@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "id": "2026-10-09-slot-09-cinematic-character-portrait-prompt",
+  "created_at": "2026-10-08T21:30:41.717Z",
+  "updated_at": "2026-10-08T22:12:19.999Z",
+  "status": "validated",
+  "search": {
+    "query": "Промпт для кинематографичного мужского портрета",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/2392606049313562/"
+    ],
+    "reference_fingerprints": [
+      "76c3f52d861c4ee85e8b10ea8ce8dac67c495ade833d5fd64f07c3aac4817b73"
+    ],
+    "pattern_summary": "Глобальный результат #6 по запросу «промпт», 190 публичных сохранений. Переносится визуальный паттерн «Кинопортрет», сюжет и детали созданы заново."
+  },
+  "content": {
+    "prompt_ru": "Сними мужчину по плечи на глубоком изумрудном фоне: контровой бирюзовый свет, серьёзное выражение, реалистичная кожа и постерная композиция.",
+    "title_ru": "Промпт для кинематографичного мужского портрета",
+    "description_ru": "Сними мужчину по плечи на глубоком изумрудном фоне: контровой бирюзовый свет, серьёзное выражение, реалистичная кожа и постерная композиция. Скопируйте промпт и создайте собственную вариацию в генераторе Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "нейросеть",
+      "генерация изображений",
+      "AI фото",
+      "кинопортрет",
+      "Musya"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-09-slot-09-cinematic-character-portrait-prompt/source.png",
+    "final_image": "factory/runs/2026-10-09-slot-09-cinematic-character-portrait-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-09-cinematic-character-portrait-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-08T22:12:10.653Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-08T22:12:10.654Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-09",
+    "slot_index": 9,
+    "planned_at_local": "2026-10-09T14:30:00",
+    "pillar": "Кинопортрет"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-09/global-prompt-search.json",
+    "date_range": "captured 2026-10-08T22:01:22.090Z",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 15,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/2392606049313562/",
+      "title": "Забирай промт по ссылке жми ➜ прейти на сайт и забирай | Промпт фотосессия, Портрет мужской, Промт для фотосессии",
+      "public_saves": 190,
+      "search_rank": 6,
+      "impressions": 3698,
+      "saves": 32,
+      "clicks": 166
+    },
+    "transferred_features": [
+      "тип композиции",
+      "световая схема",
+      "плотность кадра"
+    ],
+    "deliberate_changes": [
+      "Новые персонажи или предметы, палитра и детали; чужое изображение и брендинг не копируются"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-08T21:30:41.717Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-08T22:10:48.752Z",
+      "note": "Selected from measured global Pinterest search"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-08T22:10:48.752Z",
+      "note": "Original variation planned"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-08T22:10:48.752Z",
+      "note": "Original ImageGen source saved"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-08T22:11:45.583Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-08T22:12:10.654Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

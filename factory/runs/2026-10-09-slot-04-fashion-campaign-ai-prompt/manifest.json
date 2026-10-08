@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "id": "2026-10-09-slot-04-fashion-campaign-ai-prompt",
+  "created_at": "2026-10-08T21:30:41.715Z",
+  "updated_at": "2026-10-08T22:12:19.507Z",
+  "status": "validated",
+  "search": {
+    "query": "Промпт для outdoor-рекламы одежды",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/1759287349484061/"
+    ],
+    "reference_fingerprints": [
+      "443988dbec275081546e3b5c3644058792675266cd6dce416cc6276bdb6ab1f2"
+    ],
+    "pattern_summary": "Глобальный результат #23 по запросу «промпт», 408 публичных сохранений. Переносится визуальный паттерн «Outdoor fashion», сюжет и детали созданы заново."
+  },
+  "content": {
+    "prompt_ru": "Создай чёрно-белую outdoor-кампанию: герой в технической куртке, снежный ветер, размытие движения вокруг лица, документальная фактура и сильный контраст.",
+    "title_ru": "Промпт для outdoor-рекламы одежды",
+    "description_ru": "Создай чёрно-белую outdoor-кампанию: герой в технической куртке, снежный ветер, размытие движения вокруг лица, документальная фактура и сильный контраст. Скопируйте промпт и создайте собственную вариацию в генераторе Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "нейросеть",
+      "генерация изображений",
+      "AI фото",
+      "outdoor fashion",
+      "Musya"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-09-slot-04-fashion-campaign-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-09-slot-04-fashion-campaign-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-04-fashion-campaign-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-08T22:12:10.218Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-08T22:12:10.218Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-09",
+    "slot_index": 4,
+    "planned_at_local": "2026-10-09T07:00:00",
+    "pillar": "Outdoor fashion"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-09/global-prompt-search.json",
+    "date_range": "captured 2026-10-08T22:01:22.090Z",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 15,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/1759287349484061/",
+      "title": "The north face photography | The north face poster, The north face advertising campaign, Editing promt",
+      "public_saves": 408,
+      "search_rank": 23,
+      "impressions": 5186,
+      "saves": 21,
+      "clicks": 59
+    },
+    "transferred_features": [
+      "тип композиции",
+      "световая схема",
+      "плотность кадра"
+    ],
+    "deliberate_changes": [
+      "Новые персонажи или предметы, палитра и детали; чужое изображение и брендинг не копируются"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-08T21:30:41.715Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-08T22:10:48.628Z",
+      "note": "Selected from measured global Pinterest search"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-08T22:10:48.628Z",
+      "note": "Original variation planned"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-08T22:10:48.628Z",
+      "note": "Original ImageGen source saved"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-08T22:11:40.785Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-08T22:12:10.218Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import path from "node:path";
 import test from "node:test";
 
 import {
+  autoApprovalEligible,
   canTransition,
   fingerprintReference,
   imageDimensions,
@@ -111,4 +112,11 @@ test("daily production creates fifteen distinct slots", () => {
   assert.equal(slots.length, 15);
   assert.equal(new Set(slots.map((slot) => slot.planned_at_local)).size, 15);
   assert.equal(slots[14].planned_at_local, "2026-10-10T14:00:00");
+});
+
+test("daily factory auto-approves only validated production manifests", () => {
+  const config = { production: { approval_mode: "automatic_quality_gate" } };
+  assert.equal(autoApprovalEligible({ production: { slot_index: 1 } }, config, { passed: true }), true);
+  assert.equal(autoApprovalEligible({}, config, { passed: true }), false);
+  assert.equal(autoApprovalEligible({ production: { slot_index: 1 } }, config, { passed: false }), false);
 });

@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "id": "2026-10-09-slot-12-skincare-texture-macro-prompt",
+  "created_at": "2026-10-08T21:30:41.719Z",
+  "updated_at": "2026-10-08T22:12:20.308Z",
+  "status": "validated",
+  "search": {
+    "query": "Промпт для портрета наполовину рисунок",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/567664728056369040/"
+    ],
+    "reference_fingerprints": [
+      "719a827a9d84fb71c1c430245858842961bb04a5866846223397f3d62401e012"
+    ],
+    "pattern_summary": "Глобальный результат #2 по запросу «промпт», 16 публичных сохранений. Переносится визуальный паттерн «Mixed media», сюжет и детали созданы заново."
+  },
+  "content": {
+    "prompt_ru": "Преврати половину реалистичного женского портрета в угольный набросок: плавный переход, белая бумага, видимые штрихи и спокойная музейная композиция.",
+    "title_ru": "Промпт для портрета наполовину рисунок",
+    "description_ru": "Преврати половину реалистичного женского портрета в угольный набросок: плавный переход, белая бумага, видимые штрихи и спокойная музейная композиция. Скопируйте промпт и создайте собственную вариацию в генераторе Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "нейросеть",
+      "генерация изображений",
+      "AI фото",
+      "mixed media",
+      "Musya"
+    ],
+    "layout": "top_light_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-09-slot-12-skincare-texture-macro-prompt/source.png",
+    "final_image": "factory/runs/2026-10-09-slot-12-skincare-texture-macro-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-12-skincare-texture-macro-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-08T22:12:10.918Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-08T22:12:10.919Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-09",
+    "slot_index": 12,
+    "planned_at_local": "2026-10-09T19:00:00",
+    "pillar": "Mixed media"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-09/global-prompt-search.json",
+    "date_range": "captured 2026-10-08T22:01:22.090Z",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 15,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/567664728056369040/",
+      "title": "От линии к живому портрету: mixed-media промт для лица | Realistic sketch prompt, Mixed media art sketches, Charcoal drawing prompt",
+      "public_saves": 16,
+      "search_rank": 2,
+      "impressions": 2653,
+      "saves": 18,
+      "clicks": 48
+    },
+    "transferred_features": [
+      "тип композиции",
+      "световая схема",
+      "плотность кадра"
+    ],
+    "deliberate_changes": [
+      "Новые персонажи или предметы, палитра и детали; чужое изображение и брендинг не копируются"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-08T21:30:41.719Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-08T22:10:48.909Z",
+      "note": "Selected from measured global Pinterest search"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-08T22:10:48.909Z",
+      "note": "Original variation planned"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-08T22:10:48.909Z",
+      "note": "Original ImageGen source saved"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-08T22:11:48.362Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-08T22:12:10.919Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}
