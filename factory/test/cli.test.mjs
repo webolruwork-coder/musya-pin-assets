@@ -8,9 +8,10 @@ import {
   canTransition,
   fingerprintReference,
   imageDimensions,
+  productionSlots,
   transitionManifest,
 } from "../cli.mjs";
-import { publicAsset } from "../host.mjs";
+import { hostingBlockReason, publicAsset } from "../host.mjs";
 import { escapeXml, makeSvg, wrapText } from "../render.mjs";
 
 test("linear stages cannot be skipped", () => {
@@ -67,6 +68,17 @@ test("renderer wraps and escapes prompt text", () => {
   assert.match(svg, /width="1000" height="1500"/);
 });
 
+test("top light layout keeps typography above a light image", () => {
+  const svg = makeSvg({
+    sourceImage: "/tmp/source.png",
+    prompt: "Sculptural glass bookmark on an ivory surface",
+    layout: "top_light_editorial",
+  });
+  assert.match(svg, /id="top-light"/);
+  assert.match(svg, /transform="translate\(52 62\)"/);
+  assert.doesNotMatch(svg, /bottom-scrim/);
+});
+
 test("host path and public URL use the run id", () => {
   const asset = publicAsset(
     { hosting: { directory: "pins", public_base_url: "https://example.com/assets/" } },
@@ -76,4 +88,27 @@ test("host path and public URL use the run id", () => {
     relativePath: "pins/2026-09-22-glass-key.png",
     url: "https://example.com/assets/pins/2026-09-22-glass-key.png",
   });
+});
+
+test("hosting requires explicit approval after validation", () => {
+  assert.match(
+    hostingBlockReason({ status: "validated", approval: { status: "pending" } }),
+    /approved in the review queue/,
+  );
+  assert.equal(
+    hostingBlockReason({ status: "validated", approval: { status: "approved" } }),
+    null,
+  );
+});
+
+test("daily production creates fifteen distinct slots", () => {
+  const schedule_times = Array.from({ length: 15 }, (_, index) => `${String(index).padStart(2, "0")}:00`);
+  const topic_rotation = Array.from({ length: 15 }, (_, index) => ({ pillar: `p${index}`, query: `q${index}` }));
+  const slots = productionSlots(
+    { production: { daily_target: 15, schedule_times, topic_rotation } },
+    "2026-10-10",
+  );
+  assert.equal(slots.length, 15);
+  assert.equal(new Set(slots.map((slot) => slot.planned_at_local)).size, 15);
+  assert.equal(slots[14].planned_at_local, "2026-10-10T14:00:00");
 });

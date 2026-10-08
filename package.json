@@ -5,11 +5,14 @@
   "scripts": {
     "factory:init": "node factory/cli.mjs init",
     "factory:create": "node factory/cli.mjs create",
+    "factory:seed-day": "node factory/cli.mjs seed-day",
     "factory:next": "node factory/cli.mjs next",
     "factory:prepare-host": "node factory/host.mjs prepare",
     "factory:confirm-host": "node factory/host.mjs confirm",
     "factory:render": "node factory/render.mjs",
     "factory:report": "node factory/cli.mjs report",
+    "factory:day-plan": "node factory/cli.mjs day-plan",
+    "factory:review": "node factory/review.mjs",
     "factory:validate": "node factory/cli.mjs validate",
     "test": "node --test factory/test/*.test.mjs"
   }
