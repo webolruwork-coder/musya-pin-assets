@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+  "created_at": "2026-10-08T21:22:37.925Z",
+  "updated_at": "2026-10-08T21:22:37.925Z",
+  "status": "queued",
+  "search": {
+    "query": "editorial portrait AI prompt",
+    "result_limit": 10,
+    "reference_urls": [],
+    "reference_fingerprints": [],
+    "pattern_summary": ""
+  },
+  "content": {
+    "prompt_ru": "",
+    "title_ru": "",
+    "description_ru": "",
+    "keywords_ru": []
+  },
+  "assets": {
+    "source_image": "",
+    "final_image": "",
+    "media_url": ""
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": false,
+    "checked_at": null,
+    "checks": {},
+    "errors": []
+  },
+  "approval": {
+    "status": "pending",
+    "reviewed_at": null,
+    "note": ""
+  },
+  "production": {
+    "target_date": "2026-10-10",
+    "slot_index": 3,
+    "planned_at_local": "2026-10-10T04:00:00",
+    "pillar": "Портрет"
+  },
+  "research_evidence": {
+    "source": "",
+    "date_range": "",
+    "posts_analyzed": 0,
+    "reference_images_reviewed": 0,
+    "selected_reference": {
+      "url": "",
+      "title": "",
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [],
+    "deliberate_changes": []
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-08T21:22:37.925Z",
+      "note": "Run created"
+    }
+  ]
+}

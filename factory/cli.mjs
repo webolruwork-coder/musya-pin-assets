@@ -70,13 +70,13 @@ function slugify(value) {
     .slice(0, 64);
 }
 
-function localDate(timezone) {
+export function localDate(timezone, date = new Date()) {
   const parts = new Intl.DateTimeFormat("en-CA", {
     timeZone: timezone,
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
-  }).formatToParts(new Date());
+  }).formatToParts(date);
   const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
   return `${values.year}-${values.month}-${values.day}`;
 }
@@ -155,7 +155,7 @@ export function transitionManifest(manifest, to, note = "") {
   return manifest;
 }
 
-function createManifest({ id, query, config }) {
+export function createManifest({ id, query, config, production = null }) {
   const timestamp = now();
   return {
     version: 1,
@@ -202,6 +202,7 @@ function createManifest({ id, query, config }) {
       reviewed_at: null,
       note: "",
     },
+    ...(production ? { production } : {}),
     research_evidence: {
       source: "",
       date_range: "",
@@ -219,6 +220,28 @@ function createManifest({ id, query, config }) {
     },
     history: [{ status: "queued", at: timestamp, note: "Run created" }],
   };
+}
+
+export function productionSlots(config, date) {
+  const dailyTarget = config.production?.daily_target;
+  const times = config.production?.schedule_times || [];
+  const topics = config.production?.topic_rotation || [];
+  if (!Number.isInteger(dailyTarget) || dailyTarget < 1) {
+    throw new Error("production.daily_target must be a positive integer");
+  }
+  if (times.length < dailyTarget) {
+    throw new Error(`Configure at least ${dailyTarget} production.schedule_times`);
+  }
+  if (topics.length < dailyTarget) {
+    throw new Error(`Configure at least ${dailyTarget} production.topic_rotation entries`);
+  }
+  return Array.from({ length: dailyTarget }, (_, index) => ({
+    index: index + 1,
+    time: times[index],
+    planned_at_local: `${date}T${times[index]}:00`,
+    pillar: topics[index].pillar,
+    query: topics[index].query,
+  }));
 }
 
 export function fingerprintReference(url) {
@@ -383,6 +406,41 @@ async function commandCreate(args) {
   console.log(id);
 }
 
+async function commandSeedDay(args) {
+  const { options } = parseOptions(args);
+  const config = await readJson(CONFIG_PATH);
+  const date = options.date || localDate(config.timezone);
+  const configuredSlots = productionSlots(config, date);
+  const requestedCount = options.count ? Number(options.count) : configuredSlots.length;
+  if (!Number.isInteger(requestedCount) || requestedCount < 1 || requestedCount > configuredSlots.length) {
+    throw new Error(`--count must be an integer from 1 to ${configuredSlots.length}`);
+  }
+
+  const created = [];
+  for (const slot of configuredSlots.slice(0, requestedCount)) {
+    const slotNumber = String(slot.index).padStart(2, "0");
+    const id = `${date}-slot-${slotNumber}-${slugify(slot.query).slice(0, 36)}`;
+    try {
+      await fs.access(manifestPath(id));
+      continue;
+    } catch {}
+    const manifest = createManifest({
+      id,
+      query: slot.query,
+      config,
+      production: {
+        target_date: date,
+        slot_index: slot.index,
+        planned_at_local: slot.planned_at_local,
+        pillar: slot.pillar,
+      },
+    });
+    await syncManifest(manifest);
+    created.push(id);
+  }
+  console.log(JSON.stringify({ date, target: requestedCount, created }, null, 2));
+}
+
 async function commandSetStatus(args) {
   const { positional, options } = parseOptions(args);
   const [id, to] = positional;
@@ -451,14 +509,81 @@ async function commandReject(args) {
   console.log(`${id}: rejected`);
 }
 
-async function commandNext() {
+async function commandNext(args) {
+  const { options } = parseOptions(args);
   const state = await loadState();
-  const run = state.runs.find((item) => !["published", "failed"].includes(item.status));
+  let candidates = state.runs.filter((item) => !["published", "failed"].includes(item.status));
+  if (options.date) candidates = candidates.filter((item) => item.id.startsWith(`${options.date}-`));
+  if (options.lane === "production") {
+    candidates = candidates.filter((item) =>
+      ["queued", "research_ready", "concept_ready", "generated", "rendered", "needs_review"].includes(item.status),
+    );
+  }
+  if (options.lane === "publication") {
+    const manifests = await Promise.all(candidates.map((item) => loadManifest(item.id)));
+    const manifest = manifests.find(
+      (item) =>
+        (item.status === "validated" && item.approval?.status === "approved") || item.status === "hosted",
+    );
+    if (!manifest) {
+      console.log("No active runs");
+      return;
+    }
+    console.log(JSON.stringify(manifest, null, 2));
+    return;
+  }
+  const run = candidates[0];
   if (!run) {
     console.log("No active runs");
     return;
   }
   console.log(JSON.stringify(await loadManifest(run.id), null, 2));
+}
+
+async function commandApproveDay(args) {
+  const { options } = parseOptions(args);
+  if (!options.date) throw new Error("Usage: approve-day --date YYYY-MM-DD [--note text]");
+  const state = await loadState();
+  const runs = state.runs.filter((item) => item.id.startsWith(`${options.date}-`));
+  const approved = [];
+  const skipped = [];
+  for (const run of runs) {
+    const manifest = await loadManifest(run.id);
+    if (manifest.status !== "validated" || !manifest.validation.passed) {
+      skipped.push({ id: manifest.id, status: manifest.status });
+      continue;
+    }
+    manifest.approval = {
+      status: "approved",
+      reviewed_at: now(),
+      note: options.note || `Batch approved for ${options.date}`,
+    };
+    await syncManifest(manifest);
+    approved.push(manifest.id);
+  }
+  console.log(JSON.stringify({ date: options.date, approved, skipped }, null, 2));
+}
+
+async function commandDayPlan(args) {
+  const { options } = parseOptions(args);
+  const config = await readJson(CONFIG_PATH);
+  const date = options.date || localDate(config.timezone);
+  const state = await loadState();
+  const runs = state.runs.filter((item) => item.id.startsWith(`${date}-`));
+  const manifests = await Promise.all(runs.map((item) => loadManifest(item.id)));
+  console.table(
+    manifests
+      .sort((left, right) => (left.production?.slot_index || 99) - (right.production?.slot_index || 99))
+      .map((manifest) => ({
+        slot: manifest.production?.slot_index || "—",
+        time: manifest.production?.planned_at_local?.slice(11, 16) || "—",
+        pillar: manifest.production?.pillar || "—",
+        id: manifest.id,
+        status: manifest.status,
+        approval: manifest.approval?.status || "pending",
+      })),
+  );
+  console.log(`${manifests.length}/${config.production.daily_target} manifests for ${date}`);
 }
 
 async function commandReport() {
@@ -482,15 +607,18 @@ async function main() {
   const commands = {
     init: commandInit,
     create: commandCreate,
+    "seed-day": commandSeedDay,
     "set-status": commandSetStatus,
     validate: commandValidate,
     approve: commandApprove,
+    "approve-day": commandApproveDay,
     reject: commandReject,
     next: commandNext,
+    "day-plan": commandDayPlan,
     report: commandReport,
   };
   if (!commands[command]) {
-    console.log("Commands: init | create | set-status | validate | approve | reject | next | report");
+    console.log("Commands: init | create | seed-day | set-status | validate | approve | approve-day | reject | next | day-plan | report");
     return;
   }
   await commands[command](args);

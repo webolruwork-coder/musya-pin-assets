@@ -58,7 +58,8 @@ function card(manifest) {
       <div class="eyebrow"><span class="badge">${escapeHtml(approvalLabel(manifest))}</span><span>${escapeHtml(manifest.status)}</span></div>
       <h2>${escapeHtml(manifest.content.title_ru || manifest.id)}</h2>
       <p class="description">${escapeHtml(manifest.content.description_ru)}</p>
-      <dl>
+      <dl>${manifest.production ? `
+        <div><dt>Слот</dt><dd>${escapeHtml(manifest.production.target_date)} · ${escapeHtml(manifest.production.planned_at_local?.slice(11, 16))} · ${escapeHtml(manifest.production.pillar)}</dd></div>` : ""}
         <div><dt>Куда ведёт</dt><dd><a href="${escapeHtml(manifest.publishing.target_url)}">${escapeHtml(manifest.publishing.target_url)}</a></dd></div>
         <div><dt>Основной референс</dt><dd><a href="${escapeHtml(reference.url)}">${escapeHtml(reference.title || reference.url || "—")}</a></dd></div>
         <div><dt>Результат референса</dt><dd>${metric(reference.impressions)} показов · ${metric(reference.saves)} сохранений · ${metric(reference.clicks)} кликов</dd></div>
@@ -74,7 +75,15 @@ function card(manifest) {
 }
 
 function page(manifests) {
-  const pending = manifests.filter((item) => !["published", "failed"].includes(item.status));
+  const pending = manifests.filter(
+    (item) =>
+      !["published", "failed"].includes(item.status) &&
+      item.assets.final_image &&
+      ["validated", "hosted", "scheduled", "needs_review"].includes(item.status),
+  );
+  const inProgress = manifests.filter((item) =>
+    ["queued", "research_ready", "concept_ready", "generated", "rendered"].includes(item.status),
+  );
   const history = manifests.filter((item) => ["published", "failed"].includes(item.status));
   return `<!doctype html>
 <html lang="ru">
@@ -117,7 +126,7 @@ function page(manifests) {
   </style>
 </head>
 <body><main>
-  <header><h1>Предпросмотр Pinterest</h1><p>Здесь лежат будущие пины до Metricool. Статус «Ждёт просмотра» означает, что файл прошёл технические проверки, но не будет размещён без ручного одобрения.</p></header>
+  <header><h1>Предпросмотр Pinterest</h1><p>Здесь лежат готовые пины до Metricool. Статус «Ждёт просмотра» означает, что файл прошёл технические проверки, но не будет размещён без ручного одобрения. Сейчас в производстве: ${inProgress.length}.</p></header>
   <h2 class="section-title">Ожидают решения · ${pending.length}</h2>
   <section class="stack">${pending.length ? pending.map(card).join("") : "<p>Очередь пуста.</p>"}</section>
   <h2 class="section-title">История · ${history.length}</h2>
@@ -126,7 +135,15 @@ function page(manifests) {
 }
 
 function markdown(manifests) {
-  const items = manifests.filter((item) => !["published", "failed"].includes(item.status));
+  const inProgress = manifests.filter((item) =>
+    ["queued", "research_ready", "concept_ready", "generated", "rendered"].includes(item.status),
+  );
+  const items = manifests.filter(
+    (item) =>
+      !["published", "failed"].includes(item.status) &&
+      item.assets.final_image &&
+      ["validated", "hosted", "scheduled", "needs_review"].includes(item.status),
+  );
   const blocks = items.map((manifest) => {
     const image = relativeWebPath(FACTORY_DIR, manifest.assets.final_image);
     const reference = manifest.research_evidence?.selected_reference || {};
@@ -134,7 +151,8 @@ function markdown(manifests) {
 
 **Решение:** ${approvalLabel(manifest)}<br>
 **Статус:** \`${manifest.status}\`<br>
-**Ссылка:** ${manifest.publishing.target_url}<br>
+${manifest.production ? `**Слот:** ${manifest.production.target_date} · ${manifest.production.planned_at_local?.slice(11, 16)} · ${manifest.production.pillar}<br>
+` : ""}**Ссылка:** ${manifest.publishing.target_url}<br>
 **Референс:** ${reference.title || "—"} — ${metric(reference.impressions)} показов, ${metric(reference.saves)} сохранений
 
 ${image ? `![${manifest.id}](${image})` : "Финального изображения пока нет."}
@@ -145,6 +163,8 @@ ${image ? `![${manifest.id}](${image})` : "Финального изображе
   return `# Очередь Pinterest на проверку
 
 Новые пины останавливаются после \`validated\`. Хостинг и Metricool заблокированы, пока в manifest не записано ручное одобрение.
+
+Сейчас в производстве: **${inProgress.length}**.
 
 ${blocks.length ? blocks.join("\n---\n\n") : "Очередь пуста.\n"}`;
 }

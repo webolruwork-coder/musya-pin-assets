@@ -18,6 +18,33 @@
     "height": 1500,
     "queue_target_days": 7
   },
+  "production": {
+    "daily_target": 15,
+    "buffer_days": 1,
+    "approval_mode": "batch_manual",
+    "schedule_times": [
+      "01:00", "02:30", "04:00", "05:30", "07:00",
+      "08:30", "10:00", "11:30", "13:00", "14:30",
+      "16:00", "17:30", "19:00", "20:30", "22:00"
+    ],
+    "topic_rotation": [
+      { "pillar": "3D и материалы", "query": "liquid glass 3D prompt" },
+      { "pillar": "Предметная съёмка", "query": "AI product photography prompt" },
+      { "pillar": "Портрет", "query": "editorial portrait AI prompt" },
+      { "pillar": "Мода", "query": "fashion campaign AI prompt" },
+      { "pillar": "Сюрреализм", "query": "surreal cinematic AI prompt" },
+      { "pillar": "Beauty", "query": "beauty cosmetic photography prompt" },
+      { "pillar": "3D и материалы", "query": "chrome translucent 3D prompt" },
+      { "pillar": "Предметная съёмка", "query": "luxury product advertising prompt" },
+      { "pillar": "Портрет", "query": "cinematic character portrait prompt" },
+      { "pillar": "Мода", "query": "avant garde fashion prompt" },
+      { "pillar": "Сюрреализм", "query": "dreamlike architecture AI prompt" },
+      { "pillar": "Beauty", "query": "skincare texture macro prompt" },
+      { "pillar": "3D и материалы", "query": "inflatable soft sculpture prompt" },
+      { "pillar": "Предметная съёмка", "query": "minimal studio still life prompt" },
+      { "pillar": "Эксперимент", "query": "trending AI image prompt" }
+    ]
+  },
   "renderer": {
     "playwright_module": "~/tailwind-rebuild/node_modules/playwright",
     "chrome_executable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
@@ -27,7 +54,7 @@
     "public_base_url": "https://webolruwork-coder.github.io/musya-pin-assets"
   },
   "publishing": {
-    "enabled": false,
+    "enabled": true,
     "provider": "metricool",
     "brand": "musya_gpt",
     "blog_id": 6880455,

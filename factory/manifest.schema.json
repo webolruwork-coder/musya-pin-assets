@@ -123,6 +123,16 @@
         "note": { "type": "string" }
       }
     },
+    "production": {
+      "type": "object",
+      "required": ["target_date", "slot_index", "planned_at_local", "pillar"],
+      "properties": {
+        "target_date": { "type": "string" },
+        "slot_index": { "type": "integer", "minimum": 1, "maximum": 15 },
+        "planned_at_local": { "type": "string" },
+        "pillar": { "type": "string", "minLength": 1 }
+      }
+    },
     "history": {
       "type": "array",
       "items": {

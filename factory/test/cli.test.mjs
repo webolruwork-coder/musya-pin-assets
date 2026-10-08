@@ -8,6 +8,7 @@ import {
   canTransition,
   fingerprintReference,
   imageDimensions,
+  productionSlots,
   transitionManifest,
 } from "../cli.mjs";
 import { hostingBlockReason, publicAsset } from "../host.mjs";
@@ -98,4 +99,16 @@ test("hosting requires explicit approval after validation", () => {
     hostingBlockReason({ status: "validated", approval: { status: "approved" } }),
     null,
   );
+});
+
+test("daily production creates fifteen distinct slots", () => {
+  const schedule_times = Array.from({ length: 15 }, (_, index) => `${String(index).padStart(2, "0")}:00`);
+  const topic_rotation = Array.from({ length: 15 }, (_, index) => ({ pillar: `p${index}`, query: `q${index}` }));
+  const slots = productionSlots(
+    { production: { daily_target: 15, schedule_times, topic_rotation } },
+    "2026-10-10",
+  );
+  assert.equal(slots.length, 15);
+  assert.equal(new Set(slots.map((slot) => slot.planned_at_local)).size, 15);
+  assert.equal(slots[14].planned_at_local, "2026-10-10T14:00:00");
 });
