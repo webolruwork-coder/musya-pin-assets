@@ -197,6 +197,11 @@ function createManifest({ id, query, config }) {
       checks: {},
       errors: [],
     },
+    approval: {
+      status: "pending",
+      reviewed_at: null,
+      note: "",
+    },
     research_evidence: {
       source: "",
       date_range: "",
@@ -401,6 +406,7 @@ async function commandValidate(args) {
         .reverse()
         .find((entry) => LINEAR_STATUSES.includes(entry.status))?.status;
       if (resumeStatus) transitionManifest(manifest, resumeStatus, "Review issue fixed");
+      manifest.approval = { status: "pending", reviewed_at: null, note: "" };
     }
     if (manifest.status === "rendered") {
       transitionManifest(manifest, "validated", "Automated manifest and image checks passed");
@@ -411,6 +417,38 @@ async function commandValidate(args) {
   await syncManifest(manifest);
   console.log(JSON.stringify(result, null, 2));
   if (!result.passed) process.exitCode = 1;
+}
+
+async function commandApprove(args) {
+  const { positional, options } = parseOptions(args);
+  const [id] = positional;
+  if (!id) throw new Error("Usage: approve <id> [--note text]");
+  const manifest = await loadManifest(id);
+  if (manifest.status !== "validated" || !manifest.validation.passed) {
+    throw new Error(`Run must be validated before approval; current status is ${manifest.status}`);
+  }
+  manifest.approval = {
+    status: "approved",
+    reviewed_at: now(),
+    note: options.note || "Approved for hosting and Metricool scheduling",
+  };
+  await syncManifest(manifest);
+  console.log(`${id}: approved`);
+}
+
+async function commandReject(args) {
+  const { positional, options } = parseOptions(args);
+  const [id] = positional;
+  if (!id) throw new Error("Usage: reject <id> --note text");
+  const manifest = await loadManifest(id);
+  if (manifest.status !== "validated") {
+    throw new Error(`Run must be validated before rejection; current status is ${manifest.status}`);
+  }
+  const note = options.note || "Rejected during visual review";
+  manifest.approval = { status: "rejected", reviewed_at: now(), note };
+  transitionManifest(manifest, "needs_review", note);
+  await syncManifest(manifest);
+  console.log(`${id}: rejected`);
 }
 
 async function commandNext() {
@@ -446,11 +484,13 @@ async function main() {
     create: commandCreate,
     "set-status": commandSetStatus,
     validate: commandValidate,
+    approve: commandApprove,
+    reject: commandReject,
     next: commandNext,
     report: commandReport,
   };
   if (!commands[command]) {
-    console.log("Commands: init | create | set-status | validate | next | report");
+    console.log("Commands: init | create | set-status | validate | approve | reject | next | report");
     return;
   }
   await commands[command](args);

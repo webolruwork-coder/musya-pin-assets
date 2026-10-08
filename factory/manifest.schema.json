@@ -114,6 +114,15 @@
         "deliberate_changes": { "type": "array", "items": { "type": "string" } }
       }
     },
+    "approval": {
+      "type": "object",
+      "required": ["status", "reviewed_at", "note"],
+      "properties": {
+        "status": { "enum": ["pending", "approved", "rejected"] },
+        "reviewed_at": { "type": ["string", "null"] },
+        "note": { "type": "string" }
+      }
+    },
     "history": {
       "type": "array",
       "items": {

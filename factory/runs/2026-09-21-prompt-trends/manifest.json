@@ -88,6 +88,11 @@
     "reason": "Concept was invented from text-only search results instead of being derived from a visually inspected, measured top-performing generation.",
     "corrective_action": "Require performance evidence, inspected thumbnails and one selected primary reference before concept generation."
   },
+  "approval": {
+    "status": "rejected",
+    "reviewed_at": "2026-09-22T22:53:43+03:00",
+    "note": "Опубликованный визуал отклонён после публикации; использовать только как отрицательный пример."
+  },
   "history": [
     {
       "status": "queued",

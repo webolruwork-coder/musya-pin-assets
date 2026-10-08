@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Musya · предпросмотр Pinterest</title>
+  <style>
+    :root { color-scheme: light; --ink:#171717; --muted:#6f6b65; --line:#ddd8d0; --paper:#f5f2ec; --card:#fff; --green:#d9f5df; --red:#ffe0dc; --amber:#fff0bf; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:Inter,Arial,sans-serif; }
+    main { width:min(1180px, calc(100% - 32px)); margin:0 auto; padding:56px 0 96px; }
+    header { margin-bottom:36px; }
+    h1 { margin:0 0 10px; font:600 clamp(38px,6vw,72px)/.95 Georgia,serif; letter-spacing:-.04em; }
+    header p { color:var(--muted); max-width:720px; line-height:1.5; }
+    .section-title { margin:48px 0 18px; font-size:13px; letter-spacing:.14em; text-transform:uppercase; }
+    .stack { display:grid; gap:24px; }
+    .card { display:grid; grid-template-columns:minmax(280px, 420px) 1fr; background:var(--card); border:1px solid var(--line); border-radius:24px; overflow:hidden; box-shadow:0 16px 50px rgba(45,35,22,.06); }
+    .visual { min-height:520px; background:#ebe7df; }
+    .visual img { width:100%; height:100%; display:block; object-fit:cover; }
+    .missing { height:100%; display:grid; place-items:center; color:var(--muted); }
+    .details { padding:34px; }
+    .eyebrow { display:flex; gap:10px; align-items:center; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    .badge { padding:7px 10px; border-radius:999px; background:var(--amber); color:var(--ink); }
+    .approved .badge { background:var(--green); }
+    .rejected .badge { background:var(--red); }
+    h2 { margin:22px 0 12px; font:600 34px/1.06 Georgia,serif; }
+    .description { color:#393631; line-height:1.55; }
+    dl { margin:26px 0; border-top:1px solid var(--line); }
+    dl div { display:grid; grid-template-columns:160px 1fr; gap:18px; padding:12px 0; border-bottom:1px solid var(--line); }
+    dt { color:var(--muted); }
+    dd { margin:0; overflow-wrap:anywhere; }
+    a { color:inherit; text-decoration-color:#999; text-underline-offset:3px; }
+    .columns { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+    h3 { font-size:13px; text-transform:uppercase; letter-spacing:.1em; }
+    ul { margin:0; padding-left:18px; color:#45413b; line-height:1.5; }
+    .manifest,.note { margin-top:24px; color:var(--muted); font-size:13px; }
+    .history { opacity:.72; }
+    @media (max-width:760px) { .card { grid-template-columns:1fr; } .visual { min-height:auto; } .columns, dl div { grid-template-columns:1fr; gap:6px; } }
+  </style>
+</head>
+<body><main>
+  <header><h1>Предпросмотр Pinterest</h1><p>Здесь лежат будущие пины до Metricool. Статус «Ждёт просмотра» означает, что файл прошёл технические проверки, но не будет размещён без ручного одобрения.</p></header>
+  <h2 class="section-title">Ожидают решения · 1</h2>
+  <section class="stack"><article class="card pending">
+    <div class="visual">
+      <img src="../runs/2026-09-22-liquid-glass-bookmark/pin.png" alt="Промпт: 3D-закладка из жидкого стекла">
+    </div>
+    <div class="details">
+      <div class="eyebrow"><span class="badge">Ждёт просмотра</span><span>validated</span></div>
+      <h2>Промпт: 3D-закладка из жидкого стекла</h2>
+      <p class="description">Готовый промпт для премиальной 3D-иконки из жидкого стекла: мягкая форма закладки, радужные преломления, тёплый студийный фон и реалистичная каустика. Сохраняйте и создавайте свои варианты в генераторе изображений Musya.</p>
+      <dl>
+        <div><dt>Куда ведёт</dt><dd><a href="https://musya.app/image-generation">https://musya.app/image-generation</a></dd></div>
+        <div><dt>Основной референс</dt><dd><a href="https://www.pinterest.com/pin/1152851204651000670">Grok prompt: liquid glass folder / 3D AI art / @musya_gpt</a></dd></div>
+        <div><dt>Результат референса</dt><dd>31 819 показов · 123 сохранений · 374 кликов</dd></div>
+      </dl>
+      <div class="columns">
+        <div><h3>Переносим</h3><ul><li>single oversized sculptural object</li><li>transparent iridescent liquid glass</li><li>warm ivory seamless studio background</li><li>large quiet area above the object</li><li>black top-left editorial typography</li></ul></div>
+        <div><h3>Меняем</h3><ul><li>folder becomes a bookmark/save icon</li><li>new geometry and camera angle</li><li>new prompt and publishing copy</li></ul></div>
+      </div>
+      <p class="manifest"><a href="../runs/2026-09-22-liquid-glass-bookmark/manifest.json">manifest.json</a> · 2026-09-22-liquid-glass-bookmark</p>
+    </div>
+  </article></section>
+  <h2 class="section-title">История · 1</h2>
+  <section class="stack history"><article class="card rejected">
+    <div class="visual">
+      <img src="../runs/2026-09-21-prompt-trends/pin.png" alt="Промпт для эффектной предметной съёмки с нейросетью">
+    </div>
+    <div class="details">
+      <div class="eyebrow"><span class="badge">Отклонён</span><span>published</span></div>
+      <h2>Промпт для эффектной предметной съёмки с нейросетью</h2>
+      <p class="description">Сохраните готовый промпт для создания выразительной предметной фотографии в нейросети: стекло, воздушные карточки, мягкий свет и журнальная эстетика. Больше понятных промптов и идей для AI-контента — в Telegram @musya_gpt.</p>
+      <dl>
+        <div><dt>Куда ведёт</dt><dd><a href="https://t.me/musya_gpt">https://t.me/musya_gpt</a></dd></div>
+        <div><dt>Основной референс</dt><dd><a href="">—</a></dd></div>
+        <div><dt>Результат референса</dt><dd>— показов · — сохранений · — кликов</dd></div>
+      </dl>
+      <div class="columns">
+        <div><h3>Переносим</h3><ul></ul></div>
+        <div><h3>Меняем</h3><ul></ul></div>
+      </div>
+      <p class="manifest"><a href="../runs/2026-09-21-prompt-trends/manifest.json">manifest.json</a> · 2026-09-21-prompt-trends</p>
+      <p class="note">Опубликованный визуал отклонён после публикации; использовать только как отрицательный пример.</p>
+    </div>
+  </article></section>
+</main></body></html>

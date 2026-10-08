@@ -10,7 +10,7 @@ import {
   imageDimensions,
   transitionManifest,
 } from "../cli.mjs";
-import { publicAsset } from "../host.mjs";
+import { hostingBlockReason, publicAsset } from "../host.mjs";
 import { escapeXml, makeSvg, wrapText } from "../render.mjs";
 
 test("linear stages cannot be skipped", () => {
@@ -87,4 +87,15 @@ test("host path and public URL use the run id", () => {
     relativePath: "pins/2026-09-22-glass-key.png",
     url: "https://example.com/assets/pins/2026-09-22-glass-key.png",
   });
+});
+
+test("hosting requires explicit approval after validation", () => {
+  assert.match(
+    hostingBlockReason({ status: "validated", approval: { status: "pending" } }),
+    /approved in the review queue/,
+  );
+  assert.equal(
+    hostingBlockReason({ status: "validated", approval: { status: "approved" } }),
+    null,
+  );
 });

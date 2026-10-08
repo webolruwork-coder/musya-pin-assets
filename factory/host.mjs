@@ -23,12 +23,21 @@ export function publicAsset(config, id) {
   };
 }
 
+export function hostingBlockReason(manifest) {
+  if (manifest.status !== "validated") {
+    return `Run must be validated before hosting; current status is ${manifest.status}`;
+  }
+  if (manifest.approval?.status !== "approved") {
+    return "Run must be approved in the review queue before hosting";
+  }
+  return null;
+}
+
 async function prepare(id) {
   const config = await readJson(CONFIG_PATH);
   const manifest = await loadManifest(id);
-  if (manifest.status !== "validated") {
-    throw new Error(`Run must be validated before hosting; current status is ${manifest.status}`);
-  }
+  const blockReason = hostingBlockReason(manifest);
+  if (blockReason) throw new Error(blockReason);
   if (!manifest.assets.final_image) throw new Error("Set assets.final_image in manifest");
 
   const asset = publicAsset(config, id);
