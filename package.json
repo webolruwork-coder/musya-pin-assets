@@ -13,6 +13,8 @@
     "factory:report": "node factory/cli.mjs report",
     "factory:day-plan": "node factory/cli.mjs day-plan",
     "factory:review": "node factory/review.mjs",
+    "factory:research-pinterest": "node factory/research-pinterest.mjs",
+    "factory:apply-batch-plan": "node factory/apply-batch-plan.mjs",
     "factory:validate": "node factory/cli.mjs validate",
     "test": "node --test factory/test/*.test.mjs"
   }

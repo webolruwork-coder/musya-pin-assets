@@ -126,7 +126,7 @@ function page(manifests) {
   </style>
 </head>
 <body><main>
-  <header><h1>Предпросмотр Pinterest</h1><p>Здесь лежат готовые пины до Metricool. Статус «Ждёт просмотра» означает, что файл прошёл технические проверки, но не будет размещён без ручного одобрения. Сейчас в производстве: ${inProgress.length}.</p></header>
+  <header><h1>Контроль Pinterest</h1><p>Здесь видны готовые пины, их источники, метрики и статус публикации. Production-пины публикуются автоматически только после прохождения всех quality gates. Сейчас в производстве: ${inProgress.length}.</p></header>
   <h2 class="section-title">Ожидают решения · ${pending.length}</h2>
   <section class="stack">${pending.length ? pending.map(card).join("") : "<p>Очередь пуста.</p>"}</section>
   <h2 class="section-title">История · ${history.length}</h2>
@@ -162,7 +162,7 @@ ${image ? `![${manifest.id}](${image})` : "Финального изображе
   });
   return `# Очередь Pinterest на проверку
 
-Новые пины останавливаются после \`validated\`. Хостинг и Metricool заблокированы, пока в manifest не записано ручное одобрение.
+Production-пины автоматически одобряются только после успешной проверки исследования, изображения, размеров и полей публикации. Непройденные manifests не хостятся и не попадают в Metricool.
 
 Сейчас в производстве: **${inProgress.length}**.
 

@@ -3,13 +3,20 @@
   "timezone": "Europe/Moscow",
   "search": {
     "query": "промпт",
-    "result_limit": 10,
+    "result_limit": 25,
     "organic_only": true,
     "timeout_seconds": 90,
     "dedupe_window_days": 30,
-    "min_posts_analyzed": 10,
+    "min_posts_analyzed": 25,
     "min_reference_images_reviewed": 3,
-    "require_performance_evidence": true
+    "require_performance_evidence": true,
+    "primary_source": "pinterest_global_search",
+    "ranking_signals": [
+      "public_saves",
+      "search_rank",
+      "visual_pattern_recurrence",
+      "own_account_metricool_validation"
+    ]
   },
   "content": {
     "board": "Промпты для нейросетей",
@@ -21,11 +28,11 @@
   "production": {
     "daily_target": 15,
     "buffer_days": 1,
-    "approval_mode": "batch_manual",
+    "approval_mode": "automatic_quality_gate",
     "schedule_times": [
-      "01:00", "02:30", "04:00", "05:30", "07:00",
-      "08:30", "10:00", "11:30", "13:00", "14:30",
-      "16:00", "17:30", "19:00", "20:30", "22:00"
+      "02:30", "04:00", "05:30", "07:00", "08:30",
+      "10:00", "11:30", "13:00", "14:30", "16:00",
+      "17:30", "19:00", "20:30", "22:00", "23:30"
     ],
     "topic_rotation": [
       { "pillar": "3D и материалы", "query": "liquid glass 3D prompt" },

@@ -1,0 +1,141 @@
+{
+  "source_report": "factory/research/2026-10-09/global-prompt-search.json",
+  "query": "промпт",
+  "items": [
+    {
+      "slot": 1,
+      "pin_id": "2251868559184601",
+      "pillar": "Косметика",
+      "layout": "top_light_editorial",
+      "title": "Промпт для рекламной съёмки косметики",
+      "prompt": "Создай премиальную предметную композицию: набор розовой косметики собран как воздушный букет, полупрозрачная упаковка, мягкий сиреневый фон, студийный свет, чистая luxury-реклама.",
+      "image_prompt": "Original premium cosmetics advertising photo, an imaginary set of unbranded blush-pink skincare bottles and tubes arranged as an airy sculptural bouquet with translucent wrapping, pale lavender studio background, soft high-key light, refined shadows, glossy editorial finish, vertical 2:3 composition, generous calm negative space at the top, no words, no logos, no watermark"
+    },
+    {
+      "slot": 2,
+      "pin_id": "422281212229556",
+      "pillar": "Beauty product",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для beauty-кампании на природе",
+      "prompt": "Сними модель с минималистичным флаконом среди влажной зелени: естественная кожа, мягкий рассеянный свет, дорогая бьюти-кампания, спокойная природная палитра.",
+      "image_prompt": "Original luxury beauty campaign photograph, elegant adult woman holding a minimal unbranded pearl-white skincare bottle near her face, wet dark hair, lush green leaves softly blurred behind, natural luminous skin, diffused daylight, sophisticated editorial color grading, vertical 2:3, clean lower area for typography, no text, no logos, no watermark"
+    },
+    {
+      "slot": 3,
+      "pin_id": "2674081025661415",
+      "pillar": "Портрет",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для живого крупного портрета",
+      "prompt": "Сделай очень крупный портрет рыжеволосой модели с веснушками: прямой взгляд, ветер в волосах, тёплый солнечный свет, натуральная кожа и журнальная резкость.",
+      "image_prompt": "Original extreme close-up editorial portrait of an adult red-haired woman with freckles, direct confident gaze, loose strands moving in a warm breeze, copper sunlight, honest natural skin texture, cinematic fashion magazine photography, vertical 2:3, uncluttered darker lower edge for caption, no text, no logos, no watermark"
+    },
+    {
+      "slot": 4,
+      "pin_id": "1759287349484061",
+      "pillar": "Outdoor fashion",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для outdoor-рекламы одежды",
+      "prompt": "Создай чёрно-белую outdoor-кампанию: герой в технической куртке, снежный ветер, размытие движения вокруг лица, документальная фактура и сильный контраст.",
+      "image_prompt": "Original black and white outdoor fashion campaign, androgynous adult model in an unbranded technical winter jacket, centered face in crisp focus while wind and distant hikers streak with motion blur, snowy mountain atmosphere, documentary grain, bold contrast, vertical 2:3, dark lower third for typography, no text, no logos, no watermark"
+    },
+    {
+      "slot": 5,
+      "pin_id": "1125968743172864",
+      "pillar": "Editorial makeup",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для модного beauty-портрета",
+      "prompt": "Сними модель снизу крупным планом: гладкая укладка, графичный коралловый румянец, влажный блеск губ, белый фон и смелая журнальная пластика.",
+      "image_prompt": "Original high-fashion beauty portrait from a low angle, adult East Asian woman with sleek black hair, sculptural coral blush sweeping across cheeks, glossy lips, luminous skin, minimal white studio background, avant-garde magazine lighting, vertical 2:3, clean lower edge for copy, no text, no logos, no watermark"
+    },
+    {
+      "slot": 6,
+      "pin_id": "11329436558576076",
+      "pillar": "Предметная съёмка",
+      "layout": "top_light_editorial",
+      "title": "Промпт для карточки косметического продукта",
+      "prompt": "Поставь матовый голубой тюбик на широкий мазок крема: мягкий серо-голубой фон, аккуратная тень, чистый каталог и ощущение свежести.",
+      "image_prompt": "Original minimalist skincare product photograph, one unbranded matte powder-blue cosmetic tube resting diagonally on a generous sculpted swipe of ivory cream, pale blue-grey seamless background, soft directional studio light, precise clean shadow, premium catalog aesthetic, vertical 2:3, generous top negative space, no text, no logos, no watermark"
+    },
+    {
+      "slot": 7,
+      "pin_id": "12525705209240844",
+      "pillar": "Мужской портрет",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для мужского fashion-портрета",
+      "prompt": "Создай жёсткий студийный портрет мужчины с короткой стрижкой: симметрия, серый фон, холодный свет, высокая детализация кожи и взгляд прямо в камеру.",
+      "image_prompt": "Original close studio fashion portrait of an adult man with a very short buzz cut, striking pale eyes, perfect frontal symmetry, cool grey background, crisp hard beauty light, detailed natural skin and subtle film grain, vertical 2:3, darker calm lower margin, no text, no logos, no watermark"
+    },
+    {
+      "slot": 8,
+      "pin_id": "27514247718920648",
+      "pillar": "Concept portrait",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для двойного концептуального портрета",
+      "prompt": "Соедини в одном кадре половину лица модели и морду чёрной борзой: одинаковый свет, тёмный фон, строгая симметрия и ощущение люксовой кампании.",
+      "image_prompt": "Original conceptual luxury portrait, split symmetrical composition pairing half the face of an adult woman with half the face of an elegant black greyhound, matching amber eyes aligned, deep black background, precise Rembrandt light, refined glossy editorial mood, vertical 2:3, discreet lower negative space, no text, no logos, no watermark"
+    },
+    {
+      "slot": 9,
+      "pin_id": "2392606049313562",
+      "pillar": "Кинопортрет",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для кинематографичного мужского портрета",
+      "prompt": "Сними мужчину по плечи на глубоком изумрудном фоне: контровой бирюзовый свет, серьёзное выражение, реалистичная кожа и постерная композиция.",
+      "image_prompt": "Original cinematic shoulder-up portrait of a charismatic middle-aged man, serious direct gaze, deep emerald studio background, subtle cyan rim light and warm key light, realistic skin, polished movie-poster composition, vertical 2:3, dark lower third for copy, no celebrity likeness, no text, no logos, no watermark"
+    },
+    {
+      "slot": 10,
+      "pin_id": "4574037118707864",
+      "pillar": "Skincare macro",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для рекламы сыворотки",
+      "prompt": "Сделай макро beauty-кадр: модель держит прозрачную пипетку у щеки, капля розовой сыворотки сияет на коже, мягкий свет и чистая премиальная эстетика.",
+      "image_prompt": "Original macro skincare campaign, adult woman holding a clear glass dropper near her cheek, one luminous rose-tinted serum droplet on dewy natural skin, pale blush background, soft diffused beauty light, clean premium cosmetics aesthetic, vertical 2:3, darkened lower edge for caption, no text, no branding, no watermark"
+    },
+    {
+      "slot": 11,
+      "pin_id": "353603008266778752",
+      "pillar": "Fisheye",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для яркого fisheye-портрета",
+      "prompt": "Сними модель через fisheye сверху: розовая комната, голубой круглый реквизит, удивлённый взгляд, широкоугольное искажение и конфетные цвета.",
+      "image_prompt": "Original playful fisheye fashion portrait viewed from above, adult woman in a surreal candy-pink room looking up with expressive eyes, holding a translucent turquoise circular prop, exaggerated wide-angle perspective, glossy pop editorial lighting, vertical 2:3, clear lower region for caption, no text, no logos, no watermark"
+    },
+    {
+      "slot": 12,
+      "pin_id": "567664728056369040",
+      "pillar": "Mixed media",
+      "layout": "top_light_editorial",
+      "title": "Промпт для портрета наполовину рисунок",
+      "prompt": "Преврати половину реалистичного женского портрета в угольный набросок: плавный переход, белая бумага, видимые штрихи и спокойная музейная композиция.",
+      "image_prompt": "Original mixed-media portrait on warm white paper, adult woman's face transitioning seamlessly from refined color photography on the right into expressive charcoal and graphite sketch lines on the left, visible paper grain, elegant gallery editorial composition, vertical 2:3, quiet top area, no text, no logos, no watermark"
+    },
+    {
+      "slot": 13,
+      "pin_id": "45387908741602574",
+      "pillar": "Вода и свет",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для портрета с бликами воды",
+      "prompt": "Погрузи лицо модели наполовину в прозрачную воду: солнечные каустические блики, пузырьки, голубые тени, прямой взгляд и кинематографичная детализация.",
+      "image_prompt": "Original cinematic close-up portrait of an adult woman partly submerged in crystal-clear water, rippling sunlight caustics across face, tiny air bubbles, cool blue shadows, direct gaze, hyper-detailed natural skin, vertical 2:3, darker lower zone for typography, no text, no logos, no watermark"
+    },
+    {
+      "slot": 14,
+      "pin_id": "25684660372774510",
+      "pillar": "Luxury avatar",
+      "layout": "top_light_editorial",
+      "title": "Промпт для дорогой женской аватарки",
+      "prompt": "Создай мягкий портрет женщины в жемчужно-бежевой гамме: боковой свет, капли как украшения на коже, воздушные пряди и деликатное золотое сияние.",
+      "image_prompt": "Original refined beauty avatar of an adult woman in pearl and champagne tones, soft side light, delicate crystal-like droplets decorating cheek and collarbone, airy loose strands, natural luminous skin, quiet luxury mood, vertical 2:3, clean pale upper area for title, no text, no logos, no watermark"
+    },
+    {
+      "slot": 15,
+      "pin_id": "113575221849605761",
+      "pillar": "Food still life",
+      "layout": "bottom_dark_editorial",
+      "title": "Промпт для сюрреалистичного food still life",
+      "prompt": "Разложи ягоды и листья в прозрачных стеклянных сферах: белый фон, мягкие тени, ощущение невесомости, рекламная чистота и точная геометрия.",
+      "image_prompt": "Original surreal food still life, blueberries, silver leaves and tiny white blossoms suspended inside and around several crystal-clear glass spheres, bright white studio background, soft floating shadows, precise geometric composition, premium advertising finish, vertical 2:3, calm lower band for copy, no text, no logos, no watermark"
+    }
+  ]
+}
