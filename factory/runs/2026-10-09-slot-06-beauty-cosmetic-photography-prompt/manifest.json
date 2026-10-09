@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-09-slot-06-beauty-cosmetic-photography-prompt",
   "created_at": "2026-10-08T21:30:41.716Z",
-  "updated_at": "2026-10-08T22:12:19.693Z",
-  "status": "validated",
+  "updated_at": "2026-10-09T00:48:05.382Z",
+  "status": "scheduled",
   "search": {
     "query": "Промпт для карточки косметического продукта",
     "global_query": "промпт",
@@ -42,8 +42,8 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-10-09T11:05:00+03:00",
+    "metricool_post_id": "391654699"
   },
   "validation": {
     "passed": true,
@@ -72,7 +72,7 @@
   "production": {
     "target_date": "2026-10-09",
     "slot_index": 6,
-    "planned_at_local": "2026-10-09T10:00:00",
+    "planned_at_local": "2026-10-09T11:05:00",
     "pillar": "Предметная съёмка"
   },
   "research_evidence": {
@@ -130,6 +130,16 @@
       "status": "validated",
       "at": "2026-10-08T22:12:10.393Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-09T00:32:52.763Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-06-beauty-cosmetic-photography-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-09T00:48:05.382Z",
+      "note": "Metricool post 391654699 scheduled for 2026-10-09 11:05 Europe/Moscow"
     }
   ]
 }

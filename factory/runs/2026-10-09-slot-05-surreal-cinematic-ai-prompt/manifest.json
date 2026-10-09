@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-09-slot-05-surreal-cinematic-ai-prompt",
   "created_at": "2026-10-08T21:30:41.716Z",
-  "updated_at": "2026-10-08T22:12:19.600Z",
-  "status": "validated",
+  "updated_at": "2026-10-09T00:48:05.381Z",
+  "status": "scheduled",
   "search": {
     "query": "Промпт для модного beauty-портрета",
     "global_query": "промпт",
@@ -42,8 +42,8 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-10-09T09:40:00+03:00",
+    "metricool_post_id": "391654519"
   },
   "validation": {
     "passed": true,
@@ -72,7 +72,7 @@
   "production": {
     "target_date": "2026-10-09",
     "slot_index": 5,
-    "planned_at_local": "2026-10-09T08:30:00",
+    "planned_at_local": "2026-10-09T09:40:00",
     "pillar": "Editorial makeup"
   },
   "research_evidence": {
@@ -130,6 +130,16 @@
       "status": "validated",
       "at": "2026-10-08T22:12:10.305Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-09T00:32:51.856Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-05-surreal-cinematic-ai-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-09T00:48:05.381Z",
+      "note": "Metricool post 391654519 scheduled for 2026-10-09 09:40 Europe/Moscow"
     }
   ]
 }

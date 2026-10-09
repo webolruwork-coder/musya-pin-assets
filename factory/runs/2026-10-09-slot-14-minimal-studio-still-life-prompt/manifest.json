@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-09-slot-14-minimal-studio-still-life-prompt",
   "created_at": "2026-10-08T21:30:41.720Z",
-  "updated_at": "2026-10-08T22:12:20.510Z",
-  "status": "validated",
+  "updated_at": "2026-10-09T00:48:05.387Z",
+  "status": "scheduled",
   "search": {
     "query": "Промпт для дорогой женской аватарки",
     "global_query": "промпт",
@@ -42,8 +42,8 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-10-09T22:25:00+03:00",
+    "metricool_post_id": "391655295"
   },
   "validation": {
     "passed": true,
@@ -72,7 +72,7 @@
   "production": {
     "target_date": "2026-10-09",
     "slot_index": 14,
-    "planned_at_local": "2026-10-09T22:00:00",
+    "planned_at_local": "2026-10-09T22:25:00",
     "pillar": "Luxury avatar"
   },
   "research_evidence": {
@@ -130,6 +130,16 @@
       "status": "validated",
       "at": "2026-10-08T22:12:11.094Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-09T00:33:01.556Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-14-minimal-studio-still-life-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-09T00:48:05.387Z",
+      "note": "Metricool post 391655295 scheduled for 2026-10-09 22:25 Europe/Moscow"
     }
   ]
 }

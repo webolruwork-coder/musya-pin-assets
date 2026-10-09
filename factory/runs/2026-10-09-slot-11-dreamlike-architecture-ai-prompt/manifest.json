@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-09-slot-11-dreamlike-architecture-ai-prompt",
   "created_at": "2026-10-08T21:30:41.718Z",
-  "updated_at": "2026-10-08T22:12:20.206Z",
-  "status": "validated",
+  "updated_at": "2026-10-09T00:48:05.385Z",
+  "status": "scheduled",
   "search": {
     "query": "Промпт для яркого fisheye-портрета",
     "global_query": "промпт",
@@ -42,8 +42,8 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-10-09T18:10:00+03:00",
+    "metricool_post_id": "391655268"
   },
   "validation": {
     "passed": true,
@@ -72,7 +72,7 @@
   "production": {
     "target_date": "2026-10-09",
     "slot_index": 11,
-    "planned_at_local": "2026-10-09T17:30:00",
+    "planned_at_local": "2026-10-09T18:10:00",
     "pillar": "Fisheye"
   },
   "research_evidence": {
@@ -130,6 +130,16 @@
       "status": "validated",
       "at": "2026-10-08T22:12:10.830Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-09T00:32:58.936Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-11-dreamlike-architecture-ai-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-09T00:48:05.385Z",
+      "note": "Metricool post 391655268 scheduled for 2026-10-09 18:10 Europe/Moscow"
     }
   ]
 }
