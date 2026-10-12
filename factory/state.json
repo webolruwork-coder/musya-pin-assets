@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09T00:48:05.389Z",
+  "updated_at": "2026-10-12T21:11:25.755Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -141,42 +141,42 @@
     {
       "id": "2026-10-10-slot-01-liquid-glass-3d-prompt",
       "manifest": "factory/runs/2026-10-10-slot-01-liquid-glass-3d-prompt/manifest.json",
-      "status": "queued",
+      "status": "validated",
       "scheduled_at": null,
       "metricool_post_id": null,
-      "updated_at": "2026-10-08T21:22:37.918Z"
+      "updated_at": "2026-10-09T01:21:20.693Z"
     },
     {
       "id": "2026-10-10-slot-02-ai-product-photography-prompt",
       "manifest": "factory/runs/2026-10-10-slot-02-ai-product-photography-prompt/manifest.json",
-      "status": "queued",
+      "status": "validated",
       "scheduled_at": null,
       "metricool_post_id": null,
-      "updated_at": "2026-10-08T21:22:37.925Z"
+      "updated_at": "2026-10-09T13:21:07.890Z"
     },
     {
       "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
       "manifest": "factory/runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/manifest.json",
-      "status": "queued",
+      "status": "validated",
       "scheduled_at": null,
       "metricool_post_id": null,
-      "updated_at": "2026-10-08T21:22:37.925Z"
+      "updated_at": "2026-10-09T14:06:18.843Z"
     },
     {
       "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
       "manifest": "factory/runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/manifest.json",
-      "status": "queued",
+      "status": "validated",
       "scheduled_at": null,
       "metricool_post_id": null,
-      "updated_at": "2026-10-08T21:22:37.926Z"
+      "updated_at": "2026-10-09T15:06:13.185Z"
     },
     {
       "id": "2026-10-10-slot-05-surreal-cinematic-ai-prompt",
       "manifest": "factory/runs/2026-10-10-slot-05-surreal-cinematic-ai-prompt/manifest.json",
-      "status": "queued",
+      "status": "needs_review",
       "scheduled_at": null,
       "metricool_post_id": null,
-      "updated_at": "2026-10-08T21:22:37.926Z"
+      "updated_at": "2026-10-09T16:04:00.141Z"
     },
     {
       "id": "2026-10-10-slot-06-beauty-cosmetic-photography-prompt",
@@ -257,6 +257,126 @@
       "scheduled_at": null,
       "metricool_post_id": null,
       "updated_at": "2026-10-08T21:22:37.931Z"
+    },
+    {
+      "id": "2026-10-13-slot-01-liquid-glass-3d-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-01-liquid-glass-3d-prompt/manifest.json",
+      "status": "validated",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T21:11:25.006Z"
+    },
+    {
+      "id": "2026-10-13-slot-02-ai-product-photography-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-02-ai-product-photography-prompt/manifest.json",
+      "status": "validated",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T21:11:25.184Z"
+    },
+    {
+      "id": "2026-10-13-slot-03-editorial-portrait-ai-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-03-editorial-portrait-ai-prompt/manifest.json",
+      "status": "validated",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T21:11:25.382Z"
+    },
+    {
+      "id": "2026-10-13-slot-04-fashion-campaign-ai-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/manifest.json",
+      "status": "validated",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T21:11:25.566Z"
+    },
+    {
+      "id": "2026-10-13-slot-05-surreal-cinematic-ai-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/manifest.json",
+      "status": "validated",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T21:11:25.746Z"
+    },
+    {
+      "id": "2026-10-13-slot-06-beauty-cosmetic-photography-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-06-beauty-cosmetic-photography-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.611Z"
+    },
+    {
+      "id": "2026-10-13-slot-07-chrome-translucent-3d-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-07-chrome-translucent-3d-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.612Z"
+    },
+    {
+      "id": "2026-10-13-slot-08-luxury-product-advertising-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-08-luxury-product-advertising-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.612Z"
+    },
+    {
+      "id": "2026-10-13-slot-09-cinematic-character-portrait-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-09-cinematic-character-portrait-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.613Z"
+    },
+    {
+      "id": "2026-10-13-slot-10-avant-garde-fashion-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-10-avant-garde-fashion-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.614Z"
+    },
+    {
+      "id": "2026-10-13-slot-11-dreamlike-architecture-ai-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-11-dreamlike-architecture-ai-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.614Z"
+    },
+    {
+      "id": "2026-10-13-slot-12-skincare-texture-macro-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-12-skincare-texture-macro-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.615Z"
+    },
+    {
+      "id": "2026-10-13-slot-13-inflatable-soft-sculpture-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-13-inflatable-soft-sculpture-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.615Z"
+    },
+    {
+      "id": "2026-10-13-slot-14-minimal-studio-still-life-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-14-minimal-studio-still-life-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.616Z"
+    },
+    {
+      "id": "2026-10-13-slot-15-trending-ai-image-prompt",
+      "manifest": "factory/runs/2026-10-13-slot-15-trending-ai-image-prompt/manifest.json",
+      "status": "queued",
+      "scheduled_at": null,
+      "metricool_post_id": null,
+      "updated_at": "2026-10-12T14:04:37.617Z"
     }
   ]
 }

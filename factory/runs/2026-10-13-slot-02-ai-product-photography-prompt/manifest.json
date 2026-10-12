@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "id": "2026-10-13-slot-02-ai-product-photography-prompt",
+  "created_at": "2026-10-12T14:04:37.608Z",
+  "updated_at": "2026-10-12T21:11:25.184Z",
+  "status": "validated",
+  "search": {
+    "query": "AI product photography prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/4855512095232594/"
+    ],
+    "reference_fingerprints": [
+      "8fed29f5767c9cdd477fde6cb3fa28475ca2c06cf04e44ec2e4b168d2c94b356"
+    ],
+    "pattern_summary": "В верхней части глобальной выдачи видны вертикальные карточки с крупным результатом и ясной сравнительной или модульной композицией: split-портрет (№3, 264 сохранения) и четырёхкадровый beauty-референс (№4, 254 сохранения). Выбран приём наглядного сравнения двух визуальных постановок одного сюжета, адаптированный для предметной фотографии."
+  },
+  "content": {
+    "prompt_ru": "Один янтарный флакон аромата в двух кадрах: слева светлая каталожная съёмка, справа тёплая рекламная сцена с боковым солнцем и цитрусовой цедрой. Форма флакона одинакова, без логотипа.",
+    "title_ru": "Промпт: создай рекламный кадр в Musya",
+    "description_ru": "Превратите обычное фото продукта в выразительную предметную съёмку: сравните чистый каталог и тёплую рекламную сцену. Скопируйте промпт и создайте свой кадр в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "предметная съёмка",
+      "AI product photography",
+      "рекламный кадр",
+      "фото продукта",
+      "генерация изображений",
+      "парфюмерия"
+    ],
+    "cta_ru": "Создать свою предметную съёмку → https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-13-slot-02-ai-product-photography-prompt/source.png",
+    "final_image": "factory/runs/2026-10-13-slot-02-ai-product-photography-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-02-ai-product-photography-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-12T15:03:41.971Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-12T15:03:41.972Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-13",
+    "slot_index": 2,
+    "planned_at_local": "2026-10-13T04:00:00",
+    "pillar": "Предметная съёмка"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-13/global-prompt-search.json",
+    "date_range": "2026-09-12 to 2026-10-12 Europe/Moscow; Metricool Pinterest posts query returned zero rows",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 8,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/4855512095232594/",
+      "title": "Ирина | Инфографика WB / OZON / Я.Маркет | Webdesign, Photoshop, Vettige huid",
+      "public_saves": 264,
+      "search_rank": 8,
+      "global_rank": 3,
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Наглядное сопоставление двух вариантов одного сюжета в вертикальном кадре",
+      "Крупный продукт как главный объект для мгновенного чтения в ленте",
+      "Чистые цветовые поля и понятная граница между вариантами",
+      "Короткий текстовый сигнал поверх сильной визуальной композиции"
+    ],
+    "deliberate_changes": [
+      "Вместо лица и истории до/после — вымышленный флакон аромата без бренда в двух разных рекламных постановках.",
+      "Вместо ровного деления лица — два отдельных кадра: спокойный каталог и тёплая кампания с боковым солнцем; меняются субъект, цвет, ракурс и смысл.",
+      "Metricool вернул rows=[] за 30 дней: числовой вторичной проверки нет, показатели собственного аккаунта не выдуманы."
+    ],
+    "metricool_report": "factory/research/2026-10-13/metricool-pins-30d.json",
+    "visual_reviewed_pin_ids": [
+      "4855512095232594",
+      "27514247718920648",
+      "15199717492217272",
+      "4574037118707864",
+      "25121710419264824",
+      "63613413482109747",
+      "97953360641110131",
+      "113575221849605761"
+    ],
+    "research_candidate_pin_ids": [
+      "896849713318897793",
+      "41939840275602324",
+      "24066179253910269",
+      "62698619809019384",
+      "567664728056369040",
+      "4574037118707864",
+      "45387908741602574",
+      "4855512095232594",
+      "97953360641110131",
+      "454300681184594537",
+      "25684660372774510",
+      "2674081025661415",
+      "27514247718920648",
+      "25121710419264824",
+      "750412356708089724",
+      "4151824653630311",
+      "63613413482109747",
+      "1000502873496425112",
+      "9851692934803772",
+      "15199717492217272",
+      "50806302043223552",
+      "626563366957926897",
+      "37647346881488100",
+      "32299322324322319",
+      "113575221849605761"
+    ],
+    "imagegen_prompt": "Use case: product-mockup. Asset type: original vertical Pinterest base image for an AI product photography prompt. Create a polished diptych with two distinct photographic setups of the same invented unbranded amber perfume bottle, identical hexagonal silhouette and black cap: left panel a restrained ivory catalog still life with soft diffuse studio light, right panel a warm editorial advertising still life with strong diagonal afternoon sunlight and a single curling ribbon of orange peel. Separate the panels with a subtle narrow gutter; vary the camera angle and scale between panels. Premium realistic glass, believable reflections, crisp object edges. Keep the upper and middle two thirds visually interesting and leave the lower quarter less detailed for an editorial text overlay. No people, no existing brands, no labels, no logos, no words, no watermark. Do not reproduce any Pinterest source image."
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-12T14:04:37.608Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-12T15:02:16.077Z",
+      "note": "Analyzed 25 organic BaseSearchResource pins, public repins, global ranks, eight image reviews and existing 30-day Metricool result"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-12T15:02:33.466Z",
+      "note": "Selected 264-save split-comparison pattern and distinct unbranded perfume diptych; copy and CTA link to Musya generator"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-12T15:03:08.054Z",
+      "note": "Generated original unbranded perfume diptych with ImageGen and saved source in run directory"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-12T15:03:13.482Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-12T15:03:41.972Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

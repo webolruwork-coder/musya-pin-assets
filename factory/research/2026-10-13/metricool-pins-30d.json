@@ -1,0 +1,22 @@
+{
+  "source": "Metricool MCP getAnalyticsDataByMetrics",
+  "brand_id": "6880455",
+  "network": "pinterest",
+  "connector": "posts",
+  "from": "2026-09-12T00:00:00+03:00",
+  "to": "2026-10-12T23:59:59+03:00",
+  "fields": [
+    "PIPO01",
+    "PIPO03",
+    "PIPO05",
+    "PIPO07",
+    "PIPO08",
+    "PIPO09",
+    "PIPO10",
+    "PIPO11"
+  ],
+  "response": {
+    "rows": []
+  },
+  "interpretation": "No own-account pin rows returned in this window; no numerical secondary validation available."
+}

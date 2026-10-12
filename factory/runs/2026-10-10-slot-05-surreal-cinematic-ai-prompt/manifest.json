@@ -2,25 +2,45 @@
   "version": 1,
   "id": "2026-10-10-slot-05-surreal-cinematic-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-10-08T21:22:37.926Z",
-  "status": "queued",
+  "updated_at": "2026-10-09T16:05:04.103Z",
+  "status": "needs_review",
   "search": {
     "query": "surreal cinematic AI prompt",
-    "result_limit": 10,
-    "reference_urls": [],
-    "reference_fingerprints": [],
-    "pattern_summary": ""
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/1759287349484061/"
+    ],
+    "reference_fingerprints": [
+      "443988dbec275081546e3b5c3644058792675266cd6dce416cc6276bdb6ab1f2"
+    ],
+    "pattern_summary": "The measured central-anchor/motion-blur pattern was explored from candidate #18 (410 public saves, global rank 5), but its URL is already used by another manifest. All other positive-save candidates in the saved daily top 25 are also used; this draft cannot pass the unique-reference quality gate.",
+    "global_query": "промпт"
   },
   "content": {
-    "prompt_ru": "",
-    "title_ru": "",
-    "description_ru": "",
-    "keywords_ru": []
+    "prompt_ru": "Сюрреалистический кинематографичный кадр: одинокая каменная лестница поднимается с мокрой городской площади к светящемуся круглому порталу; вокруг — размытые потоки прохожих, янтарный свет и тёмное бирюзовое небо.",
+    "title_ru": "Промпт: лестница в другой мир | AI-сюрреализм",
+    "description_ru": "Создайте сюрреалистический кадр с лестницей к светящемуся порталу, мокрыми отражениями и движением города. Скопируйте промпт и сгенерируйте свою версию в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "сюрреализм",
+      "кинематографичный кадр",
+      "AI-изображение",
+      "лестница в небо",
+      "генерация изображений",
+      "атмосферный город",
+      "длинная выдержка"
+    ],
+    "cta_ru": "Создать изображение по промпту → https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
   },
   "assets": {
-    "source_image": "",
-    "final_image": "",
-    "media_url": ""
+    "source_image": "factory/runs/2026-10-10-slot-05-surreal-cinematic-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-10-slot-05-surreal-cinematic-ai-prompt/pin.png",
+    "media_url": "",
+    "generation": {
+      "tool": "ImageGen",
+      "prompt": "Use case: stylized-concept. Asset type: original vertical 2:3 image base for a Russian Pinterest prompt card, later overlaid with typography. Create a cinematic surreal fine-art photograph of an impossible narrow stone stairway rising alone from a rain-dark city plaza into a suspended glowing circular doorway. The stairway is the single tack-sharp central anchor; anonymous commuters are only ghostly long-exposure streaks flowing around its base, no visible faces or recognizable clothing. Low camera angle, generous dark negative space in lower third for white text, strong perspective, atmospheric depth. Warm amber light spills from the portal against deep petrol teal, charcoal stone and wet reflections; subtle film grain, tactile realistic materials, premium editorial image, dreamlike yet physically plausible lighting. Original scene and composition. No typography, letters, logos, watermark, brand marks, collage, product, or portraits. Portrait orientation 2:3."
+    }
   },
   "publishing": {
     "provider": "metricool",
@@ -34,14 +54,29 @@
   },
   "validation": {
     "passed": false,
-    "checked_at": null,
-    "checks": {},
-    "errors": []
+    "checked_at": "2026-10-09T16:04:00.141Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": false,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": [
+      "One or more references were already used by another run"
+    ]
   },
   "approval": {
     "status": "pending",
     "reviewed_at": null,
-    "note": ""
+    "note": "Quality gate blocked: all 17 candidates with positive public pinterestapp:repins in the 25 saved organic results for «промпт» are already reference URLs in other manifests. The remaining 8 have 0 public saves; validation requires a unique reference with public_saves > 0. Candidate pin 1759287349484061 (410 saves, global rank 5) is already used by 2026-10-09-slot-04-fashion-campaign-ai-prompt. No reference URL was disguised or reused for approval; no further manifest was processed."
   },
   "production": {
     "target_date": "2026-10-10",
@@ -50,25 +85,336 @@
     "pillar": "Сюрреализм"
   },
   "research_evidence": {
-    "source": "",
-    "date_range": "",
-    "posts_analyzed": 0,
-    "reference_images_reviewed": 0,
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_response": "factory/research/2026-10-10/global-prompt-response.json",
+    "global_search_report": "factory/research/2026-10-10/global-prompt-search.json",
+    "captured_at": "2026-10-09T01:16:38.763Z",
+    "date_range": "Metricool Pinterest posts: 2026-09-09 to 2026-10-09 Europe/Moscow; secondary account context only",
+    "posts_analyzed": 25,
+    "analyzed_results": [
+      {
+        "search_rank": 1,
+        "global_rank_by_saves": 18,
+        "pin_id": "58406126414623098",
+        "url": "https://www.pinterest.com/pin/58406126414623098/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/01-58406126414623098.png"
+      },
+      {
+        "search_rank": 2,
+        "global_rank_by_saves": 12,
+        "pin_id": "567664728056369040",
+        "url": "https://www.pinterest.com/pin/567664728056369040/",
+        "public_saves": 16,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/02-567664728056369040.png"
+      },
+      {
+        "search_rank": 3,
+        "global_rank_by_saves": 6,
+        "pin_id": "1125968743172864",
+        "url": "https://www.pinterest.com/pin/1125968743172864/",
+        "public_saves": 308,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/03-1125968743172864.jpg"
+      },
+      {
+        "search_rank": 4,
+        "global_rank_by_saves": 11,
+        "pin_id": "4574037118707864",
+        "url": "https://www.pinterest.com/pin/4574037118707864/",
+        "public_saves": 39,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/04-4574037118707864.jpg"
+      },
+      {
+        "search_rank": 5,
+        "global_rank_by_saves": 19,
+        "pin_id": "320670435992791336",
+        "url": "https://www.pinterest.com/pin/320670435992791336/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/05-320670435992791336.jpg"
+      },
+      {
+        "search_rank": 6,
+        "global_rank_by_saves": 20,
+        "pin_id": "947092996675118373",
+        "url": "https://www.pinterest.com/pin/947092996675118373/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/06-947092996675118373.png"
+      },
+      {
+        "search_rank": 7,
+        "global_rank_by_saves": 9,
+        "pin_id": "2392606049313562",
+        "url": "https://www.pinterest.com/pin/2392606049313562/",
+        "public_saves": 190,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/07-2392606049313562.jpg"
+      },
+      {
+        "search_rank": 8,
+        "global_rank_by_saves": 14,
+        "pin_id": "25684660372774510",
+        "url": "https://www.pinterest.com/pin/25684660372774510/",
+        "public_saves": 7,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/08-25684660372774510.png"
+      },
+      {
+        "search_rank": 9,
+        "global_rank_by_saves": 7,
+        "pin_id": "11329436558576076",
+        "url": "https://www.pinterest.com/pin/11329436558576076/",
+        "public_saves": 293,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/09-11329436558576076.png"
+      },
+      {
+        "search_rank": 10,
+        "global_rank_by_saves": 21,
+        "pin_id": "454300681184594537",
+        "url": "https://www.pinterest.com/pin/454300681184594537/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/10-454300681184594537.png"
+      },
+      {
+        "search_rank": 11,
+        "global_rank_by_saves": 13,
+        "pin_id": "45387908741602574",
+        "url": "https://www.pinterest.com/pin/45387908741602574/",
+        "public_saves": 8,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/11-45387908741602574.jpg"
+      },
+      {
+        "search_rank": 12,
+        "global_rank_by_saves": 22,
+        "pin_id": "362117626315049277",
+        "url": "https://www.pinterest.com/pin/362117626315049277/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/12-362117626315049277.png"
+      },
+      {
+        "search_rank": 13,
+        "global_rank_by_saves": 16,
+        "pin_id": "11892386514477402",
+        "url": "https://www.pinterest.com/pin/11892386514477402/",
+        "public_saves": 3,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/13-11892386514477402.jpg"
+      },
+      {
+        "search_rank": 14,
+        "global_rank_by_saves": 4,
+        "pin_id": "2674081025661415",
+        "url": "https://www.pinterest.com/pin/2674081025661415/",
+        "public_saves": 810,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/14-2674081025661415.jpg"
+      },
+      {
+        "search_rank": 15,
+        "global_rank_by_saves": 1,
+        "pin_id": "2251868559184601",
+        "url": "https://www.pinterest.com/pin/2251868559184601/",
+        "public_saves": 2004,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/15-2251868559184601.png"
+      },
+      {
+        "search_rank": 16,
+        "global_rank_by_saves": 23,
+        "pin_id": "567664728056400232",
+        "url": "https://www.pinterest.com/pin/567664728056400232/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/16-567664728056400232.png"
+      },
+      {
+        "search_rank": 17,
+        "global_rank_by_saves": 24,
+        "pin_id": "1122944488584155890",
+        "url": "https://www.pinterest.com/pin/1122944488584155890/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/17-1122944488584155890.png"
+      },
+      {
+        "search_rank": 18,
+        "global_rank_by_saves": 5,
+        "pin_id": "1759287349484061",
+        "url": "https://www.pinterest.com/pin/1759287349484061/",
+        "public_saves": 410,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/18-1759287349484061.jpg"
+      },
+      {
+        "search_rank": 19,
+        "global_rank_by_saves": 8,
+        "pin_id": "27514247718920648",
+        "url": "https://www.pinterest.com/pin/27514247718920648/",
+        "public_saves": 254,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/19-27514247718920648.jpg"
+      },
+      {
+        "search_rank": 20,
+        "global_rank_by_saves": 25,
+        "pin_id": "626563366957926897",
+        "url": "https://www.pinterest.com/pin/626563366957926897/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/20-626563366957926897.png"
+      },
+      {
+        "search_rank": 21,
+        "global_rank_by_saves": 15,
+        "pin_id": "113575221849605761",
+        "url": "https://www.pinterest.com/pin/113575221849605761/",
+        "public_saves": 4,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/21-113575221849605761.jpg"
+      },
+      {
+        "search_rank": 22,
+        "global_rank_by_saves": 3,
+        "pin_id": "422281212229556",
+        "url": "https://www.pinterest.com/pin/422281212229556/",
+        "public_saves": 1164,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/22-422281212229556.jpg"
+      },
+      {
+        "search_rank": 23,
+        "global_rank_by_saves": 10,
+        "pin_id": "15199717492217272",
+        "url": "https://www.pinterest.com/pin/15199717492217272/",
+        "public_saves": 69,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/23-15199717492217272.jpg"
+      },
+      {
+        "search_rank": 24,
+        "global_rank_by_saves": 17,
+        "pin_id": "28921622603095900",
+        "url": "https://www.pinterest.com/pin/28921622603095900/",
+        "public_saves": 3,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/24-28921622603095900.png"
+      },
+      {
+        "search_rank": 25,
+        "global_rank_by_saves": 2,
+        "pin_id": "281543726330631",
+        "url": "https://www.pinterest.com/pin/281543726330631/",
+        "public_saves": 1211,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-10/images/25-281543726330631.png"
+      }
+    ],
+    "reference_images_reviewed": 7,
+    "reviewed_pin_ids": [
+      "2674081025661415",
+      "1759287349484061",
+      "2392606049313562",
+      "2251868559184601",
+      "422281212229556",
+      "1125968743172864",
+      "11329436558576076"
+    ],
     "selected_reference": {
-      "url": "",
-      "title": "",
+      "url": "https://www.pinterest.com/pin/1759287349484061/",
+      "title": "The north face photography | The north face poster, The north face advertising campaign, Editing promt",
+      "public_saves": 410,
+      "save_metric": "pinterestapp:repins",
+      "search_rank": 18,
+      "global_rank_by_saves": 5,
+      "image_sha256": "a887f98ae20241188e89fac58a24cb8987a7424c57af6896e144ed1e671a18df",
       "impressions": null,
       "saves": null,
-      "clicks": null
+      "clicks": null,
+      "eligibility": "blocked_duplicate_reference_url"
     },
-    "transferred_features": [],
-    "deliberate_changes": []
+    "transferred_features": [
+      "Один неподвижный резко очерченный объект как центр вертикального кадра",
+      "Размытый движущийся поток вокруг центра для ощутимого контраста темпа",
+      "Глубокая городская перспектива и атмосферные слои",
+      "Нижняя тёмная зона оставлена для читаемой типографики"
+    ],
+    "deliberate_changes": [
+      "Вместо портрета человека и чёрно-белой одежды — оригинальная сюрреалистическая каменная лестница и светящийся портал; изменены главный объект, сюжет, палитра, свет и фон.",
+      "Основа создана через ImageGen с нуля; чужое изображение, лица, бренд и текст не переносились.",
+      "Metricool использован только как дополнительный контекст: за прошедший период собственный пин с одним крупным героем получил 481 показ и 6 сохранений, а многообъектная сцена с боксёрскими перчатками — 23 показа и 0 сохранений; малый набор не доказывает преимущество паттерна и не заменяет 410 публичных сохранений внешнего референса."
+    ],
+    "metricool_secondary": {
+      "brand_id": 6880455,
+      "from": "2026-09-09T00:00:00+03:00",
+      "to": "2026-10-09T23:59:59+03:00",
+      "single_hero_pin": {
+        "title": "Промпт: блондинка с веснушками и красной помадой",
+        "impressions": 481,
+        "saves": 6,
+        "pin_clicks": 16
+      },
+      "comparison_pin": {
+        "title": "Промпт: чёрные боксёрские перчатки и жемчуг",
+        "impressions": 23,
+        "saves": 0,
+        "pin_clicks": 0
+      }
+    }
   },
   "history": [
     {
       "status": "queued",
       "at": "2026-10-08T21:22:37.926Z",
       "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-09T16:03:45.857Z",
+      "note": "25 organic BaseSearchResource results analyzed; public repins and seven image reviews recorded"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-09T16:03:45.981Z",
+      "note": "Selected rank 5 by 410 public saves; original surreal architecture concept and Metricool secondary context recorded"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-09T16:03:46.105Z",
+      "note": "Created original vertical source via ImageGen; no reference artwork copied"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-09T16:03:52.900Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "needs_review",
+      "at": "2026-10-09T16:04:00.141Z",
+      "note": "One or more references were already used by another run"
+    },
+    {
+      "status": "needs_review",
+      "at": "2026-10-09T16:04:28.238Z",
+      "note": "Quality gate blocked: all 17 candidates with positive public pinterestapp:repins in the 25 saved organic results for «промпт» are already reference URLs in other manifests. The remaining 8 have 0 public saves; validation requires a unique reference with public_saves > 0. Candidate pin 1759287349484061 (410 saves, global rank 5) is already used by 2026-10-09-slot-04-fashion-campaign-ai-prompt. No reference URL was disguised or reused for approval; no further manifest was processed."
     }
-  ]
+  ],
+  "blocker": {
+    "type": "no_unique_positive_save_reference_in_daily_top_25",
+    "reason": "Quality gate blocked: all 17 candidates with positive public pinterestapp:repins in the 25 saved organic results for «промпт» are already reference URLs in other manifests. The remaining 8 have 0 public saves; validation requires a unique reference with public_saves > 0. Candidate pin 1759287349484061 (410 saves, global rank 5) is already used by 2026-10-09-slot-04-fashion-campaign-ai-prompt. No reference URL was disguised or reused for approval; no further manifest was processed.",
+    "positive_save_candidates": 17,
+    "positive_save_candidates_already_used": 17,
+    "zero_save_candidates": 8,
+    "source_report": "factory/research/2026-10-10/global-prompt-search.json",
+    "detected_at": "2026-10-09T16:04:28.237Z"
+  }
 }

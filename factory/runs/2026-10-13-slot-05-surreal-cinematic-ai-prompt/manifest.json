@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "id": "2026-10-13-slot-05-surreal-cinematic-ai-prompt",
+  "created_at": "2026-10-12T14:04:37.610Z",
+  "updated_at": "2026-10-12T21:11:25.746Z",
+  "status": "validated",
+  "search": {
+    "query": "surreal cinematic AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/4151824653630311/"
+    ],
+    "reference_fingerprints": [
+      "0b570469fa5b8855774e22e4d09477f626de5adebc211f81fb0405c13c48a512"
+    ],
+    "pattern_summary": "Глобальная публичная выдача «промпт»: 25 organic пинов, ранжирование по pinterestapp:repins. Выбран свободный кинематографичный референс: 15 публичных сохранений, global rank 11, позиция поиска 16. Повторяется паттерн крупного светящегося фокуса, холодного контрастного света и нескольких планов глубины. Новый сюжет и геометрия не повторяют макро-глаз, цифровые цифры и прежнюю лестницу к порталу."
+  },
+  "content": {
+    "prompt_ru": "Сюрреалистические стеклянные песочные часы парят над чёрным морем; внутри — миниатюрный ночной город, голубой дождь и янтарный свет. Киносвет, низкий ракурс, глубокие отражения.",
+    "title_ru": "Промпт: город внутри времени — создать в Musya",
+    "description_ru": "Сохраните идею для AI-сюрреализма: парящие песочные часы, ночной город внутри стекла, дождь и отражения. Скопируйте промпт и создайте свой кадр в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "AI-сюрреализм",
+      "кинематографичный кадр",
+      "песочные часы",
+      "ночной город",
+      "генерация изображений",
+      "стеклянный объект",
+      "атмосферная сцена"
+    ],
+    "cta_ru": "Создать свой сюрреалистичный кадр → https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-05-surreal-cinematic-ai-prompt.png",
+    "generation": {
+      "tool": "ImageGen",
+      "prompt": "Use case: stylized-concept. Asset type: original vertical 2:3 image base for a Russian Pinterest AI image prompt card; typography will be added separately. Create an original cinematic surreal fine-art photograph of a monumental transparent glass hourglass floating above an endless ink-black sea at night. Inside the hourglass is a tiny intricate nocturnal city with a few warm amber windows; luminous turquoise rain and fine mist drift around the glass, with a soft crescent glow behind the upper chamber. The hourglass is a single clear hero object in the upper two thirds, viewed from a low three-quarter angle; ample nearly black negative space in the bottom third for later white editorial text. Deep petrol blue, cyan and restrained amber, realistic wet reflections, volumetric light, layered atmospheric depth, subtle film grain, premium cinematic realism. Distinct from any eye or portrait and from a stairway or portal. No human, face, binary digits, text, letters, logos, watermark, product packaging or collage."
+    }
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-12T18:03:42.217Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-12T18:03:42.218Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-13",
+    "slot_index": 5,
+    "planned_at_local": "2026-10-13T08:30:00",
+    "pillar": "Сюрреализм"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_response": "factory/research/2026-10-13/global-prompt-response.json",
+    "global_search_report": "factory/research/2026-10-13/global-prompt-search.json",
+    "captured_at": "2026-10-12T14:05:31.028Z",
+    "date_range": "2026-09-12 to 2026-10-12 Europe/Moscow; Metricool Pinterest posts query returned zero rows",
+    "posts_analyzed": 25,
+    "analyzed_results": [
+      {
+        "search_rank": 1,
+        "global_rank": 20,
+        "pin_id": "896849713318897793",
+        "url": "https://www.pinterest.com/pin/896849713318897793/",
+        "public_saves": 1,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/01-896849713318897793.png"
+      },
+      {
+        "search_rank": 2,
+        "global_rank": 21,
+        "pin_id": "41939840275602324",
+        "url": "https://www.pinterest.com/pin/41939840275602324/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/02-41939840275602324.png"
+      },
+      {
+        "search_rank": 3,
+        "global_rank": 15,
+        "pin_id": "24066179253910269",
+        "url": "https://www.pinterest.com/pin/24066179253910269/",
+        "public_saves": 6,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/03-24066179253910269.jpg"
+      },
+      {
+        "search_rank": 4,
+        "global_rank": 19,
+        "pin_id": "62698619809019384",
+        "url": "https://www.pinterest.com/pin/62698619809019384/",
+        "public_saves": 2,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/04-62698619809019384.jpg"
+      },
+      {
+        "search_rank": 5,
+        "global_rank": 8,
+        "pin_id": "567664728056369040",
+        "url": "https://www.pinterest.com/pin/567664728056369040/",
+        "public_saves": 33,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/05-567664728056369040.png"
+      },
+      {
+        "search_rank": 6,
+        "global_rank": 7,
+        "pin_id": "4574037118707864",
+        "url": "https://www.pinterest.com/pin/4574037118707864/",
+        "public_saves": 40,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/06-4574037118707864.jpg"
+      },
+      {
+        "search_rank": 7,
+        "global_rank": 13,
+        "pin_id": "45387908741602574",
+        "url": "https://www.pinterest.com/pin/45387908741602574/",
+        "public_saves": 8,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/07-45387908741602574.jpg"
+      },
+      {
+        "search_rank": 8,
+        "global_rank": 3,
+        "pin_id": "4855512095232594",
+        "url": "https://www.pinterest.com/pin/4855512095232594/",
+        "public_saves": 264,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/08-4855512095232594.png"
+      },
+      {
+        "search_rank": 9,
+        "global_rank": 18,
+        "pin_id": "97953360641110131",
+        "url": "https://www.pinterest.com/pin/97953360641110131/",
+        "public_saves": 3,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/09-97953360641110131.jpg"
+      },
+      {
+        "search_rank": 10,
+        "global_rank": 22,
+        "pin_id": "454300681184594537",
+        "url": "https://www.pinterest.com/pin/454300681184594537/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/10-454300681184594537.png"
+      },
+      {
+        "search_rank": 11,
+        "global_rank": 12,
+        "pin_id": "25684660372774510",
+        "url": "https://www.pinterest.com/pin/25684660372774510/",
+        "public_saves": 10,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/11-25684660372774510.png"
+      },
+      {
+        "search_rank": 12,
+        "global_rank": 1,
+        "pin_id": "2674081025661415",
+        "url": "https://www.pinterest.com/pin/2674081025661415/",
+        "public_saves": 810,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/12-2674081025661415.jpg"
+      },
+      {
+        "search_rank": 13,
+        "global_rank": 4,
+        "pin_id": "27514247718920648",
+        "url": "https://www.pinterest.com/pin/27514247718920648/",
+        "public_saves": 254,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/13-27514247718920648.jpg"
+      },
+      {
+        "search_rank": 14,
+        "global_rank": 5,
+        "pin_id": "25121710419264824",
+        "url": "https://www.pinterest.com/pin/25121710419264824/",
+        "public_saves": 81,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/14-25121710419264824.jpg"
+      },
+      {
+        "search_rank": 15,
+        "global_rank": 23,
+        "pin_id": "750412356708089724",
+        "url": "https://www.pinterest.com/pin/750412356708089724/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/15-750412356708089724.jpg"
+      },
+      {
+        "search_rank": 16,
+        "global_rank": 11,
+        "pin_id": "4151824653630311",
+        "url": "https://www.pinterest.com/pin/4151824653630311/",
+        "public_saves": 15,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/16-4151824653630311.jpg"
+      },
+      {
+        "search_rank": 17,
+        "global_rank": 10,
+        "pin_id": "63613413482109747",
+        "url": "https://www.pinterest.com/pin/63613413482109747/",
+        "public_saves": 18,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/17-63613413482109747.png"
+      },
+      {
+        "search_rank": 18,
+        "global_rank": 24,
+        "pin_id": "1000502873496425112",
+        "url": "https://www.pinterest.com/pin/1000502873496425112/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/18-1000502873496425112.jpg"
+      },
+      {
+        "search_rank": 19,
+        "global_rank": 2,
+        "pin_id": "9851692934803772",
+        "url": "https://www.pinterest.com/pin/9851692934803772/",
+        "public_saves": 424,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/19-9851692934803772.jpg"
+      },
+      {
+        "search_rank": 20,
+        "global_rank": 6,
+        "pin_id": "15199717492217272",
+        "url": "https://www.pinterest.com/pin/15199717492217272/",
+        "public_saves": 69,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/20-15199717492217272.jpg"
+      },
+      {
+        "search_rank": 21,
+        "global_rank": 14,
+        "pin_id": "50806302043223552",
+        "url": "https://www.pinterest.com/pin/50806302043223552/",
+        "public_saves": 7,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/21-50806302043223552.jpg"
+      },
+      {
+        "search_rank": 22,
+        "global_rank": 25,
+        "pin_id": "626563366957926897",
+        "url": "https://www.pinterest.com/pin/626563366957926897/",
+        "public_saves": 0,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/22-626563366957926897.png"
+      },
+      {
+        "search_rank": 23,
+        "global_rank": 9,
+        "pin_id": "37647346881488100",
+        "url": "https://www.pinterest.com/pin/37647346881488100/",
+        "public_saves": 23,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/23-37647346881488100.png"
+      },
+      {
+        "search_rank": 24,
+        "global_rank": 16,
+        "pin_id": "32299322324322319",
+        "url": "https://www.pinterest.com/pin/32299322324322319/",
+        "public_saves": 6,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/24-32299322324322319.jpg"
+      },
+      {
+        "search_rank": 25,
+        "global_rank": 17,
+        "pin_id": "113575221849605761",
+        "url": "https://www.pinterest.com/pin/113575221849605761/",
+        "public_saves": 4,
+        "save_metric": "pinterestapp:repins",
+        "local_image": "factory/research/2026-10-13/images/25-113575221849605761.jpg"
+      }
+    ],
+    "reference_images_reviewed": 9,
+    "visual_reviewed_pin_ids": [
+      "2674081025661415",
+      "9851692934803772",
+      "4855512095232594",
+      "25121710419264824",
+      "4151824653630311",
+      "37647346881488100",
+      "32299322324322319",
+      "62698619809019384",
+      "750412356708089724"
+    ],
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/4151824653630311/",
+      "title": "Cyberpunk Промпт: Футуристичный макро-кадр | Генеративное искусство, Интерактивный дизайн, Искусственный интеллект",
+      "public_saves": 15,
+      "save_metric": "pinterestapp:repins",
+      "search_rank": 16,
+      "global_rank": 11,
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Крупный светящийся центральный фокус в вертикальном кадре",
+      "Холодный сине-циановый кинематографичный свет с глубокими тенями",
+      "Несколько планов глубины и светящиеся элементы перед объективом",
+      "Контрастное поле, на котором читается короткий текстовый сигнал"
+    ],
+    "deliberate_changes": [
+      "Вместо человеческого глаза — гигантские прозрачные песочные часы с миниатюрным ночным городом внутри; нет лица или портрета.",
+      "Вместо цифрового двоичного кода — дождь, отражения чёрного моря и рассеянные световые капли.",
+      "Вместо макро-композиции глаза — широкий низкий ракурс с часами в верхних двух третях и тёмной зоной для текста внизу.",
+      "Metricool Pinterest posts за 30 дней вернул rows=[]; вторичных числовых метрик нет."
+    ],
+    "metricool_report": "factory/research/2026-10-13/metricool-pins-30d.json"
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-12T14:04:37.610Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-12T18:02:28.294Z",
+      "note": "Reviewed 25 organic global Pinterest results, public repins and nine local images; selected unused cinematic reference"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-12T18:02:42.957Z",
+      "note": "Original surreal cinematic concept and Musya destination copy prepared"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-12T18:03:27.151Z",
+      "note": "Created original 1024×1536 vertical cinematic image with ImageGen"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-12T18:03:33.736Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-12T18:03:42.218Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

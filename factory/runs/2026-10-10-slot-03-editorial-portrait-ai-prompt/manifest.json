@@ -2,24 +2,39 @@
   "version": 1,
   "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
   "created_at": "2026-10-08T21:22:37.925Z",
-  "updated_at": "2026-10-08T21:22:37.925Z",
-  "status": "queued",
+  "updated_at": "2026-10-09T14:06:18.843Z",
+  "status": "validated",
   "search": {
     "query": "editorial portrait AI prompt",
-    "result_limit": 10,
-    "reference_urls": [],
-    "reference_fingerprints": [],
-    "pattern_summary": ""
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/11892386514477402/"
+    ],
+    "reference_fingerprints": [
+      "fa66fe351d6fd0a37767c0310496dec9277cc5f5971078b4f5a08af0524fcdc1"
+    ],
+    "pattern_summary": "В глобальной выдаче «промпт» повторяется ночной direct-flash портрет с крупным лицом, глубокой тёмной негативной зоной и крупной нижней типографикой. Выбран неиспользованный organic результат #13 с доступными 3 публичными сохранениями."
   },
   "content": {
-    "prompt_ru": "",
-    "title_ru": "",
-    "description_ru": "",
-    "keywords_ru": []
+    "prompt_ru": "Ночной editorial-портрет: взрослая модель в чёрном жакете и зеркальных очках держит янтарную стеклянную сферу; прямой flash, синий контровой свет, глубокий графитовый фон.",
+    "title_ru": "Промпт для ночного editorial-портрета",
+    "description_ru": "Создайте ночной editorial-портрет с выразительным светом и цветным стеклом. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "editorial-портрет",
+      "ночная съёмка",
+      "AI-фотография",
+      "прямой flash",
+      "студийный свет",
+      "модный портрет",
+      "генерация изображений"
+    ],
+    "layout": "bottom_dark_editorial"
   },
   "assets": {
-    "source_image": "",
-    "final_image": "",
+    "source_image": "factory/runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/pin.png",
     "media_url": ""
   },
   "publishing": {
@@ -33,15 +48,28 @@
     "metricool_post_id": null
   },
   "validation": {
-    "passed": false,
-    "checked_at": null,
-    "checks": {},
+    "passed": true,
+    "checked_at": "2026-10-09T14:06:18.842Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
     "errors": []
   },
   "approval": {
-    "status": "pending",
-    "reviewed_at": null,
-    "note": ""
+    "status": "approved",
+    "reviewed_at": "2026-10-09T14:06:18.843Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
   },
   "production": {
     "target_date": "2026-10-10",
@@ -50,25 +78,65 @@
     "pillar": "Портрет"
   },
   "research_evidence": {
-    "source": "",
-    "date_range": "",
-    "posts_analyzed": 0,
-    "reference_images_reviewed": 0,
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-10/global-prompt-search.json",
+    "date_range": "2026-09-09 to 2026-10-09 Europe/Moscow; Metricool Pinterest post analytics retrieved once for this run as secondary validation",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 4,
     "selected_reference": {
-      "url": "",
-      "title": "",
+      "url": "https://www.pinterest.com/pin/11892386514477402/",
+      "title": "Случайное фото | Промты для чата гпт фото, Промпты для нейросети фотосессия, Фотография",
+      "image_sha256": "d1782b84a1dfb7d2a37ac889c7d3c4fb6572de04bb2f537a47a41b0005837ebf",
+      "public_saves": 3,
+      "save_metric": "pinterestapp:repins",
+      "search_rank": 13,
       "impressions": null,
       "saves": null,
       "clicks": null
     },
-    "transferred_features": [],
-    "deliberate_changes": []
+    "transferred_features": [
+      "Вертикальный ночной direct-flash кадр с одним доминирующим персонажем",
+      "Глубокая тёмная негативная зона вокруг героя для высокой контрастности",
+      "Крупная нижняя типографическая зона, отделённая от главного лица",
+      "Жёсткие глянцевые блики как единый световой акцент"
+    ],
+    "deliberate_changes": [
+      "Вместо сцены с бутылкой и лежащей позой создан самостоятельный студийный трёхчетвертной портрет стоящей женщины с янтарной стеклянной сферой; изменены сюжет, поза, кадрирование, одежда, палитра и весь текст.",
+      "Изображение сгенерировано с нуля через ImageGen: без алкоголя, брендов, логотипов, водяных знаков и заимствованной графики.",
+      "Вторичный сигнал Metricool за 30 дней: собственный портретный пин «блондинка с веснушками и красной помадой» получил 481 показ, 6 сохранений и 16 кликов; этот сигнал не заменяет 3 публичных сохранения выбранного внешнего референса."
+    ]
   },
   "history": [
     {
       "status": "queued",
       "at": "2026-10-08T21:22:37.925Z",
       "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-09T14:06:00.810Z",
+      "note": "Captured and analyzed 25 organic Pinterest BaseSearchResource results; public repins and visual review recorded"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-09T14:06:00.854Z",
+      "note": "Selected an original variation of the measured night-flash portrait pattern; Metricool 30-day analytics used only as secondary validation"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-09T14:06:00.884Z",
+      "note": "Generated original source artwork with ImageGen; no reference artwork copied"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-09T14:06:03.076Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-09T14:06:18.843Z",
+      "note": "Automated manifest and image checks passed"
     }
   ]
 }

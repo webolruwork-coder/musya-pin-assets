@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "id": "2026-10-13-slot-04-fashion-campaign-ai-prompt",
+  "created_at": "2026-10-12T14:04:37.609Z",
+  "updated_at": "2026-10-12T21:11:25.566Z",
+  "status": "validated",
+  "search": {
+    "query": "fashion campaign AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/63613413482109747/"
+    ],
+    "reference_fingerprints": [
+      "c6946fad899f79e60eaf2c5c575aa994d84651d401c27d7b5b62685d8c78d96b"
+    ],
+    "pattern_summary": "Из 25 organic пинов глобальной выдачи «промпт» выбран fashion-референс с 18 публичными сохранениями: глобальный rank 10, позиция поиска 17. Повторяемый сильный паттерн — вертикальный editorial-герой, выразительный силуэт и чистое поле вокруг модели. Для самостоятельного пина созданы иная модель, одежда, поза, окружение и палитра; коллаж и крупные буквы референса не повторяются."
+  },
+  "content": {
+    "prompt_ru": "Модная кампания: модель в кобальтовом плиссированном пальто и светлых сапогах на круглом подиуме; тёплая студия, мягкий боковой свет.",
+    "title_ru": "Промпт для модной кампании в Musya",
+    "description_ru": "Сохраните идею для AI fashion-кампании: скульптурное кобальтовое пальто, тёплая студия и чистый силуэт. Скопируйте промпт и создайте свою версию в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "модная кампания",
+      "AI fashion",
+      "нейрофотосессия",
+      "fashion editorial",
+      "генерация изображений",
+      "плиссированное пальто",
+      "студийная съёмка"
+    ],
+    "cta_ru": "Создать свою fashion-кампанию → https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-04-fashion-campaign-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-12T17:02:41.565Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-12T17:02:41.566Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-13",
+    "slot_index": 4,
+    "planned_at_local": "2026-10-13T07:00:00",
+    "pillar": "Мода"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-13/global-prompt-search.json",
+    "date_range": "2026-09-12 to 2026-10-12 Europe/Moscow; Metricool Pinterest posts query returned zero rows",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 8,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/63613413482109747/",
+      "title": "Здесь могла быть ваша реклама | Жанровая фотография, Современный плакат, Графические дизайнеры",
+      "public_saves": 18,
+      "save_metric": "pinterestapp:repins",
+      "search_rank": 17,
+      "global_rank": 10,
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Один выразительный fashion-герой в вертикальном кадре",
+      "Скульптурный силуэт одежды как главный визуальный акцент",
+      "Редакционная студийная съёмка с чистым фоном",
+      "Читаемая зона для короткого сообщения поверх изображения"
+    ],
+    "deliberate_changes": [
+      "Вместо сереброволосой модели в прозрачном костюме — вымышленная темноволосая модель в кобальтовом плиссированном пальто и светлых сапогах.",
+      "Вместо коллажа с лежащей фигурой и крупной чёрной типографикой — одна стоящая фигура на круглом травертиновом подиуме, тёплая абрикосовая студия, иной свет и геометрия.",
+      "Metricool Pinterest posts за 30 дней вернул rows=[]; вторичных числовых метрик нет."
+    ],
+    "metricool_report": "factory/research/2026-10-13/metricool-pins-30d.json",
+    "visual_reviewed_pin_ids": [
+      "2674081025661415",
+      "4855512095232594",
+      "37647346881488100",
+      "4574037118707864",
+      "63613413482109747",
+      "32299322324322319",
+      "750412356708089724",
+      "626563366957926897"
+    ],
+    "research_candidates": [
+      {
+        "pin_id": "896849713318897793",
+        "search_rank": 1,
+        "global_rank": 20,
+        "public_saves": 1
+      },
+      {
+        "pin_id": "41939840275602324",
+        "search_rank": 2,
+        "global_rank": 21,
+        "public_saves": 0
+      },
+      {
+        "pin_id": "24066179253910269",
+        "search_rank": 3,
+        "global_rank": 15,
+        "public_saves": 6
+      },
+      {
+        "pin_id": "62698619809019384",
+        "search_rank": 4,
+        "global_rank": 19,
+        "public_saves": 2
+      },
+      {
+        "pin_id": "567664728056369040",
+        "search_rank": 5,
+        "global_rank": 8,
+        "public_saves": 33
+      },
+      {
+        "pin_id": "4574037118707864",
+        "search_rank": 6,
+        "global_rank": 7,
+        "public_saves": 40
+      },
+      {
+        "pin_id": "45387908741602574",
+        "search_rank": 7,
+        "global_rank": 13,
+        "public_saves": 8
+      },
+      {
+        "pin_id": "4855512095232594",
+        "search_rank": 8,
+        "global_rank": 3,
+        "public_saves": 264
+      },
+      {
+        "pin_id": "97953360641110131",
+        "search_rank": 9,
+        "global_rank": 18,
+        "public_saves": 3
+      },
+      {
+        "pin_id": "454300681184594537",
+        "search_rank": 10,
+        "global_rank": 22,
+        "public_saves": 0
+      },
+      {
+        "pin_id": "25684660372774510",
+        "search_rank": 11,
+        "global_rank": 12,
+        "public_saves": 10
+      },
+      {
+        "pin_id": "2674081025661415",
+        "search_rank": 12,
+        "global_rank": 1,
+        "public_saves": 810
+      },
+      {
+        "pin_id": "27514247718920648",
+        "search_rank": 13,
+        "global_rank": 4,
+        "public_saves": 254
+      },
+      {
+        "pin_id": "25121710419264824",
+        "search_rank": 14,
+        "global_rank": 5,
+        "public_saves": 81
+      },
+      {
+        "pin_id": "750412356708089724",
+        "search_rank": 15,
+        "global_rank": 23,
+        "public_saves": 0
+      },
+      {
+        "pin_id": "4151824653630311",
+        "search_rank": 16,
+        "global_rank": 11,
+        "public_saves": 15
+      },
+      {
+        "pin_id": "63613413482109747",
+        "search_rank": 17,
+        "global_rank": 10,
+        "public_saves": 18
+      },
+      {
+        "pin_id": "1000502873496425112",
+        "search_rank": 18,
+        "global_rank": 24,
+        "public_saves": 0
+      },
+      {
+        "pin_id": "9851692934803772",
+        "search_rank": 19,
+        "global_rank": 2,
+        "public_saves": 424
+      },
+      {
+        "pin_id": "15199717492217272",
+        "search_rank": 20,
+        "global_rank": 6,
+        "public_saves": 69
+      },
+      {
+        "pin_id": "50806302043223552",
+        "search_rank": 21,
+        "global_rank": 14,
+        "public_saves": 7
+      },
+      {
+        "pin_id": "626563366957926897",
+        "search_rank": 22,
+        "global_rank": 25,
+        "public_saves": 0
+      },
+      {
+        "pin_id": "37647346881488100",
+        "search_rank": 23,
+        "global_rank": 9,
+        "public_saves": 23
+      },
+      {
+        "pin_id": "32299322324322319",
+        "search_rank": 24,
+        "global_rank": 16,
+        "public_saves": 6
+      },
+      {
+        "pin_id": "113575221849605761",
+        "search_rank": 25,
+        "global_rank": 17,
+        "public_saves": 4
+      }
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-12T14:04:37.609Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-12T17:02:33.915Z",
+      "note": "Reviewed 25 organic Pinterest results, public repins and eight local images; selected unique fashion reference"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-12T17:02:33.954Z",
+      "note": "Original fashion concept and Musya copy prepared"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-12T17:02:33.955Z",
+      "note": "Created original vertical fashion image with ImageGen"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-12T17:02:41.295Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-12T17:02:41.566Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

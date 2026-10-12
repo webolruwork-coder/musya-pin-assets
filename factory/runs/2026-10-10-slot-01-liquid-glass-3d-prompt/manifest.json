@@ -2,24 +2,39 @@
   "version": 1,
   "id": "2026-10-10-slot-01-liquid-glass-3d-prompt",
   "created_at": "2026-10-08T21:22:37.917Z",
-  "updated_at": "2026-10-08T21:22:37.918Z",
-  "status": "queued",
+  "updated_at": "2026-10-09T01:21:20.693Z",
+  "status": "validated",
   "search": {
     "query": "liquid glass 3D prompt",
-    "result_limit": 10,
-    "reference_urls": [],
-    "reference_fingerprints": [],
-    "pattern_summary": ""
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/281543726330631/"
+    ],
+    "reference_fingerprints": [
+      "d6653466e471353b6ed1f0f04d8a0d56f4e51a77541c6eb815fffea77da6f272"
+    ],
+    "pattern_summary": "Высокий вертикальный hero-shot с одним центральным визуальным акцентом, очень чистым полем, тонким разделителем и крупной чистой типографикой в нижней зоне."
   },
   "content": {
-    "prompt_ru": "",
-    "title_ru": "",
-    "description_ru": "",
-    "keywords_ru": []
+    "prompt_ru": "Прозрачная лента из жидкого стекла обнимает матовую сиреневую сферу; мягкий студийный свет, каустики, тёплый фон.",
+    "title_ru": "Промпт: скульптура из жидкого стекла",
+    "description_ru": "Создайте воздушную 3D-скульптуру с реалистичным преломлением света. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "жидкое стекло",
+      "3D-скульптура",
+      "AI-арт",
+      "генерация изображений",
+      "студийный свет",
+      "каустики",
+      "абстрактный дизайн"
+    ],
+    "layout": "bottom_dark_editorial"
   },
   "assets": {
-    "source_image": "",
-    "final_image": "",
+    "source_image": "factory/runs/2026-10-10-slot-01-liquid-glass-3d-prompt/source.png",
+    "final_image": "factory/runs/2026-10-10-slot-01-liquid-glass-3d-prompt/pin.png",
     "media_url": ""
   },
   "publishing": {
@@ -33,15 +48,28 @@
     "metricool_post_id": null
   },
   "validation": {
-    "passed": false,
-    "checked_at": null,
-    "checks": {},
+    "passed": true,
+    "checked_at": "2026-10-09T01:21:20.693Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
     "errors": []
   },
   "approval": {
-    "status": "pending",
-    "reviewed_at": null,
-    "note": ""
+    "status": "approved",
+    "reviewed_at": "2026-10-09T01:21:20.693Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
   },
   "production": {
     "target_date": "2026-10-10",
@@ -50,25 +78,72 @@
     "pillar": "3D и материалы"
   },
   "research_evidence": {
-    "source": "",
-    "date_range": "",
-    "posts_analyzed": 0,
-    "reference_images_reviewed": 0,
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-10/global-prompt-search.json",
+    "date_range": "2026-09-09 to 2026-10-09 Europe/Moscow; Metricool Pinterest post analytics used as secondary validation",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 3,
     "selected_reference": {
-      "url": "",
-      "title": "",
+      "url": "https://www.pinterest.com/pin/281543726330631/",
+      "title": "Direção da arte | Web minimalista, Cartazes de campanha, Estetica",
+      "public_saves": 1211,
+      "search_rank": 25,
       "impressions": null,
       "saves": null,
       "clicks": null
     },
-    "transferred_features": [],
-    "deliberate_changes": []
+    "transferred_features": [
+      "Вертикальная предметная композиция с ясно читаемым главным объектом",
+      "Светлый нейтральный фон и мягкий рассеянный студийный свет",
+      "Воздушная пастельная палитра с точечными лиловыми акцентами",
+      "Крупная чистая нижняя типографическая зона для промпта"
+    ],
+    "deliberate_changes": [
+      "Вместо портрета и split-screen создана оригинальная одиночная абстрактная скульптура из жидкого стекла со сферой; изменены объект, геометрия, материал, свет и весь текст.",
+      "Вторичный сигнал Metricool: предметный пин от 2026-09-22 имеет 197 показов, 1 сохранение и 5 кликов; это не заменяет публичные сохранения выбранного референса."
+    ]
   },
   "history": [
     {
       "status": "queued",
       "at": "2026-10-08T21:22:37.917Z",
       "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-09T01:18:45.146Z",
+      "note": "Captured and analyzed 25 organic pins from Pinterest BaseSearchResource; public saves recorded in research report"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-09T01:18:45.198Z",
+      "note": "Selected an original liquid-glass variation from measured global Pinterest pattern; Metricool 30-day post analytics recorded as secondary check"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-09T01:18:45.227Z",
+      "note": "Generated original source artwork with ImageGen; no reference artwork copied"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-09T01:18:47.068Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "needs_review",
+      "at": "2026-10-09T01:18:47.193Z",
+      "note": "One or more references were already used by another run"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-09T01:21:20.693Z",
+      "note": "Review issue fixed"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-09T01:21:20.693Z",
+      "note": "Automated manifest and image checks passed"
     }
   ]
 }

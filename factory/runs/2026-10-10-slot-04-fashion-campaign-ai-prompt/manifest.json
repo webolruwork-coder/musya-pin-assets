@@ -2,24 +2,40 @@
   "version": 1,
   "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-10-08T21:22:37.926Z",
-  "status": "queued",
+  "updated_at": "2026-10-09T15:06:13.185Z",
+  "status": "validated",
   "search": {
     "query": "fashion campaign AI prompt",
-    "result_limit": 10,
-    "reference_urls": [],
-    "reference_fingerprints": [],
-    "pattern_summary": ""
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/28921622603095900/"
+    ],
+    "reference_fingerprints": [
+      "7f5c12aec5dfe28463fe622103688fd9f2d15cfe83b82454e7fe81118e8d054f"
+    ],
+    "pattern_summary": "Из 25 organic результатов глобальной выдачи «промпт» выбран свободный референс #24: вертикальный фотосториборд 3×3 с одним повторяющимся героем, разными крупностями и единым тёплым светом. Его публичный счётчик pinterestapp:repins равен 3; глобальное место по сохранениям — 17. Более сохранённые релевантные референсы уже используются другими manifests.",
+    "global_query": "промпт"
   },
   "content": {
-    "prompt_ru": "",
-    "title_ru": "",
-    "description_ru": "",
-    "keywords_ru": []
+    "prompt_ru": "Создай модный фотосториборд 3×3: одна модель в кобальтовом кейпе на янтарной станции метро. Девять ракурсов от общего плана до фактуры ткани, единый свет и движение прохожих.",
+    "title_ru": "Промпт: 9 кадров модной кампании",
+    "description_ru": "Создайте модную кампанию из девяти кадров: один образ, разные ракурсы и цельный свет. Откройте генератор и сделайте свою серию: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "модная кампания",
+      "fashion storyboard",
+      "AI-фотография",
+      "фотосториборд 3×3",
+      "серия кадров",
+      "съёмка одежды",
+      "кинематографичный свет",
+      "генерация изображений"
+    ],
+    "layout": "bottom_dark_editorial"
   },
   "assets": {
-    "source_image": "",
-    "final_image": "",
+    "source_image": "factory/runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/source-v2.png",
+    "final_image": "factory/runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/pin-v2.png",
     "media_url": ""
   },
   "publishing": {
@@ -33,15 +49,28 @@
     "metricool_post_id": null
   },
   "validation": {
-    "passed": false,
-    "checked_at": null,
-    "checks": {},
+    "passed": true,
+    "checked_at": "2026-10-09T15:06:13.184Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
     "errors": []
   },
   "approval": {
-    "status": "pending",
-    "reviewed_at": null,
-    "note": ""
+    "status": "approved",
+    "reviewed_at": "2026-10-09T15:06:13.185Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
   },
   "production": {
     "target_date": "2026-10-10",
@@ -50,25 +79,83 @@
     "pillar": "Мода"
   },
   "research_evidence": {
-    "source": "",
-    "date_range": "",
-    "posts_analyzed": 0,
-    "reference_images_reviewed": 0,
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-10/global-prompt-search.json",
+    "date_range": "2026-09-09 to 2026-10-09 Europe/Moscow; Metricool Pinterest posts analytics retrieved once in this producer run as secondary validation",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 5,
+    "reviewed_image_ranks": [
+      14,
+      18,
+      7,
+      25,
+      24
+    ],
     "selected_reference": {
-      "url": "",
-      "title": "",
+      "url": "https://www.pinterest.com/pin/28921622603095900/",
+      "title": "Инфографик бутылки для тренировок — промпт раскадровка | Soziale medien, Werbedesign",
+      "image_sha256": "cbd009e44dec1cafbbf4efd7b34f560c0a6adc5a07baf415c5ea07393057a6bc",
+      "public_saves": 3,
+      "save_metric": "pinterestapp:repins",
+      "search_rank": 24,
+      "global_rank_by_saves": 17,
       "impressions": null,
       "saves": null,
       "clicks": null
     },
-    "transferred_features": [],
-    "deliberate_changes": []
+    "transferred_features": [
+      "Строгая сетка 3×3 из девяти фотографических кадров",
+      "Один узнаваемый объект кампании повторяется во всех кадрах",
+      "Смена общего, среднего и крупного планов показывает материал и движение",
+      "Единый тёплый свет и небольшие чёрные разделители связывают серию"
+    ],
+    "deliberate_changes": [
+      "Вместо спортивной бутылки и теннисного корта создана оригинальная fashion-серия с одной взрослой моделью в кобальтовом кейпе на янтарной станции метро; изменены объект, локация, ракурсы, палитра и подпись.",
+      "Не копируются логотипы, надписи и конкретные кадры референса; девять фотографических панелей сгенерированы с нуля через ImageGen.",
+      "Вторичный Metricool за 30 дней: собственный портретный пин получил 481 показ, 6 сохранений и 16 кликов. Это лишь проверка интереса к выразительному персонажу; данных об эффективности именно сетки 3×3 у собственного аккаунта нет."
+    ]
   },
   "history": [
     {
       "status": "queued",
       "at": "2026-10-08T21:22:37.926Z",
       "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-09T15:02:12.583Z",
+      "note": "Used daily 25-result global Pinterest snapshot; inspected 4 images and recorded public repins"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-09T15:02:12.603Z",
+      "note": "Adapted measured motion-blur fashion pattern into original cobalt and amber campaign"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-09T15:02:58.098Z",
+      "note": "Created original vertical foundation via built-in ImageGen; inspected composition and anatomy"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-09T15:03:00.678Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "needs_review",
+      "at": "2026-10-09T15:04:03.650Z",
+      "note": "One or more references were already used by another run"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-09T15:06:04.672Z",
+      "note": "Fixed duplicate reference: reworked research and concept around unique 3x3 storyboard; regenerated image and rendered new card"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-09T15:06:13.185Z",
+      "note": "Automated manifest and image checks passed"
     }
   ]
 }

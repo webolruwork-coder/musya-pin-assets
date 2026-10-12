@@ -2,24 +2,39 @@
   "version": 1,
   "id": "2026-10-10-slot-02-ai-product-photography-prompt",
   "created_at": "2026-10-08T21:22:37.925Z",
-  "updated_at": "2026-10-08T21:22:37.925Z",
-  "status": "queued",
+  "updated_at": "2026-10-09T13:21:07.890Z",
+  "status": "validated",
   "search": {
     "query": "AI product photography prompt",
-    "result_limit": 10,
-    "reference_urls": [],
-    "reference_fingerprints": [],
-    "pattern_summary": ""
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/15199717492217272/"
+    ],
+    "reference_fingerprints": [
+      "6157548714c5b10cdadf7e5b3d5891bb2d9211c0242b144ef0c6eb66ebb48d54"
+    ],
+    "pattern_summary": "В верхней части глобальной выдачи повторяется высокий чистый кадр с одним доминирующим hero-объектом, большой зоной отрицательного пространства и отчётливо отделённой типографической зоной."
   },
   "content": {
-    "prompt_ru": "",
-    "title_ru": "",
-    "description_ru": "",
-    "keywords_ru": []
+    "prompt_ru": "Рекламная предметная съёмка: сапфировый флакон сыворотки на волне тёмного стекла, холодный боковой свет, капли воды, чистый фон.",
+    "title_ru": "Промпт для предметной AI-съёмки",
+    "description_ru": "Создайте выразительную предметную съёмку с отражениями, стеклом и водой. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "предметная съёмка",
+      "AI product photography",
+      "рекламная съёмка",
+      "сыворотка",
+      "стекло",
+      "студийный свет",
+      "генерация изображений"
+    ],
+    "layout": "bottom_dark_editorial"
   },
   "assets": {
-    "source_image": "",
-    "final_image": "",
+    "source_image": "factory/runs/2026-10-10-slot-02-ai-product-photography-prompt/source.png",
+    "final_image": "factory/runs/2026-10-10-slot-02-ai-product-photography-prompt/pin.png",
     "media_url": ""
   },
   "publishing": {
@@ -33,15 +48,28 @@
     "metricool_post_id": null
   },
   "validation": {
-    "passed": false,
-    "checked_at": null,
-    "checks": {},
+    "passed": true,
+    "checked_at": "2026-10-09T13:21:07.889Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
     "errors": []
   },
   "approval": {
-    "status": "pending",
-    "reviewed_at": null,
-    "note": ""
+    "status": "approved",
+    "reviewed_at": "2026-10-09T13:21:07.890Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
   },
   "production": {
     "target_date": "2026-10-10",
@@ -50,25 +78,72 @@
     "pillar": "Предметная съёмка"
   },
   "research_evidence": {
-    "source": "",
-    "date_range": "",
-    "posts_analyzed": 0,
-    "reference_images_reviewed": 0,
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-10/global-prompt-search.json",
+    "date_range": "2026-09-09 to 2026-10-09 Europe/Moscow; Metricool 30-day analytics captured once for the day in factory/research/2026-10-09/top-patterns.json and used as secondary validation",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 4,
     "selected_reference": {
-      "url": "",
-      "title": "",
+      "url": "https://www.pinterest.com/pin/15199717492217272/",
+      "title": "Промпт для генерации Nano banana | Creative product ads, Skin care product photography creative, Beauty product ads",
       "impressions": null,
-      "saves": null,
-      "clicks": null
+      "saves": 69,
+      "clicks": null,
+      "public_saves": 69,
+      "search_rank": 23,
+      "save_metric": "pinterestapp:repins"
     },
-    "transferred_features": [],
-    "deliberate_changes": []
+    "transferred_features": [
+      "Один доминирующий визуальный акцент в вертикальном кадре",
+      "Чистое светлое или нейтральное поле вокруг объекта",
+      "Чётко отделённая крупная типографическая зона для промпта"
+    ],
+    "deliberate_changes": [
+      "Создана оригинальная предметная сцена без лица: сапфировый флакон сыворотки на волне тёмного стекла вместо розового флакона на стеклянной полке с вишнями; изменены сюжет, палитра, геометрия, камера, свет и все надписи.",
+      "Вторичный сигнал Metricool: собственный пин «Serum and cream textures» за 30 дней получил 18 416 показов, 30 сохранений и 88 кликов; он подтверждает интерес к косметическим текстурам, но не заменяет публичные сохранения референса."
+    ]
   },
   "history": [
     {
       "status": "queued",
       "at": "2026-10-08T21:22:37.925Z",
       "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-09T13:17:07.554Z",
+      "note": ""
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-09T13:17:07.611Z",
+      "note": ""
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-09T13:18:16.286Z",
+      "note": ""
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-09T13:18:18.845Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "needs_review",
+      "at": "2026-10-09T13:18:19.111Z",
+      "note": "One or more references were already used by another run; Analyze at least 25 global Pinterest results for “промпт”, visually inspect at least 3 references, and record public saves plus search rank for the selected reference"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-09T13:19:04.367Z",
+      "note": "Review issue fixed"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-09T13:19:04.367Z",
+      "note": "Automated manifest and image checks passed"
     }
   ]
 }
