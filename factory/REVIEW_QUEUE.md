@@ -7,12 +7,12 @@ Production-пины автоматически одобряются только
 ## Промпт: город внутри времени — создать в Musya
 
 **Решение:** Одобрен<br>
-**Статус:** `validated`<br>
+**Статус:** `scheduled`<br>
 **Слот:** 2026-10-13 · 08:30 · Сюрреализм<br>
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Cyberpunk Промпт: Футуристичный макро-кадр | Генеративное искусство, Интерактивный дизайн, Искусственный интеллект — — показов, — сохранений
 
-![2026-10-13-slot-05-surreal-cinematic-ai-prompt](runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/pin.png)
+![2026-10-13-slot-05-surreal-cinematic-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-05-surreal-cinematic-ai-prompt.png)
 
 [Открыть manifest](runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/manifest.json)
 
@@ -21,12 +21,12 @@ Production-пины автоматически одобряются только
 ## Промпт для модной кампании в Musya
 
 **Решение:** Одобрен<br>
-**Статус:** `validated`<br>
+**Статус:** `scheduled`<br>
 **Слот:** 2026-10-13 · 07:00 · Мода<br>
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Здесь могла быть ваша реклама | Жанровая фотография, Современный плакат, Графические дизайнеры — — показов, — сохранений
 
-![2026-10-13-slot-04-fashion-campaign-ai-prompt](runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/pin.png)
+![2026-10-13-slot-04-fashion-campaign-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-04-fashion-campaign-ai-prompt.png)
 
 [Открыть manifest](runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/manifest.json)
 
@@ -35,12 +35,12 @@ Production-пины автоматически одобряются только
 ## Промпт: солнечный editorial-портрет в Musya
 
 **Решение:** Одобрен<br>
-**Статус:** `validated`<br>
+**Статус:** `scheduled`<br>
 **Слот:** 2026-10-13 · 05:30 · Портрет<br>
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** ПРОМПТ ПО КНОПКЕ ⚡ — — показов, — сохранений
 
-![2026-10-13-slot-03-editorial-portrait-ai-prompt](runs/2026-10-13-slot-03-editorial-portrait-ai-prompt/pin.png)
+![2026-10-13-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-03-editorial-portrait-ai-prompt.png)
 
 [Открыть manifest](runs/2026-10-13-slot-03-editorial-portrait-ai-prompt/manifest.json)
 
@@ -49,12 +49,12 @@ Production-пины автоматически одобряются только
 ## Промпт: создай рекламный кадр в Musya
 
 **Решение:** Одобрен<br>
-**Статус:** `validated`<br>
+**Статус:** `scheduled`<br>
 **Слот:** 2026-10-13 · 04:00 · Предметная съёмка<br>
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Ирина | Инфографика WB / OZON / Я.Маркет | Webdesign, Photoshop, Vettige huid — — показов, — сохранений
 
-![2026-10-13-slot-02-ai-product-photography-prompt](runs/2026-10-13-slot-02-ai-product-photography-prompt/pin.png)
+![2026-10-13-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-02-ai-product-photography-prompt.png)
 
 [Открыть manifest](runs/2026-10-13-slot-02-ai-product-photography-prompt/manifest.json)
 
@@ -63,12 +63,12 @@ Production-пины автоматически одобряются только
 ## Промпт: стеклянная орхидея в 3D
 
 **Решение:** Одобрен<br>
-**Статус:** `validated`<br>
+**Статус:** `scheduled`<br>
 **Слот:** 2026-10-13 · 02:30 · 3D и материалы<br>
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Глянцевая 3D-кукла с Вашим лицом | Промпт Nano Banana | tg: jl_dsgn | 3d дизайн, Винтажный логотип, Цифровое искусство — — показов, — сохранений
 
-![2026-10-13-slot-01-liquid-glass-3d-prompt](runs/2026-10-13-slot-01-liquid-glass-3d-prompt/pin.png)
+![2026-10-13-slot-01-liquid-glass-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-01-liquid-glass-3d-prompt.png)
 
 [Открыть manifest](runs/2026-10-13-slot-01-liquid-glass-3d-prompt/manifest.json)
 
@@ -152,7 +152,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Промпт для midjorney | Генерации для WB и OZON | Инфографика 3d, Промты, Маркетплейсы — 4 244 показов, 12 сохранений
 
-![2026-10-09-slot-15-trending-ai-image-prompt](runs/2026-10-09-slot-15-trending-ai-image-prompt/pin.png)
+![2026-10-09-slot-15-trending-ai-image-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-15-trending-ai-image-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-15-trending-ai-image-prompt/manifest.json)
 
@@ -166,7 +166,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Profilo | Creativo, Lightroom — 1 081 показов, 2 сохранений
 
-![2026-10-09-slot-13-inflatable-soft-sculpture-prompt](runs/2026-10-09-slot-13-inflatable-soft-sculpture-prompt/pin.png)
+![2026-10-09-slot-13-inflatable-soft-sculpture-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-13-inflatable-soft-sculpture-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-13-inflatable-soft-sculpture-prompt/manifest.json)
 
@@ -180,7 +180,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Промпт для дорогой женской аватарки с мягким сиянием кожи | Леди-босс, Леди ди, Лица — 20 120 показов, 107 сохранений
 
-![2026-10-09-slot-14-minimal-studio-still-life-prompt](runs/2026-10-09-slot-14-minimal-studio-still-life-prompt/pin.png)
+![2026-10-09-slot-14-minimal-studio-still-life-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-14-minimal-studio-still-life-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-14-minimal-studio-still-life-prompt/manifest.json)
 
@@ -194,7 +194,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** От линии к живому портрету: mixed-media промт для лица | Realistic sketch prompt, Mixed media art sketches, Charcoal drawing prompt — 2 653 показов, 18 сохранений
 
-![2026-10-09-slot-12-skincare-texture-macro-prompt](runs/2026-10-09-slot-12-skincare-texture-macro-prompt/pin.png)
+![2026-10-09-slot-12-skincare-texture-macro-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-12-skincare-texture-macro-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-12-skincare-texture-macro-prompt/manifest.json)
 
@@ -208,7 +208,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Улучши свой Prompt | Взрослые фотосессии, Зеленая природа, Компьютерные уроки — 5 140 показов, 21 сохранений
 
-![2026-10-09-slot-11-dreamlike-architecture-ai-prompt](runs/2026-10-09-slot-11-dreamlike-architecture-ai-prompt/pin.png)
+![2026-10-09-slot-11-dreamlike-architecture-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-11-dreamlike-architecture-ai-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-11-dreamlike-architecture-ai-prompt/manifest.json)
 
@@ -222,7 +222,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Cosmetici | Profilo, Marketing — 3 451 показов, 51 сохранений
 
-![2026-10-09-slot-10-avant-garde-fashion-prompt](runs/2026-10-09-slot-10-avant-garde-fashion-prompt/pin.png)
+![2026-10-09-slot-10-avant-garde-fashion-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-10-avant-garde-fashion-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-10-avant-garde-fashion-prompt/manifest.json)
 
@@ -236,7 +236,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** She Shapes | Skincare photography creative, Skincare photography ideas at home, Skincare campaign ideas — 4 713 показов, 35 сохранений
 
-![2026-10-09-slot-08-luxury-product-advertising-prompt](runs/2026-10-09-slot-08-luxury-product-advertising-prompt/pin.png)
+![2026-10-09-slot-08-luxury-product-advertising-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-08-luxury-product-advertising-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-08-luxury-product-advertising-prompt/manifest.json)
 
@@ -250,7 +250,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Забирай промт по ссылке жми ➜ прейти на сайт и забирай | Промпт фотосессия, Портрет мужской, Промт для фотосессии — 3 698 показов, 32 сохранений
 
-![2026-10-09-slot-09-cinematic-character-portrait-prompt](runs/2026-10-09-slot-09-cinematic-character-portrait-prompt/pin.png)
+![2026-10-09-slot-09-cinematic-character-portrait-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-09-cinematic-character-portrait-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-09-cinematic-character-portrait-prompt/manifest.json)
 
@@ -264,7 +264,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Beauty products post design ideas | Promp product design, Product photoshop, Skincare creative ads design — 16 587 показов, 129 сохранений
 
-![2026-10-09-slot-06-beauty-cosmetic-photography-prompt](runs/2026-10-09-slot-06-beauty-cosmetic-photography-prompt/pin.png)
+![2026-10-09-slot-06-beauty-cosmetic-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-06-beauty-cosmetic-photography-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-06-beauty-cosmetic-photography-prompt/manifest.json)
 
@@ -278,7 +278,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Heysasshh • нейросети • обучение | 3d-фигура, Генеративное искусство, Художественные студии — 34 265 показов, 128 сохранений
 
-![2026-10-09-slot-07-chrome-translucent-3d-prompt](runs/2026-10-09-slot-07-chrome-translucent-3d-prompt/pin.png)
+![2026-10-09-slot-07-chrome-translucent-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-07-chrome-translucent-3d-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-07-chrome-translucent-3d-prompt/manifest.json)
 
@@ -292,7 +292,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** 재미있는 광고 | 향수, 프로모션, 화장품 — 13 216 показов, 128 сохранений
 
-![2026-10-09-slot-05-surreal-cinematic-ai-prompt](runs/2026-10-09-slot-05-surreal-cinematic-ai-prompt/pin.png)
+![2026-10-09-slot-05-surreal-cinematic-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-05-surreal-cinematic-ai-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-05-surreal-cinematic-ai-prompt/manifest.json)
 
@@ -306,7 +306,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** The north face photography | The north face poster, The north face advertising campaign, Editing promt — 5 186 показов, 21 сохранений
 
-![2026-10-09-slot-04-fashion-campaign-ai-prompt](runs/2026-10-09-slot-04-fashion-campaign-ai-prompt/pin.png)
+![2026-10-09-slot-04-fashion-campaign-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-04-fashion-campaign-ai-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-04-fashion-campaign-ai-prompt/manifest.json)
 
@@ -320,7 +320,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Нейро – качалка | Промты для нейросетей | Modeling poster, Campaign poster design, Promoting campaign — 4 990 показов, 18 сохранений
 
-![2026-10-09-slot-03-editorial-portrait-ai-prompt](runs/2026-10-09-slot-03-editorial-portrait-ai-prompt/pin.png)
+![2026-10-09-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-03-editorial-portrait-ai-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-03-editorial-portrait-ai-prompt/manifest.json)
 
@@ -334,7 +334,7 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Product shooting in nature | Skincare product photography outdoors, Beauty product photography outdoor, Elegant beauty product photography — 18 416 показов, 30 сохранений
 
-![2026-10-09-slot-02-ai-product-photography-prompt](runs/2026-10-09-slot-02-ai-product-photography-prompt/pin.png)
+![2026-10-09-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-02-ai-product-photography-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-02-ai-product-photography-prompt/manifest.json)
 
@@ -348,6 +348,6 @@ Production-пины автоматически одобряются только
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Промпт Nano Banana Pro - нейрофотосессия товара, косметика, 8 марта | Idee di marketing, Idee per confezioni, Cosmetici — 47 609 показов, 173 сохранений
 
-![2026-10-09-slot-01-liquid-glass-3d-prompt](runs/2026-10-09-slot-01-liquid-glass-3d-prompt/pin.png)
+![2026-10-09-slot-01-liquid-glass-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-01-liquid-glass-3d-prompt.png)
 
 [Открыть manifest](runs/2026-10-09-slot-01-liquid-glass-3d-prompt/manifest.json)

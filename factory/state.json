@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-12T21:11:25.755Z",
+  "updated_at": "2026-10-12T21:14:10.621Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -261,42 +261,42 @@
     {
       "id": "2026-10-13-slot-01-liquid-glass-3d-prompt",
       "manifest": "factory/runs/2026-10-13-slot-01-liquid-glass-3d-prompt/manifest.json",
-      "status": "validated",
-      "scheduled_at": null,
-      "metricool_post_id": null,
-      "updated_at": "2026-10-12T21:11:25.006Z"
+      "status": "scheduled",
+      "scheduled_at": "2026-10-13T02:30:00+03:00",
+      "metricool_post_id": "394393948",
+      "updated_at": "2026-10-12T21:14:00.296Z"
     },
     {
       "id": "2026-10-13-slot-02-ai-product-photography-prompt",
       "manifest": "factory/runs/2026-10-13-slot-02-ai-product-photography-prompt/manifest.json",
-      "status": "validated",
-      "scheduled_at": null,
-      "metricool_post_id": null,
-      "updated_at": "2026-10-12T21:11:25.184Z"
+      "status": "scheduled",
+      "scheduled_at": "2026-10-13T04:00:00+03:00",
+      "metricool_post_id": "394394227",
+      "updated_at": "2026-10-12T21:14:08.211Z"
     },
     {
       "id": "2026-10-13-slot-03-editorial-portrait-ai-prompt",
       "manifest": "factory/runs/2026-10-13-slot-03-editorial-portrait-ai-prompt/manifest.json",
-      "status": "validated",
-      "scheduled_at": null,
-      "metricool_post_id": null,
-      "updated_at": "2026-10-12T21:11:25.382Z"
+      "status": "scheduled",
+      "scheduled_at": "2026-10-13T05:30:00+03:00",
+      "metricool_post_id": "394394239",
+      "updated_at": "2026-10-12T21:14:09.117Z"
     },
     {
       "id": "2026-10-13-slot-04-fashion-campaign-ai-prompt",
       "manifest": "factory/runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/manifest.json",
-      "status": "validated",
-      "scheduled_at": null,
-      "metricool_post_id": null,
-      "updated_at": "2026-10-12T21:11:25.566Z"
+      "status": "scheduled",
+      "scheduled_at": "2026-10-13T07:00:00+03:00",
+      "metricool_post_id": "394394242",
+      "updated_at": "2026-10-12T21:14:09.866Z"
     },
     {
       "id": "2026-10-13-slot-05-surreal-cinematic-ai-prompt",
       "manifest": "factory/runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/manifest.json",
-      "status": "validated",
-      "scheduled_at": null,
-      "metricool_post_id": null,
-      "updated_at": "2026-10-12T21:11:25.746Z"
+      "status": "scheduled",
+      "scheduled_at": "2026-10-13T08:30:00+03:00",
+      "metricool_post_id": "394394249",
+      "updated_at": "2026-10-12T21:14:10.614Z"
     },
     {
       "id": "2026-10-13-slot-06-beauty-cosmetic-photography-prompt",

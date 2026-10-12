@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-13-slot-01-liquid-glass-3d-prompt",
   "created_at": "2026-10-12T14:04:37.598Z",
-  "updated_at": "2026-10-12T21:11:25.006Z",
-  "status": "validated",
+  "updated_at": "2026-10-12T21:14:00.296Z",
+  "status": "scheduled",
   "search": {
     "query": "liquid glass 3D prompt",
     "global_query": "промпт",
@@ -45,8 +45,8 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-10-13T02:30:00+03:00",
+    "metricool_post_id": "394393948"
   },
   "validation": {
     "passed": true,
@@ -145,6 +145,16 @@
       "status": "validated",
       "at": "2026-10-12T14:08:30.533Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-12T21:12:42.628Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-01-liquid-glass-3d-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-12T21:14:00.295Z",
+      "note": "Metricool post 394393948 scheduled for 2026-10-13T02:30:00+03:00"
     }
   ]
 }

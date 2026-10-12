@@ -45,7 +45,7 @@ function approvalLabel(manifest) {
 }
 
 function card(manifest) {
-  const imagePath = relativeWebPath(REVIEW_DIR, manifest.assets.final_image);
+  const imagePath = manifest.assets.media_url || relativeWebPath(REVIEW_DIR, manifest.assets.final_image);
   const reference = manifest.research_evidence?.selected_reference || {};
   const transferred = manifest.research_evidence?.transferred_features || [];
   const changes = manifest.research_evidence?.deliberate_changes || [];
@@ -60,7 +60,8 @@ function card(manifest) {
       <p class="description">${escapeHtml(manifest.content.description_ru)}</p>
       <dl>${manifest.production ? `
         <div><dt>Слот</dt><dd>${escapeHtml(manifest.production.target_date)} · ${escapeHtml(manifest.production.planned_at_local?.slice(11, 16))} · ${escapeHtml(manifest.production.pillar)}</dd></div>` : ""}
-        <div><dt>Куда ведёт</dt><dd><a href="${escapeHtml(manifest.publishing.target_url)}">${escapeHtml(manifest.publishing.target_url)}</a></dd></div>
+        <div><dt>Куда ведёт</dt><dd><a href="${escapeHtml(manifest.publishing.target_url)}">${escapeHtml(manifest.publishing.target_url)}</a></dd></div>${manifest.publishing.metricool_post_id ? `
+        <div><dt>Metricool post ID</dt><dd>${escapeHtml(manifest.publishing.metricool_post_id)}</dd></div>` : ""}
         <div><dt>Основной референс</dt><dd><a href="${escapeHtml(reference.url)}">${escapeHtml(reference.title || reference.url || "—")}</a></dd></div>
         <div><dt>Результат референса</dt><dd>${metric(reference.impressions)} показов · ${metric(reference.saves)} сохранений · ${metric(reference.clicks)} кликов</dd></div>
       </dl>
@@ -145,7 +146,7 @@ function markdown(manifests) {
       ["validated", "hosted", "scheduled", "needs_review"].includes(item.status),
   );
   const blocks = items.map((manifest) => {
-    const image = relativeWebPath(FACTORY_DIR, manifest.assets.final_image);
+    const image = manifest.assets.media_url || relativeWebPath(FACTORY_DIR, manifest.assets.final_image);
     const reference = manifest.research_evidence?.selected_reference || {};
     return `## ${manifest.content.title_ru || manifest.id}
 
