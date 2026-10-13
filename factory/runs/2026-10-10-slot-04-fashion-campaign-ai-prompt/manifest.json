@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-10-13T21:12:11.151Z",
-  "status": "scheduled",
+  "updated_at": "2026-10-13T22:11:07.514Z",
+  "status": "failed",
   "search": {
     "query": "fashion campaign AI prompt",
     "result_limit": 25,
@@ -48,9 +48,9 @@
     "scheduled_at": "2026-10-14T01:00:00+03:00",
     "metricool_post_id": "395337592",
     "metricool_uuid": "-1130978423464704756",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "checked_at": "2026-10-13T21:12:11.151Z",
+    "provider_status": "ERROR",
+    "detailedStatus": "You have reached your Metricool account limit.",
+    "checked_at": "2026-10-13T22:11:07.514Z",
     "reschedule_history": [
       {
         "previous_post_id": "395207754",
@@ -60,7 +60,8 @@
         "at": "2026-10-13T21:12:11.151Z",
         "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost with original ID and UUID"
       }
-    ]
+    ],
+    "blocked_reason": "You have reached your Metricool account limit."
   },
   "validation": {
     "passed": true,
