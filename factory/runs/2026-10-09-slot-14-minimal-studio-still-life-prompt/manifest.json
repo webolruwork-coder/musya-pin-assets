@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-09-slot-14-minimal-studio-still-life-prompt",
   "created_at": "2026-10-08T21:30:41.720Z",
-  "updated_at": "2026-10-09T00:48:05.387Z",
-  "status": "scheduled",
+  "updated_at": "2026-10-13T18:14:59.427Z",
+  "status": "published",
   "search": {
     "query": "Промпт для дорогой женской аватарки",
     "global_query": "промпт",
@@ -43,7 +43,13 @@
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
     "scheduled_at": "2026-10-09T22:25:00+03:00",
-    "metricool_post_id": "391655295"
+    "metricool_post_id": "391655295",
+    "provider_status": "PUBLISHED",
+    "detailedStatus": "Published",
+    "checked_at": "2026-10-13T18:14:59.427Z",
+    "metricool_uuid": "-946738480916576996",
+    "provider_error": null,
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204654567972"
   },
   "validation": {
     "passed": true,
@@ -140,6 +146,11 @@
       "status": "scheduled",
       "at": "2026-10-09T00:48:05.387Z",
       "note": "Metricool post 391655295 scheduled for 2026-10-09 22:25 Europe/Moscow"
+    },
+    {
+      "status": "published",
+      "at": "2026-10-13T18:14:59.427Z",
+      "note": "Confirmed PUBLISHED via Metricool; https://www.pinterest.es/pin/1152851204654567972"
     }
   ]
 }

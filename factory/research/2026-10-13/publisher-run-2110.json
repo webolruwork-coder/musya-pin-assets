@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-10-13T18:14:59.427Z",
+  "moscow_date": "2026-10-13",
+  "pinterest_connected": true,
+  "limit": 15,
+  "day_total": 9,
+  "published": 1,
+  "pending": 8,
+  "created_post_ids": [
+    395207490,
+    395207723,
+    395207737,
+    395207754
+  ],
+  "errors": [],
+  "remaining_capacity": 6,
+  "remaining_capacity_reason": "No more approved ready manifests dated today or earlier. October 14 queue is excluded.",
+  "posts": [
+    {
+      "id": 395182770,
+      "uuid": "-3976835269684739137",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654894906",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654894906",
+          "detailedStatus": "Published"
+        }
+      ],
+      "title": "Промпт: стеклянная орхидея в 3D"
+    },
+    {
+      "id": 395182923,
+      "uuid": "4799856024184965251",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "title": "Промпт: создай рекламный кадр в Musya"
+    },
+    {
+      "id": 395182931,
+      "uuid": "6985388325044962361",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "title": "Промпт: солнечный editorial-портрет в Musya"
+    },
+    {
+      "id": 395182939,
+      "uuid": "-7724322232482707544",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "title": "Промпт для модной кампании в Musya"
+    },
+    {
+      "id": 395182944,
+      "uuid": "-143631258198455715",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "title": "Промпт: город внутри времени — создать в Musya"
+    },
+    {
+      "id": 395207490,
+      "uuid": "-4542789211927197522",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "title": "Промпт: скульптура из жидкого стекла"
+    },
+    {
+      "id": 395207723,
+      "uuid": "4959186076041235036",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "title": "Промпт для предметной AI-съёмки"
+    },
+    {
+      "id": 395207737,
+      "uuid": "6596028834034238310",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "title": "Промпт для ночного editorial-портрета"
+    },
+    {
+      "id": 395207754,
+      "uuid": "-1130978423464704756",
+      "publicationDate": {
+        "dateTime": "2026-10-13T23:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "title": "Промпт: 9 кадров модной кампании"
+    }
+  ]
+}

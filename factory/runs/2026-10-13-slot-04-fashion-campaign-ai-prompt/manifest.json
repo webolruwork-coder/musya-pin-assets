@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-13-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-12T14:04:37.609Z",
-  "updated_at": "2026-10-12T21:14:09.866Z",
+  "updated_at": "2026-10-13T18:14:59.427Z",
   "status": "scheduled",
   "search": {
     "query": "fashion campaign AI prompt",
@@ -45,8 +45,13 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-13T07:00:00+03:00",
-    "metricool_post_id": "394394242"
+    "scheduled_at": "2026-10-13T21:45:00+03:00",
+    "metricool_post_id": "395182939",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "checked_at": "2026-10-13T18:14:59.427Z",
+    "metricool_uuid": "-7724322232482707544",
+    "provider_error": null
   },
   "validation": {
     "passed": true,
@@ -75,7 +80,7 @@
   "production": {
     "target_date": "2026-10-13",
     "slot_index": 4,
-    "planned_at_local": "2026-10-13T07:00:00",
+    "planned_at_local": "2026-10-13T21:45:00",
     "pillar": "Мода"
   },
   "research_evidence": {

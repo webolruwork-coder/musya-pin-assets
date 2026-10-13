@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-13-slot-05-surreal-cinematic-ai-prompt",
   "created_at": "2026-10-12T14:04:37.610Z",
-  "updated_at": "2026-10-12T21:14:10.614Z",
+  "updated_at": "2026-10-13T18:14:59.427Z",
   "status": "scheduled",
   "search": {
     "query": "surreal cinematic AI prompt",
@@ -49,8 +49,13 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-13T08:30:00+03:00",
-    "metricool_post_id": "394394249"
+    "scheduled_at": "2026-10-13T22:00:00+03:00",
+    "metricool_post_id": "395182944",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "checked_at": "2026-10-13T18:14:59.427Z",
+    "metricool_uuid": "-143631258198455715",
+    "provider_error": null
   },
   "validation": {
     "passed": true,
@@ -79,7 +84,7 @@
   "production": {
     "target_date": "2026-10-13",
     "slot_index": 5,
-    "planned_at_local": "2026-10-13T08:30:00",
+    "planned_at_local": "2026-10-13T22:00:00",
     "pillar": "Сюрреализм"
   },
   "research_evidence": {

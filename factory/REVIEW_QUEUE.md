@@ -4,45 +4,59 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт: город внутри времени — создать в Musya
+## Промпт: скульптура из жидкого стекла
 
 **Решение:** Одобрен<br>
 **Статус:** `scheduled`<br>
-**Слот:** 2026-10-13 · 08:30 · Сюрреализм<br>
+**Слот:** 2026-10-10 · 22:15 · 3D и материалы<br>
 **Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Cyberpunk Промпт: Футуристичный макро-кадр | Генеративное искусство, Интерактивный дизайн, Искусственный интеллект — — показов, — сохранений
+**Референс:** Direção da arte | Web minimalista, Cartazes de campanha, Estetica — — показов, — сохранений
 
-![2026-10-13-slot-05-surreal-cinematic-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-05-surreal-cinematic-ai-prompt.png)
+![2026-10-10-slot-01-liquid-glass-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-10-slot-01-liquid-glass-3d-prompt.png)
 
-[Открыть manifest](runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/manifest.json)
+[Открыть manifest](runs/2026-10-10-slot-01-liquid-glass-3d-prompt/manifest.json)
 
 ---
 
-## Промпт для модной кампании в Musya
+## Промпт для предметной AI-съёмки
 
 **Решение:** Одобрен<br>
 **Статус:** `scheduled`<br>
-**Слот:** 2026-10-13 · 07:00 · Мода<br>
+**Слот:** 2026-10-10 · 22:30 · Предметная съёмка<br>
 **Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Здесь могла быть ваша реклама | Жанровая фотография, Современный плакат, Графические дизайнеры — — показов, — сохранений
+**Референс:** Промпт для генерации Nano banana | Creative product ads, Skin care product photography creative, Beauty product ads — — показов, 69 сохранений
 
-![2026-10-13-slot-04-fashion-campaign-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-04-fashion-campaign-ai-prompt.png)
+![2026-10-10-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-10-slot-02-ai-product-photography-prompt.png)
 
-[Открыть manifest](runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/manifest.json)
+[Открыть manifest](runs/2026-10-10-slot-02-ai-product-photography-prompt/manifest.json)
 
 ---
 
-## Промпт: солнечный editorial-портрет в Musya
+## Промпт для ночного editorial-портрета
 
 **Решение:** Одобрен<br>
 **Статус:** `scheduled`<br>
-**Слот:** 2026-10-13 · 05:30 · Портрет<br>
+**Слот:** 2026-10-10 · 22:45 · Портрет<br>
 **Ссылка:** https://musya.app/image-generation<br>
-**Референс:** ПРОМПТ ПО КНОПКЕ ⚡ — — показов, — сохранений
+**Референс:** Случайное фото | Промты для чата гпт фото, Промпты для нейросети фотосессия, Фотография — — показов, — сохранений
 
-![2026-10-13-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-03-editorial-portrait-ai-prompt.png)
+![2026-10-10-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-10-slot-03-editorial-portrait-ai-prompt.png)
 
-[Открыть manifest](runs/2026-10-13-slot-03-editorial-portrait-ai-prompt/manifest.json)
+[Открыть manifest](runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/manifest.json)
+
+---
+
+## Промпт: 9 кадров модной кампании
+
+**Решение:** Одобрен<br>
+**Статус:** `scheduled`<br>
+**Слот:** 2026-10-10 · 23:00 · Мода<br>
+**Ссылка:** https://musya.app/image-generation<br>
+**Референс:** Инфографик бутылки для тренировок — промпт раскадровка | Soziale medien, Werbedesign — — показов, — сохранений
+
+![2026-10-10-slot-04-fashion-campaign-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-10-slot-04-fashion-campaign-ai-prompt.png)
+
+[Открыть manifest](runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/manifest.json)
 
 ---
 
@@ -50,7 +64,7 @@ Production-пины автоматически одобряются только
 
 **Решение:** Одобрен<br>
 **Статус:** `scheduled`<br>
-**Слот:** 2026-10-13 · 04:00 · Предметная съёмка<br>
+**Слот:** 2026-10-13 · 21:15 · Предметная съёмка<br>
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Ирина | Инфографика WB / OZON / Я.Маркет | Webdesign, Photoshop, Vettige huid — — показов, — сохранений
 
@@ -60,17 +74,45 @@ Production-пины автоматически одобряются только
 
 ---
 
-## Промпт: стеклянная орхидея в 3D
+## Промпт: солнечный editorial-портрет в Musya
 
 **Решение:** Одобрен<br>
 **Статус:** `scheduled`<br>
-**Слот:** 2026-10-13 · 02:30 · 3D и материалы<br>
+**Слот:** 2026-10-13 · 21:30 · Портрет<br>
 **Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Глянцевая 3D-кукла с Вашим лицом | Промпт Nano Banana | tg: jl_dsgn | 3d дизайн, Винтажный логотип, Цифровое искусство — — показов, — сохранений
+**Референс:** ПРОМПТ ПО КНОПКЕ ⚡ — — показов, — сохранений
 
-![2026-10-13-slot-01-liquid-glass-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-01-liquid-glass-3d-prompt.png)
+![2026-10-13-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-03-editorial-portrait-ai-prompt.png)
 
-[Открыть manifest](runs/2026-10-13-slot-01-liquid-glass-3d-prompt/manifest.json)
+[Открыть manifest](runs/2026-10-13-slot-03-editorial-portrait-ai-prompt/manifest.json)
+
+---
+
+## Промпт для модной кампании в Musya
+
+**Решение:** Одобрен<br>
+**Статус:** `scheduled`<br>
+**Слот:** 2026-10-13 · 21:45 · Мода<br>
+**Ссылка:** https://musya.app/image-generation<br>
+**Референс:** Здесь могла быть ваша реклама | Жанровая фотография, Современный плакат, Графические дизайнеры — — показов, — сохранений
+
+![2026-10-13-slot-04-fashion-campaign-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-04-fashion-campaign-ai-prompt.png)
+
+[Открыть manifest](runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/manifest.json)
+
+---
+
+## Промпт: город внутри времени — создать в Musya
+
+**Решение:** Одобрен<br>
+**Статус:** `scheduled`<br>
+**Слот:** 2026-10-13 · 22:00 · Сюрреализм<br>
+**Ссылка:** https://musya.app/image-generation<br>
+**Референс:** Cyberpunk Промпт: Футуристичный макро-кадр | Генеративное искусство, Интерактивный дизайн, Искусственный интеллект — — показов, — сохранений
+
+![2026-10-13-slot-05-surreal-cinematic-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-13-slot-05-surreal-cinematic-ai-prompt.png)
+
+[Открыть manifest](runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/manifest.json)
 
 ---
 
@@ -85,269 +127,3 @@ Production-пины автоматически одобряются только
 ![2026-10-10-slot-05-surreal-cinematic-ai-prompt](runs/2026-10-10-slot-05-surreal-cinematic-ai-prompt/pin.png)
 
 [Открыть manifest](runs/2026-10-10-slot-05-surreal-cinematic-ai-prompt/manifest.json)
-
----
-
-## Промпт: 9 кадров модной кампании
-
-**Решение:** Одобрен<br>
-**Статус:** `validated`<br>
-**Слот:** 2026-10-10 · 05:30 · Мода<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Инфографик бутылки для тренировок — промпт раскадровка | Soziale medien, Werbedesign — — показов, — сохранений
-
-![2026-10-10-slot-04-fashion-campaign-ai-prompt](runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/pin-v2.png)
-
-[Открыть manifest](runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/manifest.json)
-
----
-
-## Промпт для ночного editorial-портрета
-
-**Решение:** Одобрен<br>
-**Статус:** `validated`<br>
-**Слот:** 2026-10-10 · 04:00 · Портрет<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Случайное фото | Промты для чата гпт фото, Промпты для нейросети фотосессия, Фотография — — показов, — сохранений
-
-![2026-10-10-slot-03-editorial-portrait-ai-prompt](runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/pin.png)
-
-[Открыть manifest](runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/manifest.json)
-
----
-
-## Промпт для предметной AI-съёмки
-
-**Решение:** Одобрен<br>
-**Статус:** `validated`<br>
-**Слот:** 2026-10-10 · 02:30 · Предметная съёмка<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Промпт для генерации Nano banana | Creative product ads, Skin care product photography creative, Beauty product ads — — показов, 69 сохранений
-
-![2026-10-10-slot-02-ai-product-photography-prompt](runs/2026-10-10-slot-02-ai-product-photography-prompt/pin.png)
-
-[Открыть manifest](runs/2026-10-10-slot-02-ai-product-photography-prompt/manifest.json)
-
----
-
-## Промпт: скульптура из жидкого стекла
-
-**Решение:** Одобрен<br>
-**Статус:** `validated`<br>
-**Слот:** 2026-10-10 · 01:00 · 3D и материалы<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Direção da arte | Web minimalista, Cartazes de campanha, Estetica — — показов, — сохранений
-
-![2026-10-10-slot-01-liquid-glass-3d-prompt](runs/2026-10-10-slot-01-liquid-glass-3d-prompt/pin.png)
-
-[Открыть manifest](runs/2026-10-10-slot-01-liquid-glass-3d-prompt/manifest.json)
-
----
-
-## Промпт для сюрреалистичного food still life
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 23:50 · Food still life<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Промпт для midjorney | Генерации для WB и OZON | Инфографика 3d, Промты, Маркетплейсы — 4 244 показов, 12 сохранений
-
-![2026-10-09-slot-15-trending-ai-image-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-15-trending-ai-image-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-15-trending-ai-image-prompt/manifest.json)
-
----
-
-## Промпт для портрета с бликами воды
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 21:00 · Вода и свет<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Profilo | Creativo, Lightroom — 1 081 показов, 2 сохранений
-
-![2026-10-09-slot-13-inflatable-soft-sculpture-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-13-inflatable-soft-sculpture-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-13-inflatable-soft-sculpture-prompt/manifest.json)
-
----
-
-## Промпт для дорогой женской аватарки
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 22:25 · Luxury avatar<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Промпт для дорогой женской аватарки с мягким сиянием кожи | Леди-босс, Леди ди, Лица — 20 120 показов, 107 сохранений
-
-![2026-10-09-slot-14-minimal-studio-still-life-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-14-minimal-studio-still-life-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-14-minimal-studio-still-life-prompt/manifest.json)
-
----
-
-## Промпт для портрета наполовину рисунок
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 19:35 · Mixed media<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** От линии к живому портрету: mixed-media промт для лица | Realistic sketch prompt, Mixed media art sketches, Charcoal drawing prompt — 2 653 показов, 18 сохранений
-
-![2026-10-09-slot-12-skincare-texture-macro-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-12-skincare-texture-macro-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-12-skincare-texture-macro-prompt/manifest.json)
-
----
-
-## Промпт для яркого fisheye-портрета
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 18:10 · Fisheye<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Улучши свой Prompt | Взрослые фотосессии, Зеленая природа, Компьютерные уроки — 5 140 показов, 21 сохранений
-
-![2026-10-09-slot-11-dreamlike-architecture-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-11-dreamlike-architecture-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-11-dreamlike-architecture-ai-prompt/manifest.json)
-
----
-
-## Промпт для рекламы сыворотки
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 16:45 · Skincare macro<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Cosmetici | Profilo, Marketing — 3 451 показов, 51 сохранений
-
-![2026-10-09-slot-10-avant-garde-fashion-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-10-avant-garde-fashion-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-10-avant-garde-fashion-prompt/manifest.json)
-
----
-
-## Промпт для двойного концептуального портрета
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 13:55 · Concept portrait<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** She Shapes | Skincare photography creative, Skincare photography ideas at home, Skincare campaign ideas — 4 713 показов, 35 сохранений
-
-![2026-10-09-slot-08-luxury-product-advertising-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-08-luxury-product-advertising-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-08-luxury-product-advertising-prompt/manifest.json)
-
----
-
-## Промпт для кинематографичного мужского портрета
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 15:20 · Кинопортрет<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Забирай промт по ссылке жми ➜ прейти на сайт и забирай | Промпт фотосессия, Портрет мужской, Промт для фотосессии — 3 698 показов, 32 сохранений
-
-![2026-10-09-slot-09-cinematic-character-portrait-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-09-cinematic-character-portrait-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-09-cinematic-character-portrait-prompt/manifest.json)
-
----
-
-## Промпт для карточки косметического продукта
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 11:05 · Предметная съёмка<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Beauty products post design ideas | Promp product design, Product photoshop, Skincare creative ads design — 16 587 показов, 129 сохранений
-
-![2026-10-09-slot-06-beauty-cosmetic-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-06-beauty-cosmetic-photography-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-06-beauty-cosmetic-photography-prompt/manifest.json)
-
----
-
-## Промпт для мужского fashion-портрета
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 12:30 · Мужской портрет<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Heysasshh • нейросети • обучение | 3d-фигура, Генеративное искусство, Художественные студии — 34 265 показов, 128 сохранений
-
-![2026-10-09-slot-07-chrome-translucent-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-07-chrome-translucent-3d-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-07-chrome-translucent-3d-prompt/manifest.json)
-
----
-
-## Промпт для модного beauty-портрета
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 09:40 · Editorial makeup<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** 재미있는 광고 | 향수, 프로모션, 화장품 — 13 216 показов, 128 сохранений
-
-![2026-10-09-slot-05-surreal-cinematic-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-05-surreal-cinematic-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-05-surreal-cinematic-ai-prompt/manifest.json)
-
----
-
-## Промпт для outdoor-рекламы одежды
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 08:15 · Outdoor fashion<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** The north face photography | The north face poster, The north face advertising campaign, Editing promt — 5 186 показов, 21 сохранений
-
-![2026-10-09-slot-04-fashion-campaign-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-04-fashion-campaign-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-04-fashion-campaign-ai-prompt/manifest.json)
-
----
-
-## Промпт для живого крупного портрета
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 06:50 · Портрет<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Нейро – качалка | Промты для нейросетей | Modeling poster, Campaign poster design, Promoting campaign — 4 990 показов, 18 сохранений
-
-![2026-10-09-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-03-editorial-portrait-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-03-editorial-portrait-ai-prompt/manifest.json)
-
----
-
-## Промпт для beauty-кампании на природе
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 05:25 · Beauty product<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Product shooting in nature | Skincare product photography outdoors, Beauty product photography outdoor, Elegant beauty product photography — 18 416 показов, 30 сохранений
-
-![2026-10-09-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-02-ai-product-photography-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-02-ai-product-photography-prompt/manifest.json)
-
----
-
-## Промпт для рекламной съёмки косметики
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-09 · 04:00 · Косметика<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Промпт Nano Banana Pro - нейрофотосессия товара, косметика, 8 марта | Idee di marketing, Idee per confezioni, Cosmetici — 47 609 показов, 173 сохранений
-
-![2026-10-09-slot-01-liquid-glass-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-09-slot-01-liquid-glass-3d-prompt.png)
-
-[Открыть manifest](runs/2026-10-09-slot-01-liquid-glass-3d-prompt/manifest.json)

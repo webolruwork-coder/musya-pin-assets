@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-13-slot-02-ai-product-photography-prompt",
   "created_at": "2026-10-12T14:04:37.608Z",
-  "updated_at": "2026-10-12T21:14:08.211Z",
+  "updated_at": "2026-10-13T18:14:59.427Z",
   "status": "scheduled",
   "search": {
     "query": "AI product photography prompt",
@@ -44,8 +44,13 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-13T04:00:00+03:00",
-    "metricool_post_id": "394394227"
+    "scheduled_at": "2026-10-13T21:15:00+03:00",
+    "metricool_post_id": "395182923",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "checked_at": "2026-10-13T18:14:59.427Z",
+    "metricool_uuid": "4799856024184965251",
+    "provider_error": null
   },
   "validation": {
     "passed": true,
@@ -74,7 +79,7 @@
   "production": {
     "target_date": "2026-10-13",
     "slot_index": 2,
-    "planned_at_local": "2026-10-13T04:00:00",
+    "planned_at_local": "2026-10-13T21:15:00",
     "pillar": "Предметная съёмка"
   },
   "research_evidence": {
