@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-10-13T19:11:08.236Z",
-  "status": "scheduled",
+  "updated_at": "2026-10-13T20:11:19.093Z",
+  "status": "failed",
   "search": {
     "query": "fashion campaign AI prompt",
     "result_limit": 25,
@@ -48,10 +48,11 @@
     "scheduled_at": "2026-10-13T23:00:00+03:00",
     "metricool_post_id": "395207754",
     "metricool_uuid": "-1130978423464704756",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "checked_at": "2026-10-13T19:11:08.236Z",
-    "provider_error": null
+    "provider_status": "ERROR",
+    "detailedStatus": "You have reached your Metricool account limit.",
+    "checked_at": "2026-10-13T20:11:19.093Z",
+    "provider_error": "You have reached your Metricool account limit.",
+    "retry_blocked_reason": "Metricool account limit reached; wait for confirmed quota restoration, then updateScheduledPost using retained current ID and UUID."
   },
   "validation": {
     "passed": true,
@@ -172,6 +173,11 @@
       "status": "scheduled",
       "at": "2026-10-13T18:14:47.343551+00:00",
       "note": "Scheduled approved backlog via Metricool post 395207754"
+    },
+    {
+      "status": "failed",
+      "at": "2026-10-13T20:11:19.093Z",
+      "note": "Metricool 395207754: You have reached your Metricool account limit."
     }
   ]
 }
