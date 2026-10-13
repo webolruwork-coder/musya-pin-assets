@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-10-slot-01-liquid-glass-3d-prompt",
   "created_at": "2026-10-08T21:22:37.917Z",
-  "updated_at": "2026-10-09T01:21:20.693Z",
+  "updated_at": "2026-10-13T18:11:18.020Z",
   "status": "validated",
   "search": {
     "query": "liquid glass 3D prompt",
@@ -35,7 +35,7 @@
   "assets": {
     "source_image": "factory/runs/2026-10-10-slot-01-liquid-glass-3d-prompt/source.png",
     "final_image": "factory/runs/2026-10-10-slot-01-liquid-glass-3d-prompt/pin.png",
-    "media_url": ""
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-10-slot-01-liquid-glass-3d-prompt.png"
   },
   "publishing": {
     "provider": "metricool",
@@ -74,8 +74,9 @@
   "production": {
     "target_date": "2026-10-10",
     "slot_index": 1,
-    "planned_at_local": "2026-10-10T01:00:00",
-    "pillar": "3D и материалы"
+    "planned_at_local": "2026-10-13T22:15:00",
+    "pillar": "3D и материалы",
+    "original_planned_at_local": "2026-10-10T01:00:00"
   },
   "research_evidence": {
     "source": "Pinterest public global search",

@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-10-09T15:06:13.185Z",
+  "updated_at": "2026-10-13T18:11:19.291Z",
   "status": "validated",
   "search": {
     "query": "fashion campaign AI prompt",
@@ -36,7 +36,7 @@
   "assets": {
     "source_image": "factory/runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/source-v2.png",
     "final_image": "factory/runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/pin-v2.png",
-    "media_url": ""
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-10-slot-04-fashion-campaign-ai-prompt.png"
   },
   "publishing": {
     "provider": "metricool",
@@ -75,8 +75,9 @@
   "production": {
     "target_date": "2026-10-10",
     "slot_index": 4,
-    "planned_at_local": "2026-10-10T05:30:00",
-    "pillar": "Мода"
+    "planned_at_local": "2026-10-13T23:00:00",
+    "pillar": "Мода",
+    "original_planned_at_local": "2026-10-10T05:30:00"
   },
   "research_evidence": {
     "source": "Pinterest public global search",
