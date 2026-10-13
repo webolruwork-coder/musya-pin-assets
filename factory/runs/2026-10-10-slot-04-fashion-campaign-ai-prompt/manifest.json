@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-10-13T20:11:19.093Z",
-  "status": "failed",
+  "updated_at": "2026-10-13T21:12:11.151Z",
+  "status": "scheduled",
   "search": {
     "query": "fashion campaign AI prompt",
     "result_limit": 25,
@@ -45,14 +45,22 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-13T23:00:00+03:00",
-    "metricool_post_id": "395207754",
+    "scheduled_at": "2026-10-14T01:00:00+03:00",
+    "metricool_post_id": "395337592",
     "metricool_uuid": "-1130978423464704756",
-    "provider_status": "ERROR",
-    "detailedStatus": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-13T20:11:19.093Z",
-    "provider_error": "You have reached your Metricool account limit.",
-    "retry_blocked_reason": "Metricool account limit reached; wait for confirmed quota restoration, then updateScheduledPost using retained current ID and UUID."
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "checked_at": "2026-10-13T21:12:11.151Z",
+    "reschedule_history": [
+      {
+        "previous_post_id": "395207754",
+        "post_id": "395337592",
+        "previous_scheduled_at": "2026-10-13T23:00:00+03:00",
+        "scheduled_at": "2026-10-14T01:00:00+03:00",
+        "at": "2026-10-13T21:12:11.151Z",
+        "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost with original ID and UUID"
+      }
+    ]
   },
   "validation": {
     "passed": true,
@@ -81,7 +89,7 @@
   "production": {
     "target_date": "2026-10-10",
     "slot_index": 4,
-    "planned_at_local": "2026-10-13T23:00:00",
+    "planned_at_local": "2026-10-14T01:00:00",
     "pillar": "Мода",
     "original_planned_at_local": "2026-10-10T05:30:00"
   },
@@ -178,6 +186,11 @@
       "status": "failed",
       "at": "2026-10-13T20:11:19.093Z",
       "note": "Metricool 395207754: You have reached your Metricool account limit."
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-13T21:12:11.151Z",
+      "note": "Rescheduled overdue ERROR post using existing ID and UUID; saved replacement ID 395337592"
     }
   ]
 }
