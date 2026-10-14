@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
   "created_at": "2026-10-08T21:22:37.925Z",
-  "updated_at": "2026-10-14T03:11:07.278Z",
+  "updated_at": "2026-10-14T08:07:07.036Z",
   "status": "failed",
   "search": {
     "query": "editorial portrait AI prompt",
@@ -49,7 +49,7 @@
     "metricool_uuid": "6596028834034238310",
     "provider_status": "ERROR",
     "detailedStatus": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-14T03:11:07.278Z",
+    "checked_at": "2026-10-14T08:07:07.036Z",
     "reschedule_history": [
       {
         "previous_post_id": "395207737",
