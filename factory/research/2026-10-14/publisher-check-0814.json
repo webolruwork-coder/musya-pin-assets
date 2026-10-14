@@ -1,0 +1,599 @@
+{
+  "checked_at": "2026-10-14T07:18:38.486Z",
+  "date": "2026-10-14",
+  "timezone": "Europe/Moscow",
+  "brand_id": 6880455,
+  "pinterest_connected": true,
+  "pinterest_account": "musya_gpt",
+  "blocker": "metricool_account_limit",
+  "reason": "You have reached your Metricool account limit.",
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "calendar_range": {
+    "from": "2026-10-01",
+    "to": "2026-10-15"
+  },
+  "today": [
+    {
+      "id": 395337472,
+      "publicationDate": {
+        "dateTime": "2026-10-14T00:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-14T00:11:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте ночной editorial-портрет с выразительным светом и цветным стеклом. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-41972958162950161.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для ночного editorial-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "6596028834034238310",
+      "creatorUserMail": "natashakorchagina0@gmail.com",
+      "creatorUserId": 5298491
+    },
+    {
+      "id": 395337592,
+      "publicationDate": {
+        "dateTime": "2026-10-14T01:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-14T00:11:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте модную кампанию из девяти кадров: один образ, разные ракурсы и цельный свет. Откройте генератор и сделайте свою серию: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8370450257743991517.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: 9 кадров модной кампании",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-1130978423464704756",
+      "creatorUserMail": "natashakorchagina0@gmail.com",
+      "creatorUserId": 5298491
+    },
+    {
+      "id": 395339156,
+      "publicationDate": {
+        "dateTime": "2026-10-14T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-14T00:14:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте предметный кадр с чёрными очками, розовым сатином и мягким студийным светом. Скопируйте промпт с пина и попробуйте его в Musya: https://musya.app/image-generation. Меняйте цвет ткани и форму оправы под свою идею.",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-10755502680788974719.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки очков — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-5245920552051587146",
+      "creatorUserMail": "natashakorchagina0@gmail.com",
+      "creatorUserId": 5298491
+    }
+  ],
+  "posts": [
+    {
+      "id": 391533783,
+      "uuid": "7171713838009175231",
+      "publicationDate": {
+        "dateTime": "2026-10-08T23:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654490167",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654490167",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391653182,
+      "uuid": "2741309224105952927",
+      "publicationDate": {
+        "dateTime": "2026-10-09T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654504938",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654504938",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391654242,
+      "uuid": "3391618596794551324",
+      "publicationDate": {
+        "dateTime": "2026-10-09T05:25:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654509238",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654509238",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391654326,
+      "uuid": "6950754093818530231",
+      "publicationDate": {
+        "dateTime": "2026-10-09T06:50:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654512932",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654512932",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391654475,
+      "uuid": "-5743769257119692207",
+      "publicationDate": {
+        "dateTime": "2026-10-09T08:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654516925",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654516925",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391654519,
+      "uuid": "-875925226426972109",
+      "publicationDate": {
+        "dateTime": "2026-10-09T09:40:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654520293",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654520293",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391654699,
+      "uuid": "-886587825757403207",
+      "publicationDate": {
+        "dateTime": "2026-10-09T11:05:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654523984",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654523984",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391654930,
+      "uuid": "1253016814670270136",
+      "publicationDate": {
+        "dateTime": "2026-10-09T12:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654528688",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654528688",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391655045,
+      "uuid": "3142484213945353085",
+      "publicationDate": {
+        "dateTime": "2026-10-09T13:55:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654532408",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654532408",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391655187,
+      "uuid": "-2472988306004619681",
+      "publicationDate": {
+        "dateTime": "2026-10-09T15:20:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654536989",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654536989",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391655224,
+      "uuid": "9150503397909876051",
+      "publicationDate": {
+        "dateTime": "2026-10-09T16:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654543079",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654543079",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391655268,
+      "uuid": "-3091692675811360382",
+      "publicationDate": {
+        "dateTime": "2026-10-09T18:10:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654549399",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654549399",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391655278,
+      "uuid": "-3980259985574375512",
+      "publicationDate": {
+        "dateTime": "2026-10-09T19:35:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654555368",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654555368",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391655290,
+      "uuid": "4756634010464766198",
+      "publicationDate": {
+        "dateTime": "2026-10-09T21:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654561845",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654561845",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391655295,
+      "uuid": "-946738480916576996",
+      "publicationDate": {
+        "dateTime": "2026-10-09T22:25:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654567972",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654567972",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 391655299,
+      "uuid": "3818659787370482398",
+      "publicationDate": {
+        "dateTime": "2026-10-09T23:50:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654573926",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654573926",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 395182770,
+      "uuid": "-3976835269684739137",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654894906",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654894906",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 395182923,
+      "uuid": "4799856024184965251",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654895813",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654895813",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 395182931,
+      "uuid": "6985388325044962361",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654896803",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654896803",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 395182939,
+      "uuid": "-7724322232482707544",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654897717",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654897717",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 395182944,
+      "uuid": "-143631258198455715",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654898886",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654898886",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 395207490,
+      "uuid": "-4542789211927197522",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654899553",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654899553",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 395207723,
+      "uuid": "4959186076041235036",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654900336",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654900336",
+          "detailedStatus": "Published"
+        }
+      ]
+    },
+    {
+      "id": 395337472,
+      "uuid": "6596028834034238310",
+      "publicationDate": {
+        "dateTime": "2026-10-14T00:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    },
+    {
+      "id": 395337592,
+      "uuid": "-1130978423464704756",
+      "publicationDate": {
+        "dateTime": "2026-10-14T01:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    },
+    {
+      "id": 395339156,
+      "uuid": "-5245920552051587146",
+      "publicationDate": {
+        "dateTime": "2026-10-14T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    }
+  ]
+}
