@@ -49,7 +49,7 @@
     "metricool_uuid": "6596028834034238310",
     "provider_status": "ERROR",
     "detailedStatus": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-14T16:11:34.960Z",
+    "checked_at": "2026-10-14T18:11:30.203Z",
     "reschedule_history": [
       {
         "previous_post_id": "395207737",
@@ -60,7 +60,8 @@
         "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost with original ID and UUID"
       }
     ],
-    "blocked_reason": "You have reached your Metricool account limit."
+    "blocked_reason": "You have reached your Metricool account limit.",
+    "detailed_status": "You have reached your Metricool account limit."
   },
   "validation": {
     "passed": true,

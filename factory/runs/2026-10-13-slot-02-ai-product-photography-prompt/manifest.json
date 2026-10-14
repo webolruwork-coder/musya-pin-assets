@@ -48,10 +48,11 @@
     "metricool_post_id": "395182923",
     "provider_status": "PUBLISHED",
     "detailedStatus": "Published",
-    "checked_at": "2026-10-14T16:11:34.960Z",
+    "checked_at": "2026-10-14T18:11:30.203Z",
     "metricool_uuid": "4799856024184965251",
     "provider_error": null,
-    "pinterest_url": "https://www.pinterest.es/pin/1152851204654895813"
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204654895813",
+    "detailed_status": "Published"
   },
   "validation": {
     "passed": true,

@@ -58,10 +58,11 @@
     "public_url": "https://www.pinterest.es/pin/1152851204654490167",
     "provider_status": "PUBLISHED",
     "detailedStatus": "Published",
-    "checked_at": "2026-10-14T16:11:34.960Z",
+    "checked_at": "2026-10-14T18:11:30.203Z",
     "metricool_uuid": "7171713838009175231",
     "provider_error": null,
-    "pinterest_url": "https://www.pinterest.es/pin/1152851204654490167"
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204654490167",
+    "detailed_status": "Published"
   },
   "validation": {
     "passed": true,

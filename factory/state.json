@@ -380,27 +380,27 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-14T16:11:34.960Z",
+    "checked_at": "2026-10-14T18:11:30.203Z",
     "date_moscow": "2026-10-14",
     "brand_id": "6880455",
-    "pinterest_connected": "musya_gpt",
+    "pinterest_connected": true,
+    "pinterest_account": "musya_gpt",
     "daily": {
-      "published": 0,
-      "pending": 0,
+      "published_observed": 0,
+      "pending_observed": 0,
       "error": 3,
       "limit": 15,
       "history_complete": false,
-      "remaining": null,
-      "history_note": "Planner returns three ERROR posts for today. Empty analytics cannot verify complete same-day publication history."
+      "remaining": null
     },
     "actions": {
       "created": 0,
       "rescheduled": 0
     },
     "ready_unscheduled_candidates": [],
-    "blocked_reason": "You have reached your Metricool account limit.",
-    "decision": "No approved validated/hosted unscheduled candidates including backlog. Full daily history unverified; quota restoration not confirmed. Keep ERROR IDs and UUIDs for later updateScheduledPost.",
+    "blocked_reason": "Daily publication history is unverified; three existing ERROR posts report: You have reached your Metricool account limit.",
+    "decision": "No new scheduling or retries. Preserve ERROR IDs and UUIDs. Approved pins for 2026-10-15 remain in their future queue.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-14/publisher-check-20261014-1910.json"
+    "evidence": "factory/research/2026-10-14/publisher-check-20261014-2110.json"
   }
 }
