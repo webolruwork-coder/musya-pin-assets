@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-14T14:01:49.114510+00:00",
+  "moscow_date": "2026-10-14",
+  "result": "blocked_mcp_authentication",
+  "reason": "Configured Metricool MCP endpoint returned HTTP 401 to tools/list. Metricool tools are not exposed in this session. Fresh getBrandSettings/getScheduledPosts unavailable.",
+  "pinterest_connected": null,
+  "daily_count": null,
+  "history_complete": false,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "target_url": "https://musya.app/image-generation",
+  "local_status_counts": {
+    "queued": 47,
+    "published": 24,
+    "needs_review": 3,
+    "failed": 3
+  },
+  "local_ready_candidates": [],
+  "local_failed_posts_unverified": [
+    {
+      "manifest": "factory/runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/manifest.json",
+      "post_id": "395337592"
+    },
+    {
+      "manifest": "factory/runs/2026-10-14-slot-02-ai-product-photography-prompt/manifest.json",
+      "post_id": "395339156"
+    },
+    {
+      "manifest": "factory/runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/manifest.json",
+      "post_id": "395337472"
+    }
+  ],
+  "day_plan": "15/15 manifests; 14 pending approval, 1 approved failed",
+  "note": "Previous provider status is historical, not revalidated. No manifests marked checked or published. Existing shared changes left untouched."
+}
