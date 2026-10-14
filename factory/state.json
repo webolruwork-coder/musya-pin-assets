@@ -378,5 +378,33 @@
       "metricool_post_id": null,
       "updated_at": "2026-10-12T14:04:37.617Z"
     }
-  ]
+  ],
+  "publisher_check": {
+    "checked_at": "2026-10-14T00:11:31.023Z",
+    "moscow_date": "2026-10-14",
+    "brand": {
+      "id": 6880455,
+      "timezone": "Europe/Moscow",
+      "networksData": {
+        "instagramData": "musya_gpt",
+        "threadsData": "musya_gpt",
+        "pinterestData": "musya_gpt"
+      }
+    },
+    "result": "blocked_account_limit",
+    "reason": "Two previously retried ERROR posts still report: You have reached your Metricool account limit. No evidence of quota recovery; do not repeat rescheduling.",
+    "daily_count": {
+      "published": 0,
+      "pending": 1,
+      "error": 2,
+      "count_toward_limit": 1,
+      "limit": 15,
+      "remaining": 14
+    },
+    "created_posts": 0,
+    "updated_posts": 0,
+    "ready_unscheduled_candidates": [],
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-10-14/publisher-check-0310.json"
+  }
 }
