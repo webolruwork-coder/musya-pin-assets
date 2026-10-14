@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14T22:15:32.234Z",
+  "updated_at": "2026-10-14T23:11:36.361380Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -380,16 +380,15 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-14T20:11:01.962Z",
-    "date_moscow": "2026-10-14",
+    "checked_at": "2026-10-14T23:11:36.361380Z",
+    "date_moscow": "2026-10-15",
     "brand_id": "6880455",
-    "pinterest_connected": true,
-    "pinterest_account": "musya_gpt",
+    "pinterest_connected": null,
+    "provider_status_verified": false,
     "daily": {
-      "published_observed": 0,
-      "pending_observed": 0,
-      "error": 3,
       "limit": 15,
+      "published_confirmed": null,
+      "pending_confirmed": null,
       "history_complete": false,
       "remaining": null
     },
@@ -398,9 +397,9 @@
       "rescheduled": 0
     },
     "ready_unscheduled_candidates": [],
-    "blocked_reason": "Daily history completeness is unverified; three ERROR posts report: You have reached your Metricool account limit.",
-    "decision": "Preserve ERROR post IDs and UUIDs until daily history and account quota are verified; future-date pins are not eligible today.",
+    "blocked_reason": "Metricool MCP is unavailable in this session; configured endpoint returned HTTP 401 unauthorized. Live Pinterest connection, post statuses, duplicate checks and complete Moscow-day count cannot be verified.",
+    "decision": "Do not create or update posts. Preserve manifest provider statuses, IDs and UUIDs pending authenticated live verification. HTTP 401 does not establish Pinterest disconnection.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-14/publisher-check-20261014-2310.json"
+    "evidence": "factory/research/2026-10-15/publisher-blocked-20261015-021136-mcp-auth.json"
   }
 }

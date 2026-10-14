@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-10-14T23:11:36.361380Z",
+  "date_moscow": "2026-10-15",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "mcp": {
+    "endpoint": "https://ai.metricool.com/mcp",
+    "session_metricool_tools_available": false,
+    "probe": "initialize",
+    "http_status": 401,
+    "error": "unauthorized",
+    "error_description": "This endpoint requires authentication",
+    "getBrandSettings_completed": false,
+    "getScheduledPosts_completed": false
+  },
+  "daily": {
+    "limit": 15,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "history_complete": false,
+    "remaining": null
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "ready_unscheduled_candidates": [],
+  "local_scheduled_unverified": [
+    {
+      "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
+      "metricool_post_id": "396321034",
+      "scheduled_at": "2026-10-15T02:00:00+03:00"
+    },
+    {
+      "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+      "metricool_post_id": "396323011",
+      "scheduled_at": "2026-10-15T05:30:00+03:00"
+    },
+    {
+      "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+      "metricool_post_id": "396323127",
+      "scheduled_at": "2026-10-15T08:30:00+03:00"
+    },
+    {
+      "id": "2026-10-14-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "396321037",
+      "scheduled_at": "2026-10-15T02:15:00+03:00"
+    },
+    {
+      "id": "2026-10-15-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "396323003",
+      "scheduled_at": "2026-10-15T04:00:00+03:00"
+    },
+    {
+      "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+      "metricool_post_id": "396321028",
+      "scheduled_at": "2026-10-15T01:45:00+03:00"
+    },
+    {
+      "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+      "metricool_post_id": "396323028",
+      "scheduled_at": "2026-10-15T07:00:00+03:00"
+    }
+  ],
+  "blocked_reason": "Metricool MCP is unavailable in this session; configured endpoint returned HTTP 401 unauthorized. Live Pinterest connection, post statuses, duplicate checks and complete Moscow-day count cannot be verified.",
+  "decision": "Do not create or update posts. Preserve manifest provider statuses, IDs and UUIDs pending authenticated live verification. HTTP 401 does not establish Pinterest disconnection.",
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-10-15/publisher-blocked-20261015-021136-mcp-auth.json"
+}
