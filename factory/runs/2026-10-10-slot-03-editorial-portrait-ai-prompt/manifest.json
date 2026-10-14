@@ -49,7 +49,7 @@
     "metricool_uuid": "6596028834034238310",
     "provider_status": "ERROR",
     "detailedStatus": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-14T18:11:30.203Z",
+    "checked_at": "2026-10-14T19:11:09.029Z",
     "reschedule_history": [
       {
         "previous_post_id": "395207737",
