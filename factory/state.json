@@ -380,7 +380,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-14T18:11:30.203Z",
+    "checked_at": "2026-10-14T20:11:01.962Z",
     "date_moscow": "2026-10-14",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -398,9 +398,9 @@
       "rescheduled": 0
     },
     "ready_unscheduled_candidates": [],
-    "blocked_reason": "Daily publication history is unverified; three existing ERROR posts report: You have reached your Metricool account limit.",
-    "decision": "No new scheduling or retries. Preserve ERROR IDs and UUIDs. Approved pins for 2026-10-15 remain in their future queue.",
+    "blocked_reason": "Daily history completeness is unverified; three ERROR posts report: You have reached your Metricool account limit.",
+    "decision": "Preserve ERROR post IDs and UUIDs until daily history and account quota are verified; future-date pins are not eligible today.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-14/publisher-check-20261014-2110.json"
+    "evidence": "factory/research/2026-10-14/publisher-check-20261014-2310.json"
   }
 }
