@@ -380,7 +380,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-14T15:11:46.495Z",
+    "checked_at": "2026-10-14T16:11:34.960Z",
     "date_moscow": "2026-10-14",
     "brand_id": "6880455",
     "pinterest_connected": "musya_gpt",
@@ -391,7 +391,7 @@
       "limit": 15,
       "history_complete": false,
       "remaining": null,
-      "history_note": "Planner reports 3 ERROR posts today; analytics returns no rows and cannot confirm complete same-day publication history."
+      "history_note": "Planner returns three ERROR posts for today. Empty analytics cannot verify complete same-day publication history."
     },
     "actions": {
       "created": 0,
@@ -399,8 +399,8 @@
     },
     "ready_unscheduled_candidates": [],
     "blocked_reason": "You have reached your Metricool account limit.",
-    "decision": "No approved validated/hosted unscheduled candidates including backlog. No evidence of quota restoration; full daily history unverified. Keep ERROR IDs and UUIDs for later updateScheduledPost.",
+    "decision": "No approved validated/hosted unscheduled candidates including backlog. Full daily history unverified; quota restoration not confirmed. Keep ERROR IDs and UUIDs for later updateScheduledPost.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-14/publisher-check-20261014-1810.json"
+    "evidence": "factory/research/2026-10-14/publisher-check-20261014-1910.json"
   }
 }
