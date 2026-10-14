@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-10-14T21:10:33Z",
-  "status": "failed",
+  "updated_at": "2026-10-14T22:11:43.044937+00:00",
+  "status": "scheduled",
   "search": {
     "query": "fashion campaign AI prompt",
     "result_limit": 25,
@@ -45,12 +45,12 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-14T01:00:00+03:00",
-    "metricool_post_id": "395337592",
+    "scheduled_at": "2026-10-15T02:00:00+03:00",
+    "metricool_post_id": "396321034",
     "metricool_uuid": "-1130978423464704756",
-    "provider_status": "ERROR",
-    "detailedStatus": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-14T21:10:33Z",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "checked_at": "2026-10-14T22:11:43.044937+00:00",
     "reschedule_history": [
       {
         "previous_post_id": "395207754",
@@ -59,10 +59,17 @@
         "scheduled_at": "2026-10-14T01:00:00+03:00",
         "at": "2026-10-13T21:12:11.151Z",
         "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost with original ID and UUID"
+      },
+      {
+        "previous_post_id": "395337592",
+        "post_id": "396321034",
+        "previous_scheduled_at": "2026-10-14T01:00:00+03:00",
+        "scheduled_at": "2026-10-15T02:00:00+03:00",
+        "at": "2026-10-14T22:11:43.044937+00:00",
+        "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost after explicit current-day count of zero"
       }
     ],
-    "blocked_reason": "You have reached your Metricool account limit.",
-    "detailed_status": "You have reached your Metricool account limit."
+    "detailed_status": "Pending"
   },
   "validation": {
     "passed": true,
@@ -91,7 +98,7 @@
   "production": {
     "target_date": "2026-10-10",
     "slot_index": 4,
-    "planned_at_local": "2026-10-14T01:00:00",
+    "planned_at_local": "2026-10-15T02:00:00",
     "pillar": "Мода",
     "original_planned_at_local": "2026-10-10T05:30:00"
   },
