@@ -47,9 +47,9 @@
     "scheduled_at": "2026-10-15T01:45:00+03:00",
     "metricool_post_id": "396321028",
     "metricool_uuid": "6596028834034238310",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "checked_at": "2026-10-14T22:11:43.044937+00:00",
+    "provider_status": "ERROR",
+    "detailedStatus": "You have reached your Metricool account limit.",
+    "checked_at": "2026-10-15T02:12:40Z",
     "reschedule_history": [
       {
         "previous_post_id": "395207737",
@@ -68,7 +68,7 @@
         "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost after explicit current-day count of zero"
       }
     ],
-    "detailed_status": "Pending"
+    "detailed_status": "You have reached your Metricool account limit."
   },
   "validation": {
     "passed": true,
