@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-16T04:59:17Z",
+  "moscow_date": "2026-10-16",
+  "result": "blocked",
+  "reason": "Metricool MCP is unavailable in this session: the callable tool registry has no getBrandSettings, getScheduledPosts, createScheduledPost, or updateScheduledPost operation. The live Pinterest connection, provider statuses, duplicate set, ERROR recovery targets, and full Moscow-day count cannot be verified.",
+  "pinterest_connection": "unknown_not_verified",
+  "daily_count": null,
+  "daily_limit": 15,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "target_url": "https://musya.app/image-generation",
+  "local_ready_candidates": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt"
+  ],
+  "local_backlog_candidates": [],
+  "note": "All five locally ready candidates have elapsed original slots and lack a confirmed public media URL. They remain unchanged because hosting, assigning future Moscow times, and publishing require the mandatory fresh Metricool connection, status, daily-count, and duplicate reads. No publish request was sent and no existing ERROR post was modified. Existing worktree changes were not staged, committed, or pushed."
+}
