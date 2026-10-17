@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-17T06:34:46+03:00",
+  "date_moscow": "2026-10-17",
+  "brand_id": "6880455",
+  "result": "blocked",
+  "reason": "Metricool MCP is unavailable in this session: the callable tool registry exposes no getBrandSettings, getScheduledPosts, createScheduledPost, or updateScheduledPost operation. The live Pinterest connection, provider statuses, ERROR recovery targets, duplicate set, and complete Moscow-day count cannot be verified.",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily": {
+    "limit": 15,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "history_complete": false,
+    "remaining": null
+  },
+  "eligible_current_day": [
+    "2026-10-17-slot-02-ai-product-photography-prompt"
+  ],
+  "eligible_overdue": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt"
+  ],
+  "not_performed": [
+    "getBrandSettings",
+    "getScheduledPosts",
+    "createScheduledPost",
+    "updateScheduledPost",
+    "hosting",
+    "rescheduling",
+    "ERROR recovery"
+  ],
+  "note": "No publish or rescheduling request was sent. Scheduling before the mandatory live Metricool reads could exceed the 15-post Moscow-day limit or create duplicates. This unavailable MCP registry does not prove that Pinterest is disconnected. Existing worktree changes were not staged, committed, or pushed."
+}
