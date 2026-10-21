@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T19:11:44.567Z",
+  "updated_at": "2026-10-21T22:11:32.839Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -380,7 +380,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-22T00:11:35+03:00",
+    "checked_at": "2026-10-22T01:11:32+03:00",
     "date_moscow": "2026-10-22",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -404,9 +404,9 @@
       "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
       "2026-10-17-slot-02-ai-product-photography-prompt"
     ],
-    "blocked_reason": "Metricool MCP operations are not registered in this session. Plugin discovery confirmed Metricool is available but not installed (installed=false). Fresh getBrandSettings and getScheduledPosts cannot be called; Pinterest connection, provider statuses, duplicates and the complete Moscow-day count remain unverified.",
+    "blocked_reason": "Metricool MCP operations are not registered in this session. Fresh plugin discovery confirmed Metricool is available but not installed (installed=false). getBrandSettings and getScheduledPosts cannot be called; Pinterest connection, provider statuses, duplicates and the complete Moscow-day count remain unverified.",
     "decision": "No publish or reschedule request was sent. Preserve existing post IDs, UUIDs, content and original slots. Do not infer Pinterest disconnection or mark stale ERROR statuses as freshly checked. After live connection, complete history and duplicates are verified, recover confirmed ERROR posts only through updateScheduledPost using existing ID and UUID; save any returned replacement ID.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-22/publisher-blocked-20261022T001135-metricool-mcp-unavailable.json"
+    "evidence": "factory/research/2026-10-22/publisher-blocked-20261022T011132-metricool-mcp-unavailable.json"
   }
 }
