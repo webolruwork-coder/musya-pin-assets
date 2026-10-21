@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14T23:11:36.361380Z",
+  "updated_at": "2026-10-21T19:11:44.567Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -380,8 +380,8 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-14T23:11:36.361380Z",
-    "date_moscow": "2026-10-15",
+    "checked_at": "2026-10-21T22:11:44+03:00",
+    "date_moscow": "2026-10-21",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
@@ -396,10 +396,17 @@
       "created": 0,
       "rescheduled": 0
     },
-    "ready_unscheduled_candidates": [],
-    "blocked_reason": "Metricool MCP is unavailable in this session; configured endpoint returned HTTP 401 unauthorized. Live Pinterest connection, post statuses, duplicate checks and complete Moscow-day count cannot be verified.",
-    "decision": "Do not create or update posts. Preserve manifest provider statuses, IDs and UUIDs pending authenticated live verification. HTTP 401 does not establish Pinterest disconnection.",
+    "ready_unscheduled_candidates": [
+      "2026-10-16-slot-01-liquid-glass-3d-prompt",
+      "2026-10-16-slot-02-ai-product-photography-prompt",
+      "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+      "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+      "2026-10-17-slot-02-ai-product-photography-prompt"
+    ],
+    "blocked_reason": "Metricool MCP is unavailable in this session: no callable getBrandSettings, getScheduledPosts, createScheduledPost, or updateScheduledPost operation is registered. Live Pinterest connection, scheduled-post statuses including ERROR, duplicate set, and complete Moscow-day count cannot be verified.",
+    "decision": "No publish or reschedule request was sent. Old provider statuses remain unverified; Pinterest is not declared disconnected without fresh getBrandSettings. Preserve post IDs, UUIDs, original slots and content until live connection, history and duplicates are verified. Recover confirmed ERROR posts only using updateScheduledPost with existing ID and UUID; save any replacement ID.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-15/publisher-blocked-20261015-021136-mcp-auth.json"
+    "evidence": "factory/research/2026-10-21/publisher-blocked-20261021T221144-metricool-mcp-unavailable.json"
   }
 }
