@@ -1,0 +1,111 @@
+{
+  "checked_at": "2026-10-22T23:12:12+03:00",
+  "moscow_date": "2026-10-22",
+  "result": "blocked",
+  "reason": "Metricool MCP operations are not registered in this session. Plugin discovery was attempted but returned: MCP tool codex_apps/plugin_management.search_plugins is not available to the model. getBrandSettings and getScheduledPosts could not be called. Pinterest connection, provider statuses, duplicates and the complete Moscow-day count remain unverified.",
+  "pinterest_connection": "unknown_not_verified",
+  "daily_count": null,
+  "daily_limit": 15,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "target_url": "https://musya.app/image-generation",
+  "metricool_plugin_discovery": {
+    "registered_metricool_operations": [],
+    "attempted": true,
+    "isError": true,
+    "installed": null,
+    "error": "MCP tool codex_apps/plugin_management.search_plugins is not available to the model"
+  },
+  "current_day_manifests": 0,
+  "eligible_current_day": [],
+  "eligible_overdue": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt"
+  ],
+  "skipped_incomplete": [],
+  "future_ready_not_selected": [
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt"
+  ],
+  "last_known_errors_unverified": [
+    {
+      "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+      "metricool_post_id": "396321028",
+      "metricool_uuid": "6596028834034238310",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
+      "metricool_post_id": "396321034",
+      "metricool_uuid": "-1130978423464704756",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-14-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "396321037",
+      "metricool_uuid": "-5245920552051587146",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "396323003",
+      "metricool_uuid": "-5704435938902588027",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+      "metricool_post_id": "396323011",
+      "metricool_uuid": "-7579492169023468951",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+      "metricool_post_id": "396323028",
+      "metricool_uuid": "-8870431115640091834",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+      "metricool_post_id": "396323127",
+      "metricool_uuid": "-2158202839327617526",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    }
+  ],
+  "not_performed": [
+    "getBrandSettings",
+    "getScheduledPosts",
+    "createScheduledPost",
+    "updateScheduledPost",
+    "hosting",
+    "rescheduling",
+    "ERROR recovery"
+  ],
+  "decision": "No publish or reschedule request was sent. Preserve existing post IDs, UUIDs, content and original slots. Do not infer Pinterest disconnection or mark stale ERROR statuses as freshly checked. After live connection, complete history and duplicates are verified, recover confirmed ERROR posts only through updateScheduledPost using existing ID and UUID; save any returned replacement ID.",
+  "git_preflight": {
+    "head": "efecf4d13def04dfbf1792178ce3eb1d7e8a5188",
+    "origin_main": "efecf4d13def04dfbf1792178ce3eb1d7e8a5188",
+    "fetch_origin_main": "succeeded",
+    "checkout_switched": false
+  },
+  "review": "Regenerated from local queue; pre-existing review and queue edits excluded from commit.",
+  "review_changed_by_run": []
+}
