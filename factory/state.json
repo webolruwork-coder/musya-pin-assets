@@ -380,8 +380,8 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-24T20:11:55+03:00",
-    "date_moscow": "2026-10-24",
+    "checked_at": "2026-10-25T02:27:17+03:00",
+    "date_moscow": "2026-10-25",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
@@ -405,11 +405,17 @@
       "2026-10-17-slot-02-ai-product-photography-prompt",
       "2026-10-23-slot-01-liquid-glass-3d-prompt",
       "2026-10-23-slot-02-ai-product-photography-prompt",
-      "2026-10-23-slot-03-editorial-portrait-ai-prompt"
+      "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "2026-10-25-slot-02-ai-product-photography-prompt",
+      "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
     ],
     "blocked_reason": "Metricool MCP startup failed: OAuth refresh token was rejected; invalid_grant: OAuth authorization required. getBrandSettings and getScheduledPosts could not be called. Pinterest connection, real provider statuses, duplicates and the complete Moscow-day count remain unverified.",
     "decision": "No create, update or hosting requests sent. Reauthorize Metricool MCP, then verify Pinterest connection and complete history before scheduling. Preserve existing post IDs, UUIDs and slots; recover confirmed ERROR posts only with updateScheduledPost using existing ID and UUID, saving any returned replacement ID. Historical provider checks were not refreshed.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-24/publisher-blocked-20261024T201155-metricool-mcp-oauth.json"
+    "evidence": "factory/research/2026-10-25/publisher-blocked-20261025T022717-metricool-mcp-oauth.json"
   }
 }
