@@ -1,0 +1,101 @@
+{
+  "checked_at": "2026-10-24T14:13:00+03:00",
+  "moscow_date": "2026-10-24",
+  "result": "blocked",
+  "reason": "Metricool MCP operations absent from session tool registry. Live plugin discovery failed: Transport closed. Cannot verify Pinterest connection, real statuses, duplicates or complete daily count.",
+  "pinterest_connection": "unknown_not_verified",
+  "daily_count": null,
+  "daily_limit": 15,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "target_url": "https://musya.app/image-generation",
+  "metricool_plugin_discovery": {
+    "registered_metricool_operations": [],
+    "attempted": true,
+    "error": "Transport closed",
+    "installed": null
+  },
+  "current_day_manifests": 15,
+  "eligible_current_day": [],
+  "eligible_overdue": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt"
+  ],
+  "skipped_incomplete": [],
+  "last_known_errors_unverified": [
+    {
+      "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+      "metricool_post_id": "396321028",
+      "metricool_uuid": "6596028834034238310",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
+      "metricool_post_id": "396321034",
+      "metricool_uuid": "-1130978423464704756",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-14-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "396321037",
+      "metricool_uuid": "-5245920552051587146",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "396323003",
+      "metricool_uuid": "-5704435938902588027",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+      "metricool_post_id": "396323011",
+      "metricool_uuid": "-7579492169023468951",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+      "metricool_post_id": "396323028",
+      "metricool_uuid": "-8870431115640091834",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+      "metricool_post_id": "396323127",
+      "metricool_uuid": "-2158202839327617526",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    }
+  ],
+  "decision": "No publish/reschedule requests sent. Preserve post IDs, UUIDs, slots and provider checked_at. Recover live-confirmed ERROR posts only via updateScheduledPost with existing ID/UUID after verifying connection/history/duplicates. Save any replacement ID returned.",
+  "git_preflight": {
+    "head": "15bcf0bf6be884065a44352ffb64adb12271f6c2",
+    "remote_main": "15bcf0bf6be884065a44352ffb64adb12271f6c2",
+    "ssh_fetch": "Connection closed on port 22",
+    "https_fetch": "Succeeded, but FETCH_HEAD unavailable in subsequent command; verified remote main directly via HTTPS ls-remote",
+    "checkout_switched": false
+  },
+  "day_plan": "Completed for 2026-10-24",
+  "review": "Regenerated. Existing review/queue changes excluded from commit.",
+  "local_queue_only": true
+}
