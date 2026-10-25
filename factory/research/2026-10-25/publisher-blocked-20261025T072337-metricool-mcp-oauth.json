@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-25T07:23:37+03:00",
+  "moscow_date": "2026-10-25",
+  "result": "blocked",
+  "reason": "Metricool MCP startup failed: OAuth refresh token was rejected; invalid_grant: OAuth authorization required. getBrandSettings and getScheduledPosts could not be called.",
+  "mcp_evidence": {
+    "registered_metricool_operations": [],
+    "resources_list": "invalid_grant: OAuth authorization required",
+    "resource_templates_list": "invalid_grant: OAuth authorization required"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily_count": null,
+  "daily_limit": 15,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "target_url": "https://musya.app/image-generation",
+  "day_plan": "completed; 15 manifests for 2026-10-25",
+  "ready_unscheduled_candidates": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "decision": "No create, update or hosting requests. Reauthorize Metricool MCP before verifying Pinterest, provider statuses, duplicates and complete daily count. Preserve ERROR post IDs and UUIDs for updateScheduledPost after recovery.",
+  "concurrent_changes": "State, review and HEAD changed during this run. Preserve concurrent work; commit only this independently recorded report. Review generator completed.",
+  "git_preflight": {
+    "head": "971d126844ef897cd53bc427f39e2a0c5898461e",
+    "origin_main": "a880bf931d18b6016de4925491e96adaa4fc0eec",
+    "checkout_switched": false
+  }
+}
