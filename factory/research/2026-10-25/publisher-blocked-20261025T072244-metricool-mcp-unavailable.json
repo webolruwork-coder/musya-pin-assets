@@ -1,0 +1,138 @@
+{
+  "checked_at": "2026-10-25T07:22:44+03:00",
+  "date_moscow": "2026-10-25",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily": {
+    "limit": 15,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "history_complete": false,
+    "remaining": null
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "ready_unscheduled_candidates": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "blocked_reason": "Metricool MCP operations are absent from this session. Live plugin discovery found Metricool with installed=false. getBrandSettings and getScheduledPosts could not be called; Pinterest connection, real statuses, duplicates and the complete Moscow-day count remain unverified.",
+  "decision": "No create, update or hosting requests sent. Connect Metricool MCP, then verify current Pinterest connection, complete history and duplicates. Preserve post IDs, UUIDs and original slots. Recover live-confirmed ERROR posts with updateScheduledPost using existing ID and UUID, saving any replacement ID returned. Historical provider checked_at values were not refreshed.",
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-10-25/publisher-blocked-20261025T072244-metricool-mcp-unavailable.json",
+  "result": "blocked",
+  "metricool_plugin_discovery": {
+    "registered_metricool_operations": [],
+    "plugin_id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+    "installed": false,
+    "status": "ENABLED",
+    "installation_policy": "AVAILABLE",
+    "last_suggested_at": "2026-10-21T20:11:19.979893Z",
+    "suggestion_not_repeated_reason": "Already suggested within past 7 days"
+  },
+  "current_day_manifests": 15,
+  "eligible_current_day": [
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "eligible_overdue": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt"
+  ],
+  "skipped_incomplete": [],
+  "last_known_errors_unverified": [
+    {
+      "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+      "metricool_post_id": "396321028",
+      "metricool_uuid": "6596028834034238310",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
+      "metricool_post_id": "396321034",
+      "metricool_uuid": "-1130978423464704756",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-14-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "396321037",
+      "metricool_uuid": "-5245920552051587146",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "396323003",
+      "metricool_uuid": "-5704435938902588027",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+      "metricool_post_id": "396323011",
+      "metricool_uuid": "-7579492169023468951",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+      "metricool_post_id": "396323028",
+      "metricool_uuid": "-8870431115640091834",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+      "metricool_post_id": "396323127",
+      "metricool_uuid": "-2158202839327617526",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-10-15T10:12:15Z"
+    }
+  ],
+  "day_plan": "Completed for 2026-10-25",
+  "review": "Regenerated locally; pre-existing review and queue changes excluded from commit.",
+  "git_preflight": {
+    "head": "e0249fa68cac5aa637be98e77b9a865613410e68",
+    "origin_main": "e0249fa68cac5aa637be98e77b9a865613410e68",
+    "fetch": "Succeeded; HEAD equals fresh origin/main",
+    "checkout_switched": false,
+    "commit_scope": "This report and publisher_check only; pre-existing edits excluded"
+  },
+  "local_queue_only": true
+}
