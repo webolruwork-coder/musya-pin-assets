@@ -1,0 +1,243 @@
+{
+  "checked_at": "2026-10-25T15:20:21+03:00",
+  "moscow_date": "2026-10-25",
+  "result": "blocked",
+  "reason": "Metricool MCP tools are absent from this session; live plugin discovery returned installed=false. getBrandSettings and getScheduledPosts cannot be called. Pinterest connection, real provider statuses, duplicates and the complete Moscow-day count remain unverified.",
+  "mcp_evidence": {
+    "registered_metricool_operations": [],
+    "plugin_id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+    "installed": false,
+    "discovery": "live plugin_management.search_plugins",
+    "last_suggested_at": "2026-10-21T20:11:19.979893Z",
+    "suggestion_repeated": false
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily_count": null,
+  "daily_limit": 15,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "target_url": "https://musya.app/image-generation",
+  "day_plan": "completed",
+  "current_day_manifests": 15,
+  "eligible_current_day": [
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "eligible_overdue": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt"
+  ],
+  "skipped_incomplete": [],
+  "last_known_errors_unverified": [
+    {
+      "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+      "post_id": "396321028",
+      "uuid": "6596028834034238310",
+      "publishing_last_known": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-10-15T01:45:00+03:00",
+        "metricool_post_id": "396321028",
+        "metricool_uuid": "6596028834034238310",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "checked_at": "2026-10-15T10:12:15Z",
+        "reschedule_history": [
+          {
+            "previous_post_id": "395207737",
+            "post_id": "395337472",
+            "previous_scheduled_at": "2026-10-13T22:45:00+03:00",
+            "scheduled_at": "2026-10-14T00:45:00+03:00",
+            "at": "2026-10-13T21:12:11.151Z",
+            "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost with original ID and UUID"
+          },
+          {
+            "previous_post_id": "395337472",
+            "post_id": "396321028",
+            "previous_scheduled_at": "2026-10-14T00:45:00+03:00",
+            "scheduled_at": "2026-10-15T01:45:00+03:00",
+            "at": "2026-10-14T22:11:43.044937+00:00",
+            "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost after explicit current-day count of zero"
+          }
+        ],
+        "detailed_status": "You have reached your Metricool account limit."
+      }
+    },
+    {
+      "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
+      "post_id": "396321034",
+      "uuid": "-1130978423464704756",
+      "publishing_last_known": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-10-15T02:00:00+03:00",
+        "metricool_post_id": "396321034",
+        "metricool_uuid": "-1130978423464704756",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "checked_at": "2026-10-15T10:12:15Z",
+        "reschedule_history": [
+          {
+            "previous_post_id": "395207754",
+            "post_id": "395337592",
+            "previous_scheduled_at": "2026-10-13T23:00:00+03:00",
+            "scheduled_at": "2026-10-14T01:00:00+03:00",
+            "at": "2026-10-13T21:12:11.151Z",
+            "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost with original ID and UUID"
+          },
+          {
+            "previous_post_id": "395337592",
+            "post_id": "396321034",
+            "previous_scheduled_at": "2026-10-14T01:00:00+03:00",
+            "scheduled_at": "2026-10-15T02:00:00+03:00",
+            "at": "2026-10-14T22:11:43.044937+00:00",
+            "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost after explicit current-day count of zero"
+          }
+        ],
+        "detailed_status": "You have reached your Metricool account limit."
+      }
+    },
+    {
+      "id": "2026-10-14-slot-02-ai-product-photography-prompt",
+      "post_id": "396321037",
+      "uuid": "-5245920552051587146",
+      "publishing_last_known": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-10-15T02:15:00+03:00",
+        "metricool_post_id": "396321037",
+        "metricool_uuid": "-5245920552051587146",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "checked_at": "2026-10-15T10:12:15Z",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "reschedule_history": [
+          {
+            "previous_post_id": "395339156",
+            "post_id": "396321037",
+            "previous_scheduled_at": "2026-10-14T04:00:00+03:00",
+            "scheduled_at": "2026-10-15T02:15:00+03:00",
+            "at": "2026-10-14T22:11:43.044937+00:00",
+            "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost after explicit current-day count of zero"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2026-10-15-slot-02-ai-product-photography-prompt",
+      "post_id": "396323003",
+      "uuid": "-5704435938902588027",
+      "publishing_last_known": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-10-15T04:00:00+03:00",
+        "metricool_post_id": "396323003",
+        "metricool_uuid": "-5704435938902588027",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "checked_at": "2026-10-15T10:12:15Z"
+      }
+    },
+    {
+      "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+      "post_id": "396323011",
+      "uuid": "-7579492169023468951",
+      "publishing_last_known": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-10-15T05:30:00+03:00",
+        "metricool_post_id": "396323011",
+        "metricool_uuid": "-7579492169023468951",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "checked_at": "2026-10-15T10:12:15Z"
+      }
+    },
+    {
+      "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+      "post_id": "396323028",
+      "uuid": "-8870431115640091834",
+      "publishing_last_known": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-10-15T07:00:00+03:00",
+        "metricool_post_id": "396323028",
+        "metricool_uuid": "-8870431115640091834",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "checked_at": "2026-10-15T10:12:15Z"
+      }
+    },
+    {
+      "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+      "post_id": "396323127",
+      "uuid": "-2158202839327617526",
+      "publishing_last_known": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-10-15T08:30:00+03:00",
+        "metricool_post_id": "396323127",
+        "metricool_uuid": "-2158202839327617526",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "checked_at": "2026-10-15T10:12:15Z"
+      }
+    }
+  ],
+  "decision": "No create, update or hosting requests sent. Connect Metricool MCP, then verify current Pinterest connection and complete daily history. Recover confirmed ERROR posts only through updateScheduledPost with existing ID and UUID, saving any returned replacement ID. Existing post IDs, UUIDs, slots and historical provider checked_at were preserved.",
+  "commit_scope": "Only this report. Concurrent publisher changed HEAD and staged shared state; existing index entries and all other changes excluded.",
+  "git_preflight": {
+    "head": "3e3be4c663950a4963ffe04fa82507edad97e45d",
+    "origin_main": "3e3be4c663950a4963ffe04fa82507edad97e45d",
+    "fetch_origin_main": "succeeded; recheck before push",
+    "checkout_switched": false,
+    "head_at_commit": "ccc696c5858063c43c244af8be369f89e1a24dda",
+    "concurrent_publisher_detected": true
+  },
+  "review_changed_by_run": [],
+  "review_commit_policy": "Shared review files have pre-existing changes; excluded from this commit."
+}
