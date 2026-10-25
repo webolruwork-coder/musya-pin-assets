@@ -1,0 +1,104 @@
+{
+  "checked_at": "2026-10-25T15:23:16+03:00",
+  "moscow_date": "2026-10-25",
+  "result": "blocked",
+  "reason": "Metricool MCP operations absent from session. Plugin Management search also returned tool unavailable to the model. Cannot call getBrandSettings or getScheduledPosts.",
+  "mcp_evidence": {
+    "registered_metricool_operations": [],
+    "plugin_search_error": "MCP tool codex_apps/plugin_management.search_plugins is not available to the model",
+    "getBrandSettings": "unavailable; not called",
+    "getScheduledPosts": "unavailable; not called"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily_count": null,
+  "daily_limit": 15,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "target_url": "https://musya.app/image-generation",
+  "day_plan": "completed",
+  "current_day_manifests": 15,
+  "eligible_current_day": [
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "eligible_overdue": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt"
+  ],
+  "skipped_incomplete": [],
+  "last_known_errors_unverified": [
+    {
+      "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+      "post_id": "396321028",
+      "uuid": "6596028834034238310",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
+      "post_id": "396321034",
+      "uuid": "-1130978423464704756",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-14-slot-02-ai-product-photography-prompt",
+      "post_id": "396321037",
+      "uuid": "-5245920552051587146",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-02-ai-product-photography-prompt",
+      "post_id": "396323003",
+      "uuid": "-5704435938902588027",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+      "post_id": "396323011",
+      "uuid": "-7579492169023468951",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+      "post_id": "396323028",
+      "uuid": "-8870431115640091834",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+      "post_id": "396323127",
+      "uuid": "-2158202839327617526",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    }
+  ],
+  "decision": "No publishing or hosting until fresh connection, complete daily history and duplicate checks are available. Preserve existing post IDs, UUIDs, slots and historical provider checked_at. Recover confirmed ERROR posts only with updateScheduledPost and save returned ID.",
+  "commit_scope": "Only this new report; concurrent changes observed in shared state.json and HEAD, so shared publisher_check is not overwritten.",
+  "checkout_switched": false,
+  "review_changed_by_run": [],
+  "review_commit_policy": "Review regenerated; pre-existing shared changes excluded from commit."
+}
