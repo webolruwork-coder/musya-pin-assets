@@ -1,0 +1,107 @@
+{
+  "checked_at": "2026-10-25T04:53:18+03:00",
+  "moscow_date": "2026-10-25",
+  "result": "blocked",
+  "reason": "Metricool MCP startup failed: OAuth refresh token was rejected; invalid_grant: OAuth authorization required. getBrandSettings and getScheduledPosts could not be called. Pinterest connection, real provider statuses, duplicates and the complete Moscow-day count remain unverified.",
+  "mcp_evidence": {
+    "registered_metricool_operations": [],
+    "resources_list": "invalid_grant: OAuth authorization required",
+    "resource_templates_list": "invalid_grant: OAuth authorization required"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily_count": null,
+  "daily_limit": 15,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "target_url": "https://musya.app/image-generation",
+  "day_plan": "completed",
+  "current_day_manifests": 15,
+  "eligible_current_day": [
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "eligible_overdue": [
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt"
+  ],
+  "skipped_incomplete": [],
+  "last_known_errors_unverified": [
+    {
+      "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+      "post_id": "396321028",
+      "uuid": "6596028834034238310",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
+      "post_id": "396321034",
+      "uuid": "-1130978423464704756",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-14-slot-02-ai-product-photography-prompt",
+      "post_id": "396321037",
+      "uuid": "-5245920552051587146",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-02-ai-product-photography-prompt",
+      "post_id": "396323003",
+      "uuid": "-5704435938902588027",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+      "post_id": "396323011",
+      "uuid": "-7579492169023468951",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+      "post_id": "396323028",
+      "uuid": "-8870431115640091834",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    },
+    {
+      "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+      "post_id": "396323127",
+      "uuid": "-2158202839327617526",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_verified_at": "2026-10-15T10:12:15Z"
+    }
+  ],
+  "decision": "No create, update or hosting requests sent. Reauthorize Metricool MCP, then verify Pinterest connection and complete history before scheduling. Preserve existing post IDs, UUIDs and slots; recover confirmed ERROR posts only with updateScheduledPost using existing ID and UUID, saving any returned replacement ID. Historical provider checks were not refreshed.",
+  "review_changed_by_run": [],
+  "commit_scope": "Only this report and publisher_check delta; pre-existing edits excluded.",
+  "git_preflight": {
+    "head": "4bca6b31f12ef7b80e9d399c8d1ced30e0d6e2b9",
+    "origin_main": "4bca6b31f12ef7b80e9d399c8d1ced30e0d6e2b9",
+    "fetch_origin_main": "succeeded",
+    "checkout_switched": false
+  }
+}
