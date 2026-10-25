@@ -380,7 +380,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-25T08:11:35+03:00",
+    "checked_at": "2026-10-25T14:35:55+03:00",
     "date_moscow": "2026-10-25",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -413,9 +413,9 @@
       "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
       "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
     ],
-    "blocked_reason": "Metricool MCP tools are absent from this session; live plugin discovery returned installed=false. getBrandSettings and getScheduledPosts cannot be called. Pinterest connection, real provider statuses, duplicates and the complete Moscow-day count remain unverified.",
-    "decision": "No create, update or hosting requests sent. Connect Metricool MCP, then verify current Pinterest connection and complete daily history. Recover confirmed ERROR posts only through updateScheduledPost with existing ID and UUID, saving any returned replacement ID. Existing post IDs, UUIDs, slots and historical provider checked_at were preserved.",
+    "blocked_reason": "Metricool MCP tools are absent from this session (tool discovery returned no Metricool operations). getBrandSettings and getScheduledPosts cannot be called. Pinterest connection, real provider statuses, duplicates and complete Moscow-day count remain unverified.",
+    "decision": "No create, update or hosting requests sent. Restore Metricool MCP access, then verify fresh Pinterest connection and complete daily history before scheduling. Recover confirmed ERROR posts through updateScheduledPost with existing ID and UUID and save any returned replacement ID. Existing IDs, UUIDs, slots and historical provider checked_at preserved.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-25/publisher-blocked-20261025T081135-session-tools.json"
+    "evidence": "factory/research/2026-10-25/publisher-blocked-20261025T143555-session-tools.json"
   }
 }
