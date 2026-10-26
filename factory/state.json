@@ -380,8 +380,8 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-25T15:21:58+03:00",
-    "date_moscow": "2026-10-25",
+    "checked_at": "2026-10-26T20:12:09+03:00",
+    "date_moscow": "2026-10-26",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
@@ -413,9 +413,9 @@
       "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
       "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
     ],
-    "blocked_reason": "Metricool MCP tools are absent from this session; live plugin discovery returned installed=false. getBrandSettings and getScheduledPosts cannot be called. Pinterest connection, real provider statuses, duplicates and the complete Moscow-day count remain unverified.",
-    "decision": "No create, update or hosting requests sent. Connect Metricool MCP, then verify current Pinterest connection and complete daily history. Recover confirmed ERROR posts only through updateScheduledPost with existing ID and UUID, saving any returned replacement ID. Existing post IDs, UUIDs, slots and historical provider checked_at were preserved.",
+    "blocked_reason": "Metricool MCP startup failed: OAuth refresh token was rejected; invalid_grant: OAuth authorization required. getBrandSettings and getScheduledPosts unavailable; Pinterest connection, real provider statuses, duplicates and complete Moscow-day count remain unverified.",
+    "decision": "No create, update or hosting requests. Reauthorize Metricool MCP, then verify current Pinterest connection and complete daily history. Recover confirmed ERROR posts via updateScheduledPost using existing ID and UUID, saving the returned ID. Preserve original slots and historical provider checked_at.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-25/publisher-blocked-20261025T152158-session-tools.json"
+    "evidence": "factory/research/2026-10-26/publisher-blocked-20261026T201209-metricool-mcp-oauth.json"
   }
 }
