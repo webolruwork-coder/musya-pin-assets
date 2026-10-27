@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T22:32:34.448Z",
+  "updated_at": "2026-10-27T23:12:05.785Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -484,7 +484,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-27T22:32:34.448Z",
+    "checked_at": "2026-10-27T23:12:05.785Z",
     "date_moscow": "2026-10-28",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -497,8 +497,8 @@
       "remaining": 0
     },
     "actions": {
-      "created": 8,
-      "rescheduled": 7
+      "created": 0,
+      "rescheduled": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -510,8 +510,8 @@
       "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
     ],
     "blocked_reason": null,
-    "decision": "Daily limit filled: 7 confirmed ERROR posts rescheduled using existing IDs and UUIDs; 8 approved overdue pins created. All 15 verified PENDING. Remaining approved pins deferred to next Moscow day.",
+    "decision": "Daily limit already filled: all 15 existing posts confirmed PENDING. No ERROR posts in the returned history; no create/update requests. Seven approved overdue pins remain queued for a later Moscow day.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-28/reconnected-0127/result.json"
+    "evidence": "factory/research/2026-10-28/publisher-check-0211-metricool.json"
   }
 }
