@@ -380,7 +380,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-27T01:11:26+03:00",
+    "checked_at": "2026-10-27T22:11:28+03:00",
     "date_moscow": "2026-10-27",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -413,9 +413,9 @@
       "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
       "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
     ],
-    "blocked_reason": "Metricool MCP startup failed: OAuth refresh token was rejected; invalid_grant: OAuth authorization required. getBrandSettings and getScheduledPosts unavailable; Pinterest connection, real provider statuses, duplicates and complete Moscow-day count remain unverified.",
+    "blocked_reason": "Metricool MCP startup failed: OAuth authorization required. getBrandSettings and getScheduledPosts unavailable; Pinterest connection, real provider statuses, duplicates and complete Moscow-day count remain unverified.",
     "decision": "No create, update or hosting requests. Reauthorize Metricool MCP, then verify current Pinterest connection and complete daily history. Recover confirmed ERROR posts via updateScheduledPost using existing ID and UUID, saving the returned ID. Preserve original slots and historical provider checked_at.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-27/publisher-blocked-20261027T011126-metricool-mcp-oauth.json"
+    "evidence": "factory/research/2026-10-27/publisher-blocked-20261027T221128-metricool-mcp-oauth.json"
   }
 }
