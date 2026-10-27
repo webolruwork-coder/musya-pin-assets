@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "id": "2026-10-16-slot-02-ai-product-photography-prompt",
+  "created_at": "2026-10-15T10:01:00.139Z",
+  "updated_at": "2026-10-27T22:29:20.107Z",
+  "status": "validated",
+  "search": {
+    "query": "AI product photography prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/648096202672835637/"
+    ],
+    "reference_fingerprints": [
+      "2f34533277b2d9ce156b77be3779fa65fe6a0b5936bc92d6b4dc4e193cbf34bd"
+    ],
+    "pattern_summary": "Свежая глобальная выдача Pinterest по «промпт»: 25 organic результатов. Визуально проверены лидеры №7, №9 и №11; в продуктовых карточках повторяются один крупный тактильный объект, ограниченная палитра и ясная вертикальная иерархия. Выбран свободный product-референс №9 (1 656 публичных сохранений; 3-е место в ранжировании по saves). Новая композиция — оригинальный арочный парфюмерный флакон на известняковом пьедестале, без пакета, ягод, косметики или брендов."
+  },
+  "content": {
+    "prompt_ru": "Арочный флакон янтарного парфюма на известняковом пьедестале, тёплый боковой свет, длинная тень, редакционная предметная съёмка, фотореализм",
+    "title_ru": "Промпт для предметной съёмки: янтарный флакон",
+    "description_ru": "Сохраните промпт для чистой editorial-предметной съёмки с архитектурной композицией и тёплым светом. Создайте свой визуал в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт для нейросети",
+      "предметная съёмка",
+      "product photography",
+      "AI изображение",
+      "парфюмерия",
+      "визуал для Pinterest"
+    ],
+    "layout": "top_light_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-16-slot-02-ai-product-photography-prompt/source-image.png",
+    "final_image": "factory/runs/2026-10-16-slot-02-ai-product-photography-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-02-ai-product-photography-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-15T14:25:05.206Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-15T14:25:05.206Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-16",
+    "slot_index": 2,
+    "planned_at_local": "2026-10-16T04:00:00",
+    "pillar": "Предметная съёмка"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-16/global-prompt-search.json",
+    "date_range": "2026-10-15T10:03:30.632Z — 2026-10-15T10:03:51.969Z; public global Pinterest search",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 3,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/648096202672835637/",
+      "title": "Prompt for design | Промпт для дизайна | Реклама косметики, Промт",
+      "public_saves": 1656,
+      "search_rank": 9,
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Один крупный предмет как немедленный визуальный якорь в вертикальном кадре",
+      "Ограниченная светлая палитра и мягкий направленный свет для премиального ощущения",
+      "Тактильная материальность продукта и отдельная чистая зона для короткого промпта"
+    ],
+    "deliberate_changes": [
+      "Вместо косметического тюбика в прозрачном пакете с ягодами создан оригинальный безбрендовый арочный флакон на известняке",
+      "Убраны пакет, еда, декоративная типографика и любая близкая компоновка референса",
+      "Metricool за 30 дней использован только как дополнительная проверка: собственный предметный пин имеет 1 702 impressions, 8 saves и 19 pin clicks; это не переносится как прогноз"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-15T10:01:00.139Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-15T14:23:09.152Z",
+      "note": "Recorded fresh 25-result public Pinterest evidence with public save counts and three visual inspections"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-15T14:23:09.203Z",
+      "note": "Selected original architectural fragrance-still-life concept; Metricool 30-day observation used as a secondary check"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-15T14:23:09.238Z",
+      "note": "Created original unbranded source image with ImageGen; no reference image was copied"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-15T14:23:12.009Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-15T14:23:12.306Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

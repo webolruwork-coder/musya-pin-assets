@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "id": "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+  "created_at": "2026-10-15T10:01:00.140Z",
+  "updated_at": "2026-10-27T22:29:20.590Z",
+  "status": "validated",
+  "search": {
+    "query": "surreal cinematic AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/426856870955212313/"
+    ],
+    "reference_fingerprints": [
+      "3460c4c449c65d7f36dbfe3f32417d6c64872e0d94d57b2fcdad19115cdea9a2"
+    ],
+    "pattern_summary": "Свежая глобальная выдача Pinterest по «промпт»: 25 organic результатов. Ранжирование — реальные pinterestapp:repins, затем позиция в поиске и визуальная повторяемость. После проверки дедупликации выбран свободный pin rank 11 с 652 сохранениями: выраженная тактильная фактура единого героя и мягкая глубина слоёв. Данные Metricool за 30 дней подтверждают только ценность чистой предметной композиции как вторичного сигнала."
+  },
+  "content": {
+    "prompt_ru": "Сюрреалистичный кинематографичный натюрморт: прозрачный полуночный синий кит из стекла парит над круглым зеркалом чёрной воды в тёмно-бирюзовой ар-деко оранжерее. В арочном проёме за ним — тёплый янтарный полумесяц и ночная дымка; на воде плывут три маленьких серебряных бумажных кораблика. Мягкий контровой свет, тонкие блики, реалистичные пузырьки внутри стекла, вертикальный кадр 2:3, без надписей.",
+    "title_ru": "Промпт: стеклянный кит в ночной оранжерее — создай в Musya",
+    "description_ru": "Сохрани промпт для сюрреалистичного AI-кадра: стеклянный кит, чёрная вода и тёплый полумесяц в ар-деко оранжерее. Создавай собственные изображения в Musya: https://musya.app/image-generation",
+    "cta_ru": "Создать в Musya → https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "сюрреализм",
+      "кинематографичный кадр",
+      "стеклянный кит",
+      "нейросеть",
+      "Musya"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-16-slot-05-surreal-cinematic-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-16-slot-05-surreal-cinematic-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-05-surreal-cinematic-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-15T18:09:03.290Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-15T18:09:03.291Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-16",
+    "slot_index": 5,
+    "planned_at_local": "2026-10-16T08:30:00",
+    "pillar": "Сюрреализм"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-16/global-prompt-search.json",
+    "source_captured_at": "2026-10-15T18:03:11.074Z",
+    "date_range": "2026-10-15; fresh BaseSearchResource global search for 2026-10-16 production batch",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 3,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/426856870955212313/",
+      "canonical_url": "https://ru.pinterest.com/pin/9710955444071899/",
+      "title": "ПЛЮШЕВЫЙ ЭФФЕКТ - KrasKa | Графический дизайн вдохновение, Фото цветов, Милые щенки",
+      "public_saves": 652,
+      "search_rank": 11,
+      "global_rank": 4,
+      "save_metric": "pinterestapp:repins",
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Выраженная тактильная материальность как главный считываемый признак",
+      "Один крупный герой с ясным фокусом и мягкой глубиной слоёв",
+      "Контролируемые блики, подчёркивающие поверхность и объём"
+    ],
+    "deliberate_changes": [
+      "Вместо плюшевого женского портрета создан оригинальный сюрреалистичный стеклянный кит без людей",
+      "Прозрачное стекло с пузырьками и отражением воды заменяет мягкую ткань, а ар-деко оранжерея и полумесяц — цветочный фон",
+      "Композиция построена вокруг симметричной арки и отражения, без лица, цветочного обрамления, чужого текста или брендинга"
+    ],
+    "visual_review": [
+      {
+        "pin_id": "891431320006573324",
+        "search_rank": 6,
+        "public_saves": 2294,
+        "note": "Крупный мужской портрет на глубоком teal-фоне; открыт для сравнения, но исключён как ранее использованный reference."
+      },
+      {
+        "pin_id": "1140255199426494237",
+        "search_rank": 8,
+        "public_saves": 1333,
+        "note": "Beauty-крупный план с пипеткой; подтверждает читаемость одного героя и направленного света, но сюжет не переносится."
+      },
+      {
+        "pin_id": "1010635972642617388",
+        "search_rank": 17,
+        "public_saves": 1010,
+        "note": "Папарацци-портрет с движением; уже использован другим manifest, поэтому исключён как reference."
+      },
+      {
+        "pin_id": "426856870955212313",
+        "search_rank": 11,
+        "public_saves": 652,
+        "note": "Плюшевый портрет с цветами: выбран свободный reference из верхней части рейтинга за заметную тактильную поверхность, мягкие слои и единый фокус."
+      }
+    ],
+    "pattern_recurrence": "В визуально открытых лидерах рейтинга повторяются один доминантный герой, выразительная материальность и контролируемый свет; перенесены только эти общие признаки.",
+    "public_metrics_evidence": "factory/research/2026-10-16/global-prompt-search.json",
+    "own_account_validation": {
+      "report": "factory/research/2026-10-16/metricool-own-pins-30d.json",
+      "captured_at": "2026-10-15T10:04:00Z",
+      "period": "2026-09-15 — 2026-10-14",
+      "note": "Metricool MCP: 23 строки. Лучшая доступная собственная предметная публикация набрала 1 702 impressions, 8 saves и 19 pin clicks; это вторичный ориентир в пользу чистого одиночного объекта, а не доказательство будущего результата."
+    },
+    "deduplication": {
+      "checked_all_manifests": true,
+      "reference_unique": true,
+      "composition_note": "URL выбранного reference отсутствует в остальных manifests. Полная проверка промптов не нашла композиции со стеклянным китом над круглым зеркалом воды в ар-деко оранжерее. Первый кандидат с 2 294 сохранениями был автоматически исключён как дубль URL."
+    }
+  },
+  "generation": {
+    "tool": "image_gen",
+    "mode": "built-in",
+    "prompt": "Use case: stylized-concept. Original vertical 2:3 Pinterest prompt-card background: a translucent midnight-blue glass whale gently floating above a circular mirror of black water in a dark teal art-deco conservatory. An open doorway reveals a warm amber crescent moon; tiny silver paper boats in foreground water. Premium photorealistic cinematic editorial photography, no text, logos, watermark, people, brands, or copied composition; quiet dark lower quarter for later typography.",
+    "generated_at": "2026-10-15T18:05:03Z",
+    "visual_review": "Основа открыта и проверена: стеклянный кит, арка, полумесяц и бумажные лодки оригинальны; анатомия и отражения выглядят согласованно, нет текста, логотипов или водяных знаков. Нижняя четверть достаточно спокойна для карточки."
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-15T10:01:00.140Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-15T18:07:37.839Z",
+      "note": "25 fresh organic Pinterest results analyzed; three top-ranked references visually reviewed; selected unused rank 6 with 2,294 public saves."
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-15T18:07:37.912Z",
+      "note": "Original glass-whale, black-water and crescent-moon concept recorded; deliberately distinct from the portrait reference."
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-15T18:07:37.977Z",
+      "note": "Original built-in ImageGen source saved locally and visually reviewed."
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-15T18:07:40.613Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "needs_review",
+      "at": "2026-10-15T18:07:40.865Z",
+      "note": "One or more references were already used by another run"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-15T18:09:03.291Z",
+      "note": "Review issue fixed"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-15T18:09:03.291Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

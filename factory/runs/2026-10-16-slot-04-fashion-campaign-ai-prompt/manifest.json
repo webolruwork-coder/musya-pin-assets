@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "id": "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+  "created_at": "2026-10-15T10:01:00.139Z",
+  "updated_at": "2026-10-27T22:29:20.442Z",
+  "status": "validated",
+  "search": {
+    "query": "fashion campaign AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/1010635972642617388/"
+    ],
+    "reference_fingerprints": [
+      "416c6b3132970614e539e66c7a6222ec2061715d29ceb6cf25b757d964226b95"
+    ],
+    "pattern_summary": "Из 25 organic результатов глобальной выдачи «промпт» публичные сохранения были первичным сигналом, затем учитывались rank и повторяемость. Выбран rank 19: 1 010 pinterestapp:repins. Визуально просмотрены ranks 7, 9, 19 и 23; сильный переносимый паттерн — один модный герой, прямой взгляд и выразительный материал в вертикальном редакционном кадре. Снимок Metricool за 30 дней показывает лучший собственный наблюдаемый результат у предметной композиции (1 702 impressions, 8 saves), поэтому он использован только как дополнительная проверка необходимости чистого одиночного героя и не подменяет Pinterest-рейтинг."
+  },
+  "content": {
+    "prompt_ru": "Редакционная fashion-кампания: модель в кобальтовом костюме и полупрозрачной накидке в терракотовой галерее, полный рост, мягкий направленный свет, чистая архитектурная композиция",
+    "title_ru": "Промпт для fashion-кампании в архитектурном пространстве",
+    "description_ru": "Сохраните промпт для модной AI-съёмки: кобальтовый костюм, прозрачная накидка и графичная галерея. Создавайте свои изображения в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "fashion промпт",
+      "нейрофотосессия",
+      "модная съёмка",
+      "AI image generation",
+      "редакционный стиль"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-16-slot-04-fashion-campaign-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-16-slot-04-fashion-campaign-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-04-fashion-campaign-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-15T17:03:44.954Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-15T17:03:44.955Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-16",
+    "slot_index": 4,
+    "planned_at_local": "2026-10-16T07:00:00",
+    "pillar": "Мода"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-16/global-prompt-search.json",
+    "date_range": "2026-10-15T10:03:51.969Z (fresh global BaseSearchResource capture; 25 organic pins)",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 4,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/1010635972642617388/",
+      "title": "Съемка в стиле папарацци / неожиданный кадр / девушка в толпе / промпт / prompt / нейрофотосессия",
+      "public_saves": 1010,
+      "search_rank": 19,
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Вертикальный редакционный кадр с одним fashion-героем",
+      "Прямой взгляд в камеру как сильная точка фокуса",
+      "Выразительная ткань и контрастный верхний силуэт"
+    ],
+    "deliberate_changes": [
+      "Вместо крупного папарацци-кадра с толпой создан оригинальный полнофигурный статичный портрет в минималистичной архитектурной галерее",
+      "Палитра заменена на кобальт и терракоту; нет движения, вспышки, crowds, текста или чужого брендинга"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-15T10:01:00.139Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-15T17:03:41.541Z",
+      "note": "25 fresh organic Pinterest results analyzed; four references visually reviewed; selected rank 19 with 1,010 public saves"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-15T17:03:41.592Z",
+      "note": "Original fashion concept selected: full-length cobalt suit and organza in terracotta gallery, deliberately distinct from the paparazzi reference"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-15T17:03:41.622Z",
+      "note": "Original ImageGen vertical source created locally (1024x1536); no reference image copied"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-15T17:03:44.669Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-15T17:03:44.955Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

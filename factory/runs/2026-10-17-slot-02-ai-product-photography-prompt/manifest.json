@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "id": "2026-10-17-slot-02-ai-product-photography-prompt",
+  "created_at": "2026-10-16T04:08:09.701Z",
+  "updated_at": "2026-10-27T22:29:20.710Z",
+  "status": "validated",
+  "search": {
+    "query": "AI product photography prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/1140255199426494237/"
+    ],
+    "reference_fingerprints": [
+      "1d6f02b2db63e161ba57478fcfb1dc12ecf31f8ce7ec8c275f2b738fef04ddf6"
+    ],
+    "pattern_summary": "Текущий запрос BaseSearchResource по «промпт» получил HTTP 403; использован допустимый сохранённый глобальный отчёт от 2026-10-16 (captured_at 2026-10-15T14:23:56.821Z), 25 organic результатов. Реальные pinterestapp:repins ранжируются прежде позиции; визуально просмотрены product/beauty-кандидаты №5, №6 и №10. Для свободного №10 (1 332 публичных сохранения) измерен паттерн: один предметный герой, чистая студийная сцена, контраст материала и заметная вертикальная зона для сообщения. Новая работа не повторяет упаковку, ракурс или палитру референса: вместо косметики создан абстрактный кобальтовый стеклянный объект с хромированной дугой на персиковом подиуме. Аналитика Metricool за 30 дней — дополнительный сигнал: предметная композиция ранее получила 1 702 показа, 8 сохранений и 19 pin clicks."
+  },
+  "content": {
+    "prompt_ru": "премиальная предметная съёмка: кобальтовый стеклянный флакон без бренда, хромированная дуга, персиковый подиум, чистый студийный свет, editorial product photography",
+    "title_ru": "Промпт для премиальной предметной съёмки",
+    "description_ru": "Сохрани промпт для чистого рекламного кадра продукта. Сгенерировать свой вариант: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "предметная съёмка",
+      "нейросеть",
+      "ai product photography",
+      "рекламный визуал"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-17-slot-02-ai-product-photography-prompt/source.png",
+    "final_image": "factory/runs/2026-10-17-slot-02-ai-product-photography-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-17-slot-02-ai-product-photography-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-16T16:02:11.993Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-16T16:02:11.994Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-17",
+    "slot_index": 2,
+    "planned_at_local": "2026-10-17T04:00:00",
+    "pillar": "Предметная съёмка"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-16/global-prompt-search-current.json (fallback; source date 2026-10-16; fresh BaseSearchResource attempt recorded at factory/research/2026-10-17/pinterest-search-blocked.json)",
+    "date_range": "Saved global report captured 2026-10-15T14:23:56.821Z; 25 organic results; fallback used after 2026-10-16 BaseSearchResource HTTP 403",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 3,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/1140255199426494237/",
+      "title": "Cosmetici | Profilo, Marketing",
+      "public_saves": 1332,
+      "search_rank": 10,
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Один крупный предметный герой в студийном кадре",
+      "Контраст глянцевого материала с нейтральной матовой опорой",
+      "Вертикальная иерархия с чистой зоной для короткого сообщения"
+    ],
+    "deliberate_changes": [
+      "Оригинальный небрендированный кобальтовый стеклянный объект вместо косметического продукта, иная палитра, ракурс и хромированная дуга"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-16T04:08:09.701Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-16T16:02:09.048Z",
+      "note": "Global Pinterest fallback evidence recorded: 25 organic results; selected free reference has 1,332 public pinterestapp:repins"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-16T16:02:09.103Z",
+      "note": "Original product-photography concept selected after three visual reference inspections and Metricool secondary check"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-16T16:02:09.136Z",
+      "note": "Original ImageGen source saved; no external image copied"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-16T16:02:11.610Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-16T16:02:11.994Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ]
+}

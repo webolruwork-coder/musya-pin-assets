@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "id": "2026-10-16-slot-01-liquid-glass-3d-prompt",
+  "created_at": "2026-10-15T10:01:00.131Z",
+  "updated_at": "2026-10-27T22:29:19.981Z",
+  "status": "validated",
+  "search": {
+    "query": "liquid glass 3D prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/733242383129245660/"
+    ],
+    "reference_fingerprints": [
+      "446667815e7df11abae8bddcda2734900c47eaf7238dd8d74c4df5c98baf552b"
+    ],
+    "pattern_summary": "Визуальный просмотр четырёх лидирующих organic-пинов показывает повторяемый паттерн: один крупный тактильный герой, вертикальная иерархия, ограниченная палитра и отдельная зона с промптом. Для 3D-направления выбран доступный референс с 1 943 публичными сохранениями: глянцевая стилизованная голова занимает центр кадра на спокойном коралловом фоне."
+  },
+  "content": {
+    "prompt_ru": "Скульптурная раковина наутилуса из прозрачного жидкого стекла: спираль с янтарным сердцем, дымчато-бирюзовые преломления, матовый коралловый фон, мягкий студийный свет и реалистичные каустики. Премиальный 3D-рендер, без текста и логотипов.",
+    "title_ru": "Промпт: раковина из жидкого стекла — создать в Musya",
+    "description_ru": "Создай оригинальную 3D-раковину из жидкого стекла с янтарным светом внутри и мягкими каустиками. Скопируй промпт и сделай свою версию в Musya: https://musya.app/image-generation",
+    "cta_ru": "Создать в Musya → https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "жидкое стекло",
+      "3D",
+      "раковина",
+      "каустики",
+      "Musya"
+    ],
+    "layout": "top_light_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-16-slot-01-liquid-glass-3d-prompt/source.png",
+    "final_image": "factory/runs/2026-10-16-slot-01-liquid-glass-3d-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-01-liquid-glass-3d-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-15T10:06:59.329Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-15T10:06:59.329Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-16",
+    "slot_index": 1,
+    "planned_at_local": "2026-10-16T02:30:00",
+    "pillar": "3D и материалы"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-16/global-prompt-search.json",
+    "search_response": "factory/research/2026-10-16/global-prompt-response.json",
+    "date_range": "Fresh global search captured 2026-10-15T10:03:51.969Z; 30-day own-account validation covers 2026-09-15 through 2026-10-14 Europe/Moscow.",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 4,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/733242383129245660/",
+      "title": "Глянцевая 3D-кукла с Вашим лицом | Промпт Nano Banana | tg: jl_dsgn | 3d дизайн, Винтажный логотип, Цифровое искусство",
+      "public_saves": 1943,
+      "search_rank": 23,
+      "global_saves_rank": 2,
+      "save_metric": "pinterestapp:repins",
+      "metric_source_url": "https://www.pinterest.com/pin/733242383129245660/",
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Один крупный глянцевый 3D-объект как немедленный визуальный якорь",
+      "Ограниченная кораллово-белая палитра с одним тёплым световым акцентом",
+      "Вертикальная композиция с отдельной спокойной зоной для промпта"
+    ],
+    "deliberate_changes": [
+      "Вместо лица, кукольной анатомии, текста и брендинга — самостоятельная раковина наутилуса без персонажей и надписей",
+      "Материал меняется с непрозрачного глянцевого пластика на прозрачное жидкое стекло с янтарным сердцем и каустиками",
+      "Композиция строится вокруг бокового трёхчетвертного ракурса раковины, а не фронтального портрета"
+    ],
+    "report_captured_at": "2026-10-15T10:03:51.969Z",
+    "report_reused": false,
+    "report_source_date": "2026-10-15",
+    "own_account_report": "factory/research/2026-10-16/metricool-own-pins-30d.json",
+    "own_account_validation": "Metricool MCP вернул 23 пина за 2026-09-15—2026-10-14. Предметная композиция от 2026-09-22: 1 702 показа, 8 сохранений, 19 кликов; 3D-закладка из жидкого стекла: 15 показов, 0 сохранений, 2 клика. Поэтому предметная, а не портретная, подача служит дополнительной проверкой выбранного паттерна; эти данные не подменяют публичные saves референса.",
+    "visual_reviews": [
+      {
+        "pin_id": "891431320006573324",
+        "search_rank": 7,
+        "public_saves": 2286,
+        "rank_by_public_saves": 1,
+        "image": "factory/research/2026-10-16/reference-images/07-891431320006573324.jpg",
+        "note": "Крупный мужской портрет с тёмно-зелёным фоном и плотным текстовым блоком; не выбран, чтобы избежать портретной композиции."
+      },
+      {
+        "pin_id": "726768458661556000",
+        "search_rank": 23,
+        "public_saves": 1943,
+        "rank_by_public_saves": 2,
+        "image": "factory/research/2026-10-16/reference-images/23-726768458661556000.jpg",
+        "note": "Глянцевый 3D-портрет на коралловом фоне; выбран только измеренный паттерн крупного тактильного 3D-объекта и свободной вертикальной иерархии."
+      },
+      {
+        "pin_id": "648096202672835637",
+        "search_rank": 9,
+        "public_saves": 1656,
+        "rank_by_public_saves": 3,
+        "image": "factory/research/2026-10-16/reference-images/09-648096202672835637.png",
+        "note": "Косметика и ягоды в прозрачном пакете; не выбран из-за чужого бренда и уже частого product/beauty-мотива."
+      },
+      {
+        "pin_id": "1140255199426494237",
+        "search_rank": 11,
+        "public_saves": 1329,
+        "rank_by_public_saves": 4,
+        "image": "factory/research/2026-10-16/reference-images/11-1140255199426494237.jpg",
+        "note": "Beauty-крупный план с пипеткой; не выбран, чтобы не повторять beauty-портрет."
+      }
+    ],
+    "deduplication": "Проверены все manifest.json по canonical URL и ID выбранного референса: совпадений нет. Новый сюжет — прозрачная раковина наутилуса в боковом трёхчетвертном ракурсе — не повторяет ранее созданные закладку, сферу, орхидею, домино или песочные часы."
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-15T10:01:00.131Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-15T10:05:57.976Z",
+      "note": "Captured fresh global Pinterest search: 25 organic pins with public saves; reviewed top four references and recorded Metricool 30-day supplemental validation"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-15T10:05:58.052Z",
+      "note": "Selected original liquid-glass nautilus concept from measured 3D-object pattern; reference URL and intentional changes recorded"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-15T10:06:56.982Z",
+      "note": "Generated and visually checked original ImageGen liquid-glass nautilus base; source retained locally in run directory"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-15T10:06:59.113Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-15T10:06:59.329Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen",
+    "mode": "built-in",
+    "generated_at": "2026-10-15T10:06:00Z",
+    "source_dimensions": "1024×1536",
+    "prompt": "Original premium 3D studio still life: a transparent liquid-glass nautilus shell with an amber spiral core, turquoise-smoke refractions, warm coral background, soft lateral light and calm upper negative space. No text, faces, products, brands or watermark.",
+    "visual_review": "Original image inspected after generation: one clear nautilus shell, clean coral field for editorial overlay, crisp glass edges and natural caustics; no people, text, logo or borrowed artwork."
+  }
+}

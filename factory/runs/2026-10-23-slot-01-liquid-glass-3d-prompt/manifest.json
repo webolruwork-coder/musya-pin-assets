@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "id": "2026-10-23-slot-01-liquid-glass-3d-prompt",
+  "created_at": "2026-10-22T12:01:01.476Z",
+  "updated_at": "2026-10-27T22:29:20.832Z",
+  "status": "validated",
+  "search": {
+    "query": "liquid glass 3D prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/818740407304412570/"
+    ],
+    "reference_fingerprints": [
+      "be60b656cccba578a055fbc17d38c047fcc3b37d16f298f574b9e42c44723a2a"
+    ],
+    "pattern_summary": "Из 25 organic результатов сохранённой глобальной выдачи «промпт» выбран самый высокий свободный кандидат: позиция поиска 3, место 4/25 по свежим публичным сохранениям (1005 pinterestapp:repins). Визуально просмотрены семь изображений, включая трёх лидеров: во всех семи есть отделённая зона текста; у выбранного — один крупный герой и тёплая ограниченная палитра. Переносим иерархию и цветовой строй в оригинальную 3D-композицию стеклянного листа гинкго, меняя объект, расположение и ракурс. Источник выдачи captured_at 2026-10-15T18:03:11.074Z, повторно использован в пределах 7 дней после HTTP 403 нового BaseSearchResource; метрики обновлены 2026-10-22. Metricool не подключён; дополнительная проверка аккаунта недоступна и не подменяет первичные публичные данные."
+  },
+  "content": {
+    "prompt_ru": "Лист гинкго из жидкого стекла на бордовом постаменте. Дымчато-оливковые преломления, янтарные прожилки, фон слоновой кости, боковой студийный свет и мягкие каустики. Вертикальный 3D-рендер, без надписей.",
+    "title_ru": "Промпт для 3D: лист гинкго из жидкого стекла — Musya",
+    "description_ru": "Дымчато-оливковое стекло, янтарные прожилки и мягкие каустики: промпт для скульптурного листа гинкго в редакционной предметной съёмке. Сохраните идею и создайте свой вариант в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "жидкое стекло",
+      "3D рендер",
+      "гинкго",
+      "генерация изображений",
+      "Musya"
+    ],
+    "layout": "top_light_editorial",
+    "cta_ru": "Создать в Musya → https://musya.app/image-generation",
+    "cta_rendered": "Создать в Musya → musya.app/image-generation"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-23-slot-01-liquid-glass-3d-prompt/source.png",
+    "final_image": "factory/runs/2026-10-23-slot-01-liquid-glass-3d-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-23-slot-01-liquid-glass-3d-prompt.png",
+    "render_source": "factory/runs/2026-10-23-slot-01-liquid-glass-3d-prompt/card.svg"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-22T12:32:52.459Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-22T12:32:52.463Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-23",
+    "slot_index": 1,
+    "planned_at_local": "2026-10-23T02:30:00",
+    "pillar": "3D и материалы"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-16/global-prompt-search.json",
+    "date_range": "Глобальная выдача: 2026-10-15; публичные сохранения обновлены 2026-10-22",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 7,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/818740407304412570/",
+      "title": "Промпт с нуля писать вообще не обязательно.\n\nМожно сначала найти визуал, который тебе нравится, посмотреть, каким промпт… | Блог, Человек, Стиль",
+      "public_saves": 1005,
+      "search_rank": 3,
+      "impressions": null,
+      "saves": null,
+      "clicks": null,
+      "canonical_url": "https://ru.pinterest.com/pin/818740407304412570/",
+      "save_metric": "pinterestapp:repins",
+      "global_rank": 4,
+      "metrics_captured_at": "2026-10-22T12:27:52.475Z"
+    },
+    "transferred_features": [
+      "Один крупный выразительный герой на спокойном фоне",
+      "Тёплая ограниченная палитра с тёмным типографическим контрастом",
+      "Чёткое отделение изображения и зоны полезного текста",
+      "Читаемый материал и направленный студийный свет"
+    ],
+    "deliberate_changes": [
+      "Женский fashion-портрет заменён самостоятельной 3D-скульптурой листа гинкго из жидкого стекла",
+      "Герой расположен ниже центральной оси; текст сверху, вместо модели слева и текста справа",
+      "Новая палитра прозрачного дымчато-оливкового стекла, янтарных прожилок, слоновой кости и бордового постамента",
+      "Один конкретный промпт вместо подборки библиотек; CTA ведёт на https://musya.app/image-generation"
+    ],
+    "global_response": "factory/research/2026-10-16/global-prompt-response.json",
+    "global_search_captured_at": "2026-10-15T18:03:11.074Z",
+    "global_search_source_date": "2026-10-15",
+    "global_search_source_directory_date": "2026-10-16",
+    "global_search_fallback": true,
+    "fallback_age_hours_at_selection": 162.43783944444445,
+    "fallback_max_age_days": 7,
+    "fresh_search_status": "HTTP 403 Invalid Resource Request",
+    "fresh_search_attempt": "factory/research/2026-10-23/browser-resource-attempt.json",
+    "public_metrics_report": "factory/research/2026-10-23/cached-candidates-public-metrics.json",
+    "public_metrics_refreshed_at": "2026-10-22T12:27:52.475Z",
+    "reviewed_images": [
+      {
+        "pin_id": "891431320006573324",
+        "path": "factory/research/2026-10-16/reference-images/07-891431320006573324.jpg",
+        "observation": "Крупный фактурный герой, тёмная нижняя зона промпта; лидер рейтинга, уже использован."
+      },
+      {
+        "pin_id": "1140255199426494237",
+        "path": "factory/research/2026-10-16/reference-images/11-1140255199426494237.jpg",
+        "observation": "Тактильный beauty-герой, ограниченная розово-молочная палитра, отдельный блок промпта; уже использован."
+      },
+      {
+        "pin_id": "1010635972642617388",
+        "path": "factory/research/2026-10-16/reference-images/19-1010635972642617388.jpg",
+        "observation": "Резкий герой на размытом фоне, выделенная типографика; уже использован."
+      },
+      {
+        "pin_id": "1149051292457860696",
+        "path": "factory/research/2026-10-16/reference-images/20-1149051292457860696.jpg",
+        "observation": "Крупная натуральная фактура справа, отдельные текстовые инструкции слева."
+      },
+      {
+        "pin_id": "818740407304412570",
+        "path": "factory/research/2026-10-16/reference-images/04-818740407304412570.jpg",
+        "observation": "Одиночная модель слева, тёплый нейтральный фон, большая правая типографическая зона. Свободен; выбран по наибольшим публичным сохранениям среди свободных."
+      },
+      {
+        "pin_id": "919367711447244675",
+        "path": "factory/research/2026-10-16/reference-images/21-919367711447244675.jpg",
+        "observation": "Четыре beauty-макрокадра, повторение фактуры, верхний текстовый блок."
+      },
+      {
+        "pin_id": "890375788843857958",
+        "path": "factory/research/2026-10-16/reference-images/25-890375788843857958.jpg",
+        "observation": "Крупный блестящий портрет, белая типографика поверх нижней области."
+      }
+    ],
+    "dedupe": {
+      "checked_at": "2026-10-22T12:29:27.297Z",
+      "reference_url_unused": true,
+      "canonical_pin_id_unused": true,
+      "composition_review": "Проверены заполненные prompts всех manifests. Лист гинкго на бордовом прямоугольном постаменте не повторяет закладку, стеклянную ленту со сферой, домино, наутилус, стеклянного кита или флакон с хромированной дугой."
+    },
+    "own_account_validation": {
+      "status": "unavailable",
+      "report": "factory/research/2026-10-23/metricool-own-pins-unavailable.json",
+      "reason": "Metricool plugin installed=false; no callable Metricool MCP analytics tools. Supplemental signal only; no account metrics inferred or reused as current."
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-22T12:01:01.476Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-22T12:29:27.307Z",
+      "note": "25 cached global organic results analyzed within 7 days; fresh real public saves collected; seven reference images visually inspected; own-account supplementary analytics unavailable and documented"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-22T12:29:27.364Z",
+      "note": "Original composition checked against existing manifests; Russian copy and destination CTA prepared"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-22T12:30:49.563Z",
+      "note": "Original vertical base generated through built-in ImageGen; copied locally and visually inspected"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-22T12:31:38.063Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-22T12:32:13.450Z",
+      "note": "Added legible destination CTA in run-local SVG and rerendered 1000×1500; shared renderer unchanged"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-22T12:32:52.463Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "status": "generated",
+    "concept": "Оригинальный одиночный стеклянный лист гинкго на низком прямоугольном бордовом постаменте; пустая светлая верхняя треть под типографику.",
+    "prompt": "Use case: stylized-concept. Original premium 3D editorial still life, vertical 2:3 portrait. One large sculptural ginkgo leaf made from thick transparent smoky olive liquid glass with delicate amber branching veins and physically plausible refraction. The fan-shaped leaf stands upright, gently tilted, on a low dark burgundy rectangular plinth. Warm ivory seamless studio background and surface. Leaf and plinth occupy the lower 60 percent of the image; top 35 percent is clean warm ivory negative space for later typography. Three-quarter camera angle, precise crisp glass edges, soft directional side lighting, subtle beautiful caustics, refined tactile material realism, quiet luxury art direction. One sculptural hero only. No people, no bottles, no spheres, no spirals, no additional leaves. No letters, no words, no logos, no watermarks. Do not copy any reference image.",
+    "completed_at": "2026-10-22T12:30:49.481Z",
+    "original_output": "/Users/nataliakorcagina/.codex/generated_images/01a1637b-f933-7dc0-9c6f-0933512b3be8/exec-51f43163-9e6b-4180-b2b8-d9606d6a6859.png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1536,
+      "format": "png"
+    },
+    "visual_review": "Один оригинальный стеклянный лист, янтарные прожилки, бордовый постамент, чистая светлая верхняя треть; нет букв, брендов и лишних объектов. Форма читается, стекло и каустики видимы."
+  },
+  "visual_quality": {
+    "checked_at": "2026-10-22T12:32:51.684Z",
+    "passed": true,
+    "final_image": "factory/runs/2026-10-23-slot-01-liquid-glass-3d-prompt/pin.png",
+    "checks": {
+      "hero_visible": true,
+      "original_composition": true,
+      "no_unwanted_generated_text": true,
+      "prompt_legible": true,
+      "prompt_complete": true,
+      "cta_legible": true,
+      "cta_destination_correct": true,
+      "edges_not_clipped": true
+    },
+    "note": "Final 1000×1500 raster visually opened: complete three-line Russian prompt, large glass leaf and unobstructed footer CTA. Text stays in the empty upper area; destination matches publishing.target_url."
+  }
+}
