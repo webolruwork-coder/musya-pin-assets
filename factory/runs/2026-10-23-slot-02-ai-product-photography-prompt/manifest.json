@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-23-slot-02-ai-product-photography-prompt",
   "created_at": "2026-10-22T12:01:01.483Z",
-  "updated_at": "2026-10-27T22:29:20.951Z",
-  "status": "validated",
+  "updated_at": "2026-10-27T22:32:34.448Z",
+  "status": "scheduled",
   "search": {
     "query": "AI product photography prompt",
     "global_query": "промпт",
@@ -46,8 +46,14 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-10-28T23:30:00+03:00",
+    "metricool_post_id": "408364543",
+    "metricool_uuid": "-7033682051491019542",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-10-27T22:32:34.448Z",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-7033682051491019542"
   },
   "validation": {
     "passed": true,
@@ -76,8 +82,17 @@
   "production": {
     "target_date": "2026-10-23",
     "slot_index": 2,
-    "planned_at_local": "2026-10-23T04:00:00",
-    "pillar": "Предметная съёмка"
+    "planned_at_local": "2026-10-28T23:30:00",
+    "pillar": "Предметная съёмка",
+    "original_planned_at_local": "2026-10-23T04:00:00",
+    "reschedule_history": [
+      {
+        "previous_planned_at_local": "2026-10-23T04:00:00",
+        "planned_at_local": "2026-10-28T23:30:00",
+        "at": "2026-10-28T01:32:25+03:00",
+        "reason": "Approved overdue queue assigned a free Moscow-day slot"
+      }
+    ]
   },
   "research_evidence": {
     "source": "Pinterest public global search",
@@ -200,6 +215,17 @@
       "status": "validated",
       "at": "2026-10-22T13:06:27.803Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-27T22:31:57.434Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-23-slot-02-ai-product-photography-prompt.png"
+    },
+    {
+      "at": "2026-10-28T01:32:25+03:00",
+      "from": "hosted",
+      "to": "scheduled",
+      "reason": "Metricool accepted create; provider status PENDING"
     }
   ],
   "generation": {

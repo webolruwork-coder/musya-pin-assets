@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "id": "2026-10-15-slot-02-ai-product-photography-prompt",
+  "created_at": "2026-10-14T04:40:55.308Z",
+  "updated_at": "2026-10-27T22:32:34.448Z",
+  "status": "scheduled",
+  "search": {
+    "query": "AI product photography prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/15551561210850613/"
+    ],
+    "reference_fingerprints": [
+      "0b4193b38276485e3c066a07335e433a1633ea1f5cf4ec1a8a028136766385ea"
+    ],
+    "pattern_summary": "Светлый глянцевый предмет на тёмном фоне, золотистые акценты и направленный свет. Выбран свободный референс #24, десятый по публичным сохранениям (12). Три лидера уже заняты другими manifests. Перенос в предметную съёмку без модели, шахмат и разделённой на колонки композиции."
+  },
+  "content": {
+    "prompt_ru": "Сними молочный фарфоровый чайник с латунной ручкой и одну чашку на ступенях тёмного сланца. Боковой свет, тонкий пар, глубокий графитовый фон. Ракурс три четверти, асимметрия, реалистичная глазурь. Без надписей и логотипов.",
+    "title_ru": "Промпт для предметной съёмки чайника — создай в Musya",
+    "description_ru": "Фарфор, латунь и тёмный сланец: создай предметный рекламный кадр с мягким боковым светом. Скопируй промпт с пина и попробуй в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "предметная съёмка",
+      "нейросеть",
+      "фотография продукта",
+      "Musya"
+    ],
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-15-slot-02-ai-product-photography-prompt/source.png",
+    "final_image": "factory/runs/2026-10-15-slot-02-ai-product-photography-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-02-ai-product-photography-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": "2026-10-28T07:00:00+03:00",
+    "metricool_post_id": "408361817",
+    "metricool_uuid": "-5704435938902588027",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-10-27T22:32:34.448Z",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5704435938902588027",
+    "reschedule_history": [
+      {
+        "previous_post_id": "396323003",
+        "post_id": "408361817",
+        "previous_scheduled_at": "2026-10-15T04:00:00+03:00",
+        "scheduled_at": "2026-10-28T07:00:00+03:00",
+        "at": "2026-10-28T01:29:01+03:00",
+        "reason": "Recovered confirmed ERROR via updateScheduledPost with existing ID and UUID after current connection and daily-count verification"
+      }
+    ]
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-14T15:02:14.837Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-14T15:02:14.837Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-15",
+    "slot_index": 2,
+    "planned_at_local": "2026-10-28T07:00:00",
+    "pillar": "Предметная съёмка",
+    "original_planned_at_local": "2026-10-15T04:00:00",
+    "reschedule_history": [
+      {
+        "previous_planned_at_local": "2026-10-15T04:00:00",
+        "planned_at_local": "2026-10-28T07:00:00",
+        "at": "2026-10-28T01:29:01+03:00",
+        "reason": "Approved overdue queue assigned a free Moscow-day slot"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-15/global-prompt-search.json",
+    "date_range": "2026-10-14",
+    "posts_analyzed": 24,
+    "reference_images_reviewed": 5,
+    "selected_reference": {
+      "rank": 24,
+      "pin_id": "15551561210850613",
+      "url": "https://www.pinterest.com/pin/15551561210850613/",
+      "canonical_url": "https://ru.pinterest.com/pin/chess-board-editorial-photography--952863233685129667/",
+      "image_url": "https://i.pinimg.com/originals/a7/9b/bf/a79bbf2d2aa8e5a2490b0edc887c4e5a.png",
+      "title": "Таргет дизайн | Промпт, Шахматы, Шахматная",
+      "description": "1 июл. 2026 г. — | Цифровое искусство, Королевы, Иллюстрации",
+      "public_saves": 12,
+      "save_metric": "pinterestapp:repins",
+      "search_rank_score": 77,
+      "detail_status": "ok",
+      "search_rank": 24,
+      "rank_by_public_saves": 10,
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Контраст светлой керамики и тёмного фона",
+      "Тёплые металлические акценты",
+      "Боковое освещение с видимой фактурой"
+    ],
+    "deliberate_changes": [
+      "Вместо женщины на шахматной фигуре — чайник и чашка на ступенчатом сланце",
+      "Без шахматной сетки, людей, колонок текста; асимметричная диагональ предметов"
+    ],
+    "global_search_capture": "2026-10-14T10:21:31.863Z",
+    "report_metadata_capture": "2026-10-14T14:00:43.898Z",
+    "daily_report_reused": true,
+    "raw_response": "factory/research/2026-10-15/global-prompt-response.json",
+    "metricool_report": "factory/research/2026-10-15/metricool-own-pins-20261014.json",
+    "metricool_note": "Сегодняшняя MCP-выгрузка 11:22Z за 14 сентября–13 октября: предметный пин 1152851204653178292 имеет 1064 показа и 7 сохранений. Это слабая дополнительная поддержка предметной темы, не доказательство эффективности новой композиции.",
+    "visual_review": [
+      {
+        "id": "2674081025661415",
+        "observation": "Крупное лицо с арбузом, солнечный свет, текстура кожи; уже использован"
+      },
+      {
+        "id": "422281212704318",
+        "observation": "Три розовых флакона на нарисованной сетке с сердцами; уже использован"
+      },
+      {
+        "id": "1125968743172864",
+        "observation": "Крупный beauty-портрет снизу, белый фон, красный текст; уже использован"
+      },
+      {
+        "id": "5207355816247704",
+        "observation": "Резкое лицо в смазанной толпе; мотив движения пересекается с предыдущим концептом"
+      },
+      {
+        "id": "15551561210850613",
+        "observation": "Белая одежда и керамическая шахматная фигура, золото, тёмный фон; выбран только световой и материальный паттерн"
+      }
+    ],
+    "visual_rechecked_at": "2026-10-14T15:01:47.591Z",
+    "visual_rechecked_ids": [
+      "2674081025661415",
+      "422281212704318",
+      "1125968743172864",
+      "15551561210850613"
+    ]
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-14T04:40:55.308Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-14T14:02:36.931Z",
+      "note": "24 organic results from today’s BaseSearchResource; 5 images reviewed; public saves and daily Metricool evidence recorded; unique reference."
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-14T14:02:36.958Z",
+      "note": "Original porcelain teapot still life; no chess, portrait or copied layout."
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-14T15:01:47.596Z",
+      "note": "Original vertical porcelain teapot base generated with built-in ImageGen and visually inspected."
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-14T15:01:49.842Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-14T15:02:14.837Z",
+      "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-14T22:13:21.669Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-02-ai-product-photography-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-14T22:15:32.219Z",
+      "note": "Metricool post 396323003 scheduled after verified daily count and deduplication"
+    },
+    {
+      "at": "2026-10-28T01:29:01+03:00",
+      "from": "scheduled",
+      "to": "scheduled",
+      "reason": "Metricool accepted update; provider status PENDING"
+    }
+  ],
+  "producer_attempts": [
+    {
+      "attempt_id": "producer-slot02-concurrent-2026-10-14T14:03:16.085799+00:00",
+      "at": "2026-10-14T14:03:16.085799+00:00",
+      "status": "needs_review",
+      "reason": "Concurrent producer collision: this invocation selected slot-02 while queued (updated_at 2026-10-14T04:40:55.308Z). During read-only research another producer advanced the same manifest to concept_ready at 2026-10-14T14:02:36.958Z and populated reference 15551561210850613 and concept. This invocation stops to preserve concurrent work; no second manifest selected. Manifest lifecycle status belongs to the concurrent producer and is not overwritten.",
+      "result_file": "factory/research/2026-10-15/producer-result-slot02-collision-20261014T140316Z.json"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen",
+    "generated_at": "2026-10-14T15:01:47.596Z",
+    "prompt": "Original vertical 2:3 product photograph: milky porcelain teapot with brushed brass arch handle and one porcelain cup on dark layered slate steps, three-quarter angle, soft directional side light, fine steam, deep graphite background. Complete subjects in upper 65%; dark bottom 30% for later typography. No people, chess, text, logos or watermark."
+  },
+  "visual_quality_review": {
+    "checked_at": "2026-10-14T15:02:14.634Z",
+    "passed": true,
+    "notes": "Final image opened visually: original porcelain teapot and cup, intact geometry, readable full Russian prompt, no cropping or text overlap, visible Musya image-generation CTA. Local card.svg customized with destination CTA; shared renderer unchanged."
+  }
+}

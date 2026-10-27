@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-28T01:28:52+03:00",
+  "request": {
+    "id": 396321028,
+    "publicationDate": {
+      "dateTime": "2026-10-28T02:30:00",
+      "timezone": "Europe/Moscow"
+    },
+    "creationDate": {
+      "dateTime": "2026-10-15T01:11:00",
+      "timezone": "Europe/Moscow"
+    },
+    "text": "Создайте ночной editorial-портрет с выразительным светом и цветным стеклом. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+    "firstCommentText": "",
+    "providers": [
+      {
+        "network": "pinterest",
+        "status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit."
+      }
+    ],
+    "media": [
+      "https://static.metricool.com/planner/202610/6880455-file-41972958162950161.png"
+    ],
+    "autoPublish": true,
+    "saveExternalMediaFiles": false,
+    "mediaAltText": [
+      null
+    ],
+    "shortener": false,
+    "draft": false,
+    "pinterestData": {
+      "boardId": "1152851273304179107",
+      "pinTitle": "Промпт для ночного editorial-портрета",
+      "pinLink": "https://musya.app/image-generation",
+      "pinNewFormat": false,
+      "isAiGenerated": false,
+      "isAiGeneratedPerson": false
+    },
+    "hasNotReadNotes": false,
+    "uuid": "6596028834034238310",
+    "creatorUserMail": "natashakorchagina0@gmail.com",
+    "creatorUserId": 5298491,
+    "brandTags": []
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":{\"id\":408361334,\"publicationDate\":{\"dateTime\":\"2026-10-28T02:30:00\",\"timezone\":\"Europe/Moscow\"},\"creationDate\":{\"dateTime\":\"2026-10-28T01:28:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Создайте ночной editorial-портрет с выразительным светом и цветным стеклом. Откройте генератор и сделайте свою версию: https://musya.app/image-generation\",\"firstCommentText\":\"\",\"providers\":[{\"network\":\"pinterest\",\"status\":\"PENDING\",\"detailedStatus\":\"Pending\"}],\"media\":[\"https://static.metricool.com/planner/202610/6880455-file-41972958162950161.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":false,\"mediaAltText\":[null],\"shortener\":false,\"draft\":false,\"twitterData\":{\"type\":\"POST\"},\"instagramData\":{\"autoPublish\":true,\"isAiGenerated\":false},\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Промпт для ночного editorial-портрета\",\"pinLink\":\"https://musya.app/image-generation\",\"pinNewFormat\":false,\"isAiGenerated\":false,\"isAiGeneratedPerson\":false},\"notes\":[],\"hasNotReadNotes\":false,\"uuid\":\"6596028834034238310\",\"creatorUserMail\":\"natashakorchagina0@gmail.com\",\"creatorUserId\":5298491,\"brandTags\":[],\"plannerUrl\":\"https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=6596028834034238310\"}}"
+      }
+    ],
+    "isError": false
+  }
+}

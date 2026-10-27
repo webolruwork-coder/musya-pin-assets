@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-28T01:32:24+03:00",
+  "request": {
+    "publicationDate": {
+      "dateTime": "2026-10-28T22:00:00",
+      "timezone": "Europe/Moscow"
+    },
+    "text": "Дымчато-оливковое стекло, янтарные прожилки и мягкие каустики: промпт для скульптурного листа гинкго в редакционной предметной съёмке. Сохраните идею и создайте свой вариант в Musya: https://musya.app/image-generation",
+    "providers": [
+      {
+        "network": "pinterest"
+      }
+    ],
+    "media": [
+      "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-23-slot-01-liquid-glass-3d-prompt.png"
+    ],
+    "autoPublish": true,
+    "saveExternalMediaFiles": true,
+    "shortener": false,
+    "draft": false,
+    "pinterestData": {
+      "boardId": "1152851273304179107",
+      "pinTitle": "Промпт для 3D: лист гинкго из жидкого стекла — Musya",
+      "pinLink": "https://musya.app/image-generation",
+      "pinNewFormat": false
+    }
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":{\"id\":408364531,\"publicationDate\":{\"dateTime\":\"2026-10-28T22:00:00\",\"timezone\":\"Europe/Moscow\"},\"creationDate\":{\"dateTime\":\"2026-10-28T01:32:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Дымчато-оливковое стекло, янтарные прожилки и мягкие каустики: промпт для скульптурного листа гинкго в редакционной предметной съёмке. Сохраните идею и создайте свой вариант в Musya: https://musya.app/image-generation\",\"firstCommentText\":\"\",\"providers\":[{\"network\":\"pinterest\",\"status\":\"PENDING\",\"detailedStatus\":\"Pending\"}],\"media\":[\"https://static.metricool.com/planner/202610/6880455-file-8373011846702897751.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":false,\"mediaAltText\":[null],\"shortener\":false,\"draft\":false,\"twitterData\":{\"type\":\"POST\"},\"instagramData\":{\"autoPublish\":true,\"isAiGenerated\":false},\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Промпт для 3D: лист гинкго из жидкого стекла — Musya\",\"pinLink\":\"https://musya.app/image-generation\",\"pinNewFormat\":false,\"isAiGenerated\":false,\"isAiGeneratedPerson\":false},\"hasNotReadNotes\":false,\"uuid\":\"5783305838563118730\",\"creatorUserMail\":\"natashakorchagina0@gmail.com\",\"creatorUserId\":5298491,\"brandTags\":[],\"plannerUrl\":\"https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=5783305838563118730\"}}"
+      }
+    ],
+    "isError": false
+  }
+}

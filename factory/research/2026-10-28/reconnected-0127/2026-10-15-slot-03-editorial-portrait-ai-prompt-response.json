@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-28T01:29:01+03:00",
+  "request": {
+    "id": 396323011,
+    "publicationDate": {
+      "dateTime": "2026-10-28T08:30:00",
+      "timezone": "Europe/Moscow"
+    },
+    "creationDate": {
+      "dateTime": "2026-10-15T01:14:00",
+      "timezone": "Europe/Moscow"
+    },
+    "text": "Резкий портрет и город в движении: попробуй editorial-съёмку с нейросетью. Синий пиджак, терракотовый шарф, тёплый свет и естественная фактура кожи. Скопируй промпт с пина и создай свой кадр: https://musya.app/image-generation",
+    "firstCommentText": "",
+    "providers": [
+      {
+        "network": "pinterest",
+        "status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit."
+      }
+    ],
+    "media": [
+      "https://static.metricool.com/planner/202610/6880455-file-3312535194637788459.png"
+    ],
+    "autoPublish": true,
+    "saveExternalMediaFiles": false,
+    "mediaAltText": [
+      null
+    ],
+    "shortener": false,
+    "draft": false,
+    "pinterestData": {
+      "boardId": "1152851273304179107",
+      "pinTitle": "Промпт: портрет в движении — создай в Musya",
+      "pinLink": "https://musya.app/image-generation",
+      "pinNewFormat": false,
+      "isAiGenerated": false,
+      "isAiGeneratedPerson": false
+    },
+    "hasNotReadNotes": false,
+    "uuid": "-7579492169023468951",
+    "creatorUserMail": "natashakorchagina0@gmail.com",
+    "creatorUserId": 5298491,
+    "brandTags": []
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":{\"id\":408361824,\"publicationDate\":{\"dateTime\":\"2026-10-28T08:30:00\",\"timezone\":\"Europe/Moscow\"},\"creationDate\":{\"dateTime\":\"2026-10-28T01:29:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Резкий портрет и город в движении: попробуй editorial-съёмку с нейросетью. Синий пиджак, терракотовый шарф, тёплый свет и естественная фактура кожи. Скопируй промпт с пина и создай свой кадр: https://musya.app/image-generation\",\"firstCommentText\":\"\",\"providers\":[{\"network\":\"pinterest\",\"status\":\"PENDING\",\"detailedStatus\":\"Pending\"}],\"media\":[\"https://static.metricool.com/planner/202610/6880455-file-3312535194637788459.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":false,\"mediaAltText\":[null],\"shortener\":false,\"draft\":false,\"twitterData\":{\"type\":\"POST\"},\"instagramData\":{\"autoPublish\":true,\"isAiGenerated\":false},\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Промпт: портрет в движении — создай в Musya\",\"pinLink\":\"https://musya.app/image-generation\",\"pinNewFormat\":false,\"isAiGenerated\":false,\"isAiGeneratedPerson\":false},\"notes\":[],\"hasNotReadNotes\":false,\"uuid\":\"-7579492169023468951\",\"creatorUserMail\":\"natashakorchagina0@gmail.com\",\"creatorUserId\":5298491,\"brandTags\":[],\"plannerUrl\":\"https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-7579492169023468951\"}}"
+      }
+    ],
+    "isError": false
+  }
+}

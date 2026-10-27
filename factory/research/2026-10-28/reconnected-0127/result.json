@@ -1,0 +1,103 @@
+{
+  "checked_at": "2026-10-27T22:32:34.448Z",
+  "date_moscow": "2026-10-28",
+  "result": "scheduled",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 15,
+    "history_complete": true,
+    "remaining": 0
+  },
+  "actions": {
+    "created": 8,
+    "rescheduled": 7
+  },
+  "deferred": [
+    {
+      "id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "kind": "create"
+    },
+    {
+      "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "kind": "create"
+    },
+    {
+      "id": "2026-10-25-slot-02-ai-product-photography-prompt",
+      "kind": "create"
+    },
+    {
+      "id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "kind": "create"
+    },
+    {
+      "id": "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "kind": "create"
+    },
+    {
+      "id": "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "kind": "create"
+    },
+    {
+      "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "kind": "create"
+    }
+  ],
+  "target_url": "https://musya.app/image-generation",
+  "verification": {
+    "unique_ids": 15,
+    "unique_uuids": 15,
+    "unique_titles": 15,
+    "minimum_interval_minutes": 90.0,
+    "all_pending": true,
+    "all_pin_links_verified": true,
+    "original_slots_preserved": true,
+    "rescheduled_uuid_preserved": true
+  },
+  "prior_error": "You have reached your Metricool account limit.",
+  "note": "Metricool accepted all 15 posts as PENDING; actual publication is not yet confirmed. Seven ERROR posts recovered via updateScheduledPost, preserving UUID and saving new IDs.",
+  "affected": [
+    "2026-09-21-prompt-trends",
+    "2026-09-22-liquid-glass-bookmark",
+    "2026-10-09-slot-01-liquid-glass-3d-prompt",
+    "2026-10-09-slot-02-ai-product-photography-prompt",
+    "2026-10-09-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-09-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-09-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-09-slot-06-beauty-cosmetic-photography-prompt",
+    "2026-10-09-slot-07-chrome-translucent-3d-prompt",
+    "2026-10-09-slot-08-luxury-product-advertising-prompt",
+    "2026-10-09-slot-09-cinematic-character-portrait-prompt",
+    "2026-10-09-slot-10-avant-garde-fashion-prompt",
+    "2026-10-09-slot-11-dreamlike-architecture-ai-prompt",
+    "2026-10-09-slot-12-skincare-texture-macro-prompt",
+    "2026-10-09-slot-13-inflatable-soft-sculpture-prompt",
+    "2026-10-09-slot-14-minimal-studio-still-life-prompt",
+    "2026-10-09-slot-15-trending-ai-image-prompt",
+    "2026-10-10-slot-01-liquid-glass-3d-prompt",
+    "2026-10-10-slot-02-ai-product-photography-prompt",
+    "2026-10-10-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-10-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-13-slot-01-liquid-glass-3d-prompt",
+    "2026-10-13-slot-02-ai-product-photography-prompt",
+    "2026-10-13-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-13-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-13-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-14-slot-02-ai-product-photography-prompt",
+    "2026-10-15-slot-02-ai-product-photography-prompt",
+    "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "2026-10-16-slot-02-ai-product-photography-prompt",
+    "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-17-slot-02-ai-product-photography-prompt",
+    "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "2026-10-23-slot-02-ai-product-photography-prompt"
+  ]
+}

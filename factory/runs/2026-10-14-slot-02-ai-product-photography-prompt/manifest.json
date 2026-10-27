@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "id": "2026-10-14-slot-02-ai-product-photography-prompt",
+  "created_at": "2026-10-13T04:01:13.728Z",
+  "updated_at": "2026-10-27T22:32:34.448Z",
+  "status": "scheduled",
+  "search": {
+    "query": "AI product photography prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/16677461116717862/"
+    ],
+    "reference_fingerprints": [
+      "4c6b71617a4e8e3ee27b3193b9cbae8dc41c695b09d8f3cb80817a02b5bd993a"
+    ],
+    "pattern_summary": "Светлая editorial-композиция с одним главным объектом, розовым акцентом и крупным заголовком. Повторяемость светлого фона и выделенного объекта визуально подтверждена у 3 из 4 просмотренных лидеров. Перенос на предметную съёмку очков без человека."
+  },
+  "content": {
+    "prompt_ru": "Чёрные ацетатные очки на складке розового сатина. Молочный фон, мягкий боковой свет, диагональный ракурс, естественные тени и тонкие блики на линзах. Предметная съёмка, 85 мм, без логотипов.",
+    "title_ru": "Промпт для предметной съёмки очков — создать в Musya",
+    "description_ru": "Создайте предметный кадр с чёрными очками, розовым сатином и мягким студийным светом. Скопируйте промпт с пина и попробуйте его в Musya: https://musya.app/image-generation. Меняйте цвет ткани и форму оправы под свою идею.",
+    "keywords_ru": [
+      "промпт",
+      "предметная съёмка",
+      "очки",
+      "нейросеть",
+      "генерация изображений"
+    ],
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "layout": "top_light_editorial",
+    "render_notes": "Run-local card.svg: увеличен текст промпта до 25px, добавлен нижний CTA. Исходный renderer не изменён."
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-14-slot-02-ai-product-photography-prompt/source.png",
+    "final_image": "factory/runs/2026-10-14-slot-02-ai-product-photography-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-14-slot-02-ai-product-photography-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": "2026-10-28T05:30:00+03:00",
+    "metricool_post_id": "408361810",
+    "metricool_uuid": "-5245920552051587146",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "checked_at": "2026-10-27T22:32:34.448Z",
+    "detailed_status": "Pending",
+    "reschedule_history": [
+      {
+        "previous_post_id": "395339156",
+        "post_id": "396321037",
+        "previous_scheduled_at": "2026-10-14T04:00:00+03:00",
+        "scheduled_at": "2026-10-15T02:15:00+03:00",
+        "at": "2026-10-14T22:11:43.044937+00:00",
+        "reason": "Approved overdue ERROR post rescheduled through updateScheduledPost after explicit current-day count of zero"
+      },
+      {
+        "previous_post_id": "396321037",
+        "post_id": "408361810",
+        "previous_scheduled_at": "2026-10-15T02:15:00+03:00",
+        "scheduled_at": "2026-10-28T05:30:00+03:00",
+        "at": "2026-10-28T01:29:00+03:00",
+        "reason": "Recovered confirmed ERROR via updateScheduledPost with existing ID and UUID after current connection and daily-count verification"
+      }
+    ],
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5245920552051587146"
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-13T18:04:09.558Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-13T18:04:09.558Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-14",
+    "slot_index": 2,
+    "planned_at_local": "2026-10-28T05:30:00",
+    "pillar": "Предметная съёмка",
+    "original_planned_at_local": "2026-10-14T04:00:00",
+    "reschedule_history": [
+      {
+        "previous_planned_at_local": "2026-10-15T02:15:00",
+        "planned_at_local": "2026-10-28T05:30:00",
+        "at": "2026-10-28T01:29:00+03:00",
+        "reason": "Approved overdue queue assigned a free Moscow-day slot"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-14/slot-02-global-prompt-search.json",
+    "date_range": "Глобальная выдача 2026-10-13; публичные сохранения обновлены 2026-10-13T18:01:32.241Z",
+    "posts_analyzed": 24,
+    "reference_images_reviewed": 4,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/16677461116717862/",
+      "canonical_url": "https://in.pinterest.com/pin/motorcycle-photography-ideas--453948837464702392/",
+      "title": "25 Gemini Prompts to Create STUNNING, Stylish Photos | Outfit ideas for gemini women, Fashion outfits for gemini women, Outfits for gemnini",
+      "public_saves": 73,
+      "search_rank": 17,
+      "global_saves_rank": 4,
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Светлый бесшовный фон и мягкий студийный свет",
+      "Пастельный розовый акцент с чёрным контрастным объектом",
+      "Один чёткий силуэт с отдельной зоной крупного заголовка"
+    ],
+    "deliberate_changes": [
+      "Вместо модели — натюрморт с очками на складке розовой ткани",
+      "Диагональная предметная композиция и макродетали ацетата вместо фронтального портрета",
+      "Один русский промпт и CTA в Musya вместо обещания подборки Gemini"
+    ],
+    "source_captured_at": "2026-10-13T04:03:14.656Z",
+    "source_response": "factory/research/2026-10-14/global-prompt-response.json",
+    "source_original_path": "factory/research/2026-10-14/global-prompt-page-1.json",
+    "own_account_report": "factory/research/2026-10-14/metricool-own-pins.json",
+    "own_account_validation": "Дневной Metricool MCP отчёт 2026-09-13—2026-10-12: rows=[], подтверждение собственными метриками отсутствует.",
+    "reviewed_pin_ids": [
+      "2674081025661415",
+      "1125968743172864",
+      "4855512095232594",
+      "16677461116717862"
+    ],
+    "deduplication_note": "Первые три лидера исключены: URL уже использованы. Выбранный URL и canonical URL не повторяются. Новая композиция: чёрные очки на розовой ткани, без портрета.",
+    "metric_caveat": "pinterestapp:repins относится к публичной странице, og:url которой указывает на canonical_url; это не собственные метрики и не показатель причинной эффективности."
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-13T04:01:13.728Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-13T18:02:25.609Z",
+      "note": "24 organic results; real public saves refreshed; four reference images visually reviewed; daily Metricool response reused"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-13T18:02:25.657Z",
+      "note": "Unique product still life: black acetate eyewear on pink satin; light editorial pattern from unused reference"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-13T18:03:29.154Z",
+      "note": "Original vertical image created with built-in ImageGen and visually inspected"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-13T18:03:31.728Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-13T18:04:09.558Z",
+      "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-13T21:13:28.672Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-14-slot-02-ai-product-photography-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-13T21:14:19.669Z",
+      "note": "Created one Pinterest post through Metricool MCP; verified ID and UUID in fresh schedule"
+    },
+    {
+      "status": "failed",
+      "at": "2026-10-14T01:11:09.177Z",
+      "note": "Metricool 395339156: You have reached your Metricool account limit."
+    },
+    {
+      "at": "2026-10-28T01:29:00+03:00",
+      "from": "scheduled",
+      "to": "scheduled",
+      "reason": "Metricool accepted update; provider status PENDING"
+    }
+  ],
+  "generation": {
+    "provider": "built-in ImageGen",
+    "prompt_file": "factory/runs/2026-10-14-slot-02-ai-product-photography-prompt/imagegen-prompt.txt",
+    "source_visual_check": "Original vertical product still-life; one coherent frame and two clear lenses; no logos or text; empty top area for typography."
+  },
+  "visual_quality": {
+    "passed": true,
+    "checks": [
+      "Финальная карточка открыта визуально: текст полностью виден, не перекрывает предмет",
+      "Очки и ткань соответствуют промпту; логотипов и чужой графики нет",
+      "CTA полностью виден и ведёт на musya.app/image-generation",
+      "Композиция отличается от просмотренных референсов и описаний существующих manifests"
+    ]
+  }
+}

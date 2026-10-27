@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
+  "created_at": "2026-10-14T04:40:55.309Z",
+  "updated_at": "2026-10-27T22:32:34.448Z",
+  "status": "scheduled",
+  "search": {
+    "query": "editorial portrait AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/5207355816247704/"
+    ],
+    "reference_fingerprints": [
+      "0532c2fe56d0a37b95777090926f82627c047aa547490c13188efd0255c4a041"
+    ],
+    "pattern_summary": "Резкий портрет среди размытого движения: свободный референс с 29 публичными сохранениями, позиция поиска 12, глобальный рейтинг 8/24. В 3 из 4 просмотренных изображений крупный портрет и видимая фактура кожи; выбранный референс добавляет движение окружения."
+  },
+  "content": {
+    "prompt_ru": "Портрет мужчины 55 лет на вечерней платформе. Лицо резкое, прохожие размыты горизонтальным движением. Синий пиджак, терракотовый шарф, тёплый боковой свет, фактурная кожа, плёночное зерно. Вертикальный кадр 2:3.",
+    "title_ru": "Промпт: портрет в движении — создай в Musya",
+    "description_ru": "Резкий портрет и город в движении: попробуй editorial-съёмку с нейросетью. Синий пиджак, терракотовый шарф, тёплый свет и естественная фактура кожи. Скопируй промпт с пина и создай свой кадр: https://musya.app/image-generation",
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "нейрофотосессия",
+      "портрет",
+      "размытие движения",
+      "editorial",
+      "Musya"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-15-slot-03-editorial-portrait-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-15-slot-03-editorial-portrait-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-03-editorial-portrait-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": "2026-10-28T08:30:00+03:00",
+    "metricool_post_id": "408361824",
+    "metricool_uuid": "-7579492169023468951",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-10-27T22:32:34.448Z",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-7579492169023468951",
+    "reschedule_history": [
+      {
+        "previous_post_id": "396323011",
+        "post_id": "408361824",
+        "previous_scheduled_at": "2026-10-15T05:30:00+03:00",
+        "scheduled_at": "2026-10-28T08:30:00+03:00",
+        "at": "2026-10-28T01:29:01+03:00",
+        "reason": "Recovered confirmed ERROR via updateScheduledPost with existing ID and UUID after current connection and daily-count verification"
+      }
+    ]
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-14T16:03:37.122Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-14T16:03:37.123Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-15",
+    "slot_index": 3,
+    "planned_at_local": "2026-10-28T08:30:00",
+    "pillar": "Портрет",
+    "original_planned_at_local": "2026-10-15T05:30:00",
+    "reschedule_history": [
+      {
+        "previous_planned_at_local": "2026-10-15T05:30:00",
+        "planned_at_local": "2026-10-28T08:30:00",
+        "at": "2026-10-28T01:29:01+03:00",
+        "reason": "Approved overdue queue assigned a free Moscow-day slot"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-15/global-prompt-search.json",
+    "date_range": "2026-10-14, ежедневный сбор для партии 2026-10-15",
+    "posts_analyzed": 24,
+    "reference_images_reviewed": 4,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/5207355816247704/",
+      "canonical_url": "https://ru.pinterest.com/pin/843158361539085017/",
+      "title": "Съемка в стиле папарацци / неожиданный кадр / девушка в толпе / промпт / prompt / нейрофотосессия | Webdesign, Grafisch ontwerp inspiratie",
+      "public_saves": 29,
+      "search_rank": 12,
+      "global_rank": 8,
+      "save_metric": "pinterestapp:repins"
+    },
+    "transferred_features": [
+      "Резкое лицо среди смазанного окружения",
+      "Выраженная фактура кожи и одежды",
+      "Вертикальная editorial-композиция с отдельной зоной текста"
+    ],
+    "deliberate_changes": [
+      "Мужчина около 55 лет вместо молодой женщины",
+      "Фронтальный поясной портрет слева вместо взгляда через плечо крупным планом",
+      "Вечерняя платформа и горизонтальное движение вместо дневной уличной толпы",
+      "Тёмно-синий пиджак и терракотовый шарф вместо серого пальто"
+    ],
+    "source_captured_at": "2026-10-14T14:00:43.898Z",
+    "visual_review": [
+      {
+        "pin_id": "2674081025661415",
+        "note": "Крупное лицо, веснушки, арбуз; уже использован."
+      },
+      {
+        "pin_id": "422281212704318",
+        "note": "Розовые флаконы на нарисованном игровом поле; уже использован."
+      },
+      {
+        "pin_id": "1125968743172864",
+        "note": "Низкий ракурс лица, красные щёки, белый фон; уже использован."
+      },
+      {
+        "pin_id": "5207355816247704",
+        "note": "Резкое лицо через плечо и смазанная толпа, серое пальто; свободный референс."
+      }
+    ],
+    "public_metrics_evidence": "factory/research/2026-10-15/slot-03-public-metrics.json",
+    "own_account_validation": {
+      "report": "factory/research/2026-10-15/metricool-own-pins-success.json",
+      "captured_at": "2026-10-14T14:01:03.672Z",
+      "period": "2026-09-14 — 2026-10-13",
+      "note": "24 строки. Портретные публикации имеют небольшие показатели; данных недостаточно для подтверждения motion-blur паттерна. Использовано только как вторичная проверка."
+    },
+    "deduplication": {
+      "checked_all_manifests": true,
+      "reference_unique": true,
+      "composition_note": "В доступных manifest нет фронтального поясного портрета зрелого мужчины на платформе с горизонтальным движением."
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-14T04:40:55.309Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-14T16:02:08.635Z",
+      "note": "24 daily global results; four images visually inspected; public saves verified; unused reference selected."
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-14T16:02:08.676Z",
+      "note": "Original evening platform portrait; concept and copy recorded."
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-14T16:03:07.229Z",
+      "note": "Built-in ImageGen source saved and visually reviewed."
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-14T16:03:09.769Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-14T16:03:37.123Z",
+      "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-14T22:14:29.673Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-03-editorial-portrait-ai-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-14T22:15:32.231Z",
+      "note": "Metricool post 396323011 scheduled after verified daily count and deduplication"
+    },
+    {
+      "at": "2026-10-28T01:29:01+03:00",
+      "from": "scheduled",
+      "to": "scheduled",
+      "reason": "Metricool accepted update; provider status PENDING"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen",
+    "mode": "built-in",
+    "prompt": "Use case: photorealistic-natural. Original vertical 2:3 editorial photograph for a Pinterest prompt card. A fictional stylish 55-year-old man with short salt-and-pepper curls and subtle stubble, navy wool blazer and terracotta scarf, frontal waist-up portrait placed slightly left of center on an evening railway platform. His face is tack sharp with authentic skin texture, calm direct gaze, warm side light. Anonymous commuters and train windows form horizontal motion streaks in the background, cool teal evening ambience with restrained amber lights. Head near upper quarter, torso ends around lower two thirds. Lower quarter quiet dark navy negative space for later typography. Premium cinematic 50mm photo, fine film grain, realistic anatomy. No text, no logos, no watermark. Do not reproduce any reference image or recognizable person.",
+    "generated_at": "2026-10-14T16:03:07.036261+00:00",
+    "visual_review": "Лицо резкое, анатомия корректная, прохожие и поезд смазаны горизонтально, естественная фактура кожи. Оригинальный фронтальный портрет, нижняя зона пригодна для текста."
+  },
+  "visual_quality": {
+    "checked_at": "2026-10-14T16:03:36.724940+00:00",
+    "passed": true,
+    "note": "Финальный PNG открыт визуально: лицо не перекрыто, промпт полностью помещается, CTA читается и ведёт на musya.app/image-generation. Нет логотипов и водяных знаков чужих авторов.",
+    "render_customization": "Локальный card.svg: верхняя подпись MUSYA / ПОРТРЕТ В ДВИЖЕНИИ; нижний CTA на Musya вместо направления в Telegram."
+  }
+}

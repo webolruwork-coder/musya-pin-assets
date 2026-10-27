@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-28T01:29:00+03:00",
+  "request": {
+    "id": 396321037,
+    "publicationDate": {
+      "dateTime": "2026-10-28T05:30:00",
+      "timezone": "Europe/Moscow"
+    },
+    "creationDate": {
+      "dateTime": "2026-10-15T01:11:00",
+      "timezone": "Europe/Moscow"
+    },
+    "text": "Создайте предметный кадр с чёрными очками, розовым сатином и мягким студийным светом. Скопируйте промпт с пина и попробуйте его в Musya: https://musya.app/image-generation. Меняйте цвет ткани и форму оправы под свою идею.",
+    "firstCommentText": "",
+    "providers": [
+      {
+        "network": "pinterest",
+        "status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit."
+      }
+    ],
+    "media": [
+      "https://static.metricool.com/planner/202610/6880455-file-10755502680788974719.png"
+    ],
+    "autoPublish": true,
+    "saveExternalMediaFiles": false,
+    "mediaAltText": [
+      null
+    ],
+    "shortener": false,
+    "draft": false,
+    "pinterestData": {
+      "boardId": "1152851273304179107",
+      "pinTitle": "Промпт для предметной съёмки очков — создать в Musya",
+      "pinLink": "https://musya.app/image-generation",
+      "pinNewFormat": false,
+      "isAiGenerated": false,
+      "isAiGeneratedPerson": false
+    },
+    "hasNotReadNotes": false,
+    "uuid": "-5245920552051587146",
+    "creatorUserMail": "natashakorchagina0@gmail.com",
+    "creatorUserId": 5298491,
+    "brandTags": []
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":{\"id\":408361810,\"publicationDate\":{\"dateTime\":\"2026-10-28T05:30:00\",\"timezone\":\"Europe/Moscow\"},\"creationDate\":{\"dateTime\":\"2026-10-28T01:29:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Создайте предметный кадр с чёрными очками, розовым сатином и мягким студийным светом. Скопируйте промпт с пина и попробуйте его в Musya: https://musya.app/image-generation. Меняйте цвет ткани и форму оправы под свою идею.\",\"firstCommentText\":\"\",\"providers\":[{\"network\":\"pinterest\",\"status\":\"PENDING\",\"detailedStatus\":\"Pending\"}],\"media\":[\"https://static.metricool.com/planner/202610/6880455-file-10755502680788974719.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":false,\"mediaAltText\":[null],\"shortener\":false,\"draft\":false,\"twitterData\":{\"type\":\"POST\"},\"instagramData\":{\"autoPublish\":true,\"isAiGenerated\":false},\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Промпт для предметной съёмки очков — создать в Musya\",\"pinLink\":\"https://musya.app/image-generation\",\"pinNewFormat\":false,\"isAiGenerated\":false,\"isAiGeneratedPerson\":false},\"notes\":[],\"hasNotReadNotes\":false,\"uuid\":\"-5245920552051587146\",\"creatorUserMail\":\"natashakorchagina0@gmail.com\",\"creatorUserId\":5298491,\"brandTags\":[],\"plannerUrl\":\"https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5245920552051587146\"}}"
+      }
+    ],
+    "isError": false
+  }
+}

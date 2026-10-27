@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
+  "created_at": "2026-10-14T04:40:55.309Z",
+  "updated_at": "2026-10-27T22:32:34.448Z",
+  "status": "scheduled",
+  "search": {
+    "query": "surreal cinematic AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/24066179253910269/"
+    ],
+    "reference_fingerprints": [
+      "19cc04e758cc1e227e68daf964d33c11e60777fcfa90b3e6f80f7b7bf5769b9a"
+    ],
+    "pattern_summary": "Левитация еды, выраженная глубина и детальная фактура. Самый высокий свободный референс дневного рейтинга: 6 сохранений, место 14/24; умеренный сигнал."
+  },
+  "content": {
+    "prompt_ru": "Сюрреалистичный натюрморт: золотистая груша и два её ломтика парят внутри медной спирали. Тёмный бирюзовый фон, янтарный боковой свет, капли на кожице, малая глубина резкости. Вертикальный кадр 2:3, без надписей.",
+    "title_ru": "Промпт: груша в невесомости — создай в Musya",
+    "description_ru": "Преврати обычный фрукт в кинематографичный натюрморт: левитация, медная спираль и янтарный свет. Скопируй промпт и создай свой сюрреалистичный кадр в Musya: https://musya.app/image-generation",
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "сюрреализм",
+      "натюрморт",
+      "нейросеть",
+      "левитация",
+      "Musya"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-15-slot-05-surreal-cinematic-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-15-slot-05-surreal-cinematic-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-05-surreal-cinematic-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": "2026-10-28T11:30:00+03:00",
+    "metricool_post_id": "408361833",
+    "metricool_uuid": "-2158202839327617526",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-10-27T22:32:34.448Z",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-2158202839327617526",
+    "reschedule_history": [
+      {
+        "previous_post_id": "396323127",
+        "post_id": "408361833",
+        "previous_scheduled_at": "2026-10-15T08:30:00+03:00",
+        "scheduled_at": "2026-10-28T11:30:00+03:00",
+        "at": "2026-10-28T01:29:02+03:00",
+        "reason": "Recovered confirmed ERROR via updateScheduledPost with existing ID and UUID after current connection and daily-count verification"
+      }
+    ]
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-14T18:03:17.489Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-14T18:03:17.490Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-15",
+    "slot_index": 5,
+    "planned_at_local": "2026-10-28T11:30:00",
+    "pillar": "Сюрреализм",
+    "original_planned_at_local": "2026-10-15T08:30:00",
+    "reschedule_history": [
+      {
+        "previous_planned_at_local": "2026-10-15T08:30:00",
+        "planned_at_local": "2026-10-28T11:30:00",
+        "at": "2026-10-28T01:29:02+03:00",
+        "reason": "Approved overdue queue assigned a free Moscow-day slot"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-15/global-prompt-search.json",
+    "source_captured_at": "2026-10-14T14:00:43.898Z",
+    "date_range": "2026-10-14; дневное исследование партии 2026-10-15",
+    "posts_analyzed": 24,
+    "reference_images_reviewed": 4,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/24066179253910269/",
+      "title": "Ресторанная еда | Пищевой дизайн, Дизайн иконки, Графический дизайн",
+      "public_saves": 6,
+      "search_rank": 3,
+      "global_rank": 14,
+      "save_metric": "pinterestapp:repins"
+    },
+    "transferred_features": [
+      "Невесомость съедобных объектов",
+      "Разная глубина резкости и пространственные планы",
+      "Реалистичная аппетитная фактура и боковой свет"
+    ],
+    "deliberate_changes": [
+      "Одна груша с двумя отделёнными ломтиками вместо россыпи картофеля",
+      "Медная спираль, ночной бирюзовый фон и киноосвещение вместо светлого фона",
+      "Вертикальная собранная композиция вместо хаотичного разлёта"
+    ],
+    "visual_review": [
+      {
+        "pin_id": "2674081025661415",
+        "note": "Солнечный портрет с арбузом, фактурная кожа; занят"
+      },
+      {
+        "pin_id": "422281212704318",
+        "note": "Розовая косметика и игровое поле; занят"
+      },
+      {
+        "pin_id": "1125968743172864",
+        "note": "Низкий ракурс beauty, реалистичная кожа; занят"
+      },
+      {
+        "pin_id": "24066179253910269",
+        "note": "Парящие золотистые дольки картофеля, глубина резкости; выбран"
+      }
+    ],
+    "pattern_recurrence": "Детальная фактура и направленный свет в 3 из 4 просмотренных; левитация только у выбранного референса. Частотность левитации не заявляется.",
+    "public_metrics_evidence": "factory/research/2026-10-15/slot-05-public-metrics-recheck.json",
+    "metric_caveat": "Canonical URL показывает 0; исходный organic pin URL подтверждает 6. Использован счётчик исходного пина, не canonical.",
+    "own_account_validation": {
+      "report": "factory/research/2026-10-15/metricool-own-pins-success.json",
+      "captured_at": "2026-10-14T14:01:03.672Z",
+      "period": "2026-09-14 — 2026-10-13",
+      "note": "Сюрреалистичный food still life: 3 показа, 0 сохранений, 1 клик по пину. Выборка слишком мала для подтверждения; только вторичная проверка."
+    },
+    "deduplication": {
+      "checked_all_manifests": true,
+      "reference_unique": true,
+      "composition_note": "Проверены URL и все существующие промпты; груша с медной спиралью не повторяется."
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-14T04:40:55.309Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-14T18:01:54.695Z",
+      "note": "Daily 24 organic results reused; four images inspected; six public saves verified on original pin; unique reference."
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-14T18:01:54.748Z",
+      "note": "Original levitating pear and copper spiral concept recorded."
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-14T18:02:52.134Z",
+      "note": "Original built-in ImageGen asset saved and visually reviewed."
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-14T18:02:54.546Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-14T18:03:17.490Z",
+      "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-14T22:14:53.591Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-05-surreal-cinematic-ai-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-14T22:15:32.234Z",
+      "note": "Metricool post 396323127 scheduled after verified daily count and deduplication"
+    },
+    {
+      "at": "2026-10-28T01:29:02+03:00",
+      "from": "scheduled",
+      "to": "scheduled",
+      "reason": "Metricool accepted update; provider status PENDING"
+    }
+  ],
+  "generation": {
+    "prompt": "Use case: stylized-concept. Original vertical 2:3 cinematic photorealistic surreal still life. A single golden ripe pear floating with two separated pear slices below it, inside a graceful open copper ribbon spiral. Dark petrol teal studio background, warm amber side lighting, tiny realistic water droplets and natural speckled pear skin, restrained premium editorial photography. Pear occupies upper central third, copper ribbon loops around fruit without obscuring it, clear spatial depth and soft distant shadows, shallow depth of field. Bottom quarter quiet dark teal negative space for typography added later. No other fruits, no glass spheres, no text, logos, watermark. Save generated image for project use.",
+    "tool": "image_gen",
+    "mode": "built-in",
+    "generated_at": "2026-10-14T18:02:52.074751+00:00",
+    "visual_review": "Основа открыта: одна груша, два ломтика и медная спираль; фактуры и освещение согласованы, видимых артефактов и логотипов нет.",
+    "render_review": "Финал 1000×1500 открыт визуально: весь промпт и CTA читаются, объекты не перекрыты текстом. CTA добавлен локально в card.svg."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-28T01:32:25+03:00",
+  "request": {
+    "publicationDate": {
+      "dateTime": "2026-10-28T23:30:00",
+      "timezone": "Europe/Moscow"
+    },
+    "text": "Глянцевый сливовый футляр, жемчужные наушники и капли на мокром базальте: сохраните промпт для предметной макросъёмки. Попробуйте свой цвет и создайте изображение в Musya: https://musya.app/image-generation",
+    "providers": [
+      {
+        "network": "pinterest"
+      }
+    ],
+    "media": [
+      "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-23-slot-02-ai-product-photography-prompt.png"
+    ],
+    "autoPublish": true,
+    "saveExternalMediaFiles": true,
+    "shortener": false,
+    "draft": false,
+    "pinterestData": {
+      "boardId": "1152851273304179107",
+      "pinTitle": "Промпт для предметной съёмки: наушники в каплях — Musya",
+      "pinLink": "https://musya.app/image-generation",
+      "pinNewFormat": false
+    }
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":{\"id\":408364543,\"publicationDate\":{\"dateTime\":\"2026-10-28T23:30:00\",\"timezone\":\"Europe/Moscow\"},\"creationDate\":{\"dateTime\":\"2026-10-28T01:32:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Глянцевый сливовый футляр, жемчужные наушники и капли на мокром базальте: сохраните промпт для предметной макросъёмки. Попробуйте свой цвет и создайте изображение в Musya: https://musya.app/image-generation\",\"firstCommentText\":\"\",\"providers\":[{\"network\":\"pinterest\",\"status\":\"PENDING\",\"detailedStatus\":\"Pending\"}],\"media\":[\"https://static.metricool.com/planner/202610/6880455-file-12399415108953149778.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":false,\"mediaAltText\":[null],\"shortener\":false,\"draft\":false,\"twitterData\":{\"type\":\"POST\"},\"instagramData\":{\"autoPublish\":true,\"isAiGenerated\":false},\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Промпт для предметной съёмки: наушники в каплях — Musya\",\"pinLink\":\"https://musya.app/image-generation\",\"pinNewFormat\":false,\"isAiGenerated\":false,\"isAiGeneratedPerson\":false},\"hasNotReadNotes\":false,\"uuid\":\"-7033682051491019542\",\"creatorUserMail\":\"natashakorchagina0@gmail.com\",\"creatorUserId\":5298491,\"brandTags\":[],\"plannerUrl\":\"https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-7033682051491019542\"}}"
+      }
+    ],
+    "isError": false
+  }
+}

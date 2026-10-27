@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
+  "created_at": "2026-10-14T04:40:55.309Z",
+  "updated_at": "2026-10-27T22:32:34.448Z",
+  "status": "scheduled",
+  "search": {
+    "query": "fashion campaign AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/50806302043223552/"
+    ],
+    "reference_fingerprints": [
+      "c152190465ac8aef7c41cbf737f1e70112a33fb5ae35e361ce332dbd372f8d51"
+    ],
+    "pattern_summary": "Яркая fashion-съёмка с глянцевыми украшениями, фактурной кожей и единым цветовым миром. Выбран самый высокий свободный положительный референс: 7 публичных сохранений, глобальный рейтинг 13/24, позиция выдачи 23. Сигнал умеренный; популярность не преувеличивается."
+  },
+  "content": {
+    "prompt_ru": "Fashion-портрет взрослой модели с короткой стрижкой. Лимонный жакет, крупные серебряные серьги-кольца, сиреневый фон. Корпус в профиль, взгляд в камеру, руки вне кадра. Глянцевый студийный свет, фактурная кожа. Кадр 2:3.",
+    "title_ru": "Промпт: яркая fashion-кампания — создай в Musya",
+    "description_ru": "Лимонный жакет, сиреневый фон и серебряные украшения: создай собственную fashion-кампанию с нейросетью. Скопируй промпт с пина и попробуй свой образ в Musya: https://musya.app/image-generation",
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "fashion",
+      "нейрофотосессия",
+      "модная кампания",
+      "студийный портрет",
+      "Musya"
+    ],
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-15-slot-04-fashion-campaign-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-15-slot-04-fashion-campaign-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-04-fashion-campaign-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": "2026-10-28T10:00:00+03:00",
+    "metricool_post_id": "408361829",
+    "metricool_uuid": "-8870431115640091834",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-10-27T22:32:34.448Z",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-8870431115640091834",
+    "reschedule_history": [
+      {
+        "previous_post_id": "396323028",
+        "post_id": "408361829",
+        "previous_scheduled_at": "2026-10-15T07:00:00+03:00",
+        "scheduled_at": "2026-10-28T10:00:00+03:00",
+        "at": "2026-10-28T01:29:02+03:00",
+        "reason": "Recovered confirmed ERROR via updateScheduledPost with existing ID and UUID after current connection and daily-count verification"
+      }
+    ]
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-14T17:03:07.131Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-14T17:03:07.132Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-15",
+    "slot_index": 4,
+    "planned_at_local": "2026-10-28T10:00:00",
+    "pillar": "Мода",
+    "original_planned_at_local": "2026-10-15T07:00:00",
+    "reschedule_history": [
+      {
+        "previous_planned_at_local": "2026-10-15T07:00:00",
+        "planned_at_local": "2026-10-28T10:00:00",
+        "at": "2026-10-28T01:29:02+03:00",
+        "reason": "Approved overdue queue assigned a free Moscow-day slot"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-15/global-prompt-search.json",
+    "source_captured_at": "2026-10-14T14:00:43.898Z",
+    "date_range": "2026-10-14; ежедневная выдача для партии 2026-10-15",
+    "posts_analyzed": 24,
+    "reference_images_reviewed": 6,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/50806302043223552/",
+      "canonical_url": "https://ru.pinterest.com/pin/50806302043223552/",
+      "title": "Подборка лучших промптов для работы с искусственным интеллектом: создание изображений, текстов, видео, дизайна и контент… | Нейрофотосессия промт, Графический дизайн вдохновение, Генерации",
+      "public_saves": 7,
+      "search_rank": 23,
+      "global_rank": 13,
+      "save_metric": "pinterestapp:repins"
+    },
+    "transferred_features": [
+      "Насыщенная согласованная палитра студии и одежды",
+      "Глянцевые скульптурные украшения как fashion-акцент",
+      "Реалистичная кожа и журнальный студийный свет"
+    ],
+    "deliberate_changes": [
+      "Взрослая темнокожая модель с короткими волосами вместо рыжей модели с косами",
+      "Лимонный жакет, сиреневый фон и серебряные геометрические украшения вместо персиков и фруктового декора",
+      "Погрудный профиль с поворотом к камере; руки вне кадра вместо фронтальной позы с руками у лица"
+    ],
+    "visual_review": [
+      {
+        "pin_id": "2674081025661415",
+        "note": "Крупный солнечный портрет и арбуз; занят"
+      },
+      {
+        "pin_id": "422281212704318",
+        "note": "Розовая косметика и игровое поле; занят"
+      },
+      {
+        "pin_id": "1125968743172864",
+        "note": "Низкий ракурс, румянец, белый фон; занят"
+      },
+      {
+        "pin_id": "50806302043223552",
+        "note": "Персиковая fashion-модель, косы, фруктовые украшения; выбран"
+      },
+      {
+        "pin_id": "62698619809019384",
+        "note": "Макро глаза и глянцевые миниатюрные украшения; 4 сохранения"
+      },
+      {
+        "pin_id": "80431543341792657",
+        "note": "Лаймовый фон, крупный розовый продукт и лицо; 2 сохранения"
+      }
+    ],
+    "pattern_recurrence": "Насыщенная ограниченная палитра и глянцевые акценты видны в 4 из 6 просмотренных изображений; фактура кожи в 5 из 6.",
+    "public_metrics_evidence": "factory/research/2026-10-15/slot-04-public-metrics.json",
+    "own_account_validation": {
+      "report": "factory/research/2026-10-15/metricool-own-pins-success.json",
+      "captured_at": "2026-10-14T14:01:03.672Z",
+      "period": "2026-09-14 — 2026-10-13",
+      "note": "24 строки; мужской fashion-портрет: 9 показов, 0 сохранений; outdoor-реклама одежды: 9 показов, 0 сохранений. Объём мал, подтверждения эффективности этого паттерна нет; только вторичная проверка."
+    },
+    "deduplication": {
+      "checked_all_manifests": true,
+      "reference_unique": true,
+      "composition_note": "Проверены URL и промпты всех manifests; лимонный жакет, короткая стрижка, серебряная геометрия и сиреневый фон не повторяют существующие композиции."
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-14T04:40:55.309Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-14T17:01:48.622Z",
+      "note": "24 daily global results; six images reviewed; public saves 7 verified; unique reference."
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-14T17:01:48.688Z",
+      "note": "Original lemon and lilac fashion portrait concept recorded."
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-14T17:02:31.497Z",
+      "note": "Built-in ImageGen original saved; visual anatomy and composition check passed."
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-14T17:02:33.748Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-14T17:03:07.132Z",
+      "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-10-14T22:14:41.764Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-04-fashion-campaign-ai-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-10-14T22:15:32.232Z",
+      "note": "Metricool post 396323028 scheduled after verified daily count and deduplication"
+    },
+    {
+      "at": "2026-10-28T01:29:02+03:00",
+      "from": "scheduled",
+      "to": "scheduled",
+      "reason": "Metricool accepted update; provider status PENDING"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen",
+    "mode": "built-in",
+    "prompt": "Use case: photorealistic-natural. Original vertical 2:3 fashion campaign studio photograph. Fictional adult Black female fashion model age 30, short sculpted natural hair, wearing a tailored vivid lemon-yellow blazer and large polished silver geometric hoop earrings. Bust-length portrait, torso in profile facing left, face turned towards camera with confident calm expression. Hands outside frame. Pale lilac seamless backdrop, glossy clean studio lighting, authentic detailed skin, precise tailoring and reflective silver, premium editorial photography. Head in upper quarter, shoulder and lapel occupy middle, lower quarter quiet lilac negative space for later typography. Original composition, no fruit decorations. No text, no logos, no watermark.",
+    "generated_at": "2026-10-14T17:02:31.465197+00:00",
+    "visual_review": "Проверены лицо, кожа, одежда и серьги: явных артефактов нет. Лимонно-сиреневая палитра соответствует концепции; руки вне кадра, чужих логотипов нет.",
+    "render_review": "Финал 1000×1500 визуально открыт: лицо не перекрыто, промпт полностью читается, CTA ведёт на musya.app/image-generation. В card.svg локально добавлен CTA; общий renderer не изменён."
+  }
+}

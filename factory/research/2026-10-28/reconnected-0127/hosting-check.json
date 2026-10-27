@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2026-10-16-slot-01-liquid-glass-3d-prompt",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256_matches": true
+  },
+  {
+    "id": "2026-10-16-slot-02-ai-product-photography-prompt",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256_matches": true
+  },
+  {
+    "id": "2026-10-16-slot-03-editorial-portrait-ai-prompt",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256_matches": true
+  },
+  {
+    "id": "2026-10-16-slot-04-fashion-campaign-ai-prompt",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256_matches": true
+  },
+  {
+    "id": "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256_matches": true
+  },
+  {
+    "id": "2026-10-17-slot-02-ai-product-photography-prompt",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256_matches": true
+  },
+  {
+    "id": "2026-10-23-slot-01-liquid-glass-3d-prompt",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256_matches": true
+  },
+  {
+    "id": "2026-10-23-slot-02-ai-product-photography-prompt",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256_matches": true
+  }
+]
