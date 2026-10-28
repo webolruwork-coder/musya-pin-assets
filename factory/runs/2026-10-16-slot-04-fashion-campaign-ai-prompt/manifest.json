@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-16-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-15T10:01:00.139Z",
-  "updated_at": "2026-10-28T16:13:31Z",
+  "updated_at": "2026-10-28T18:26:55.510Z",
   "status": "scheduled",
   "search": {
     "query": "fashion campaign AI prompt",
@@ -47,7 +47,7 @@
     "provider_status": "ERROR",
     "detailedStatus": "You have reached your Metricool account limit.",
     "detailed_status": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-28T16:13:31Z",
+    "checked_at": "2026-10-28T18:26:55.510Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=6003688472365844035",
     "blocked_reason": "metricool_account_limit_reached",
     "retry_policy": "After account limit is resolved, re-read Metricool and reschedule through updateScheduledPost using current ID and UUID; do not create a replacement.",

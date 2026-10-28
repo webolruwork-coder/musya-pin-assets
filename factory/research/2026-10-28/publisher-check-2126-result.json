@@ -1,0 +1,179 @@
+{
+  "publisher_check": {
+    "checked_at": "2026-10-28T18:26:55.510Z",
+    "date_moscow": "2026-10-28",
+    "brand_id": "6880455",
+    "pinterest_connected": true,
+    "provider_status_verified": true,
+    "daily": {
+      "limit": 15,
+      "published_confirmed": 0,
+      "pending_confirmed": 2,
+      "error_confirmed": 13,
+      "history_complete": true,
+      "history_note": "Moscow-day planner (15 records) agrees with September–November planner (39 records); current-day Pinterest posts analytics rows=[]. ERROR is not published. Recheck before mutation.",
+      "remaining": 13,
+      "publishable_now": 0
+    },
+    "actions": {
+      "created": 0,
+      "rescheduled": 0
+    },
+    "ready_unscheduled_candidates": [
+      "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "2026-10-25-slot-02-ai-product-photography-prompt",
+      "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+    ],
+    "blocked_reason": "metricool_account_limit_reached",
+    "decision": "Pinterest is connected. Thirteen ERROR posts, including the 20:30 Moscow slot, report: You have reached your Metricool account limit. Two posts remain PENDING. No create/update calls while the account limit blocks publishing. Preserve existing IDs and UUIDs for updateScheduledPost after recovery and fresh daily-count verification. Seven approved overdue pins remain queued.",
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-10-28/publisher-check-2126-metricool.json",
+    "error_posts": [
+      {
+        "id": "408361334",
+        "uuid": "6596028834034238310"
+      },
+      {
+        "id": "408361798",
+        "uuid": "-1130978423464704756"
+      },
+      {
+        "id": "408361810",
+        "uuid": "-5245920552051587146"
+      },
+      {
+        "id": "408361817",
+        "uuid": "-5704435938902588027"
+      },
+      {
+        "id": "408361824",
+        "uuid": "-7579492169023468951"
+      },
+      {
+        "id": "408361829",
+        "uuid": "-8870431115640091834"
+      },
+      {
+        "id": "408361833",
+        "uuid": "-2158202839327617526"
+      },
+      {
+        "id": "408364387",
+        "uuid": "542144218172639750"
+      },
+      {
+        "id": "408364478",
+        "uuid": "-1080087621787236854"
+      },
+      {
+        "id": "408364487",
+        "uuid": "2387841225316320862"
+      },
+      {
+        "id": "408364498",
+        "uuid": "6003688472365844035"
+      },
+      {
+        "id": "408364505",
+        "uuid": "-5292232816799233296"
+      },
+      {
+        "id": "408364518",
+        "uuid": "68701657844893813"
+      }
+    ]
+  },
+  "reconciled_manifests": [
+    "factory/runs/2026-09-21-prompt-trends/manifest.json",
+    "factory/runs/2026-09-22-liquid-glass-bookmark/manifest.json",
+    "factory/runs/2026-10-09-slot-01-liquid-glass-3d-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-03-editorial-portrait-ai-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-04-fashion-campaign-ai-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-05-surreal-cinematic-ai-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-06-beauty-cosmetic-photography-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-07-chrome-translucent-3d-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-08-luxury-product-advertising-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-09-cinematic-character-portrait-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-10-avant-garde-fashion-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-11-dreamlike-architecture-ai-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-12-skincare-texture-macro-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-13-inflatable-soft-sculpture-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-14-minimal-studio-still-life-prompt/manifest.json",
+    "factory/runs/2026-10-09-slot-15-trending-ai-image-prompt/manifest.json",
+    "factory/runs/2026-10-10-slot-01-liquid-glass-3d-prompt/manifest.json",
+    "factory/runs/2026-10-10-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/manifest.json",
+    "factory/runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/manifest.json",
+    "factory/runs/2026-10-13-slot-01-liquid-glass-3d-prompt/manifest.json",
+    "factory/runs/2026-10-13-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-13-slot-03-editorial-portrait-ai-prompt/manifest.json",
+    "factory/runs/2026-10-13-slot-04-fashion-campaign-ai-prompt/manifest.json",
+    "factory/runs/2026-10-13-slot-05-surreal-cinematic-ai-prompt/manifest.json",
+    "factory/runs/2026-10-14-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-15-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-15-slot-03-editorial-portrait-ai-prompt/manifest.json",
+    "factory/runs/2026-10-15-slot-04-fashion-campaign-ai-prompt/manifest.json",
+    "factory/runs/2026-10-15-slot-05-surreal-cinematic-ai-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-01-liquid-glass-3d-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-03-editorial-portrait-ai-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-04-fashion-campaign-ai-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-05-surreal-cinematic-ai-prompt/manifest.json",
+    "factory/runs/2026-10-17-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-23-slot-01-liquid-glass-3d-prompt/manifest.json",
+    "factory/runs/2026-10-23-slot-02-ai-product-photography-prompt/manifest.json"
+  ],
+  "candidate_checks": [
+    {
+      "id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "missing_fields": [],
+      "duplicate_post_ids": [],
+      "final_image_exists": true
+    },
+    {
+      "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "missing_fields": [],
+      "duplicate_post_ids": [],
+      "final_image_exists": true
+    },
+    {
+      "id": "2026-10-25-slot-02-ai-product-photography-prompt",
+      "missing_fields": [],
+      "duplicate_post_ids": [],
+      "final_image_exists": true
+    },
+    {
+      "id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "missing_fields": [],
+      "duplicate_post_ids": [],
+      "final_image_exists": true
+    },
+    {
+      "id": "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "missing_fields": [],
+      "duplicate_post_ids": [],
+      "final_image_exists": true
+    },
+    {
+      "id": "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "missing_fields": [],
+      "duplicate_post_ids": [],
+      "final_image_exists": true
+    },
+    {
+      "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "missing_fields": [],
+      "duplicate_post_ids": [],
+      "final_image_exists": true
+    }
+  ],
+  "current_date_manifests": 0,
+  "day_plan_executed": true,
+  "checkout_changed": false,
+  "commit_scope": "Only this run’s reconciliation fields, review status paragraph, and new evidence. Pre-existing changes excluded."
+}
