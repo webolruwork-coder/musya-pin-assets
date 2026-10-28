@@ -1,0 +1,69 @@
+{
+  "publisher_check": {
+    "checked_at": "2026-10-28T11:21:51.311Z",
+    "date_moscow": "2026-10-28",
+    "brand_id": "6880455",
+    "pinterest_connected": true,
+    "provider_status_verified": true,
+    "daily": {
+      "limit": 15,
+      "published_confirmed": null,
+      "published_in_planner": 0,
+      "pending_confirmed": 9,
+      "error_confirmed": 6,
+      "history_complete": false,
+      "history_note": "Current-day planner returned 15 posts; full-range request failed with a transport error. Published history is not verified. Do not treat unknown published count as zero.",
+      "remaining_upper_bound": 6,
+      "publishable_now": 0
+    },
+    "actions": {
+      "created": 0,
+      "rescheduled": 0
+    },
+    "ready_unscheduled_candidates": [
+      "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "2026-10-25-slot-02-ai-product-photography-prompt",
+      "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+    ],
+    "blocked_reason": "metricool_account_limit_reached",
+    "decision": "Pinterest is connected. Six posts have provider ERROR: You have reached your Metricool account limit. Nine posts are PENDING. ERROR is not published. No create/update calls while the account limit remains unresolved and the full daily count is unverified. Preserve current IDs/UUIDs for updateScheduledPost after recovery; seven approved overdue pins remain queued.",
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-10-28/publisher-check-0918-metricool.json"
+  },
+  "reconciled_manifests": [
+    "factory/runs/2026-10-10-slot-03-editorial-portrait-ai-prompt/manifest.json",
+    "factory/runs/2026-10-10-slot-04-fashion-campaign-ai-prompt/manifest.json",
+    "factory/runs/2026-10-14-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-15-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-15-slot-03-editorial-portrait-ai-prompt/manifest.json",
+    "factory/runs/2026-10-15-slot-04-fashion-campaign-ai-prompt/manifest.json",
+    "factory/runs/2026-10-15-slot-05-surreal-cinematic-ai-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-01-liquid-glass-3d-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-03-editorial-portrait-ai-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-04-fashion-campaign-ai-prompt/manifest.json",
+    "factory/runs/2026-10-16-slot-05-surreal-cinematic-ai-prompt/manifest.json",
+    "factory/runs/2026-10-17-slot-02-ai-product-photography-prompt/manifest.json",
+    "factory/runs/2026-10-23-slot-01-liquid-glass-3d-prompt/manifest.json",
+    "factory/runs/2026-10-23-slot-02-ai-product-photography-prompt/manifest.json"
+  ],
+  "duplicate_audit": {
+    "id": [],
+    "uuid": [],
+    "title": [],
+    "media_url": []
+  },
+  "duplicate_audit_scope": "Current-day planner only; no mutations attempted",
+  "current_date_manifests": 0,
+  "day_plan_executed": true,
+  "checkout_changed": false,
+  "git_note": "Shared state, manifests and review were concurrently updated by another run after this audit. Preserve those newer working-tree changes and commit only this run’s two evidence files.",
+  "concurrent_publisher_check_observed": {
+    "checked_at": "2026-10-28T11:23:50.217Z",
+    "evidence": "factory/research/2026-10-28/publisher-check-1423-metricool.json"
+  }
+}
