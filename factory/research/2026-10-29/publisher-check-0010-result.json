@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-10-28T21:12:24.175Z",
+  "date_moscow": "2026-10-29",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 0,
+    "error_confirmed": 0,
+    "history_complete": true,
+    "history_note": "Moscow-day planner is empty, agreeing with September–November planner (39 records) and current-day Pinterest analytics. Analytics can lag; recheck before any mutation. Fifteen ERROR posts belong to 2026-10-28, not today.",
+    "remaining": 15,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "ready_unscheduled_candidates": [
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "skipped_candidates": [],
+  "blocked_reason": "metricool_account_limit_recovery_unverified",
+  "decision": "Pinterest is connected. Fresh planner reads confirm fifteen historical ERROR posts from October 28 with You have reached your Metricool account limit. No evidence of account-limit recovery is available; the planner error is not a live quota reading. Hold create/update calls pending recovery verification. Preserve IDs and UUIDs for updateScheduledPost and recheck the Moscow-day count before retrying.",
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-10-29/publisher-check-0010-metricool.json",
+  "error_posts": [
+    {
+      "id": "408361334",
+      "uuid": "6596028834034238310"
+    },
+    {
+      "id": "408361798",
+      "uuid": "-1130978423464704756"
+    },
+    {
+      "id": "408361810",
+      "uuid": "-5245920552051587146"
+    },
+    {
+      "id": "408361817",
+      "uuid": "-5704435938902588027"
+    },
+    {
+      "id": "408361824",
+      "uuid": "-7579492169023468951"
+    },
+    {
+      "id": "408361829",
+      "uuid": "-8870431115640091834"
+    },
+    {
+      "id": "408361833",
+      "uuid": "-2158202839327617526"
+    },
+    {
+      "id": "408364387",
+      "uuid": "542144218172639750"
+    },
+    {
+      "id": "408364478",
+      "uuid": "-1080087621787236854"
+    },
+    {
+      "id": "408364487",
+      "uuid": "2387841225316320862"
+    },
+    {
+      "id": "408364498",
+      "uuid": "6003688472365844035"
+    },
+    {
+      "id": "408364505",
+      "uuid": "-5292232816799233296"
+    },
+    {
+      "id": "408364518",
+      "uuid": "68701657844893813"
+    },
+    {
+      "id": "408364531",
+      "uuid": "5783305838563118730"
+    },
+    {
+      "id": "408364543",
+      "uuid": "-7033682051491019542"
+    }
+  ],
+  "overdue_error_count": 15,
+  "today_ready_count": 0
+}

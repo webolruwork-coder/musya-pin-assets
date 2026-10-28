@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T20:39:27.003Z",
+  "updated_at": "2026-10-28T21:12:24.175Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -484,8 +484,8 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-28T20:39:27.003Z",
-    "date_moscow": "2026-10-28",
+    "checked_at": "2026-10-28T21:12:24.175Z",
+    "date_moscow": "2026-10-29",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
@@ -493,9 +493,9 @@
       "limit": 15,
       "published_confirmed": 0,
       "pending_confirmed": 0,
-      "error_confirmed": 15,
+      "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Moscow-day planner (15 records) agrees with September–November planner (39 records); current-day Pinterest analytics rows=[]. Analytics can lag; recheck before mutation. ERROR is not published.",
+      "history_note": "Moscow-day planner is empty, agreeing with September–November planner (39 records) and current-day Pinterest analytics. Analytics can lag; recheck before any mutation. Fifteen ERROR posts belong to 2026-10-28, not today.",
       "remaining": 15,
       "publishable_now": 0
     },
@@ -512,10 +512,11 @@
       "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
       "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
     ],
-    "blocked_reason": "metricool_account_limit_reached",
-    "decision": "Pinterest is connected. All fifteen posts, including the 23:30 Moscow slot, have ERROR status and report: You have reached your Metricool account limit. No posts remain PENDING. No PUBLISHED posts are confirmed for today. No create/update calls while the account limit blocks publishing. Preserve existing IDs and UUIDs for updateScheduledPost after recovery and fresh daily-count verification. Seven approved overdue pins remain queued.",
+    "skipped_candidates": [],
+    "blocked_reason": "metricool_account_limit_recovery_unverified",
+    "decision": "Pinterest is connected. Fresh planner reads confirm fifteen historical ERROR posts from October 28 with You have reached your Metricool account limit. No evidence of account-limit recovery is available; the planner error is not a live quota reading. Hold create/update calls pending recovery verification. Preserve IDs and UUIDs for updateScheduledPost and recheck the Moscow-day count before retrying.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-28/publisher-check-2340-metricool.json",
+    "evidence": "factory/research/2026-10-29/publisher-check-0010-metricool.json",
     "error_posts": [
       {
         "id": "408361334",
@@ -577,11 +578,13 @@
         "id": "408364543",
         "uuid": "-7033682051491019542"
       }
-    ]
+    ],
+    "overdue_error_count": 15,
+    "today_ready_count": 0
   },
   "publisher_attempt": {
-    "checked_at": "2026-10-28T20:39:27.003Z",
-    "date_moscow": "2026-10-28",
+    "checked_at": "2026-10-28T21:12:24.175Z",
+    "date_moscow": "2026-10-29",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
@@ -589,9 +592,9 @@
       "limit": 15,
       "published_confirmed": 0,
       "pending_confirmed": 0,
-      "error_confirmed": 15,
+      "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Moscow-day planner (15 records) agrees with September–November planner (39 records); current-day Pinterest analytics rows=[]. Analytics can lag; recheck before mutation. ERROR is not published.",
+      "history_note": "Moscow-day planner is empty, agreeing with September–November planner (39 records) and current-day Pinterest analytics. Analytics can lag; recheck before any mutation. Fifteen ERROR posts belong to 2026-10-28, not today.",
       "remaining": 15,
       "publishable_now": 0
     },
@@ -608,10 +611,11 @@
       "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
       "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
     ],
-    "blocked_reason": "metricool_account_limit_reached",
-    "decision": "Pinterest is connected. All fifteen posts, including the 23:30 Moscow slot, have ERROR status and report: You have reached your Metricool account limit. No posts remain PENDING. No PUBLISHED posts are confirmed for today. No create/update calls while the account limit blocks publishing. Preserve existing IDs and UUIDs for updateScheduledPost after recovery and fresh daily-count verification. Seven approved overdue pins remain queued.",
+    "skipped_candidates": [],
+    "blocked_reason": "metricool_account_limit_recovery_unverified",
+    "decision": "Pinterest is connected. Fresh planner reads confirm fifteen historical ERROR posts from October 28 with You have reached your Metricool account limit. No evidence of account-limit recovery is available; the planner error is not a live quota reading. Hold create/update calls pending recovery verification. Preserve IDs and UUIDs for updateScheduledPost and recheck the Moscow-day count before retrying.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-28/publisher-check-2340-metricool.json",
+    "evidence": "factory/research/2026-10-29/publisher-check-0010-metricool.json",
     "error_posts": [
       {
         "id": "408361334",
@@ -673,6 +677,8 @@
         "id": "408364543",
         "uuid": "-7033682051491019542"
       }
-    ]
+    ],
+    "overdue_error_count": 15,
+    "today_ready_count": 0
   }
 }
