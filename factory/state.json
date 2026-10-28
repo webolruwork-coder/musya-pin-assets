@@ -562,5 +562,27 @@
         "uuid": "6003688472365844035"
       }
     ]
+  },
+  "publisher_attempt": {
+    "checked_at": "2026-10-28T15:31:27.205976+00:00",
+    "date_moscow": "2026-10-28",
+    "brand_id": "6880455",
+    "blocked_reason": "metricool_mcp_oauth_metadata_discovery_failed",
+    "pinterest_connected": null,
+    "provider_status_verified": false,
+    "daily": {
+      "limit": 15,
+      "history_complete": false,
+      "published_confirmed": null,
+      "pending_confirmed": null,
+      "remaining": null
+    },
+    "actions": {
+      "created": 0,
+      "rescheduled": 0
+    },
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-10-28/publisher-blocked-20261028T153127Z-mcp-metadata.json",
+    "decision": "This session cannot initialize Metricool MCP. Do not create or update posts without live connection, statuses, duplicate and daily-counter checks. Preserve last verified publisher_check and all manifest provider values; retry ERROR with existing ID/UUID via updateScheduledPost after recovery."
   }
 }

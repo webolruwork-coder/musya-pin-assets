@@ -1,0 +1,155 @@
+{
+  "publisher_attempt": {
+    "checked_at": "2026-10-28T15:31:27.205976+00:00",
+    "date_moscow": "2026-10-28",
+    "brand_id": "6880455",
+    "blocked_reason": "metricool_mcp_oauth_metadata_discovery_failed",
+    "pinterest_connected": null,
+    "provider_status_verified": false,
+    "daily": {
+      "limit": 15,
+      "history_complete": false,
+      "published_confirmed": null,
+      "pending_confirmed": null,
+      "remaining": null
+    },
+    "actions": {
+      "created": 0,
+      "rescheduled": 0
+    },
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-10-28/publisher-blocked-20261028T153127Z-mcp-metadata.json",
+    "decision": "This session cannot initialize Metricool MCP. Do not create or update posts without live connection, statuses, duplicate and daily-counter checks. Preserve last verified publisher_check and all manifest provider values; retry ERROR with existing ID/UUID via updateScheduledPost after recovery."
+  },
+  "mcp_evidence": {
+    "registered_metricool_tools": [],
+    "resources_list": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/.well-known/oauth-protected-resource; HTTP request failed: error sending request for url",
+    "resource_templates_list": "Same MCP startup / OAuth metadata discovery failure on second check",
+    "shell_metadata_probe_http_status": 200,
+    "shell_probe_note": "Public metadata endpoint reachable from local shell; this does not establish MCP authentication or Pinterest connection.",
+    "getBrandSettings": "unavailable; not called",
+    "getScheduledPosts": "unavailable; not called"
+  },
+  "day_plan_executed": true,
+  "current_day_manifests": 0,
+  "candidate_checks": [
+    {
+      "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "required_fields_and_final_image": true,
+      "duplicates_verified": false
+    },
+    {
+      "id": "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "required_fields_and_final_image": true,
+      "duplicates_verified": false
+    },
+    {
+      "id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "required_fields_and_final_image": true,
+      "duplicates_verified": false
+    },
+    {
+      "id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "required_fields_and_final_image": true,
+      "duplicates_verified": false
+    },
+    {
+      "id": "2026-10-25-slot-02-ai-product-photography-prompt",
+      "required_fields_and_final_image": true,
+      "duplicates_verified": false
+    },
+    {
+      "id": "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "required_fields_and_final_image": true,
+      "duplicates_verified": false
+    },
+    {
+      "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "required_fields_and_final_image": true,
+      "duplicates_verified": false
+    }
+  ],
+  "last_verified_check_observed": {
+    "checked_at": "2026-10-28T15:29:25.428Z",
+    "date_moscow": "2026-10-28",
+    "brand_id": "6880455",
+    "pinterest_connected": true,
+    "provider_status_verified": true,
+    "daily": {
+      "limit": 15,
+      "published_confirmed": 0,
+      "pending_confirmed": 4,
+      "error_confirmed": 11,
+      "history_complete": true,
+      "history_note": "Moscow-day planner (15 records) agrees with September–November planner (39 records); current-day Pinterest posts analytics rows=[]. ERROR is not published. Recheck before mutation.",
+      "remaining": 11,
+      "publishable_now": 0
+    },
+    "actions": {
+      "created": 0,
+      "rescheduled": 0
+    },
+    "ready_unscheduled_candidates": [
+      "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "2026-10-25-slot-02-ai-product-photography-prompt",
+      "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+    ],
+    "blocked_reason": "metricool_account_limit_reached",
+    "decision": "Pinterest is connected. Eleven ERROR posts, including the 17:30 Moscow slot, report: You have reached your Metricool account limit. Four posts remain PENDING. No create/update calls while the account limit blocks publishing. Preserve existing IDs and UUIDs for updateScheduledPost after recovery and fresh daily-count verification. Seven approved overdue pins remain queued.",
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-10-28/publisher-check-1828-metricool.json",
+    "error_posts": [
+      {
+        "id": "408361334",
+        "uuid": "6596028834034238310"
+      },
+      {
+        "id": "408361798",
+        "uuid": "-1130978423464704756"
+      },
+      {
+        "id": "408361810",
+        "uuid": "-5245920552051587146"
+      },
+      {
+        "id": "408361817",
+        "uuid": "-5704435938902588027"
+      },
+      {
+        "id": "408361824",
+        "uuid": "-7579492169023468951"
+      },
+      {
+        "id": "408361829",
+        "uuid": "-8870431115640091834"
+      },
+      {
+        "id": "408361833",
+        "uuid": "-2158202839327617526"
+      },
+      {
+        "id": "408364387",
+        "uuid": "542144218172639750"
+      },
+      {
+        "id": "408364478",
+        "uuid": "-1080087621787236854"
+      },
+      {
+        "id": "408364487",
+        "uuid": "2387841225316320862"
+      },
+      {
+        "id": "408364498",
+        "uuid": "6003688472365844035"
+      }
+    ]
+  },
+  "concurrency_note": "Another publisher updated provider information during this run. Its verified status and manifest values remain untouched. This run records a separate publisher_attempt.",
+  "checkout_changed": false,
+  "git_base": "f4985f29fd887a3a6e29cf98cc60896cf9747dc7"
+}
