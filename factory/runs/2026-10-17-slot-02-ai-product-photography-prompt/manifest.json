@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-17-slot-02-ai-product-photography-prompt",
   "created_at": "2026-10-16T04:08:09.701Z",
-  "updated_at": "2026-10-28T18:26:55.510Z",
+  "updated_at": "2026-10-28T19:11:50.797Z",
   "status": "scheduled",
   "search": {
     "query": "AI product photography prompt",
@@ -47,7 +47,7 @@
     "provider_status": "ERROR",
     "detailedStatus": "You have reached your Metricool account limit.",
     "detailed_status": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-28T18:26:55.510Z",
+    "checked_at": "2026-10-28T19:11:50.797Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=68701657844893813",
     "provider_error": "You have reached your Metricool account limit."
   },
