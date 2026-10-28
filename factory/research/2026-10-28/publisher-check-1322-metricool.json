@@ -1,0 +1,1090 @@
+{
+  "checked_at": "2026-10-28T11:22:57.307Z",
+  "date_moscow": "2026-10-28",
+  "source": "Metricool MCP",
+  "brand": {
+    "id": 6880455,
+    "timezone": "Europe/Moscow",
+    "networksData": {
+      "instagramData": "musya_gpt",
+      "threadsData": "musya_gpt",
+      "pinterestData": "musya_gpt"
+    }
+  },
+  "scheduled_range": {
+    "from": "2026-09-01T00:00:00+03:00",
+    "to": "2026-10-29T23:59:59+03:00"
+  },
+  "posts": [
+    {
+      "id": 380074785,
+      "uuid": "4845720380807398559",
+      "publicationDate": {
+        "dateTime": "2026-09-22T16:40:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204653178292",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204653178292",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для эффектной предметной съёмки с нейросетью",
+        "pinLink": "https://t.me/musya_gpt",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202609/6880455-file-13513823397573248420.png"
+      ]
+    },
+    {
+      "id": 391533783,
+      "uuid": "7171713838009175231",
+      "publicationDate": {
+        "dateTime": "2026-10-08T23:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654490167",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654490167",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: 3D-закладка из жидкого стекла",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-11330931321561697607.png"
+      ]
+    },
+    {
+      "id": 391653182,
+      "uuid": "2741309224105952927",
+      "publicationDate": {
+        "dateTime": "2026-10-09T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654504938",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654504938",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для рекламной съёмки косметики",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1338875813583401669.png"
+      ]
+    },
+    {
+      "id": 391654242,
+      "uuid": "3391618596794551324",
+      "publicationDate": {
+        "dateTime": "2026-10-09T05:25:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654509238",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654509238",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для beauty-кампании на природе",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-15646025145642934766.png"
+      ]
+    },
+    {
+      "id": 391654326,
+      "uuid": "6950754093818530231",
+      "publicationDate": {
+        "dateTime": "2026-10-09T06:50:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654512932",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654512932",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для живого крупного портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-5122400262807073902.png"
+      ]
+    },
+    {
+      "id": 391654475,
+      "uuid": "-5743769257119692207",
+      "publicationDate": {
+        "dateTime": "2026-10-09T08:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654516925",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654516925",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для outdoor-рекламы одежды",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-2209466879053857798.png"
+      ]
+    },
+    {
+      "id": 391654519,
+      "uuid": "-875925226426972109",
+      "publicationDate": {
+        "dateTime": "2026-10-09T09:40:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654520293",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654520293",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для модного beauty-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8713113770095547611.png"
+      ]
+    },
+    {
+      "id": 391654699,
+      "uuid": "-886587825757403207",
+      "publicationDate": {
+        "dateTime": "2026-10-09T11:05:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654523984",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654523984",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для карточки косметического продукта",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-15086902314842607026.png"
+      ]
+    },
+    {
+      "id": 391654930,
+      "uuid": "1253016814670270136",
+      "publicationDate": {
+        "dateTime": "2026-10-09T12:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654528688",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654528688",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для мужского fashion-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-7579365995733631589.png"
+      ]
+    },
+    {
+      "id": 391655045,
+      "uuid": "3142484213945353085",
+      "publicationDate": {
+        "dateTime": "2026-10-09T13:55:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654532408",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654532408",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для двойного концептуального портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-6414110359009357777.png"
+      ]
+    },
+    {
+      "id": 391655187,
+      "uuid": "-2472988306004619681",
+      "publicationDate": {
+        "dateTime": "2026-10-09T15:20:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654536989",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654536989",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для кинематографичного мужского портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-5358180922408705761.png"
+      ]
+    },
+    {
+      "id": 391655224,
+      "uuid": "9150503397909876051",
+      "publicationDate": {
+        "dateTime": "2026-10-09T16:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654543079",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654543079",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для рекламы сыворотки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-11238521385154181453.png"
+      ]
+    },
+    {
+      "id": 391655268,
+      "uuid": "-3091692675811360382",
+      "publicationDate": {
+        "dateTime": "2026-10-09T18:10:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654549399",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654549399",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для яркого fisheye-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13889290333434454224.png"
+      ]
+    },
+    {
+      "id": 391655278,
+      "uuid": "-3980259985574375512",
+      "publicationDate": {
+        "dateTime": "2026-10-09T19:35:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654555368",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654555368",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для портрета наполовину рисунок",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1127750630051523483.png"
+      ]
+    },
+    {
+      "id": 391655290,
+      "uuid": "4756634010464766198",
+      "publicationDate": {
+        "dateTime": "2026-10-09T21:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654561845",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654561845",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для портрета с бликами воды",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-10116488982150802213.png"
+      ]
+    },
+    {
+      "id": 391655295,
+      "uuid": "-946738480916576996",
+      "publicationDate": {
+        "dateTime": "2026-10-09T22:25:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654567972",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654567972",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для дорогой женской аватарки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13891525194850166948.png"
+      ]
+    },
+    {
+      "id": 391655299,
+      "uuid": "3818659787370482398",
+      "publicationDate": {
+        "dateTime": "2026-10-09T23:50:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654573926",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654573926",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для сюрреалистичного food still life",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-11390919251972107796.png"
+      ]
+    },
+    {
+      "id": 395182770,
+      "uuid": "-3976835269684739137",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654894906",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654894906",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: стеклянная орхидея в 3D",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8863966006621149556.png"
+      ]
+    },
+    {
+      "id": 395182923,
+      "uuid": "4799856024184965251",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654895813",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654895813",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: создай рекламный кадр в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1207550982984540403.png"
+      ]
+    },
+    {
+      "id": 395182931,
+      "uuid": "6985388325044962361",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654896803",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654896803",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: солнечный editorial-портрет в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1831264442414853595.png"
+      ]
+    },
+    {
+      "id": 395182939,
+      "uuid": "-7724322232482707544",
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654897717",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654897717",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для модной кампании в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-11833545094596495810.png"
+      ]
+    },
+    {
+      "id": 395182944,
+      "uuid": "-143631258198455715",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654898886",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654898886",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: город внутри времени — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13030810298294431240.png"
+      ]
+    },
+    {
+      "id": 395207490,
+      "uuid": "-4542789211927197522",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654899553",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654899553",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: скульптура из жидкого стекла",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1543594214640502068.png"
+      ]
+    },
+    {
+      "id": 395207723,
+      "uuid": "4959186076041235036",
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654900336",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654900336",
+          "detailedStatus": "Published"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной AI-съёмки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-3272023577407687850.png"
+      ]
+    },
+    {
+      "id": 408361334,
+      "uuid": "6596028834034238310",
+      "publicationDate": {
+        "dateTime": "2026-10-28T02:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для ночного editorial-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-41972958162950161.png"
+      ]
+    },
+    {
+      "id": 408361798,
+      "uuid": "-1130978423464704756",
+      "publicationDate": {
+        "dateTime": "2026-10-28T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: 9 кадров модной кампании",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8370450257743991517.png"
+      ]
+    },
+    {
+      "id": 408361810,
+      "uuid": "-5245920552051587146",
+      "publicationDate": {
+        "dateTime": "2026-10-28T05:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки очков — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-10755502680788974719.png"
+      ]
+    },
+    {
+      "id": 408361817,
+      "uuid": "-5704435938902588027",
+      "publicationDate": {
+        "dateTime": "2026-10-28T07:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки чайника — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8210419845367786798.png"
+      ]
+    },
+    {
+      "id": 408361824,
+      "uuid": "-7579492169023468951",
+      "publicationDate": {
+        "dateTime": "2026-10-28T08:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: портрет в движении — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-3312535194637788459.png"
+      ]
+    },
+    {
+      "id": 408361829,
+      "uuid": "-8870431115640091834",
+      "publicationDate": {
+        "dateTime": "2026-10-28T10:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: яркая fashion-кампания — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13779543627286149291.png"
+      ]
+    },
+    {
+      "id": 408361833,
+      "uuid": "-2158202839327617526",
+      "publicationDate": {
+        "dateTime": "2026-10-28T11:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: груша в невесомости — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-2689497861844848621.png"
+      ]
+    },
+    {
+      "id": 408364387,
+      "uuid": "542144218172639750",
+      "publicationDate": {
+        "dateTime": "2026-10-28T13:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: раковина из жидкого стекла — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-12201138070805517006.png"
+      ]
+    },
+    {
+      "id": 408364478,
+      "uuid": "-1080087621787236854",
+      "publicationDate": {
+        "dateTime": "2026-10-28T14:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки: янтарный флакон",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8426976161602229140.png"
+      ]
+    },
+    {
+      "id": 408364487,
+      "uuid": "2387841225316320862",
+      "publicationDate": {
+        "dateTime": "2026-10-28T16:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для editorial-портрета в движении",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-437693539293523487.png"
+      ]
+    },
+    {
+      "id": 408364498,
+      "uuid": "6003688472365844035",
+      "publicationDate": {
+        "dateTime": "2026-10-28T17:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для fashion-кампании в архитектурном пространстве",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-17435860176861009213.png"
+      ]
+    },
+    {
+      "id": 408364505,
+      "uuid": "-5292232816799233296",
+      "publicationDate": {
+        "dateTime": "2026-10-28T19:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: стеклянный кит в ночной оранжерее — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-3640434138607643540.png"
+      ]
+    },
+    {
+      "id": 408364518,
+      "uuid": "68701657844893813",
+      "publicationDate": {
+        "dateTime": "2026-10-28T20:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для премиальной предметной съёмки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-16443402684448217194.png"
+      ]
+    },
+    {
+      "id": 408364531,
+      "uuid": "5783305838563118730",
+      "publicationDate": {
+        "dateTime": "2026-10-28T22:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для 3D: лист гинкго из жидкого стекла — Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8373011846702897751.png"
+      ]
+    },
+    {
+      "id": 408364543,
+      "uuid": "-7033682051491019542",
+      "publicationDate": {
+        "dateTime": "2026-10-28T23:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки: наушники в каплях — Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-12399415108953149778.png"
+      ]
+    }
+  ],
+  "analytics_today": {
+    "rows": []
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "blocked_reason": "metricool_account_limit_reached"
+}

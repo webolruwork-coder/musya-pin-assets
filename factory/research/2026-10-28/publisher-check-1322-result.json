@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-28T11:22:57.307Z",
+  "date_moscow": "2026-10-28",
+  "pinterest_connected": true,
+  "daily": {
+    "limit": 15,
+    "published_returned_by_analytics": 0,
+    "pending": 7,
+    "error": 8,
+    "remaining_before_account_block": 8
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "blocked_reason": "metricool_account_limit_reached",
+  "provider_error": "You have reached your Metricool account limit.",
+  "ready_unscheduled_candidates": [
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-10-28/publisher-check-1322-metricool.json",
+  "recovery": "After the Metricool account limit is resolved, re-read connection and daily history and retry ERROR via updateScheduledPost using existing ID/UUID; save any returned replacement ID.",
+  "local_reconciliation": "Updated 39 matching manifests and publisher_check. Concurrent publisher has since refreshed shared state/review; commit contains only this run evidence to preserve unrelated changes."
+}
