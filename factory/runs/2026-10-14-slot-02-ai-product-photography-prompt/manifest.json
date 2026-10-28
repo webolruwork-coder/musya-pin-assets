@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-14-slot-02-ai-product-photography-prompt",
   "created_at": "2026-10-13T04:01:13.728Z",
-  "updated_at": "2026-10-28T00:11:48.644Z",
+  "updated_at": "2026-10-28T01:12:32.280Z",
   "status": "scheduled",
   "search": {
     "query": "AI product photography prompt",
@@ -48,7 +48,7 @@
     "metricool_uuid": "-5245920552051587146",
     "provider_status": "PENDING",
     "detailedStatus": "Pending",
-    "checked_at": "2026-10-28T00:11:48.644Z",
+    "checked_at": "2026-10-28T01:12:32.280Z",
     "detailed_status": "Pending",
     "reschedule_history": [
       {

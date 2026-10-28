@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-10-28T00:11:48.644Z",
+  "updated_at": "2026-10-28T01:12:32.280Z",
   "status": "scheduled",
   "search": {
     "query": "fashion campaign AI prompt",
@@ -48,9 +48,9 @@
     "scheduled_at": "2026-10-28T04:00:00+03:00",
     "metricool_post_id": "408361798",
     "metricool_uuid": "-1130978423464704756",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "checked_at": "2026-10-28T00:11:48.644Z",
+    "provider_status": "ERROR",
+    "detailedStatus": "You have reached your Metricool account limit.",
+    "checked_at": "2026-10-28T01:12:32.280Z",
     "reschedule_history": [
       {
         "previous_post_id": "395207754",
@@ -77,8 +77,10 @@
         "reason": "Recovered confirmed ERROR via updateScheduledPost with existing ID and UUID after current connection and daily-count verification"
       }
     ],
-    "detailed_status": "Pending",
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-1130978423464704756"
+    "detailed_status": "You have reached your Metricool account limit.",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-1130978423464704756",
+    "blocked_reason": "metricool_account_limit_reached",
+    "retry_policy": "After account limit is resolved, re-read Metricool and reschedule through updateScheduledPost using current ID and UUID; do not create a replacement."
   },
   "validation": {
     "passed": true,
