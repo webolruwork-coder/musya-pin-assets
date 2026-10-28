@@ -41,17 +41,24 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-28T17:30:00+03:00",
-    "metricool_post_id": "408364498",
+    "scheduled_at": "2026-10-29T17:30:00+03:00",
+    "metricool_post_id": "409476164",
     "metricool_uuid": "6003688472365844035",
-    "provider_status": "ERROR",
-    "detailedStatus": "You have reached your Metricool account limit.",
-    "detailed_status": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-28T21:12:24.175Z",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-10-28T22:15:23.723Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=6003688472365844035",
-    "blocked_reason": "metricool_account_limit_reached",
-    "retry_policy": "After account limit is resolved, re-read Metricool and reschedule through updateScheduledPost using current ID and UUID; do not create a replacement.",
-    "provider_error": "You have reached your Metricool account limit."
+    "reschedule_history": [
+      {
+        "previous_post_id": "408364498",
+        "post_id": "409476164",
+        "previous_scheduled_at": "2026-10-28T17:30:00+03:00",
+        "scheduled_at": "2026-10-29T17:30:00+03:00",
+        "at": "2026-10-28T22:14:05.365Z",
+        "reason": "updateScheduledPost with existing ID and unchanged UUID; accepted and re-read from Metricool"
+      }
+    ]
   },
   "validation": {
     "passed": true,
@@ -80,7 +87,7 @@
   "production": {
     "target_date": "2026-10-16",
     "slot_index": 4,
-    "planned_at_local": "2026-10-28T17:30:00",
+    "planned_at_local": "2026-10-29T17:30:00",
     "pillar": "Мода",
     "original_planned_at_local": "2026-10-16T07:00:00",
     "reschedule_history": [
@@ -89,6 +96,12 @@
         "planned_at_local": "2026-10-28T17:30:00",
         "at": "2026-10-28T01:32:21+03:00",
         "reason": "Approved overdue queue assigned a free Moscow-day slot"
+      },
+      {
+        "previous_planned_at_local": "2026-10-28T17:30:00",
+        "planned_at_local": "2026-10-29T17:30:00",
+        "at": "2026-10-28T22:14:05.365Z",
+        "reason": "Approved overdue ERROR post assigned a free Moscow-day slot via updateScheduledPost"
       }
     ]
   },

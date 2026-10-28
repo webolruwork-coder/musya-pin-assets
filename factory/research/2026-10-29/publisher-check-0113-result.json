@@ -1,0 +1,144 @@
+{
+  "checked_at": "2026-10-28T22:15:23.723Z",
+  "date_moscow": "2026-10-29",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 15,
+    "error_confirmed": 0,
+    "history_complete": true,
+    "history_note": "Full September–November planner contains 39 records: 24 historical PUBLISHED and 15 PENDING today; explicit Moscow-day read confirms the same 15. Current-day analytics returned no published pins.",
+    "remaining": 0,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 15
+  },
+  "ready_unscheduled_candidates": [
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "skipped_candidates": [
+    {
+      "id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-02-ai-product-photography-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "reason": "daily_limit_reached"
+    }
+  ],
+  "blocked_reason": null,
+  "decision": "All fifteen approved overdue ERROR posts rescheduled through updateScheduledPost with prior IDs and unchanged UUIDs. New IDs persisted and PENDING confirmed by fresh planner reads. Daily cap reached; seven other approved pins remain queued. Scheduling acceptance does not prove that the earlier account-limit error is resolved at publication time.",
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-10-29/publisher-check-0113-metricool.json",
+  "error_posts": [],
+  "overdue_error_count": 0,
+  "today_ready_count": 0,
+  "scheduled_posts": [
+    {
+      "id": "409475182",
+      "uuid": "6596028834034238310",
+      "scheduled_at": "2026-10-29T02:30:00+03:00"
+    },
+    {
+      "id": "409476048",
+      "uuid": "-1130978423464704756",
+      "scheduled_at": "2026-10-29T04:00:00+03:00"
+    },
+    {
+      "id": "409476068",
+      "uuid": "-5245920552051587146",
+      "scheduled_at": "2026-10-29T05:30:00+03:00"
+    },
+    {
+      "id": "409476079",
+      "uuid": "-5704435938902588027",
+      "scheduled_at": "2026-10-29T07:00:00+03:00"
+    },
+    {
+      "id": "409476089",
+      "uuid": "-7579492169023468951",
+      "scheduled_at": "2026-10-29T08:30:00+03:00"
+    },
+    {
+      "id": "409476108",
+      "uuid": "-8870431115640091834",
+      "scheduled_at": "2026-10-29T10:00:00+03:00"
+    },
+    {
+      "id": "409476115",
+      "uuid": "-2158202839327617526",
+      "scheduled_at": "2026-10-29T11:30:00+03:00"
+    },
+    {
+      "id": "409476128",
+      "uuid": "542144218172639750",
+      "scheduled_at": "2026-10-29T13:00:00+03:00"
+    },
+    {
+      "id": "409476140",
+      "uuid": "-1080087621787236854",
+      "scheduled_at": "2026-10-29T14:30:00+03:00"
+    },
+    {
+      "id": "409476159",
+      "uuid": "2387841225316320862",
+      "scheduled_at": "2026-10-29T16:00:00+03:00"
+    },
+    {
+      "id": "409476164",
+      "uuid": "6003688472365844035",
+      "scheduled_at": "2026-10-29T17:30:00+03:00"
+    },
+    {
+      "id": "409476178",
+      "uuid": "-5292232816799233296",
+      "scheduled_at": "2026-10-29T19:00:00+03:00"
+    },
+    {
+      "id": "409476197",
+      "uuid": "68701657844893813",
+      "scheduled_at": "2026-10-29T20:30:00+03:00"
+    },
+    {
+      "id": "409476209",
+      "uuid": "5783305838563118730",
+      "scheduled_at": "2026-10-29T22:00:00+03:00"
+    },
+    {
+      "id": "409476216",
+      "uuid": "-7033682051491019542",
+      "scheduled_at": "2026-10-29T23:30:00+03:00"
+    }
+  ]
+}

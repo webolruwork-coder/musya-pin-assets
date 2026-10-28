@@ -41,15 +41,24 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-28T20:30:00+03:00",
-    "metricool_post_id": "408364518",
+    "scheduled_at": "2026-10-29T20:30:00+03:00",
+    "metricool_post_id": "409476197",
     "metricool_uuid": "68701657844893813",
-    "provider_status": "ERROR",
-    "detailedStatus": "You have reached your Metricool account limit.",
-    "detailed_status": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-28T21:12:24.175Z",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-10-28T22:15:23.723Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=68701657844893813",
-    "provider_error": "You have reached your Metricool account limit."
+    "reschedule_history": [
+      {
+        "previous_post_id": "408364518",
+        "post_id": "409476197",
+        "previous_scheduled_at": "2026-10-28T20:30:00+03:00",
+        "scheduled_at": "2026-10-29T20:30:00+03:00",
+        "at": "2026-10-28T22:14:05.365Z",
+        "reason": "updateScheduledPost with existing ID and unchanged UUID; accepted and re-read from Metricool"
+      }
+    ]
   },
   "validation": {
     "passed": true,
@@ -78,7 +87,7 @@
   "production": {
     "target_date": "2026-10-17",
     "slot_index": 2,
-    "planned_at_local": "2026-10-28T20:30:00",
+    "planned_at_local": "2026-10-29T20:30:00",
     "pillar": "Предметная съёмка",
     "original_planned_at_local": "2026-10-17T04:00:00",
     "reschedule_history": [
@@ -87,6 +96,12 @@
         "planned_at_local": "2026-10-28T20:30:00",
         "at": "2026-10-28T01:32:23+03:00",
         "reason": "Approved overdue queue assigned a free Moscow-day slot"
+      },
+      {
+        "previous_planned_at_local": "2026-10-28T20:30:00",
+        "planned_at_local": "2026-10-29T20:30:00",
+        "at": "2026-10-28T22:14:05.365Z",
+        "reason": "Approved overdue ERROR post assigned a free Moscow-day slot via updateScheduledPost"
       }
     ]
   },
