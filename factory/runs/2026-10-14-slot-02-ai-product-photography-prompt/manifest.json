@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-14-slot-02-ai-product-photography-prompt",
   "created_at": "2026-10-13T04:01:13.728Z",
-  "updated_at": "2026-10-28T01:12:32.280Z",
+  "updated_at": "2026-10-28T11:22:56.624Z",
   "status": "scheduled",
   "search": {
     "query": "AI product photography prompt",
@@ -46,10 +46,10 @@
     "scheduled_at": "2026-10-28T05:30:00+03:00",
     "metricool_post_id": "408361810",
     "metricool_uuid": "-5245920552051587146",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "checked_at": "2026-10-28T01:12:32.280Z",
-    "detailed_status": "Pending",
+    "provider_status": "ERROR",
+    "detailedStatus": "You have reached your Metricool account limit.",
+    "checked_at": "2026-10-28T11:22:56.624Z",
+    "detailed_status": "You have reached your Metricool account limit.",
     "reschedule_history": [
       {
         "previous_post_id": "395339156",
@@ -68,7 +68,9 @@
         "reason": "Recovered confirmed ERROR via updateScheduledPost with existing ID and UUID after current connection and daily-count verification"
       }
     ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5245920552051587146"
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5245920552051587146",
+    "blocked_reason": "metricool_account_limit_reached",
+    "retry_policy": "After account limit is resolved, re-read Metricool and reschedule through updateScheduledPost using current ID and UUID; do not create a replacement."
   },
   "validation": {
     "passed": true,
