@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-16-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-15T10:01:00.139Z",
-  "updated_at": "2026-10-28T12:11:29.462Z",
+  "updated_at": "2026-10-28T13:12:19Z",
   "status": "scheduled",
   "search": {
     "query": "fashion campaign AI prompt",
@@ -47,7 +47,7 @@
     "provider_status": "PENDING",
     "detailedStatus": "Pending",
     "detailed_status": "Pending",
-    "checked_at": "2026-10-28T12:11:29.462Z",
+    "checked_at": "2026-10-28T13:12:19Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=6003688472365844035"
   },
   "validation": {
