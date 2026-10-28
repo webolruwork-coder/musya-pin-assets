@@ -1,0 +1,2729 @@
+{
+  "checked_at": "2026-10-28T11:24:04.286Z",
+  "brand": {
+    "id": 6880455,
+    "userId": 5298491,
+    "ownerUserId": 5298491,
+    "label": "musya_gpt",
+    "description": "",
+    "joinDate": {
+      "dateTime": "2026-09-08T00:16:46",
+      "timezone": "Europe/Madrid"
+    },
+    "firstConnectionDate": {
+      "dateTime": "2026-09-08T00:17:29",
+      "timezone": "Europe/Madrid"
+    },
+    "timezone": "Europe/Moscow",
+    "engagementRatio": 100,
+    "networksData": {
+      "instagramData": "musya_gpt",
+      "threadsData": "musya_gpt",
+      "pinterestData": "musya_gpt"
+    },
+    "isShared": false
+  },
+  "query": {
+    "fromDate": "2026-09-21T00:00:00+03:00",
+    "toDate": "2026-10-29T23:59:59+03:00",
+    "timezone": "Europe/Moscow"
+  },
+  "posts": [
+    {
+      "id": 380074785,
+      "publicationDate": {
+        "dateTime": "2026-09-22T16:40:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-09-22T16:09:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните готовый промпт для создания выразительной предметной фотографии в нейросети: стекло, воздушные карточки, мягкий свет и журнальная эстетика. Больше понятных промптов и идей для AI-контента — в Telegram @musya_gpt.",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204653178292",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204653178292",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202609/6880455-file-13513823397573248420.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для эффектной предметной съёмки с нейросетью",
+        "pinLink": "https://t.me/musya_gpt",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "4845720380807398559",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391533783,
+      "publicationDate": {
+        "dateTime": "2026-10-08T23:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-08T23:44:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Готовый промпт для премиальной 3D-иконки из жидкого стекла: мягкая форма закладки, радужные преломления, тёплый студийный фон и реалистичная каустика. Сохраняйте и создавайте свои варианты в генераторе изображений Musya.",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654490167",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654490167",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-11330931321561697607.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: 3D-закладка из жидкого стекла",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "7171713838009175231",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391653182,
+      "publicationDate": {
+        "dateTime": "2026-10-09T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:44:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создай премиальную предметную композицию: набор розовой косметики собран как воздушный букет, полупрозрачная упаковка, мягкий сиреневый фон, студийный свет, чистая luxury-реклама. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654504938",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654504938",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1338875813583401669.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для рекламной съёмки косметики",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "2741309224105952927",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391654242,
+      "publicationDate": {
+        "dateTime": "2026-10-09T05:25:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сними модель с минималистичным флаконом среди влажной зелени: естественная кожа, мягкий рассеянный свет, дорогая бьюти-кампания, спокойная природная палитра. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654509238",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654509238",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-15646025145642934766.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для beauty-кампании на природе",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "3391618596794551324",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391654326,
+      "publicationDate": {
+        "dateTime": "2026-10-09T06:50:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сделай очень крупный портрет рыжеволосой модели с веснушками: прямой взгляд, ветер в волосах, тёплый солнечный свет, натуральная кожа и журнальная резкость. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654512932",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654512932",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-5122400262807073902.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для живого крупного портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "6950754093818530231",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391654475,
+      "publicationDate": {
+        "dateTime": "2026-10-09T08:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:46:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создай чёрно-белую outdoor-кампанию: герой в технической куртке, снежный ветер, размытие движения вокруг лица, документальная фактура и сильный контраст. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654516925",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654516925",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-2209466879053857798.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для outdoor-рекламы одежды",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-5743769257119692207",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391654519,
+      "publicationDate": {
+        "dateTime": "2026-10-09T09:40:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:46:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сними модель снизу крупным планом: гладкая укладка, графичный коралловый румянец, влажный блеск губ, белый фон и смелая журнальная пластика. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654520293",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654520293",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8713113770095547611.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для модного beauty-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-875925226426972109",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391654699,
+      "publicationDate": {
+        "dateTime": "2026-10-09T11:05:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:46:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Поставь матовый голубой тюбик на широкий мазок крема: мягкий серо-голубой фон, аккуратная тень, чистый каталог и ощущение свежести. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654523984",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654523984",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-15086902314842607026.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для карточки косметического продукта",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-886587825757403207",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391654930,
+      "publicationDate": {
+        "dateTime": "2026-10-09T12:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:46:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создай жёсткий студийный портрет мужчины с короткой стрижкой: симметрия, серый фон, холодный свет, высокая детализация кожи и взгляд прямо в камеру. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654528688",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654528688",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-7579365995733631589.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для мужского fashion-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "1253016814670270136",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391655045,
+      "publicationDate": {
+        "dateTime": "2026-10-09T13:55:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:47:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Соедини в одном кадре половину лица модели и морду чёрной борзой: одинаковый свет, тёмный фон, строгая симметрия и ощущение люксовой кампании. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654532408",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654532408",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-6414110359009357777.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для двойного концептуального портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "3142484213945353085",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391655187,
+      "publicationDate": {
+        "dateTime": "2026-10-09T15:20:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:47:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сними мужчину по плечи на глубоком изумрудном фоне: контровой бирюзовый свет, серьёзное выражение, реалистичная кожа и постерная композиция. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654536989",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654536989",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-5358180922408705761.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для кинематографичного мужского портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-2472988306004619681",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391655224,
+      "publicationDate": {
+        "dateTime": "2026-10-09T16:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:47:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сделай макро beauty-кадр: модель держит прозрачную пипетку у щеки, капля розовой сыворотки сияет на коже, мягкий свет и чистая премиальная эстетика. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654543079",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654543079",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-11238521385154181453.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для рекламы сыворотки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "9150503397909876051",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391655268,
+      "publicationDate": {
+        "dateTime": "2026-10-09T18:10:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:47:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сними модель через fisheye сверху: розовая комната, голубой круглый реквизит, удивлённый взгляд, широкоугольное искажение и конфетные цвета. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654549399",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654549399",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13889290333434454224.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для яркого fisheye-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-3091692675811360382",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391655278,
+      "publicationDate": {
+        "dateTime": "2026-10-09T19:35:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:47:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Преврати половину реалистичного женского портрета в угольный набросок: плавный переход, белая бумага, видимые штрихи и спокойная музейная композиция. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654555368",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654555368",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1127750630051523483.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для портрета наполовину рисунок",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-3980259985574375512",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391655290,
+      "publicationDate": {
+        "dateTime": "2026-10-09T21:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:47:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Погрузи лицо модели наполовину в прозрачную воду: солнечные каустические блики, пузырьки, голубые тени, прямой взгляд и кинематографичная детализация. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654561845",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654561845",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-10116488982150802213.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для портрета с бликами воды",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "4756634010464766198",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391655295,
+      "publicationDate": {
+        "dateTime": "2026-10-09T22:25:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:47:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создай мягкий портрет женщины в жемчужно-бежевой гамме: боковой свет, капли как украшения на коже, воздушные пряди и деликатное золотое сияние. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654567972",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654567972",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13891525194850166948.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для дорогой женской аватарки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-946738480916576996",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 391655299,
+      "publicationDate": {
+        "dateTime": "2026-10-09T23:50:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-09T03:47:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Разложи ягоды и листья в прозрачных стеклянных сферах: белый фон, мягкие тени, ощущение невесомости, рекламная чистота и точная геометрия. Создайте свою вариацию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654573926",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654573926",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-11390919251972107796.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для сюрреалистичного food still life",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "3818659787370482398",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 395182770,
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-13T20:41:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте свою прозрачную 3D-орхидею с жидкими лепестками, каустиками и мягким студийным светом. Откройте Musya и запустите генерацию по промпту: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654894906",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654894906",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8863966006621149556.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: стеклянная орхидея в 3D",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-3976835269684739137",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 395182923,
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-13T20:41:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Превратите обычное фото продукта в выразительную предметную съёмку: сравните чистый каталог и тёплую рекламную сцену. Скопируйте промпт и создайте свой кадр в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654895813",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654895813",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1207550982984540403.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: создай рекламный кадр в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "4799856024184965251",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 395182931,
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-13T20:41:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните идею для выразительного AI-портрета: короткая стрижка, сиреневый жакет, терракотовая арка и мягкий дневной свет. Скопируйте промпт и создайте свою версию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654896803",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654896803",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1831264442414853595.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: солнечный editorial-портрет в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "6985388325044962361",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 395182939,
+      "publicationDate": {
+        "dateTime": "2026-10-13T21:45:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-13T20:41:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните идею для AI fashion-кампании: скульптурное кобальтовое пальто, тёплая студия и чистый силуэт. Скопируйте промпт и создайте свою версию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654897717",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654897717",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-11833545094596495810.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для модной кампании в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-7724322232482707544",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 395182944,
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-13T20:41:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните идею для AI-сюрреализма: парящие песочные часы, ночной город внутри стекла, дождь и отражения. Скопируйте промпт и создайте свой кадр в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654898886",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654898886",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13030810298294431240.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: город внутри времени — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-143631258198455715",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 395207490,
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:15:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-13T21:14:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте воздушную 3D-скульптуру с реалистичным преломлением света. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654899553",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654899553",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-1543594214640502068.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: скульптура из жидкого стекла",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-4542789211927197522",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 395207723,
+      "publicationDate": {
+        "dateTime": "2026-10-13T22:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-13T21:14:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте выразительную предметную съёмку с отражениями, стеклом и водой. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "id": "1152851204654900336",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.pinterest.es/pin/1152851204654900336",
+          "detailedStatus": "Published"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-3272023577407687850.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной AI-съёмки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "4959186076041235036",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361334,
+      "publicationDate": {
+        "dateTime": "2026-10-28T02:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:28:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте ночной editorial-портрет с выразительным светом и цветным стеклом. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-41972958162950161.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для ночного editorial-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "6596028834034238310",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361798,
+      "publicationDate": {
+        "dateTime": "2026-10-28T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте модную кампанию из девяти кадров: один образ, разные ракурсы и цельный свет. Откройте генератор и сделайте свою серию: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8370450257743991517.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: 9 кадров модной кампании",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-1130978423464704756",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361810,
+      "publicationDate": {
+        "dateTime": "2026-10-28T05:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте предметный кадр с чёрными очками, розовым сатином и мягким студийным светом. Скопируйте промпт с пина и попробуйте его в Musya: https://musya.app/image-generation. Меняйте цвет ткани и форму оправы под свою идею.",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-10755502680788974719.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки очков — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-5245920552051587146",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361817,
+      "publicationDate": {
+        "dateTime": "2026-10-28T07:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Фарфор, латунь и тёмный сланец: создай предметный рекламный кадр с мягким боковым светом. Скопируй промпт с пина и попробуй в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8210419845367786798.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки чайника — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-5704435938902588027",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361824,
+      "publicationDate": {
+        "dateTime": "2026-10-28T08:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Резкий портрет и город в движении: попробуй editorial-съёмку с нейросетью. Синий пиджак, терракотовый шарф, тёплый свет и естественная фактура кожи. Скопируй промпт с пина и создай свой кадр: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-3312535194637788459.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: портрет в движении — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-7579492169023468951",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361829,
+      "publicationDate": {
+        "dateTime": "2026-10-28T10:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Лимонный жакет, сиреневый фон и серебряные украшения: создай собственную fashion-кампанию с нейросетью. Скопируй промпт с пина и попробуй свой образ в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13779543627286149291.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: яркая fashion-кампания — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-8870431115640091834",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361833,
+      "publicationDate": {
+        "dateTime": "2026-10-28T11:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Преврати обычный фрукт в кинематографичный натюрморт: левитация, медная спираль и янтарный свет. Скопируй промпт и создай свой сюрреалистичный кадр в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-2689497861844848621.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: груша в невесомости — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-2158202839327617526",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364387,
+      "publicationDate": {
+        "dateTime": "2026-10-28T13:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создай оригинальную 3D-раковину из жидкого стекла с янтарным светом внутри и мягкими каустиками. Скопируй промпт и сделай свою версию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-12201138070805517006.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: раковина из жидкого стекла — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "542144218172639750",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364478,
+      "publicationDate": {
+        "dateTime": "2026-10-28T14:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните промпт для чистой editorial-предметной съёмки с архитектурной композицией и тёплым светом. Создайте свой визуал в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8426976161602229140.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки: янтарный флакон",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-1080087621787236854",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364487,
+      "publicationDate": {
+        "dateTime": "2026-10-28T16:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните промпт для выразительного editorial-портрета с движением ткани и драматичным светом. Создайте свою версию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-437693539293523487.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для editorial-портрета в движении",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "2387841225316320862",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364498,
+      "publicationDate": {
+        "dateTime": "2026-10-28T17:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните промпт для модной AI-съёмки: кобальтовый костюм, прозрачная накидка и графичная галерея. Создавайте свои изображения в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-17435860176861009213.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для fashion-кампании в архитектурном пространстве",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "6003688472365844035",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364505,
+      "publicationDate": {
+        "dateTime": "2026-10-28T19:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохрани промпт для сюрреалистичного AI-кадра: стеклянный кит, чёрная вода и тёплый полумесяц в ар-деко оранжерее. Создавай собственные изображения в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-3640434138607643540.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: стеклянный кит в ночной оранжерее — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-5292232816799233296",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364518,
+      "publicationDate": {
+        "dateTime": "2026-10-28T20:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохрани промпт для чистого рекламного кадра продукта. Сгенерировать свой вариант: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-16443402684448217194.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для премиальной предметной съёмки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "68701657844893813",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364531,
+      "publicationDate": {
+        "dateTime": "2026-10-28T22:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Дымчато-оливковое стекло, янтарные прожилки и мягкие каустики: промпт для скульптурного листа гинкго в редакционной предметной съёмке. Сохраните идею и создайте свой вариант в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8373011846702897751.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для 3D: лист гинкго из жидкого стекла — Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "5783305838563118730",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364543,
+      "publicationDate": {
+        "dateTime": "2026-10-28T23:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Глянцевый сливовый футляр, жемчужные наушники и капли на мокром базальте: сохраните промпт для предметной макросъёмки. Попробуйте свой цвет и создайте изображение в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-12399415108953149778.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки: наушники в каплях — Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-7033682051491019542",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    }
+  ],
+  "today_posts": [
+    {
+      "id": 408361334,
+      "publicationDate": {
+        "dateTime": "2026-10-28T02:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:28:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте ночной editorial-портрет с выразительным светом и цветным стеклом. Откройте генератор и сделайте свою версию: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-41972958162950161.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для ночного editorial-портрета",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "6596028834034238310",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361798,
+      "publicationDate": {
+        "dateTime": "2026-10-28T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте модную кампанию из девяти кадров: один образ, разные ракурсы и цельный свет. Откройте генератор и сделайте свою серию: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8370450257743991517.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: 9 кадров модной кампании",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-1130978423464704756",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361810,
+      "publicationDate": {
+        "dateTime": "2026-10-28T05:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создайте предметный кадр с чёрными очками, розовым сатином и мягким студийным светом. Скопируйте промпт с пина и попробуйте его в Musya: https://musya.app/image-generation. Меняйте цвет ткани и форму оправы под свою идею.",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-10755502680788974719.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки очков — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-5245920552051587146",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361817,
+      "publicationDate": {
+        "dateTime": "2026-10-28T07:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Фарфор, латунь и тёмный сланец: создай предметный рекламный кадр с мягким боковым светом. Скопируй промпт с пина и попробуй в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8210419845367786798.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки чайника — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-5704435938902588027",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361824,
+      "publicationDate": {
+        "dateTime": "2026-10-28T08:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Резкий портрет и город в движении: попробуй editorial-съёмку с нейросетью. Синий пиджак, терракотовый шарф, тёплый свет и естественная фактура кожи. Скопируй промпт с пина и создай свой кадр: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-3312535194637788459.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: портрет в движении — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-7579492169023468951",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361829,
+      "publicationDate": {
+        "dateTime": "2026-10-28T10:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Лимонный жакет, сиреневый фон и серебряные украшения: создай собственную fashion-кампанию с нейросетью. Скопируй промпт с пина и попробуй свой образ в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-13779543627286149291.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: яркая fashion-кампания — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-8870431115640091834",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408361833,
+      "publicationDate": {
+        "dateTime": "2026-10-28T11:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:29:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Преврати обычный фрукт в кинематографичный натюрморт: левитация, медная спираль и янтарный свет. Скопируй промпт и создай свой сюрреалистичный кадр в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-2689497861844848621.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: груша в невесомости — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-2158202839327617526",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364387,
+      "publicationDate": {
+        "dateTime": "2026-10-28T13:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Создай оригинальную 3D-раковину из жидкого стекла с янтарным светом внутри и мягкими каустиками. Скопируй промпт и сделай свою версию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-12201138070805517006.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: раковина из жидкого стекла — создать в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "542144218172639750",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364478,
+      "publicationDate": {
+        "dateTime": "2026-10-28T14:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните промпт для чистой editorial-предметной съёмки с архитектурной композицией и тёплым светом. Создайте свой визуал в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8426976161602229140.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки: янтарный флакон",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-1080087621787236854",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364487,
+      "publicationDate": {
+        "dateTime": "2026-10-28T16:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните промпт для выразительного editorial-портрета с движением ткани и драматичным светом. Создайте свою версию в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-437693539293523487.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для editorial-портрета в движении",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "2387841225316320862",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364498,
+      "publicationDate": {
+        "dateTime": "2026-10-28T17:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохраните промпт для модной AI-съёмки: кобальтовый костюм, прозрачная накидка и графичная галерея. Создавайте свои изображения в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-17435860176861009213.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для fashion-кампании в архитектурном пространстве",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "6003688472365844035",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364505,
+      "publicationDate": {
+        "dateTime": "2026-10-28T19:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохрани промпт для сюрреалистичного AI-кадра: стеклянный кит, чёрная вода и тёплый полумесяц в ар-деко оранжерее. Создавай собственные изображения в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-3640434138607643540.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт: стеклянный кит в ночной оранжерее — создай в Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-5292232816799233296",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364518,
+      "publicationDate": {
+        "dateTime": "2026-10-28T20:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Сохрани промпт для чистого рекламного кадра продукта. Сгенерировать свой вариант: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-16443402684448217194.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для премиальной предметной съёмки",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "68701657844893813",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364531,
+      "publicationDate": {
+        "dateTime": "2026-10-28T22:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Дымчато-оливковое стекло, янтарные прожилки и мягкие каустики: промпт для скульптурного листа гинкго в редакционной предметной съёмке. Сохраните идею и создайте свой вариант в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-8373011846702897751.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для 3D: лист гинкго из жидкого стекла — Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "5783305838563118730",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    },
+    {
+      "id": 408364543,
+      "publicationDate": {
+        "dateTime": "2026-10-28T23:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "creationDate": {
+        "dateTime": "2026-10-28T01:32:00",
+        "timezone": "Europe/Moscow"
+      },
+      "text": "Глянцевый сливовый футляр, жемчужные наушники и капли на мокром базальте: сохраните промпт для предметной макросъёмки. Попробуйте свой цвет и создайте изображение в Musya: https://musya.app/image-generation",
+      "firstCommentText": "",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202610/6880455-file-12399415108953149778.png"
+      ],
+      "autoPublish": true,
+      "saveExternalMediaFiles": false,
+      "mediaAltText": [
+        null
+      ],
+      "shortener": false,
+      "draft": false,
+      "twitterData": {
+        "type": "POST"
+      },
+      "instagramData": {
+        "autoPublish": true,
+        "isAiGenerated": false
+      },
+      "pinterestData": {
+        "boardId": "1152851273304179107",
+        "pinTitle": "Промпт для предметной съёмки: наушники в каплях — Musya",
+        "pinLink": "https://musya.app/image-generation",
+        "pinNewFormat": false,
+        "isAiGenerated": false,
+        "isAiGeneratedPerson": false
+      },
+      "hasNotReadNotes": false,
+      "uuid": "-7033682051491019542",
+      "creatorUserId": 5298491,
+      "brandTags": []
+    }
+  ]
+}
