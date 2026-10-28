@@ -49,7 +49,7 @@
     "provider_status": "ERROR",
     "detailedStatus": "You have reached your Metricool account limit.",
     "detailed_status": "You have reached your Metricool account limit.",
-    "checked_at": "2026-10-28T11:24:04.286Z",
+    "checked_at": "2026-10-28T11:24:03.999Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-2158202839327617526",
     "reschedule_history": [
       {

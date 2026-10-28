@@ -484,20 +484,19 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-10-28T11:24:04.286Z",
+    "checked_at": "2026-10-28T11:24:03.999Z",
     "date_moscow": "2026-10-28",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": null,
-      "published_in_planner": 0,
+      "published_confirmed": 0,
       "pending_confirmed": 7,
       "error_confirmed": 8,
-      "history_complete": false,
-      "history_note": "Full-range planner and exact Moscow-day planner agree on 15 records: 8 ERROR, 7 PENDING, 0 PUBLISHED. Independent published history is not verified; no additions allowed before complete daily-count verification.",
-      "remaining_upper_bound": 8,
+      "history_complete": true,
+      "history_note": "Full Moscow-day planner query cross-checked with 39 planner records since September 21 and Pinterest posts analytics for today (rows=[]). Recheck immediately before any mutation.",
+      "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
@@ -514,8 +513,42 @@
       "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
     ],
     "blocked_reason": "metricool_account_limit_reached",
-    "decision": "Pinterest is connected. Eight posts failed with You have reached your Metricool account limit. Seven posts remain PENDING. No create/update requests while the account limit is unresolved. ERROR is not published. Preserve current IDs and UUIDs for updateScheduledPost after recovery and a fresh complete daily-count check. Seven approved overdue pins remain queued.",
+    "decision": "Pinterest is connected. Eight ERROR posts report: You have reached your Metricool account limit. Seven posts remain PENDING. No create/update calls while the account limit blocks publishing. Preserve existing IDs and UUIDs for updateScheduledPost after recovery and fresh daily-count verification. Seven approved overdue pins remain queued.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-10-28/publisher-check-1422-metricool.json"
+    "evidence": "factory/research/2026-10-28/publisher-check-1426-a83b-metricool.json",
+    "error_posts": [
+      {
+        "id": "408361334",
+        "uuid": "6596028834034238310"
+      },
+      {
+        "id": "408361798",
+        "uuid": "-1130978423464704756"
+      },
+      {
+        "id": "408361810",
+        "uuid": "-5245920552051587146"
+      },
+      {
+        "id": "408361817",
+        "uuid": "-5704435938902588027"
+      },
+      {
+        "id": "408361824",
+        "uuid": "-7579492169023468951"
+      },
+      {
+        "id": "408361829",
+        "uuid": "-8870431115640091834"
+      },
+      {
+        "id": "408361833",
+        "uuid": "-2158202839327617526"
+      },
+      {
+        "id": "408364387",
+        "uuid": "542144218172639750"
+      }
+    ]
   }
 }
