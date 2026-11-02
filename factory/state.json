@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T10:22:42.763Z",
+  "updated_at": "2026-11-02T11:11:29.733Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -484,7 +484,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-02T10:22:42.763Z",
+    "checked_at": "2026-11-02T11:11:29.733Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -503,7 +503,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 8,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -547,7 +547,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 8 confirmed PUBLISHED and 7 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1322-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1412-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
@@ -633,7 +633,7 @@
     "manifests_checked": 39
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-02T10:22:42.763Z",
+    "checked_at": "2026-11-02T11:11:29.733Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -652,7 +652,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 8,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -696,7 +696,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 8 confirmed PUBLISHED and 7 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1322-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1412-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
@@ -782,7 +782,7 @@
     "manifests_checked": 39
   },
   "publisher_health": {
-    "checked_at": "2026-11-02T10:22:42.763Z",
+    "checked_at": "2026-11-02T11:11:29.733Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -801,7 +801,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 8,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -845,7 +845,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 8 confirmed PUBLISHED and 7 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1322-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1412-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
