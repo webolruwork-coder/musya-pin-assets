@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T09:24:29.031Z",
+  "updated_at": "2026-11-02T10:22:42.763Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -421,10 +421,10 @@
     {
       "id": "2026-10-16-slot-01-liquid-glass-3d-prompt",
       "manifest": "factory/runs/2026-10-16-slot-01-liquid-glass-3d-prompt/manifest.json",
-      "status": "scheduled",
+      "status": "published",
       "scheduled_at": "2026-11-02T13:00:00+03:00",
       "metricool_post_id": "413444997",
-      "updated_at": "2026-11-02T07:12:43.066Z"
+      "updated_at": "2026-11-02T10:22:42.763Z"
     },
     {
       "id": "2026-10-16-slot-02-ai-product-photography-prompt",
@@ -484,25 +484,25 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-02T09:24:29.031Z",
+    "checked_at": "2026-11-02T10:22:42.763Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 7,
-      "pending_confirmed": 8,
+      "published_confirmed": 8,
+      "pending_confirmed": 7,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner and explicit Moscow-day planner agree on 7 PUBLISHED and 8 PENDING. These 15 confirmed records exhaust the cap; no additions permitted.",
+      "history_note": "Fresh broad planner and explicit Moscow-day planner agree on 8 PUBLISHED and 7 PENDING. These 15 confirmed records exhaust the cap; no additions permitted.",
       "remaining": 0,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 7,
+      "confirmed_published": 8,
       "newly_confirmed_published": 1
     },
     "ready_unscheduled_candidates": [
@@ -545,19 +545,14 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "Daily cap reached: 7 confirmed PUBLISHED and 8 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
+    "decision": "Daily cap reached: 8 confirmed PUBLISHED and 7 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1224-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1322-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
-      {
-        "id": "413444997",
-        "uuid": "542144218172639750",
-        "scheduled_at": "2026-11-02T13:00:00+03:00"
-      },
       {
         "id": "413445000",
         "uuid": "-1080087621787236854",
@@ -622,6 +617,10 @@
       {
         "id": "413444993",
         "url": "https://www.pinterest.es/pin/1152851204656589934"
+      },
+      {
+        "id": "413444997",
+        "url": "https://www.pinterest.es/pin/1152851204656593831"
       }
     ],
     "duplicate_check": {
@@ -634,25 +633,25 @@
     "manifests_checked": 39
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-02T09:24:29.031Z",
+    "checked_at": "2026-11-02T10:22:42.763Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 7,
-      "pending_confirmed": 8,
+      "published_confirmed": 8,
+      "pending_confirmed": 7,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner and explicit Moscow-day planner agree on 7 PUBLISHED and 8 PENDING. These 15 confirmed records exhaust the cap; no additions permitted.",
+      "history_note": "Fresh broad planner and explicit Moscow-day planner agree on 8 PUBLISHED and 7 PENDING. These 15 confirmed records exhaust the cap; no additions permitted.",
       "remaining": 0,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 7,
+      "confirmed_published": 8,
       "newly_confirmed_published": 1
     },
     "ready_unscheduled_candidates": [
@@ -695,19 +694,14 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "Daily cap reached: 7 confirmed PUBLISHED and 8 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
+    "decision": "Daily cap reached: 8 confirmed PUBLISHED and 7 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1224-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1322-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
-      {
-        "id": "413444997",
-        "uuid": "542144218172639750",
-        "scheduled_at": "2026-11-02T13:00:00+03:00"
-      },
       {
         "id": "413445000",
         "uuid": "-1080087621787236854",
@@ -772,6 +766,10 @@
       {
         "id": "413444993",
         "url": "https://www.pinterest.es/pin/1152851204656589934"
+      },
+      {
+        "id": "413444997",
+        "url": "https://www.pinterest.es/pin/1152851204656593831"
       }
     ],
     "duplicate_check": {
@@ -784,25 +782,25 @@
     "manifests_checked": 39
   },
   "publisher_health": {
-    "checked_at": "2026-11-02T09:24:29.031Z",
+    "checked_at": "2026-11-02T10:22:42.763Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 7,
-      "pending_confirmed": 8,
+      "published_confirmed": 8,
+      "pending_confirmed": 7,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner and explicit Moscow-day planner agree on 7 PUBLISHED and 8 PENDING. These 15 confirmed records exhaust the cap; no additions permitted.",
+      "history_note": "Fresh broad planner and explicit Moscow-day planner agree on 8 PUBLISHED and 7 PENDING. These 15 confirmed records exhaust the cap; no additions permitted.",
       "remaining": 0,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 7,
+      "confirmed_published": 8,
       "newly_confirmed_published": 1
     },
     "ready_unscheduled_candidates": [
@@ -845,19 +843,14 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "Daily cap reached: 7 confirmed PUBLISHED and 8 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
+    "decision": "Daily cap reached: 8 confirmed PUBLISHED and 7 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1224-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1322-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
-      {
-        "id": "413444997",
-        "uuid": "542144218172639750",
-        "scheduled_at": "2026-11-02T13:00:00+03:00"
-      },
       {
         "id": "413445000",
         "uuid": "-1080087621787236854",
@@ -922,6 +915,10 @@
       {
         "id": "413444993",
         "url": "https://www.pinterest.es/pin/1152851204656589934"
+      },
+      {
+        "id": "413444997",
+        "url": "https://www.pinterest.es/pin/1152851204656593831"
       }
     ],
     "duplicate_check": {

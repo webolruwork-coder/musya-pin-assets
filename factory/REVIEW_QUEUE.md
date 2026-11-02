@@ -4,34 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт: груша в невесомости — создай в Musya
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-15 · 11:30 · Сюрреализм<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Ресторанная еда | Пищевой дизайн, Дизайн иконки, Графический дизайн — — показов, — сохранений
-
-![2026-10-15-slot-05-surreal-cinematic-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-05-surreal-cinematic-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-15-slot-05-surreal-cinematic-ai-prompt/manifest.json)
-
----
-
-## Промпт: раковина из жидкого стекла — создать в Musya
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-16 · 13:00 · 3D и материалы<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Глянцевая 3D-кукла с Вашим лицом | Промпт Nano Banana | tg: jl_dsgn | 3d дизайн, Винтажный логотип, Цифровое искусство — — показов, — сохранений
-
-![2026-10-16-slot-01-liquid-glass-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-01-liquid-glass-3d-prompt.png)
-
-[Открыть manifest](runs/2026-10-16-slot-01-liquid-glass-3d-prompt/manifest.json)
-
----
-
 ## Промпт для предметной съёмки: янтарный флакон
 
 **Решение:** Одобрен<br>
