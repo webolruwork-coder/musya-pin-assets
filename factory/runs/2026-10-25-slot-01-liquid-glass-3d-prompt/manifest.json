@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
   "created_at": "2026-10-24T07:41:09.158Z",
-  "updated_at": "2026-11-02T21:12:43.286Z",
-  "status": "validated",
+  "updated_at": "2026-11-02T21:16:33.817Z",
+  "status": "scheduled",
   "search": {
     "query": "liquid glass 3D prompt",
     "global_query": "промпт",
@@ -45,8 +45,17 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-11-03T04:00:00+03:00",
+    "metricool_post_id": "414536199",
+    "metricool_uuid": "-4392399090032358177",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-4392399090032358177",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-11-02T21:16:33.817Z",
+    "provider_media_urls": [
+      "https://static.metricool.com/planner/202611/6880455-file-16230188039173079177.png"
+    ]
   },
   "validation": {
     "passed": true,
@@ -220,6 +229,16 @@
       "status": "validated",
       "at": "2026-10-24T11:54:59.592Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-11-02T21:15:52.716Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-01-liquid-glass-3d-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-11-02T21:16:17.557Z",
+      "note": "Created once through Metricool MCP; ID and UUID persisted immediately."
     }
   ],
   "producer_attempts": [

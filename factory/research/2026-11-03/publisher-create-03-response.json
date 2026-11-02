@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"data\":{\"id\":414536230,\"publicationDate\":{\"dateTime\":\"2026-11-03T05:30:00\",\"timezone\":\"Europe/Moscow\"},\"creationDate\":{\"dateTime\":\"2026-11-03T00:16:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Янтарное мыло, микропена и мягкий свет: преврати простой продукт в рекламный кадр. Скопируй промпт с пина и создай свою предметную съёмку в Musya: https://musya.app/image-generation\",\"firstCommentText\":\"\",\"providers\":[{\"network\":\"pinterest\",\"status\":\"PENDING\",\"detailedStatus\":\"Pending\"}],\"media\":[\"https://static.metricool.com/planner/202611/6880455-file-14323489076705807139.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":false,\"mediaAltText\":[null],\"shortener\":false,\"draft\":false,\"imageVariants\":false,\"twitterData\":{\"type\":\"POST\"},\"instagramData\":{\"autoPublish\":true,\"isAiGenerated\":false},\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Промпт для предметной съёмки мыла — создай в Musya\",\"pinLink\":\"https://musya.app/image-generation\",\"pinNewFormat\":false,\"isAiGenerated\":false,\"isAiGeneratedPerson\":false},\"hasNotReadNotes\":false,\"uuid\":\"4100988984203235189\",\"creatorUserMail\":\"natashakorchagina0@gmail.com\",\"creatorUserId\":5298491,\"brandTags\":[],\"plannerUrl\":\"https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=4100988984203235189\"}}"
+    }
+  ],
+  "isError": false
+}

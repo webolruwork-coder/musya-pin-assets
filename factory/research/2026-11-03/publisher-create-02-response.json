@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"data\":{\"id\":414536199,\"publicationDate\":{\"dateTime\":\"2026-11-03T04:00:00\",\"timezone\":\"Europe/Moscow\"},\"creationDate\":{\"dateTime\":\"2026-11-03T00:16:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Создай ската из жидкого стекла: прозрачные плавники, синие преломления и солнечные каустики на шафрановом фоне. Скопируй промпт с пина и попробуй генерацию в Musya: https://musya.app/image-generation\",\"firstCommentText\":\"\",\"providers\":[{\"network\":\"pinterest\",\"status\":\"PENDING\",\"detailedStatus\":\"Pending\"}],\"media\":[\"https://static.metricool.com/planner/202611/6880455-file-16230188039173079177.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":false,\"mediaAltText\":[null],\"shortener\":false,\"draft\":false,\"imageVariants\":false,\"twitterData\":{\"type\":\"POST\"},\"instagramData\":{\"autoPublish\":true,\"isAiGenerated\":false},\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Скат из жидкого стекла — 3D-промпт для Musya\",\"pinLink\":\"https://musya.app/image-generation\",\"pinNewFormat\":false,\"isAiGenerated\":false,\"isAiGeneratedPerson\":false},\"hasNotReadNotes\":false,\"uuid\":\"-4392399090032358177\",\"creatorUserMail\":\"natashakorchagina0@gmail.com\",\"creatorUserId\":5298491,\"brandTags\":[],\"plannerUrl\":\"https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-4392399090032358177\"}}"
+    }
+  ],
+  "isError": false
+}

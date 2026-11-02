@@ -1,0 +1,58 @@
+[
+  {
+    "run_id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+    "request": {
+      "blogId": "6880455",
+      "date": "2026-11-03T02:30:00+03:00",
+      "info": "{\"publicationDate\": {\"dateTime\": \"2026-11-03T02:30:00\", \"timezone\": \"Europe/Moscow\"}, \"text\": \"Серебристые кудри, охристый трикотаж и мягкий боковой свет: сохраните промпт для выразительного портрета в профиль. Попробуйте свою палитру и создайте изображение в Musya: https://musya.app/image-generation\", \"providers\": [{\"network\": \"pinterest\"}], \"media\": [\"https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-23-slot-03-editorial-portrait-ai-prompt.png\"], \"autoPublish\": true, \"saveExternalMediaFiles\": false, \"shortener\": false, \"draft\": false, \"pinterestData\": {\"boardId\": \"1152851273304179107\", \"pinTitle\": \"Промпт: портрет с серебристыми кудрями — создай в Musya\", \"pinLink\": \"https://musya.app/image-generation\", \"pinNewFormat\": false}}"
+    }
+  },
+  {
+    "run_id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "request": {
+      "blogId": "6880455",
+      "date": "2026-11-03T04:00:00+03:00",
+      "info": "{\"publicationDate\": {\"dateTime\": \"2026-11-03T04:00:00\", \"timezone\": \"Europe/Moscow\"}, \"text\": \"Создай ската из жидкого стекла: прозрачные плавники, синие преломления и солнечные каустики на шафрановом фоне. Скопируй промпт с пина и попробуй генерацию в Musya: https://musya.app/image-generation\", \"providers\": [{\"network\": \"pinterest\"}], \"media\": [\"https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-01-liquid-glass-3d-prompt.png\"], \"autoPublish\": true, \"saveExternalMediaFiles\": false, \"shortener\": false, \"draft\": false, \"pinterestData\": {\"boardId\": \"1152851273304179107\", \"pinTitle\": \"Скат из жидкого стекла — 3D-промпт для Musya\", \"pinLink\": \"https://musya.app/image-generation\", \"pinNewFormat\": false}}"
+    }
+  },
+  {
+    "run_id": "2026-10-25-slot-02-ai-product-photography-prompt",
+    "request": {
+      "blogId": "6880455",
+      "date": "2026-11-03T05:30:00+03:00",
+      "info": "{\"publicationDate\": {\"dateTime\": \"2026-11-03T05:30:00\", \"timezone\": \"Europe/Moscow\"}, \"text\": \"Янтарное мыло, микропена и мягкий свет: преврати простой продукт в рекламный кадр. Скопируй промпт с пина и создай свою предметную съёмку в Musya: https://musya.app/image-generation\", \"providers\": [{\"network\": \"pinterest\"}], \"media\": [\"https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-02-ai-product-photography-prompt.png\"], \"autoPublish\": true, \"saveExternalMediaFiles\": false, \"shortener\": false, \"draft\": false, \"pinterestData\": {\"boardId\": \"1152851273304179107\", \"pinTitle\": \"Промпт для предметной съёмки мыла — создай в Musya\", \"pinLink\": \"https://musya.app/image-generation\", \"pinNewFormat\": false}}"
+    }
+  },
+  {
+    "run_id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "request": {
+      "blogId": "6880455",
+      "date": "2026-11-03T07:00:00+03:00",
+      "info": "{\"publicationDate\": {\"dateTime\": \"2026-11-03T07:00:00\", \"timezone\": \"Europe/Moscow\"}, \"text\": \"Мягкий свет, графитовый жакет и один жемчужный акцент. Скопируй промпт с пина и создай свой редакционный портрет в Musya: https://musya.app/image-generation\", \"providers\": [{\"network\": \"pinterest\"}], \"media\": [\"https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-03-editorial-portrait-ai-prompt.png\"], \"autoPublish\": true, \"saveExternalMediaFiles\": false, \"shortener\": false, \"draft\": false, \"pinterestData\": {\"boardId\": \"1152851273304179107\", \"pinTitle\": \"Промпт для портрета с жемчугом — создай в Musya\", \"pinLink\": \"https://musya.app/image-generation\", \"pinNewFormat\": false}}"
+    }
+  },
+  {
+    "run_id": "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "request": {
+      "blogId": "6880455",
+      "date": "2026-11-03T08:30:00+03:00",
+      "info": "{\"publicationDate\": {\"dateTime\": \"2026-11-03T08:30:00\", \"timezone\": \"Europe/Moscow\"}, \"text\": \"Скульптурная блуза, охристые брюки и диагональный солнечный свет: промпт для редакционной fashion-съёмки. Сохраните идею и создайте свою версию в Musya: https://musya.app/image-generation\", \"providers\": [{\"network\": \"pinterest\"}], \"media\": [\"https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-04-fashion-campaign-ai-prompt.png\"], \"autoPublish\": true, \"saveExternalMediaFiles\": false, \"shortener\": false, \"draft\": false, \"pinterestData\": {\"boardId\": \"1152851273304179107\", \"pinTitle\": \"Промпт для fashion-съёмки с солнечным светом — Musya\", \"pinLink\": \"https://musya.app/image-generation\", \"pinNewFormat\": false}}"
+    }
+  },
+  {
+    "run_id": "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "request": {
+      "blogId": "6880455",
+      "date": "2026-11-03T10:00:00+03:00",
+      "info": "{\"publicationDate\": {\"dateTime\": \"2026-11-03T10:00:00\", \"timezone\": \"Europe/Moscow\"}, \"text\": \"Гигантская скульптура, облачный ореол и белая соляная равнина: промпт для кинематографичного сюрреализма. Сохраните идею и создайте свою версию в Musya: https://musya.app/image-generation\", \"providers\": [{\"network\": \"pinterest\"}], \"media\": [\"https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-05-surreal-cinematic-ai-prompt.png\"], \"autoPublish\": true, \"saveExternalMediaFiles\": false, \"shortener\": false, \"draft\": false, \"pinterestData\": {\"boardId\": \"1152851273304179107\", \"pinTitle\": \"Промпт: терракотовый сон среди облаков — Musya\", \"pinLink\": \"https://musya.app/image-generation\", \"pinNewFormat\": false}}"
+    }
+  },
+  {
+    "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+    "request": {
+      "blogId": "6880455",
+      "date": "2026-11-03T11:30:00+03:00",
+      "info": "{\"publicationDate\": {\"dateTime\": \"2026-11-03T11:30:00\", \"timezone\": \"Europe/Moscow\"}, \"text\": \"Фактура кожи, кобальтовая подводка и драматичный боковой свет: промпт для выразительного beauty-макро. Сохраните идею и создайте свою версию в Musya: https://musya.app/image-generation\", \"providers\": [{\"network\": \"pinterest\"}], \"media\": [\"https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-06-beauty-cosmetic-photography-prompt.png\"], \"autoPublish\": true, \"saveExternalMediaFiles\": false, \"shortener\": false, \"draft\": false, \"pinterestData\": {\"boardId\": \"1152851273304179107\", \"pinTitle\": \"Промпт для beauty-макро: кобальтовая подводка — Musya\", \"pinLink\": \"https://musya.app/image-generation\", \"pinNewFormat\": false}}"
+    }
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "checked_at": "2026-11-02T21:16:33.817Z",
+  "date_moscow": "2026-11-03",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 7,
+    "error_confirmed": 0,
+    "history_complete": true,
+    "history_note": "Fresh broad planner returns all 46 posts (39 PUBLISHED and 7 PENDING), including all local known IDs. Explicit Moscow-day planner agrees on exactly seven PENDING records; no pagination/truncation marker.",
+    "remaining": 8,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 7,
+    "rescheduled": 0,
+    "confirmed_published": 39,
+    "newly_confirmed_published": 1,
+    "backlog_slots_reassigned": 7
+  },
+  "ready_unscheduled_candidates": [],
+  "selected_candidates": [
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "skipped_candidates": [
+    {
+      "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-03-editorial-portrait-ai-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-15-trending-ai-image-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-02-ai-product-photography-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-06-beauty-cosmetic-photography-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-07-chrome-translucent-3d-prompt",
+      "reason": "approval_pending"
+    }
+  ],
+  "blocked_reason": null,
+  "decision": "Seven approved overdue pins scheduled once and re-read as PENDING. All 15 current-day pins remain pending approval. Eight daily slots remain, with no further approved ready candidates. No ERROR posts to recover.",
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-03/publisher-check-0016-verified.json",
+  "today_ready_count": 0,
+  "today_manifest_count": 15,
+  "error_posts": [],
+  "overdue_error_count": 0,
+  "scheduled_posts": [
+    {
+      "id": "414534567",
+      "uuid": "-744106144272202070",
+      "scheduled_at": "2026-11-03T02:30:00+03:00"
+    },
+    {
+      "id": "414536199",
+      "uuid": "-4392399090032358177",
+      "scheduled_at": "2026-11-03T04:00:00+03:00"
+    },
+    {
+      "id": "414536230",
+      "uuid": "4100988984203235189",
+      "scheduled_at": "2026-11-03T05:30:00+03:00"
+    },
+    {
+      "id": "414536245",
+      "uuid": "7208299773328574977",
+      "scheduled_at": "2026-11-03T07:00:00+03:00"
+    },
+    {
+      "id": "414536267",
+      "uuid": "3744379920626764256",
+      "scheduled_at": "2026-11-03T08:30:00+03:00"
+    },
+    {
+      "id": "414536302",
+      "uuid": "1881582207399578280",
+      "scheduled_at": "2026-11-03T10:00:00+03:00"
+    },
+    {
+      "id": "414536325",
+      "uuid": "-2732908720757584197",
+      "scheduled_at": "2026-11-03T11:30:00+03:00"
+    }
+  ],
+  "published_posts": [],
+  "duplicate_check": {
+    "id": false,
+    "uuid": false,
+    "title": false,
+    "media_url": false,
+    "run_id": false
+  },
+  "manifests_checked": 46,
+  "verification_range": {
+    "from": "2026-09-01T00:00:00+03:00",
+    "to": "2026-11-10T23:59:59+03:00"
+  },
+  "initial_evidence": "factory/research/2026-11-03/publisher-check-0013-metricool.json",
+  "host_verification": "factory/research/2026-11-03/publisher-host-verification.json"
+}

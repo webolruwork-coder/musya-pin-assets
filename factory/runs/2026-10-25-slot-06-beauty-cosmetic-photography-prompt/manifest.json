@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
   "created_at": "2026-10-24T07:41:09.171Z",
-  "updated_at": "2026-11-02T21:12:43.939Z",
-  "status": "validated",
+  "updated_at": "2026-11-02T21:16:33.817Z",
+  "status": "scheduled",
   "search": {
     "query": "beauty cosmetic photography prompt",
     "global_query": "промпт",
@@ -45,8 +45,17 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-11-03T11:30:00+03:00",
+    "metricool_post_id": "414536325",
+    "metricool_uuid": "-2732908720757584197",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-2732908720757584197",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-11-02T21:16:33.817Z",
+    "provider_media_urls": [
+      "https://static.metricool.com/planner/202611/6880455-file-10901130648615773047.png"
+    ]
   },
   "validation": {
     "passed": true,
@@ -209,6 +218,16 @@
       "status": "validated",
       "at": "2026-10-24T17:04:21.770Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-11-02T21:16:07.536Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-06-beauty-cosmetic-photography-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-11-02T21:16:24.560Z",
+      "note": "Created once through Metricool MCP; ID and UUID persisted immediately."
     }
   ],
   "generation": {

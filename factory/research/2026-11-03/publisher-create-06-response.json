@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"data\":{\"id\":414536302,\"publicationDate\":{\"dateTime\":\"2026-11-03T10:00:00\",\"timezone\":\"Europe/Moscow\"},\"creationDate\":{\"dateTime\":\"2026-11-03T00:16:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Гигантская скульптура, облачный ореол и белая соляная равнина: промпт для кинематографичного сюрреализма. Сохраните идею и создайте свою версию в Musya: https://musya.app/image-generation\",\"firstCommentText\":\"\",\"providers\":[{\"network\":\"pinterest\",\"status\":\"PENDING\",\"detailedStatus\":\"Pending\"}],\"media\":[\"https://static.metricool.com/planner/202611/6880455-file-6773511114410682973.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":false,\"mediaAltText\":[null],\"shortener\":false,\"draft\":false,\"imageVariants\":false,\"twitterData\":{\"type\":\"POST\"},\"instagramData\":{\"autoPublish\":true,\"isAiGenerated\":false},\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Промпт: терракотовый сон среди облаков — Musya\",\"pinLink\":\"https://musya.app/image-generation\",\"pinNewFormat\":false,\"isAiGenerated\":false,\"isAiGeneratedPerson\":false},\"hasNotReadNotes\":false,\"uuid\":\"1881582207399578280\",\"creatorUserMail\":\"natashakorchagina0@gmail.com\",\"creatorUserId\":5298491,\"brandTags\":[],\"plannerUrl\":\"https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=1881582207399578280\"}}"
+    }
+  ],
+  "isError": false
+}
