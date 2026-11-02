@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-14-slot-02-ai-product-photography-prompt",
   "created_at": "2026-10-13T04:01:13.728Z",
-  "updated_at": "2026-11-02T01:22:44.340100+00:00",
-  "status": "scheduled",
+  "updated_at": "2026-11-02T03:11:15.731Z",
+  "status": "published",
   "search": {
     "query": "AI product photography prompt",
     "global_query": "промпт",
@@ -46,10 +46,10 @@
     "scheduled_at": "2026-11-02T05:30:00+03:00",
     "metricool_post_id": "413444975",
     "metricool_uuid": "-5245920552051587146",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "checked_at": "2026-11-02T02:12:06.980Z",
-    "detailed_status": "Pending",
+    "provider_status": "PUBLISHED",
+    "detailedStatus": "Published",
+    "checked_at": "2026-11-02T03:11:15.731Z",
+    "detailed_status": "Published",
     "reschedule_history": [
       {
         "previous_post_id": "395339156",
@@ -84,7 +84,8 @@
         "reason": "Approved overdue ERROR rescheduled via updateScheduledPost with previous ID and unchanged UUID; fresh planner confirms PENDING"
       }
     ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5245920552051587146"
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5245920552051587146",
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204656573697"
   },
   "validation": {
     "passed": true,
@@ -235,6 +236,11 @@
       "status": "scheduled",
       "at": "2026-11-02T01:22:44.340100+00:00",
       "note": "Recovered Metricool ERROR using existing record; verified PENDING, publication not yet confirmed"
+    },
+    {
+      "status": "published",
+      "at": "2026-11-02T03:11:15.731Z",
+      "note": "Confirmed PUBLISHED via fresh Metricool planner; https://www.pinterest.es/pin/1152851204656573697"
     }
   ],
   "generation": {

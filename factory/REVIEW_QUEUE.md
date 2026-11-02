@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт для предметной съёмки очков — создать в Musya
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-14 · 05:30 · Предметная съёмка<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** 25 Gemini Prompts to Create STUNNING, Stylish Photos | Outfit ideas for gemini women, Fashion outfits for gemini women, Outfits for gemnini — — показов, — сохранений
-
-![2026-10-14-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-14-slot-02-ai-product-photography-prompt.png)
-
-[Открыть manifest](runs/2026-10-14-slot-02-ai-product-photography-prompt/manifest.json)
-
----
-
 ## Промпт для предметной съёмки чайника — создай в Musya
 
 **Решение:** Одобрен<br>
