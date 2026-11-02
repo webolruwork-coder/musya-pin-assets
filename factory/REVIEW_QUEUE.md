@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт для fashion-кампании в архитектурном пространстве
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-16 · 17:30 · Мода<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Съемка в стиле папарацци / неожиданный кадр / девушка в толпе / промпт / prompt / нейрофотосессия — — показов, — сохранений
-
-![2026-10-16-slot-04-fashion-campaign-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-04-fashion-campaign-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-16-slot-04-fashion-campaign-ai-prompt/manifest.json)
-
----
-
 ## Промпт: стеклянный кит в ночной оранжерее — создай в Musya
 
 **Решение:** Одобрен<br>
