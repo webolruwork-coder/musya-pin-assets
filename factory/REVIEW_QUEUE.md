@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт: стеклянный кит в ночной оранжерее — создай в Musya
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-16 · 19:00 · Сюрреализм<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** ПЛЮШЕВЫЙ ЭФФЕКТ - KrasKa | Графический дизайн вдохновение, Фото цветов, Милые щенки — — показов, — сохранений
-
-![2026-10-16-slot-05-surreal-cinematic-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-05-surreal-cinematic-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-16-slot-05-surreal-cinematic-ai-prompt/manifest.json)
-
----
-
 ## Промпт для премиальной предметной съёмки
 
 **Решение:** Одобрен<br>

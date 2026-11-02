@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
   "created_at": "2026-10-15T10:01:00.140Z",
-  "updated_at": "2026-11-02T07:12:43.066Z",
-  "status": "scheduled",
+  "updated_at": "2026-11-02T16:13:30.747Z",
+  "status": "published",
   "search": {
     "query": "surreal cinematic AI prompt",
     "global_query": "промпт",
@@ -46,10 +46,10 @@
     "scheduled_at": "2026-11-02T19:00:00+03:00",
     "metricool_post_id": "413445016",
     "metricool_uuid": "-5292232816799233296",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "detailed_status": "Pending",
-    "checked_at": "2026-11-02T15:30:02.093306+00:00",
+    "provider_status": "PUBLISHED",
+    "detailedStatus": "Published",
+    "detailed_status": "Published",
+    "checked_at": "2026-11-02T16:13:30.747Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5292232816799233296",
     "reschedule_history": [
       {
@@ -68,7 +68,8 @@
         "at": "2026-11-02T01:22:44.340100+00:00",
         "reason": "Approved overdue ERROR rescheduled via updateScheduledPost with previous ID and unchanged UUID; fresh planner confirms PENDING"
       }
-    ]
+    ],
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204656617679"
   },
   "validation": {
     "passed": true,
@@ -254,6 +255,11 @@
       "status": "scheduled",
       "at": "2026-11-02T01:22:44.340100+00:00",
       "note": "Recovered Metricool ERROR using existing record; verified PENDING, publication not yet confirmed"
+    },
+    {
+      "status": "published",
+      "at": "2026-11-02T16:13:30.747Z",
+      "note": "Confirmed PUBLISHED via fresh Metricool MCP planner; https://www.pinterest.es/pin/1152851204656617679"
     }
   ]
 }

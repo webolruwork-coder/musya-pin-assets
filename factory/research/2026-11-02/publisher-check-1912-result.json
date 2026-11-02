@@ -1,0 +1,149 @@
+{
+  "checked_at": "2026-11-02T16:13:30.747Z",
+  "date_moscow": "2026-11-02",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 12,
+    "pending_confirmed": 3,
+    "error_confirmed": 0,
+    "history_complete": true,
+    "history_note": "Fresh broad planner and explicit Moscow-day planner agree on 12 PUBLISHED and 3 PENDING. These 15 confirmed records exhaust the cap; no additions permitted.",
+    "remaining": 0,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "confirmed_published": 12,
+    "newly_confirmed_published": 1
+  },
+  "ready_unscheduled_candidates": [
+    "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-01-liquid-glass-3d-prompt",
+    "2026-10-25-slot-02-ai-product-photography-prompt",
+    "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+    "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+    "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+    "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
+  ],
+  "skipped_candidates": [
+    {
+      "id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-02-ai-product-photography-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+      "reason": "daily_limit_reached"
+    },
+    {
+      "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "reason": "daily_limit_reached"
+    }
+  ],
+  "blocked_reason": null,
+  "decision": "Daily cap reached: 12 confirmed PUBLISHED and 3 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-02/publisher-check-1912-metricool.json",
+  "today_ready_count": 0,
+  "today_manifest_count": 0,
+  "error_posts": [],
+  "overdue_error_count": 0,
+  "scheduled_posts": [
+    {
+      "id": "413445019",
+      "uuid": "68701657844893813",
+      "scheduled_at": "2026-11-02T20:30:00+03:00"
+    },
+    {
+      "id": "413445022",
+      "uuid": "5783305838563118730",
+      "scheduled_at": "2026-11-02T22:00:00+03:00"
+    },
+    {
+      "id": "413445026",
+      "uuid": "-7033682051491019542",
+      "scheduled_at": "2026-11-02T23:30:00+03:00"
+    }
+  ],
+  "published_posts": [
+    {
+      "id": "413444940",
+      "url": "https://www.pinterest.es/pin/1152851204656571769"
+    },
+    {
+      "id": "413444970",
+      "url": "https://www.pinterest.es/pin/1152851204656572396"
+    },
+    {
+      "id": "413444975",
+      "url": "https://www.pinterest.es/pin/1152851204656573697"
+    },
+    {
+      "id": "413444977",
+      "url": "https://www.pinterest.es/pin/1152851204656577839"
+    },
+    {
+      "id": "413444981",
+      "url": "https://www.pinterest.es/pin/1152851204656582579"
+    },
+    {
+      "id": "413444987",
+      "url": "https://www.pinterest.es/pin/1152851204656586501"
+    },
+    {
+      "id": "413444993",
+      "url": "https://www.pinterest.es/pin/1152851204656589934"
+    },
+    {
+      "id": "413444997",
+      "url": "https://www.pinterest.es/pin/1152851204656593831"
+    },
+    {
+      "id": "413445000",
+      "url": "https://www.pinterest.es/pin/1152851204656598992"
+    },
+    {
+      "id": "413445004",
+      "url": "https://www.pinterest.es/pin/1152851204656605328"
+    },
+    {
+      "id": "413445010",
+      "url": "https://www.pinterest.es/pin/1152851204656610919"
+    },
+    {
+      "id": "413445016",
+      "url": "https://www.pinterest.es/pin/1152851204656617679"
+    }
+  ],
+  "duplicate_check": {
+    "id": false,
+    "uuid": false,
+    "title": false,
+    "media_url": false,
+    "run_id": false
+  },
+  "manifests_checked": 39,
+  "verification_range": {
+    "from": "2026-09-01T00:00:00+03:00",
+    "to": "2026-11-03T23:59:59+03:00"
+  }
+}
