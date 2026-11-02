@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-23-slot-01-liquid-glass-3d-prompt",
   "created_at": "2026-10-22T12:01:01.476Z",
-  "updated_at": "2026-11-02T07:12:43.066Z",
-  "status": "scheduled",
+  "updated_at": "2026-11-02T19:12:20.260Z",
+  "status": "published",
   "search": {
     "query": "liquid glass 3D prompt",
     "global_query": "промпт",
@@ -48,10 +48,10 @@
     "scheduled_at": "2026-11-02T22:00:00+03:00",
     "metricool_post_id": "413445022",
     "metricool_uuid": "5783305838563118730",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "detailed_status": "Pending",
-    "checked_at": "2026-11-02T18:12:11Z",
+    "provider_status": "PUBLISHED",
+    "detailedStatus": "Published",
+    "detailed_status": "Published",
+    "checked_at": "2026-11-02T19:12:20.260Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=5783305838563118730",
     "reschedule_history": [
       {
@@ -70,7 +70,8 @@
         "at": "2026-11-02T01:22:44.340100+00:00",
         "reason": "Approved overdue ERROR rescheduled via updateScheduledPost with previous ID and unchanged UUID; fresh planner confirms PENDING"
       }
-    ]
+    ],
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204656631411"
   },
   "validation": {
     "passed": true,
@@ -266,6 +267,11 @@
       "status": "scheduled",
       "at": "2026-11-02T01:22:44.340100+00:00",
       "note": "Recovered Metricool ERROR using existing record; verified PENDING, publication not yet confirmed"
+    },
+    {
+      "status": "published",
+      "at": "2026-11-02T19:12:20.260Z",
+      "note": "Metricool confirmed PUBLISHED: https://www.pinterest.es/pin/1152851204656631411"
     }
   ],
   "generation": {
