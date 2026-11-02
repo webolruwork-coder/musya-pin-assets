@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T04:14:26.444Z",
+  "updated_at": "2026-11-02T05:11:31.150Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -484,7 +484,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-02T04:14:26.444Z",
+    "checked_at": "2026-11-02T05:11:31.150Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -495,7 +495,7 @@
       "pending_confirmed": 11,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh September–November planner and explicit Moscow-day planner agree on 4 PUBLISHED and 11 PENDING. Confirmed planner count alone fills the daily cap.",
+      "history_note": "Fresh October–November planner and explicit Moscow-day planner agree on 4 PUBLISHED and 11 PENDING. These 15 confirmed posts alone exhaust the cap; no additional history assumption is needed to refrain from writes.",
       "remaining": 0,
       "publishable_now": 0
     },
@@ -503,7 +503,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 4,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -547,7 +547,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 4 confirmed PUBLISHED and 11 PENDING. No ERROR in the checked planner range. Seven approved backlog pins remain queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-0714-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-0810-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
@@ -632,10 +632,11 @@
       "uuid": false,
       "title": false,
       "media_url": false
-    }
+    },
+    "manifests_checked": 38
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-02T04:14:26.444Z",
+    "checked_at": "2026-11-02T05:11:31.150Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -646,7 +647,7 @@
       "pending_confirmed": 11,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh September–November planner and explicit Moscow-day planner agree on 4 PUBLISHED and 11 PENDING. Confirmed planner count alone fills the daily cap.",
+      "history_note": "Fresh October–November planner and explicit Moscow-day planner agree on 4 PUBLISHED and 11 PENDING. These 15 confirmed posts alone exhaust the cap; no additional history assumption is needed to refrain from writes.",
       "remaining": 0,
       "publishable_now": 0
     },
@@ -654,7 +655,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 4,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -698,7 +699,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 4 confirmed PUBLISHED and 11 PENDING. No ERROR in the checked planner range. Seven approved backlog pins remain queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-0714-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-0810-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
@@ -783,10 +784,11 @@
       "uuid": false,
       "title": false,
       "media_url": false
-    }
+    },
+    "manifests_checked": 38
   },
   "publisher_health": {
-    "checked_at": "2026-11-02T04:14:26.444Z",
+    "checked_at": "2026-11-02T05:11:31.150Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -797,7 +799,7 @@
       "pending_confirmed": 11,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh September–November planner and explicit Moscow-day planner agree on 4 PUBLISHED and 11 PENDING. Confirmed planner count alone fills the daily cap.",
+      "history_note": "Fresh October–November planner and explicit Moscow-day planner agree on 4 PUBLISHED and 11 PENDING. These 15 confirmed posts alone exhaust the cap; no additional history assumption is needed to refrain from writes.",
       "remaining": 0,
       "publishable_now": 0
     },
@@ -805,7 +807,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 4,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -849,7 +851,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 4 confirmed PUBLISHED and 11 PENDING. No ERROR in the checked planner range. Seven approved backlog pins remain queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-0714-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-0810-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
@@ -934,6 +936,7 @@
       "uuid": false,
       "title": false,
       "media_url": false
-    }
+    },
+    "manifests_checked": 38
   }
 }
