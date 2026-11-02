@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт для предметной съёмки чайника — создай в Musya
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-15 · 07:00 · Предметная съёмка<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Таргет дизайн | Промпт, Шахматы, Шахматная — — показов, — сохранений
-
-![2026-10-15-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-02-ai-product-photography-prompt.png)
-
-[Открыть manifest](runs/2026-10-15-slot-02-ai-product-photography-prompt/manifest.json)
-
----
-
 ## Промпт: портрет в движении — создай в Musya
 
 **Решение:** Одобрен<br>
