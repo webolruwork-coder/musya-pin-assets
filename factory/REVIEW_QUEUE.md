@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт для предметной съёмки: янтарный флакон
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-16 · 14:30 · Предметная съёмка<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Prompt for design | Промпт для дизайна | Реклама косметики, Промт — — показов, — сохранений
-
-![2026-10-16-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-02-ai-product-photography-prompt.png)
-
-[Открыть manifest](runs/2026-10-16-slot-02-ai-product-photography-prompt/manifest.json)
-
----
-
 ## Промпт для editorial-портрета в движении
 
 **Решение:** Одобрен<br>
