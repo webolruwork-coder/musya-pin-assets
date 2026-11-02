@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-23-slot-01-liquid-glass-3d-prompt",
   "created_at": "2026-10-22T12:01:01.476Z",
-  "updated_at": "2026-10-28T20:39:27.003Z",
+  "updated_at": "2026-11-02T01:22:44.340100+00:00",
   "status": "scheduled",
   "search": {
     "query": "liquid glass 3D prompt",
@@ -45,13 +45,13 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-29T22:00:00+03:00",
-    "metricool_post_id": "409476209",
+    "scheduled_at": "2026-11-02T22:00:00+03:00",
+    "metricool_post_id": "413445022",
     "metricool_uuid": "5783305838563118730",
     "provider_status": "PENDING",
     "detailedStatus": "Pending",
     "detailed_status": "Pending",
-    "checked_at": "2026-10-28T22:15:23.723Z",
+    "checked_at": "2026-11-02T01:22:44.340100+00:00",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=5783305838563118730",
     "reschedule_history": [
       {
@@ -61,6 +61,14 @@
         "scheduled_at": "2026-10-29T22:00:00+03:00",
         "at": "2026-10-28T22:14:05.365Z",
         "reason": "updateScheduledPost with existing ID and unchanged UUID; accepted and re-read from Metricool"
+      },
+      {
+        "previous_post_id": "409476209",
+        "post_id": "413445022",
+        "previous_scheduled_at": "2026-10-29T22:00:00+03:00",
+        "scheduled_at": "2026-11-02T22:00:00+03:00",
+        "at": "2026-11-02T01:22:44.340100+00:00",
+        "reason": "Approved overdue ERROR rescheduled via updateScheduledPost with previous ID and unchanged UUID; fresh planner confirms PENDING"
       }
     ]
   },
@@ -91,7 +99,7 @@
   "production": {
     "target_date": "2026-10-23",
     "slot_index": 1,
-    "planned_at_local": "2026-10-29T22:00:00",
+    "planned_at_local": "2026-11-02T22:00:00",
     "pillar": "3D и материалы",
     "original_planned_at_local": "2026-10-23T02:30:00",
     "reschedule_history": [
@@ -106,6 +114,12 @@
         "planned_at_local": "2026-10-29T22:00:00",
         "at": "2026-10-28T22:14:05.365Z",
         "reason": "Approved overdue ERROR post assigned a free Moscow-day slot via updateScheduledPost"
+      },
+      {
+        "previous_planned_at_local": "2026-10-29T22:00:00",
+        "planned_at_local": "2026-11-02T22:00:00",
+        "at": "2026-11-02T01:22:44.340100+00:00",
+        "reason": "Free Moscow-day slot, daily count verified before scheduling"
       }
     ]
   },
@@ -247,6 +261,11 @@
       "from": "hosted",
       "to": "scheduled",
       "reason": "Metricool accepted create; provider status PENDING"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-11-02T01:22:44.340100+00:00",
+      "note": "Recovered Metricool ERROR using existing record; verified PENDING, publication not yet confirmed"
     }
   ],
   "generation": {

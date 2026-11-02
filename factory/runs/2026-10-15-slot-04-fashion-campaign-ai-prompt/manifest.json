@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-14T04:40:55.309Z",
-  "updated_at": "2026-10-28T20:39:27.003Z",
+  "updated_at": "2026-11-02T01:22:44.340100+00:00",
   "status": "scheduled",
   "search": {
     "query": "fashion campaign AI prompt",
@@ -43,13 +43,13 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-10-29T10:00:00+03:00",
-    "metricool_post_id": "409476108",
+    "scheduled_at": "2026-11-02T10:00:00+03:00",
+    "metricool_post_id": "413444987",
     "metricool_uuid": "-8870431115640091834",
     "provider_status": "PENDING",
     "detailedStatus": "Pending",
     "detailed_status": "Pending",
-    "checked_at": "2026-10-28T22:15:23.723Z",
+    "checked_at": "2026-11-02T01:22:44.340100+00:00",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-8870431115640091834",
     "reschedule_history": [
       {
@@ -67,6 +67,14 @@
         "scheduled_at": "2026-10-29T10:00:00+03:00",
         "at": "2026-10-28T22:14:05.365Z",
         "reason": "updateScheduledPost with existing ID and unchanged UUID; accepted and re-read from Metricool"
+      },
+      {
+        "previous_post_id": "409476108",
+        "post_id": "413444987",
+        "previous_scheduled_at": "2026-10-29T10:00:00+03:00",
+        "scheduled_at": "2026-11-02T10:00:00+03:00",
+        "at": "2026-11-02T01:22:44.340100+00:00",
+        "reason": "Approved overdue ERROR rescheduled via updateScheduledPost with previous ID and unchanged UUID; fresh planner confirms PENDING"
       }
     ]
   },
@@ -97,7 +105,7 @@
   "production": {
     "target_date": "2026-10-15",
     "slot_index": 4,
-    "planned_at_local": "2026-10-29T10:00:00",
+    "planned_at_local": "2026-11-02T10:00:00",
     "pillar": "Мода",
     "original_planned_at_local": "2026-10-15T07:00:00",
     "reschedule_history": [
@@ -112,6 +120,12 @@
         "planned_at_local": "2026-10-29T10:00:00",
         "at": "2026-10-28T22:14:05.365Z",
         "reason": "Approved overdue ERROR post assigned a free Moscow-day slot via updateScheduledPost"
+      },
+      {
+        "previous_planned_at_local": "2026-10-29T10:00:00",
+        "planned_at_local": "2026-11-02T10:00:00",
+        "at": "2026-11-02T01:22:44.340100+00:00",
+        "reason": "Free Moscow-day slot, daily count verified before scheduling"
       }
     ]
   },
@@ -228,6 +242,11 @@
       "from": "scheduled",
       "to": "scheduled",
       "reason": "Metricool accepted update; provider status PENDING"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-11-02T01:22:44.340100+00:00",
+      "note": "Recovered Metricool ERROR using existing record; verified PENDING, publication not yet confirmed"
     }
   ],
   "generation": {
