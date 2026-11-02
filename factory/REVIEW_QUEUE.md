@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт для премиальной предметной съёмки
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-17 · 20:30 · Предметная съёмка<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Cosmetici | Profilo, Marketing — — показов, — сохранений
-
-![2026-10-17-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-17-slot-02-ai-product-photography-prompt.png)
-
-[Открыть manifest](runs/2026-10-17-slot-02-ai-product-photography-prompt/manifest.json)
-
----
-
 ## Промпт для 3D: лист гинкго из жидкого стекла — Musya
 
 **Решение:** Одобрен<br>
