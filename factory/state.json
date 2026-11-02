@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T21:16:33.817Z",
+  "updated_at": "2026-11-02T22:11:35.078Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -540,7 +540,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-02T21:16:33.817Z",
+    "checked_at": "2026-11-02T22:11:35.078Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -551,38 +551,26 @@
       "pending_confirmed": 7,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returns all 46 posts (39 PUBLISHED and 7 PENDING), including all local known IDs. Explicit Moscow-day planner agrees on exactly seven PENDING records; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (39 PUBLISHED, 7 PENDING), matching every local known post ID. Exact Moscow-day query agrees on seven PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
-      "created": 7,
+      "created": 0,
       "rescheduled": 0,
       "confirmed_published": 39,
-      "newly_confirmed_published": 1,
-      "backlog_slots_reassigned": 7
+      "newly_confirmed_published": 0,
+      "backlog_slots_reassigned": 0
     },
     "ready_unscheduled_candidates": [],
-    "selected_candidates": [
-      "2026-10-23-slot-03-editorial-portrait-ai-prompt",
-      "2026-10-25-slot-01-liquid-glass-3d-prompt",
-      "2026-10-25-slot-02-ai-product-photography-prompt",
-      "2026-10-25-slot-03-editorial-portrait-ai-prompt",
-      "2026-10-25-slot-04-fashion-campaign-ai-prompt",
-      "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
-      "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
-    ],
+    "selected_candidates": [],
     "skipped_candidates": [
       {
-        "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+        "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
+        "id": "2026-11-03-slot-02-ai-product-photography-prompt",
         "reason": "approval_pending"
       },
       {
@@ -590,39 +578,11 @@
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+        "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-15-trending-ai-image-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-02-ai-product-photography-prompt",
+        "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
         "reason": "approval_pending"
       },
       {
@@ -632,12 +592,44 @@
       {
         "id": "2026-11-03-slot-07-chrome-translucent-3d-prompt",
         "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-15-trending-ai-image-prompt",
+        "reason": "approval_pending"
       }
     ],
     "blocked_reason": null,
-    "decision": "Seven approved overdue pins scheduled once and re-read as PENDING. All 15 current-day pins remain pending approval. Eight daily slots remain, with no further approved ready candidates. No ERROR posts to recover.",
+    "decision": "Seven previously scheduled approved backlog pins remain PENDING. No approved ready unscheduled pins, including overdue queue. All 15 current-day manifests are needs_review with approval pending. Eight daily slots remain. No ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0016-verified.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0111-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
@@ -691,12 +683,10 @@
     "verification_range": {
       "from": "2026-09-01T00:00:00+03:00",
       "to": "2026-11-10T23:59:59+03:00"
-    },
-    "initial_evidence": "factory/research/2026-11-03/publisher-check-0013-metricool.json",
-    "host_verification": "factory/research/2026-11-03/publisher-host-verification.json"
+    }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-02T21:16:33.817Z",
+    "checked_at": "2026-11-02T22:11:35.078Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -707,38 +697,26 @@
       "pending_confirmed": 7,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returns all 46 posts (39 PUBLISHED and 7 PENDING), including all local known IDs. Explicit Moscow-day planner agrees on exactly seven PENDING records; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (39 PUBLISHED, 7 PENDING), matching every local known post ID. Exact Moscow-day query agrees on seven PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
-      "created": 7,
+      "created": 0,
       "rescheduled": 0,
       "confirmed_published": 39,
-      "newly_confirmed_published": 1,
-      "backlog_slots_reassigned": 7
+      "newly_confirmed_published": 0,
+      "backlog_slots_reassigned": 0
     },
     "ready_unscheduled_candidates": [],
-    "selected_candidates": [
-      "2026-10-23-slot-03-editorial-portrait-ai-prompt",
-      "2026-10-25-slot-01-liquid-glass-3d-prompt",
-      "2026-10-25-slot-02-ai-product-photography-prompt",
-      "2026-10-25-slot-03-editorial-portrait-ai-prompt",
-      "2026-10-25-slot-04-fashion-campaign-ai-prompt",
-      "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
-      "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
-    ],
+    "selected_candidates": [],
     "skipped_candidates": [
       {
-        "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+        "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
+        "id": "2026-11-03-slot-02-ai-product-photography-prompt",
         "reason": "approval_pending"
       },
       {
@@ -746,39 +724,11 @@
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+        "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-15-trending-ai-image-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-02-ai-product-photography-prompt",
+        "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
         "reason": "approval_pending"
       },
       {
@@ -788,12 +738,44 @@
       {
         "id": "2026-11-03-slot-07-chrome-translucent-3d-prompt",
         "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-15-trending-ai-image-prompt",
+        "reason": "approval_pending"
       }
     ],
     "blocked_reason": null,
-    "decision": "Seven approved overdue pins scheduled once and re-read as PENDING. All 15 current-day pins remain pending approval. Eight daily slots remain, with no further approved ready candidates. No ERROR posts to recover.",
+    "decision": "Seven previously scheduled approved backlog pins remain PENDING. No approved ready unscheduled pins, including overdue queue. All 15 current-day manifests are needs_review with approval pending. Eight daily slots remain. No ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0016-verified.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0111-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
@@ -847,12 +829,10 @@
     "verification_range": {
       "from": "2026-09-01T00:00:00+03:00",
       "to": "2026-11-10T23:59:59+03:00"
-    },
-    "initial_evidence": "factory/research/2026-11-03/publisher-check-0013-metricool.json",
-    "host_verification": "factory/research/2026-11-03/publisher-host-verification.json"
+    }
   },
   "publisher_health": {
-    "checked_at": "2026-11-02T21:16:33.817Z",
+    "checked_at": "2026-11-02T22:11:35.078Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -863,38 +843,26 @@
       "pending_confirmed": 7,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returns all 46 posts (39 PUBLISHED and 7 PENDING), including all local known IDs. Explicit Moscow-day planner agrees on exactly seven PENDING records; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (39 PUBLISHED, 7 PENDING), matching every local known post ID. Exact Moscow-day query agrees on seven PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
-      "created": 7,
+      "created": 0,
       "rescheduled": 0,
       "confirmed_published": 39,
-      "newly_confirmed_published": 1,
-      "backlog_slots_reassigned": 7
+      "newly_confirmed_published": 0,
+      "backlog_slots_reassigned": 0
     },
     "ready_unscheduled_candidates": [],
-    "selected_candidates": [
-      "2026-10-23-slot-03-editorial-portrait-ai-prompt",
-      "2026-10-25-slot-01-liquid-glass-3d-prompt",
-      "2026-10-25-slot-02-ai-product-photography-prompt",
-      "2026-10-25-slot-03-editorial-portrait-ai-prompt",
-      "2026-10-25-slot-04-fashion-campaign-ai-prompt",
-      "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
-      "2026-10-25-slot-06-beauty-cosmetic-photography-prompt"
-    ],
+    "selected_candidates": [],
     "skipped_candidates": [
       {
-        "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+        "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
+        "id": "2026-11-03-slot-02-ai-product-photography-prompt",
         "reason": "approval_pending"
       },
       {
@@ -902,39 +870,11 @@
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+        "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
         "reason": "approval_pending"
       },
       {
-        "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-15-trending-ai-image-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
-        "reason": "approval_pending"
-      },
-      {
-        "id": "2026-11-03-slot-02-ai-product-photography-prompt",
+        "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
         "reason": "approval_pending"
       },
       {
@@ -944,12 +884,44 @@
       {
         "id": "2026-11-03-slot-07-chrome-translucent-3d-prompt",
         "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-15-trending-ai-image-prompt",
+        "reason": "approval_pending"
       }
     ],
     "blocked_reason": null,
-    "decision": "Seven approved overdue pins scheduled once and re-read as PENDING. All 15 current-day pins remain pending approval. Eight daily slots remain, with no further approved ready candidates. No ERROR posts to recover.",
+    "decision": "Seven previously scheduled approved backlog pins remain PENDING. No approved ready unscheduled pins, including overdue queue. All 15 current-day manifests are needs_review with approval pending. Eight daily slots remain. No ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0016-verified.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0111-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
@@ -1003,8 +975,6 @@
     "verification_range": {
       "from": "2026-09-01T00:00:00+03:00",
       "to": "2026-11-10T23:59:59+03:00"
-    },
-    "initial_evidence": "factory/research/2026-11-03/publisher-check-0013-metricool.json",
-    "host_verification": "factory/research/2026-11-03/publisher-host-verification.json"
+    }
   }
 }
