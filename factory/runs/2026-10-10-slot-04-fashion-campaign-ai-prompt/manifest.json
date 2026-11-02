@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
   "created_at": "2026-10-08T21:22:37.926Z",
-  "updated_at": "2026-11-02T01:22:44.340100+00:00",
-  "status": "scheduled",
+  "updated_at": "2026-11-02T02:12:06.980Z",
+  "status": "published",
   "search": {
     "query": "fashion campaign AI prompt",
     "result_limit": 25,
@@ -48,9 +48,9 @@
     "scheduled_at": "2026-11-02T05:00:00+03:00",
     "metricool_post_id": "413444970",
     "metricool_uuid": "-1130978423464704756",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "checked_at": "2026-11-02T01:22:44.340100+00:00",
+    "provider_status": "PUBLISHED",
+    "detailedStatus": "Published",
+    "checked_at": "2026-11-02T02:12:06.980Z",
     "reschedule_history": [
       {
         "previous_post_id": "395207754",
@@ -93,8 +93,9 @@
         "reason": "Approved overdue ERROR rescheduled via updateScheduledPost with previous ID and unchanged UUID; fresh planner confirms PENDING"
       }
     ],
-    "detailed_status": "Pending",
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-1130978423464704756"
+    "detailed_status": "Published",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-1130978423464704756",
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204656572396"
   },
   "validation": {
     "passed": true,
@@ -256,6 +257,11 @@
       "status": "scheduled",
       "at": "2026-11-02T01:22:44.340100+00:00",
       "note": "Recovered Metricool ERROR using existing record; verified PENDING, publication not yet confirmed"
+    },
+    {
+      "status": "published",
+      "at": "2026-11-02T02:12:06.980Z",
+      "note": "Confirmed PUBLISHED via fresh Metricool planner; https://www.pinterest.es/pin/1152851204656572396"
     }
   ]
 }
