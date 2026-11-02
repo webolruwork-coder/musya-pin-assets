@@ -1,0 +1,264 @@
+{
+  "version": 1,
+  "id": "2026-10-25-slot-02-ai-product-photography-prompt",
+  "created_at": "2026-10-24T07:41:09.167Z",
+  "updated_at": "2026-11-02T21:12:43.422Z",
+  "status": "validated",
+  "search": {
+    "query": "AI product photography prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/919367711447244675/"
+    ],
+    "reference_fingerprints": [
+      "cb69c87bab73f303f8a6f11fcb8f96f4b2b1e8c08e6f2a276a4a15a801be3af9"
+    ],
+    "pattern_summary": "Фактурная skincare-съёмка: микропена, влажные блики и мягкий свет. Оригинальная предметная версия: один янтарный брусок мыла на чёрной керамической тарелке."
+  },
+  "content": {
+    "prompt_ru": "Сними янтарное мыло на чёрной керамической тарелке. Микропена, капли воды, мягкий боковой свет, тёплый фон. Крупный план, ракурс три четверти, асимметрия. Реалистичные фактуры, без надписей и логотипов.",
+    "title_ru": "Промпт для предметной съёмки мыла — создай в Musya",
+    "description_ru": "Янтарное мыло, микропена и мягкий свет: преврати простой продукт в рекламный кадр. Скопируй промпт с пина и создай свою предметную съёмку в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "предметная съёмка",
+      "фотография продукта",
+      "нейросеть",
+      "мыло",
+      "Musya"
+    ],
+    "cta_ru": "Создать в Musya → https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-25-slot-02-ai-product-photography-prompt/source.png",
+    "final_image": "factory/runs/2026-10-25-slot-02-ai-product-photography-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-02-ai-product-photography-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-24T13:52:53.692Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-24T13:52:53.692Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-25",
+    "slot_index": 2,
+    "planned_at_local": "2026-11-03T05:30:00",
+    "pillar": "Предметная съёмка",
+    "original_planned_at_local": "2026-10-25T04:00:00",
+    "reschedule_history": [
+      {
+        "at": "2026-11-02T21:11:58.150Z",
+        "from": "2026-10-25T04:00:00",
+        "to": "2026-11-03T05:30:00",
+        "reason": "Approved overdue queue assigned a free future Moscow-day slot; fresh daily count 0/15"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-25/slot-02-attempt-1348/global-prompt-search-ranked.json",
+    "date_range": "2026-10-24; Metricool requested 2026-09-24—2026-10-24",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 5,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/919367711447244675/",
+      "title": "She Shapes | Skincare photography creative, Skincare photography ideas at home, Skincare campaign ideas",
+      "public_saves": 453,
+      "search_rank": 13,
+      "global_rank": 6,
+      "impressions": null,
+      "saves": null,
+      "clicks": null,
+      "save_metric": "pinterestapp:repins",
+      "checked_at": "2026-10-24T13:49:18.711909+00:00",
+      "image_signature": "cbae46f6a157925fdbb7a698c7547a24",
+      "search_pin_id": "e1_AfqPShwVJddB3OGaErOZrKYBgqIWnZTy-_qwc9QZJhq3s6Dv0esD",
+      "identity_basis": "Exact og:image signature match; numeric public pin is not claimed to be the same ID as encrypted search result."
+    },
+    "transferred_features": [
+      "Микропузырьки пены и влажные спекулярные блики",
+      "Мягкий боковой свет, раскрывающий фактуру",
+      "Тёплая палитра с глубокими тенями и близким кадрированием"
+    ],
+    "deliberate_changes": [
+      "Вместо коллажа лиц — один предметный кадр янтарного мыла на чёрной тарелке",
+      "Асимметрия, ракурс три четверти, пустая нижняя треть для русского промпта",
+      "Никаких людей, чужих брендов и текста; новый сюжет и палитра"
+    ],
+    "global_response": "factory/research/2026-10-25/slot-02-attempt-1348/global-prompt-response.json",
+    "global_search_captured_at": "2026-10-24T13:48:12Z",
+    "source_capture_date": "2026-10-24",
+    "global_search_fallback": false,
+    "reviewed_images": [
+      {
+        "pin_id": "e1_AfqPShxtmcqCRBjOs0m6LSqDyzLENlp3oBg8qTU6u960Cr4ElVWgVw",
+        "search_rank": 6,
+        "global_pattern_rank": 3,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/06-e1_AfqPShxtmcqCRBjOs0m6LSqDyzLENlp3oBg8qTU6u960Cr4ElVWgVw.jpg",
+        "observation": "Крупный skincare-портрет с сывороткой: влажная кожа, прозрачная капля, мягкий направленный свет.",
+        "reviewed_at": "2026-10-24T13:51:01.143268+00:00"
+      },
+      {
+        "pin_id": "e1_AfqPShwVJddB3OGaErOZrKYBgqIWnZTy-_qwc9QZJhq3s6Dv0esD",
+        "search_rank": 13,
+        "global_pattern_rank": 6,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/13-e1_AfqPShwVJddB3OGaErOZrKYBgqIWnZTy-_qwc9QZJhq3s6Dv0esD.jpg",
+        "observation": "Четыре фрагмента лица с пеной: микропузырьки, влажные блики, мягкий свет и тёплые глубокие тени.",
+        "reviewed_at": "2026-10-24T13:51:01.143268+00:00"
+      },
+      {
+        "pin_id": "e1_AfqPShyIXcuBgCMQjVttUJLZRLSUvXPo3joTsEDpB_Cz1WwQxiB-7g",
+        "search_rank": 17,
+        "global_pattern_rank": 1,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/17-e1_AfqPShyIXcuBgCMQjVttUJLZRLSUvXPo3joTsEDpB_Cz1WwQxiB-7g.png",
+        "observation": "Букет из косметических флаконов: светлая розовая палитра, прозрачная упаковка, крупный предметный герой.",
+        "reviewed_at": "2026-10-24T13:51:01.143268+00:00"
+      },
+      {
+        "pin_id": "e1_AfqPShwT4s3KyvCthp8ues3-wzPEa5Pdw1Y3Sn5nb5hR56qoQy9-",
+        "search_rank": 20,
+        "global_pattern_rank": 11,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/20-e1_AfqPShwT4s3KyvCthp8ues3-wzPEa5Pdw1Y3Sn5nb5hR56qoQy9-.png",
+        "observation": "Жемчужный портрет: кремовая палитра, мягкая ткань на фоне, деликатные блики.",
+        "reviewed_at": "2026-10-24T13:51:01.143268+00:00"
+      },
+      {
+        "pin_id": "e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe",
+        "search_rank": 22,
+        "global_pattern_rank": 2,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/22-e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe.jpg",
+        "observation": "Парящая стилизованная 3D-голова: глянцевые материалы, коралловый фон, крупный заголовок.",
+        "reviewed_at": "2026-10-24T13:51:01.143268+00:00"
+      }
+    ],
+    "pattern_recurrence": {
+      "sample_size": 5,
+      "skincare_texture_images": 3,
+      "wet_skin_or_glossy_material_images": 4,
+      "note": "Manual visual sample; not a frequency estimate for all Pinterest."
+    },
+    "own_account_validation": {
+      "status": "unavailable",
+      "checked_at": "2026-10-24T13:51:01.143268+00:00",
+      "available_metricool_tools": 0,
+      "requested_date_range": {
+        "from": "2026-09-24",
+        "to": "2026-10-24"
+      },
+      "brand_id": 6880455,
+      "role": "additional_signal_only",
+      "daily_evidence": "factory/research/2026-10-25/metricool-own-pins-unavailable.json"
+    },
+    "dedupe": {
+      "reference_url_used_elsewhere": false,
+      "composition_review": "No soap or foam product still life found in other manifests. A different numeric pin with the same reference image was used for a human/dog split portrait, visually unrelated to this new composition."
+    },
+    "metrics_evidence": "factory/research/2026-10-25/slot-02-attempt-1348/public-metrics.json"
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-24T07:41:09.167Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-24T13:51:01.389Z",
+      "note": "25 global organic results; 5 images reviewed; selected image-matched public pin has 453 verified saves, search position 13; unique reference URL."
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-24T13:51:22.646Z",
+      "note": "Original amber soap still life; CTA links to Musya image-generation; no repeated composition."
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-24T13:52:19.762Z",
+      "note": "Original ImageGen amber soap image saved locally and visually reviewed."
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-24T13:52:21.974Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-24T13:52:53.692Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "prompt_file": "factory/research/2026-10-25/slot-02-attempt-1348/imagegen-prompt.txt",
+    "status": "completed",
+    "generated_at": "2026-10-24T13:52:19.559316+00:00",
+    "original_output": "/Users/nataliakorcagina/.codex/generated_images/01a16dd3-2b97-7081-9fd6-97f098c3b004/exec-7be54491-01fc-4c16-894b-a3a24d403343.png",
+    "visual_review": {
+      "passed": true,
+      "note": "Original amber soap, convincing foam and water, black ceramic, soft side light, quiet lower area, no text or logos."
+    }
+  },
+  "producer_attempts": [
+    {
+      "attempt_id": "slot-02-attempt-1600",
+      "at": "2026-10-24T13:52:42.801501+00:00",
+      "status": "completed_by_concurrent_producer",
+      "reason_code": "concurrent_producer_same_manifest",
+      "reason": "Другой процесс изменил выбранный manifest queued → research_ready → concept_ready во время исследования и записал generation.status=pending. Проверка baseline предотвратила перезапись чужого контента. Этот запуск прекращает генерацию; второй manifest не выбирается. Текущий production-статус сохранён, чтобы не прервать параллельный процесс.",
+      "evidence": "factory/research/2026-10-25/slot-02-attempt-1600/producer-result.json",
+      "posts_analyzed": 25,
+      "reference_images_reviewed": 6,
+      "initial_status": "needs_review",
+      "resolved_at": "2026-10-24T13:53:27.920Z",
+      "resolution": "Concurrent producer completed the same selected manifest; existing content preserved. This attempt independently rechecked public metrics and visually inspected final 1000×1500 image, readable full prompt and Musya CTA. No second manifest or duplicate generation."
+    }
+  ],
+  "visual_quality": {
+    "passed": true,
+    "checked_at": "2026-10-24T13:52:53.495374+00:00",
+    "dimensions": [
+      1000,
+      1500
+    ],
+    "subject": "Original amber soap on black ceramic dish, foam, directional warm light",
+    "text_readable": true,
+    "prompt_not_truncated": true,
+    "cta_url": "https://musya.app/image-generation",
+    "no_reference_pixels_reused": true,
+    "source": "ImageGen original",
+    "final_sha256": "594e66976eb2dc244a426892c947fcdbb19523bdd12224c72be5c182f49ff5fe",
+    "render_note": "Standard factory render followed by local SVG typography adjustment to show Musya destination CTA; shared renderer unchanged."
+  }
+}

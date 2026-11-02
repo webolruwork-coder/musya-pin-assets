@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
+  "created_at": "2026-10-24T07:41:09.167Z",
+  "updated_at": "2026-11-02T21:12:43.549Z",
+  "status": "validated",
+  "search": {
+    "query": "editorial portrait AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/775182154661131194/"
+    ],
+    "reference_fingerprints": [
+      "09f4826e9a3fe89688133fe8df1a76b9f3fd675eb27f755cf3f9f4ebbba71406"
+    ],
+    "pattern_summary": "Мягкий редакционный свет, естественная кожа и жемчужный акцент: измеренный портретный паттерн, 115 сохранений. Новая композиция по пояс, тёмный жакет и зелёный фон."
+  },
+  "content": {
+    "prompt_ru": "Портрет по пояс: темнокожая женщина с короткими кудрями в графитовом жакете. Одна серьга с барочной жемчужиной. Лесной зелёный фон, мягкий боковой свет, живая фактура кожи. Поворот в три четверти, взгляд в камеру. Без надписей.",
+    "title_ru": "Промпт для портрета с жемчугом — создай в Musya",
+    "description_ru": "Мягкий свет, графитовый жакет и один жемчужный акцент. Скопируй промпт с пина и создай свой редакционный портрет в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "портрет",
+      "редакционная съёмка",
+      "жемчуг",
+      "нейрофотосессия",
+      "Musya"
+    ],
+    "cta_ru": "Создать в Musya → https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-25-slot-03-editorial-portrait-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-25-slot-03-editorial-portrait-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-03-editorial-portrait-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-24T14:05:37.342Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-24T14:05:37.343Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-25",
+    "slot_index": 3,
+    "planned_at_local": "2026-11-03T07:00:00",
+    "pillar": "Портрет",
+    "original_planned_at_local": "2026-10-25T05:30:00",
+    "reschedule_history": [
+      {
+        "at": "2026-11-02T21:11:58.150Z",
+        "from": "2026-10-25T05:30:00",
+        "to": "2026-11-03T07:00:00",
+        "reason": "Approved overdue queue assigned a free future Moscow-day slot; fresh daily count 0/15"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "/Users/nataliakorcagina/orca/workspaces/musya-pin-assets/pinterest-automation/factory/research/2026-10-25/slot-03-attempt-1701/global-prompt-search.json",
+    "date_range": "Global search 2026-10-24; own account requested 2026-09-24—2026-10-24",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 4,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/775182154661131194/",
+      "title": "Промпт для дорогой женской аватарки с жемчужной эстетикой | Сияющая кожа, Женский портрет, Крупный портрет",
+      "public_saves": 115,
+      "search_rank": 20,
+      "global_rank": 11,
+      "save_metric": "pinterestapp:repins",
+      "checked_at": "2026-10-24T14:02:27.575447+00:00",
+      "image_signature": "579dcebc345f49bc0a1845a9b4b25813",
+      "search_pin_id": "e1_AfqPShwT4s3KyvCthp8ues3-wzPEa5Pdw1Y3Sn5nb5hR56qoQy9-",
+      "impressions": null,
+      "saves": null,
+      "clicks": null,
+      "identity_basis": "Exact og:image signature match. Saves belong to the numeric public pin, not asserted to belong to the encrypted search ID."
+    },
+    "transferred_features": [
+      "Мягкий боковой студийный свет и деликатные перламутровые блики",
+      "Естественная фактура кожи и спокойный взгляд",
+      "Жемчуг как светлый акцент в редакционном портрете"
+    ],
+    "deliberate_changes": [
+      "Новая взрослая темнокожая модель с короткими натуральными кудрями; другой человек и причёска",
+      "Вместо кремового крупного плана — кадр по пояс, графитовый жакет и насыщенный лесной зелёный фон",
+      "Одна длинная серьга с барочной жемчужиной, асимметрия и свободная нижняя зона для текста"
+    ],
+    "global_response": "factory/research/2026-10-25/slot-02-attempt-1348/global-prompt-response.json",
+    "global_search_captured_at": "2026-10-24T13:48:12Z",
+    "source_capture_date": "2026-10-24",
+    "global_search_fallback": false,
+    "daily_research_reused": true,
+    "reviewed_images": [
+      {
+        "pin_id": "e1_AfqPShxtmcqCRBjOs0m6LSqDyzLENlp3oBg8qTU6u960Cr4ElVWgVw",
+        "search_rank": 6,
+        "global_pattern_rank": 3,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/06-e1_AfqPShxtmcqCRBjOs0m6LSqDyzLENlp3oBg8qTU6u960Cr4ElVWgVw.jpg",
+        "reviewed_at": "2026-10-24T14:03:44.091173+00:00",
+        "observation": "Beauty-макро: естественная кожа, розовая сыворотка, мягкий боковой свет."
+      },
+      {
+        "pin_id": "e1_AfqPShyIXcuBgCMQjVttUJLZRLSUvXPo3joTsEDpB_Cz1WwQxiB-7g",
+        "search_rank": 17,
+        "global_pattern_rank": 1,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/17-e1_AfqPShyIXcuBgCMQjVttUJLZRLSUvXPo3joTsEDpB_Cz1WwQxiB-7g.png",
+        "reviewed_at": "2026-10-24T14:03:44.091173+00:00",
+        "observation": "Букет косметики: матовые и прозрачные фактуры, розовая палитра, мягкие широкие блики."
+      },
+      {
+        "pin_id": "e1_AfqPShwT4s3KyvCthp8ues3-wzPEa5Pdw1Y3Sn5nb5hR56qoQy9-",
+        "search_rank": 20,
+        "global_pattern_rank": 11,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/20-e1_AfqPShwT4s3KyvCthp8ues3-wzPEa5Pdw1Y3Sn5nb5hR56qoQy9-.png",
+        "reviewed_at": "2026-10-24T14:03:44.091173+00:00",
+        "observation": "Крупный портрет: жемчуг, молочная ткань, кремовый фон, деликатный свет и живая фактура кожи."
+      },
+      {
+        "pin_id": "e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe",
+        "search_rank": 22,
+        "global_pattern_rank": 2,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/22-e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe.jpg",
+        "reviewed_at": "2026-10-24T14:03:44.091173+00:00",
+        "observation": "Парящая 3D-голова: глянцевый материал, белые волосы, коралловый фон."
+      }
+    ],
+    "metrics_evidence": "/Users/nataliakorcagina/orca/workspaces/musya-pin-assets/pinterest-automation/factory/research/2026-10-25/slot-03-attempt-1701/selected-public-metrics.json",
+    "own_account_validation": {
+      "status": "unavailable",
+      "checked_at": "2026-10-24T14:03:44.091173+00:00",
+      "available_metricool_tools": 0,
+      "requested_date_range": {
+        "from": "2026-09-24",
+        "to": "2026-10-24"
+      },
+      "brand_id": 6880455,
+      "role": "additional_signal_only",
+      "daily_evidence": "factory/research/2026-10-25/metricool-own-pins-unavailable.json",
+      "reason": "No Metricool MCP tools in current session. No analytics fabricated."
+    },
+    "pattern_recurrence": {
+      "sample_size": 4,
+      "soft_light_images": 4,
+      "portrait_or_stylized_face_images": 3,
+      "note": "Manual observations from 4 viewed images only; not extrapolated to all 25."
+    },
+    "selection_rationale": "Higher measured candidates are already used or product imagery; rank 11 is an unused portrait reference with 115 verified public saves. Search rank and performance rank remain distinct.",
+    "dedupe": {
+      "reference_url_used_elsewhere": false,
+      "composition_review": "Reviewed every existing nonempty portrait prompt. Prior beige closeup, silver-haired profile, wind scarf, station motion and lemon jacket portraits differ from this waist-up forest-green/graphite composition."
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-24T07:41:09.167Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-24T14:03:44.557Z",
+      "note": ""
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-24T14:03:44.993Z",
+      "note": ""
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-24T14:04:44.980Z",
+      "note": ""
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-24T14:04:51.754Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-24T14:05:37.343Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "prompt_file": "factory/research/2026-10-25/slot-03-attempt-1701/imagegen-prompt.txt",
+    "status": "completed",
+    "generated_at": "2026-10-24T14:04:44.909909+00:00",
+    "original_output": "/Users/nataliakorcagina/.codex/generated_images/01a16e36-be7f-74c1-a32b-7d0647154dfa/exec-cc25531a-d33d-4bda-9eef-6b804194866d.png",
+    "visual_review": {
+      "passed": true,
+      "note": "Original waist-up portrait, natural skin and hair, single baroque pearl, graphite blazer, green background; correct anatomy, quiet lower zone, no text/logos."
+    }
+  },
+  "final_visual_review": {
+    "passed": true,
+    "checked_at": "2026-10-24T14:05:37.114428+00:00",
+    "notes": "Verified final 1000×1500 portrait: natural anatomy and skin, distinct green/graphite composition, full Russian prompt without clipping, legible heading and CTA, no reference image copied.",
+    "cta_url": "https://musya.app/image-generation",
+    "render_recipe": "factory/research/2026-10-25/slot-03-attempt-1701/render-cta.mjs"
+  }
+}

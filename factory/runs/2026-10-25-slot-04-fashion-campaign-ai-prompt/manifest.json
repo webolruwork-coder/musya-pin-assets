@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "id": "2026-10-25-slot-04-fashion-campaign-ai-prompt",
+  "created_at": "2026-10-24T07:41:09.168Z",
+  "updated_at": "2026-11-02T21:12:43.673Z",
+  "status": "validated",
+  "search": {
+    "query": "fashion campaign AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/897271925768861111/"
+    ],
+    "reference_fingerprints": [
+      "33a8494027af5facc4c5b39963f7a35a0421c69b363e0295633a9351c994b6ce"
+    ],
+    "pattern_summary": "Тёплый скульптурный свет и диагональная тень переносятся из skincare-референса в оригинальную сидящую fashion-композицию."
+  },
+  "content": {
+    "prompt_ru": "Fashion-съёмка: взрослая модель с чёрным бобом сидит на бетонном блоке. Скульптурная блуза цвета слоновой кости, широкие охристые брюки. Графитовая стена, диагональный солнечный свет, мягкие тени и живая фактура кожи. Вертикальный кадр, без логотипов.",
+    "title_ru": "Промпт для fashion-съёмки с солнечным светом — Musya",
+    "description_ru": "Скульптурная блуза, охристые брюки и диагональный солнечный свет: промпт для редакционной fashion-съёмки. Сохраните идею и создайте свою версию в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "fashion-съёмка",
+      "нейрофотосессия",
+      "редакционная съёмка",
+      "генерация изображений",
+      "Musya"
+    ],
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "cta_url": "https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-25-slot-04-fashion-campaign-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-25-slot-04-fashion-campaign-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-04-fashion-campaign-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-24T15:05:15.751Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-24T15:05:15.752Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-25",
+    "slot_index": 4,
+    "planned_at_local": "2026-11-03T08:30:00",
+    "pillar": "Мода",
+    "original_planned_at_local": "2026-10-25T07:00:00",
+    "reschedule_history": [
+      {
+        "at": "2026-11-02T21:11:58.150Z",
+        "from": "2026-10-25T07:00:00",
+        "to": "2026-11-03T08:30:00",
+        "reason": "Approved overdue queue assigned a free future Moscow-day slot; fresh daily count 0/15"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-25/slot-04-attempt-180147/global-prompt-search-ranked.json",
+    "date_range": "Search captured 2026-10-24; own-account requested 2026-09-24—2026-10-24",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 4,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/897271925768861111/",
+      "title": "Product shooting in nature | Skincare product photography outdoors, Beauty product photography outdoor, Elegant beauty product photography",
+      "public_saves": 341,
+      "search_rank": 23,
+      "global_pattern_rank": 4,
+      "save_metric": "pinterestapp:repins",
+      "checked_at": "2026-10-24T15:02:37.667115+00:00",
+      "image_signature": "061ab91a075b6a10edec43a329070fcb",
+      "search_pin_id": "e1_AfqPShz7h2Xav7OrtMmykRTkhMEqDHrJmU7Ep13a7HpjNzpb1zy6",
+      "identity_basis": "Exact og:image signature match. Saves belong only to the numeric pin; search rank belongs to its shared image in global search. Pattern rank 4 uses maximum verified saves for that image (1161 on a different already-used pin), selected unused pin has 341.",
+      "impressions": null,
+      "saves": null,
+      "clicks": null
+    },
+    "transferred_features": [
+      "Тёплый направленный свет сверху слева",
+      "Крупная диагональная тень на нейтральном фоне",
+      "Естественная фактура кожи и мягкий градиент светотени"
+    ],
+    "deliberate_changes": [
+      "Новая взрослая модель с чёрным коротким бобом; вместо beauty-крупного плана — сидящая фигура до колен",
+      "Вместо флакона у лица — скульптурная блуза цвета слоновой кости и широкие охристые брюки",
+      "Серый бетонный блок и графитовая стена; асимметричный fashion-кадр с пустой нижней зоной"
+    ],
+    "global_response": "factory/research/2026-10-25/global-prompt-response.json",
+    "global_search_captured_at": "2026-10-24T13:48:12Z",
+    "source_capture_date": "2026-10-24",
+    "daily_research_reused": true,
+    "global_search_fallback": false,
+    "reviewed_images": [
+      {
+        "search_rank": 17,
+        "global_pattern_rank": 1,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/17-e1_AfqPShyIXcuBgCMQjVttUJLZRLSUvXPo3joTsEDpB_Cz1WwQxiB-7g.png",
+        "reviewed_at": "2026-10-24T15:03:27.083565+00:00",
+        "observation": "Букет косметики: мягкие блики, розовая палитра, доминирующий герой."
+      },
+      {
+        "search_rank": 22,
+        "global_pattern_rank": 2,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/22-e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe.jpg",
+        "reviewed_at": "2026-10-24T15:03:27.083565+00:00",
+        "observation": "Парящая 3D-голова: глянцевый материал, коралловый фон, объёмный свет."
+      },
+      {
+        "search_rank": 6,
+        "global_pattern_rank": 3,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/06-e1_AfqPShxtmcqCRBjOs0m6LSqDyzLENlp3oBg8qTU6u960Cr4ElVWgVw.jpg",
+        "reviewed_at": "2026-10-24T15:03:27.083565+00:00",
+        "observation": "Beauty-макро: естественная фактура кожи, мягкий боковой свет, прозрачная капля."
+      },
+      {
+        "search_rank": 23,
+        "global_pattern_rank": 4,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/23-e1_AfqPShz7h2Xav7OrtMmykRTkhMEqDHrJmU7Ep13a7HpjNzpb1zy6.jpg",
+        "reviewed_at": "2026-10-24T15:03:27.083565+00:00",
+        "observation": "Крупный рекламный портрет с розовым флаконом: тёплый направленный свет сверху слева, крупная диагональная тень, естественная кожа и кремово-серый фон."
+      }
+    ],
+    "metrics_evidence": "factory/research/2026-10-25/slot-04-attempt-180147/selected-public-metrics.json",
+    "own_account_validation": {
+      "status": "unavailable",
+      "available_metricool_tools": 0,
+      "checked_at": "2026-10-24T15:03:27.083565+00:00",
+      "requested_date_range": {
+        "from": "2026-09-24",
+        "to": "2026-10-24"
+      },
+      "brand_id": 6880455,
+      "role": "additional_signal_only",
+      "daily_evidence": "factory/research/2026-10-25/metricool-own-pins-unavailable.json",
+      "reason": "No Metricool MCP tools in this session."
+    },
+    "pattern_recurrence": {
+      "sample_size": 4,
+      "directional_light_with_gradual_shadow": 4,
+      "natural_skin_photography": 2,
+      "scope": "Only the four visually inspected images, not all 25."
+    },
+    "dedupe": {
+      "reference_url_used_elsewhere": false,
+      "composition_review": "Existing fashion images are standing blue coats, cobalt suit, moving scarf, lemon blazer or green waist-up portrait. New seated ivory/ochre outfit, concrete block, dark wall and diagonal sunshine is a distinct composition. Prior seated lilac-jacket/terracotta-arch portrait also reviewed: new sculptural ivory blouse, ochre trousers, black bob, straight graphite wall and large diagonal sunshine differ in silhouette, palette and architecture."
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-24T07:41:09.168Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-24T15:03:27.229Z",
+      "note": "25 global organic results; 4 images reviewed; unused public numeric pin verified at 341 saves with exact image match; daily source timestamp preserved"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-24T15:03:55.352Z",
+      "note": "Original ivory/ochre fashion concept; deduplicated reference URL and composition; Musya destination in copy and CTA"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-24T15:04:50.971Z",
+      "note": "Original vertical photograph generated with built-in ImageGen; visual anatomy, textile and composition review passed"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-24T15:04:53.855Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-24T15:05:15.752Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "prompt_file": "factory/research/2026-10-25/slot-04-attempt-180147/imagegen-prompt.txt",
+    "original_output": "/Users/nataliakorcagina/.codex/generated_images/01a16e6d-eb6a-79f1-92c9-46e2cb042816/exec-ff7cd2ac-f38f-4d29-9dd2-bc2870057fa2.png",
+    "generated_at": "2026-10-24T15:04:50.760258+00:00",
+    "visual_review": "Original seated adult model; realistic hands, textile texture and sunlight; approved for render."
+  },
+  "final_visual_review": {
+    "passed": true,
+    "checked_at": "2026-10-24T15:05:15.486541+00:00",
+    "notes": "Inspected final 1000×1500 PNG: natural anatomy, coherent directional light, full Russian prompt, no clipping, readable direct Musya CTA and distinct fashion composition.",
+    "cta_url": "https://musya.app/image-generation",
+    "render_recipe": "factory/research/2026-10-25/slot-04-attempt-180147/render-cta.mjs"
+  }
+}

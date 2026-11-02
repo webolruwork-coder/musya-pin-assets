@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+  "created_at": "2026-10-24T07:41:09.171Z",
+  "updated_at": "2026-11-02T21:12:43.939Z",
+  "status": "validated",
+  "search": {
+    "query": "beauty cosmetic photography prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/826340231673378574/"
+    ],
+    "reference_fingerprints": [
+      "ca14f79de34082e4a843b85cc4201e3fe5522c7b9e19af6032dbd1327c78ac43"
+    ],
+    "pattern_summary": "Драматичный beauty-свет и настоящая фактура кожи: измеренный уникальный кандидат с 15 сохранениями; более популярные URL исключены как использованные."
+  },
+  "content": {
+    "prompt_ru": "Beauty-макро закрытого глаза и скулы на тёплой тёмной коже. Кобальтовая графичная подводка, тонкий серебристый акцент. Диагональный ракурс, бордовый фон, боковой свет и глубокие тени. Видимые поры, естественная текстура, точные ресницы. Без надписей.",
+    "title_ru": "Промпт для beauty-макро: кобальтовая подводка — Musya",
+    "description_ru": "Фактура кожи, кобальтовая подводка и драматичный боковой свет: промпт для выразительного beauty-макро. Сохраните идею и создайте свою версию в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "beauty",
+      "подводка",
+      "макросъёмка",
+      "нейросеть",
+      "генерация изображений",
+      "Musya"
+    ],
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "cta_url": "https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-25-slot-06-beauty-cosmetic-photography-prompt/source.png",
+    "final_image": "factory/runs/2026-10-25-slot-06-beauty-cosmetic-photography-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-06-beauty-cosmetic-photography-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-24T17:04:21.770Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-24T17:04:21.770Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-25",
+    "slot_index": 6,
+    "planned_at_local": "2026-11-03T11:30:00",
+    "pillar": "Beauty",
+    "original_planned_at_local": "2026-10-25T10:00:00",
+    "reschedule_history": [
+      {
+        "at": "2026-11-02T21:11:58.150Z",
+        "from": "2026-10-25T10:00:00",
+        "to": "2026-11-03T11:30:00",
+        "reason": "Approved overdue queue assigned a free future Moscow-day slot; fresh daily count 0/15"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-25/global-prompt-search.json",
+    "global_response": "factory/research/2026-10-25/global-prompt-response.json",
+    "global_search_captured_at": "2026-10-24T13:48:12Z",
+    "source_capture_date": "2026-10-24",
+    "daily_research_reused": true,
+    "global_search_fallback": false,
+    "date_range": "Global search 2026-10-24; own account requested 2026-09-24—2026-10-24",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 4,
+    "reviewed_images": [
+      {
+        "search_rank": 6,
+        "global_pattern_rank": 3,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/06-e1_AfqPShxtmcqCRBjOs0m6LSqDyzLENlp3oBg8qTU6u960Cr4ElVWgVw.jpg",
+        "observation": "Крупный skincare-портрет: фактура кожи, прозрачная капля и мягкий направленный свет.",
+        "reviewed_at": "2026-10-24T17:02:47.081824+00:00"
+      },
+      {
+        "search_rank": 10,
+        "global_pattern_rank": 13,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/10-e1_AfqPShx7cPZBxg7veC0lm7V15l_tohgm03dfrdc3UwELnKn995jZ.png",
+        "observation": "Эмоциональный фронтальный портрет на бордовом фоне: видимые поры, скульптурный боковой свет и глубокие тени.",
+        "reviewed_at": "2026-10-24T17:02:47.081824+00:00"
+      },
+      {
+        "search_rank": 17,
+        "global_pattern_rank": 1,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/17-e1_AfqPShyIXcuBgCMQjVttUJLZRLSUvXPo3joTsEDpB_Cz1WwQxiB-7g.png",
+        "observation": "Косметический букет: мягкий свет, розовые флаконы и прозрачная упаковка.",
+        "reviewed_at": "2026-10-24T17:02:47.081824+00:00"
+      },
+      {
+        "search_rank": 22,
+        "global_pattern_rank": 2,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/22-e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe.jpg",
+        "observation": "Глянцевая стилизованная голова на коралловом фоне: крупный объект и выразительные материальные блики.",
+        "reviewed_at": "2026-10-24T17:02:47.081824+00:00"
+      }
+    ],
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/826340231673378574/",
+      "title": "Emotions reference | Expressions photography, Female angry face, Game character",
+      "public_saves": 15,
+      "search_rank": 10,
+      "global_pattern_rank": 13,
+      "save_metric": "pinterestapp:repins",
+      "checked_at": "2026-10-24T17:01:47.637337+00:00",
+      "image_signature": "d765720d118aa340380721279cead077",
+      "impressions": null,
+      "saves": null,
+      "clicks": null,
+      "identity_basis": "Requested numeric public page returns exact search-image signature and 15 public saves. Encrypted search ID is not asserted identical. og:url points to a different original pin whose image and zero saves differ; it is not substituted or credited with these saves."
+    },
+    "transferred_features": [
+      "Детальная естественная фактура кожи без пластикового сглаживания",
+      "Направленный боковой свет с глубокими тенями",
+      "Тёмный бордовый фон, усиливающий контраст лица и световых акцентов"
+    ],
+    "deliberate_changes": [
+      "Вместо фронтального эмоционального портрета — диагональное beauty-макро одного закрытого глаза и скулы",
+      "Кобальтовая графичная подводка и серебристый акцент на тёплой тёмной коже; другая внешность",
+      "Лицо смещено в верхние две трети; без белой майки, длинных волос и чужого текста"
+    ],
+    "metrics_evidence": "factory/research/2026-10-25/slot-06-attempt-2000/selected-public-metrics.json",
+    "own_account_validation": {
+      "checked_at": "2026-10-24T17:02:47.081824+00:00",
+      "status": "unavailable",
+      "available_metricool_tools": 0,
+      "brand_id": 6880455,
+      "requested_date_range": {
+        "from": "2026-09-24",
+        "to": "2026-10-24"
+      },
+      "daily_evidence": "factory/research/2026-10-25/metricool-own-pins-unavailable.json",
+      "role": "additional_signal_only",
+      "reason": "Metricool MCP tools absent from ALL_TOOLS; no own analytics could be retrieved or inferred."
+    },
+    "pattern_recurrence": {
+      "sample_size": 4,
+      "close_face_images": 3,
+      "natural_skin_texture_images": 2,
+      "note": "Observed sample only, not a population estimate."
+    },
+    "dedupe": {
+      "reference_url_used_elsewhere": false,
+      "composition_review": "All manifest prompts checked: no closed-eye cobalt graphic eyeliner macro. Existing serum portraits and pearl portrait use different framing and props."
+    },
+    "selection_rationale": "Highest measured unused numeric URL in saved daily ranking; 15 saves is a modest observed signal, not a claim of virality. Higher-ranking URLs already used."
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-24T07:41:09.171Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-24T17:02:47.156Z",
+      "note": "25 daily organic results; four images visually reviewed; unique numeric reference has verified 15 public saves; Metricool unavailable as secondary signal"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-24T17:03:11.273Z",
+      "note": "Original diagonal closed-eye cobalt eyeliner macro; distinct framing and appearance; Russian copy and direct Musya CTA prepared"
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-24T17:03:54.034Z",
+      "note": "Original vertical ImageGen base inspected; eye, makeup and skin texture pass visual review"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-24T17:03:55.996Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-24T17:04:21.770Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen",
+    "prompt_file": "factory/research/2026-10-25/slot-06-attempt-2000/imagegen-prompt.txt",
+    "created_at": "2026-10-24T17:03:54.001147+00:00",
+    "visual_review": "One closed eye, cobalt wing and silver accent; realistic skin texture, coherent lashes and anatomy; no unwanted text; dark lower area supports copy. Original composition differs from full-face reference."
+  }
+}

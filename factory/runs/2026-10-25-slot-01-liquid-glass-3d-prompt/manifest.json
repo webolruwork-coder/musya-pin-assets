@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
+  "created_at": "2026-10-24T07:41:09.158Z",
+  "updated_at": "2026-11-02T21:12:43.286Z",
+  "status": "validated",
+  "search": {
+    "query": "liquid glass 3D prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/726768458661556000/"
+    ],
+    "reference_fingerprints": [
+      "63595b32a0f2114db975948ad18b996fa8341014b16cb883f7a8b3198b4b24cb"
+    ],
+    "pattern_summary": "25 organic изображений по «промпт»; сильный 3D-паттерн выбран по публичному пину с совпадающей image_signature и 1997 сохранениями. Позиция изображения 22, рейтинг визуала 2. Прозрачный скат с диагональным силуэтом намеренно отличается от головы-референса и прежних композиций."
+  },
+  "content": {
+    "prompt_ru": "Скат из прозрачного жидкого стекла парит над шафрановой поверхностью. Широкие плавники по диагонали, синие преломления, мягкий боковой свет и тонкие каустики. Премиальный 3D-рендер, без текста и логотипов.",
+    "title_ru": "Скат из жидкого стекла — 3D-промпт для Musya",
+    "description_ru": "Создай ската из жидкого стекла: прозрачные плавники, синие преломления и солнечные каустики на шафрановом фоне. Скопируй промпт с пина и попробуй генерацию в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "жидкое стекло",
+      "3D рендер",
+      "генерация изображений",
+      "нейросети",
+      "Musya"
+    ],
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "cta_url": "https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-25-slot-01-liquid-glass-3d-prompt/source-manta-1012.png",
+    "final_image": "factory/runs/2026-10-25-slot-01-liquid-glass-3d-prompt/pin-manta-1012.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-01-liquid-glass-3d-prompt.png",
+    "card_svg": "factory/runs/2026-10-25-slot-01-liquid-glass-3d-prompt/card-manta-1012.svg"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-24T11:54:59.591Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-24T11:54:59.592Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-25",
+    "slot_index": 1,
+    "planned_at_local": "2026-11-03T04:00:00",
+    "pillar": "3D и материалы",
+    "last_attempt_at": "2026-10-24T11:52:39.048009+00:00",
+    "last_attempt_result": "rendered_pending_validation",
+    "original_planned_at_local": "2026-10-25T02:30:00",
+    "reschedule_history": [
+      {
+        "at": "2026-11-02T21:11:58.150Z",
+        "from": "2026-10-25T02:30:00",
+        "to": "2026-11-03T04:00:00",
+        "reason": "Approved overdue queue assigned a free future Moscow-day slot; fresh daily count 0/15"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-25/attempt-1012/ranked-image-evidence.json",
+    "global_response": "factory/research/2026-10-25/attempt-1012/global-prompt-response.json",
+    "source_capture_date": "2026-10-24",
+    "source_report_captured_at": "2026-10-24T11:48:31.492Z",
+    "source_provenance": "factory/research/2026-10-25/attempt-1012/source.json",
+    "fresh_search": false,
+    "daily_response_reused": true,
+    "date_range": "Дневной ответ глобального поиска 2026-10-24; повторная проверка публичных метрик 2026-10-24.",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 6,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/726768458661556000/",
+      "title": "Глянцевый парящий 3D-аватар",
+      "public_saves": 1997,
+      "search_rank": 22,
+      "global_visual_rank": 2,
+      "impressions": null,
+      "saves": null,
+      "clicks": null,
+      "metric": "pinterestapp:repins",
+      "opaque_search_id": "e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe",
+      "match_method": "exact image_signature plus current public og:image",
+      "identity_caveat": "Числовой URL — публичный пин с тем же изображением. Принадлежность непрозрачного e1 ID именно этому числовому пину не подтверждена; сохранения относятся только к указанному числовому URL, позиция — к изображению в глобальной выдаче.",
+      "image_signature": "f7778b85d51a1be3987c9474dd2a243c"
+    },
+    "transferred_features": [
+      "Один парящий объёмный герой с крупным, легко читаемым силуэтом",
+      "Глянцевая поверхность с мягкими широкими бликами и студийным светом",
+      "Чистый однотонный фон и отдельная нижняя зона короткого промпта"
+    ],
+    "deliberate_changes": [
+      "Вместо человеческой головы — скат с широкими плавниками, вид сверху под углом",
+      "Вместо непрозрачного полимера — прозрачное жидкое стекло с синими краями и каустиками",
+      "Светлый шафрановый фон вместо кораллового; асимметричная диагональ вместо фронтального портрета"
+    ],
+    "reviewed_images": [
+      {
+        "search_rank": 17,
+        "global_visual_rank": 1,
+        "opaque_pin_id": "e1_AfqPShyIXcuBgCMQjVttUJLZRLSUvXPo3joTsEDpB_Cz1WwQxiB-7g",
+        "image": "factory/research/2026-10-25/attempt-1012/ranked-17.jpg",
+        "public_saves_same_image_max": 1998,
+        "observation": "Букет розовой косметики, светлый фон; многопредметный силуэт; уже использован.",
+        "visually_reviewed_at": "2026-10-24T11:52:39.048009+00:00"
+      },
+      {
+        "search_rank": 22,
+        "global_visual_rank": 2,
+        "opaque_pin_id": "e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe",
+        "image": "factory/research/2026-10-25/attempt-1012/ranked-22.jpg",
+        "public_saves_same_image_max": 1997,
+        "observation": "Парящая глянцевая 3D-голова, коралловый фон, выразительные блики; переносимый паттерн объёмного героя.",
+        "visually_reviewed_at": "2026-10-24T11:52:39.048009+00:00"
+      },
+      {
+        "search_rank": 5,
+        "global_visual_rank": 3,
+        "opaque_pin_id": "e1_AfqPShxtmcqCRBjOs0m6LSqDyzLENlp3oBg8qTU6u960Cr4ElVWgVw",
+        "image": "factory/research/2026-10-25/attempt-1012/ranked-5.jpg",
+        "public_saves_same_image_max": 1381,
+        "observation": "Крупный beauty-портрет с пипеткой и розовым флаконом, мягкий свет; уже использован.",
+        "visually_reviewed_at": "2026-10-24T11:52:39.048009+00:00"
+      }
+    ],
+    "ranking_note": "Opaque e1 search IDs do not identify a canonical numeric pin. Same-image public pins are matched using exact image_signature and live og:image; each retains its own public saves. Max matched saves ranks the visual only; not attributed to opaque pin.",
+    "numeric_metrics_report": "factory/research/2026-10-25/attempt-1012/numeric-public-metrics.json",
+    "own_account_validation": {
+      "status": "unavailable",
+      "daily_report": "factory/research/2026-10-25/metricool-own-pins-unavailable.json",
+      "role": "additional_signal_only",
+      "reason": "Live plugin discovery: installed=false; no Metricool MCP tools."
+    },
+    "pattern_recurrence": {
+      "sample_size": 3,
+      "material_closeup_with_prompt": 3,
+      "isolated_cgi_hero": 1,
+      "note": "Сохранения измерены у выбранного публичного пина; распространённость 3D-паттерна не преувеличивается."
+    },
+    "deduplication": {
+      "reference_url_unique": true,
+      "composition_checked_against": "All existing nonempty manifest prompts; no glass manta ray composition found."
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-24T07:41:09.158Z",
+      "note": "Run created"
+    },
+    {
+      "status": "needs_review",
+      "at": "2026-10-24T11:49:40.620Z",
+      "note": "Публичные сохранения всех 25 результатов резервной глобальной выдачи недоступны; свежий BaseSearchResource HTTP 403. Research quality gate заблокирован."
+    },
+    {
+      "status": "needs_review",
+      "at": "2026-10-24T11:51:23.179145+00:00",
+      "note": "Independent producer check 20261024T114845Z: Публичные сохранения pinterestapp:repins недоступны у всех 25 кандидатов проверенного BaseSearchResource по запросу «промпт». Страницы ответили успешно, но метрики отсутствуют (null, не 0). Три верхних изображения просмотрены; измеренный сильный референс выбрать нельзя, research quality gate не пройден. Evidence: factory/research/2026-10-25/producer-result-20261024T114845Z.json"
+    },
+    {
+      "status": "queued",
+      "at": "2026-10-24T11:52:39.316Z",
+      "note": "Возобновление после получения публичных сохранений у пина с точно совпадающим изображением; доказательства в attempt-1012."
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-24T11:52:39.371Z",
+      "note": "25 organic результатов, 6 изображений просмотрены, референс 1997 pinterestapp:repins; ограничение сопоставления по image_signature сохранено."
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-24T11:53:05.111Z",
+      "note": "Оригинальный прозрачный скат на шафрановом фоне; другая геометрия, материал, палитра и композиция. CTA ведёт на musya.app/image-generation."
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-24T11:54:20.947Z",
+      "note": "Оригинальная вертикальная основа создана встроенным ImageGen и визуально проверена; source-manta-1012.png."
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-24T11:54:22.907Z",
+      "note": "Карточка 1000×1500 отрендерена штатным Playwright renderer; CTA ведёт на musya.app/image-generation."
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-24T11:54:59.592Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "producer_attempts": [
+    {
+      "at": "2026-10-24T11:50:21.764Z",
+      "status": "needs_review",
+      "blocker": "Публичные сохранения недоступны у всех 25 проверенных кандидатов (public_saves=null). Без измеренных сохранений выбранного референса research quality gate не пройден.",
+      "audit": "factory/research/2026-10-25/slot-01-research-audit-autonomous.json",
+      "result": "factory/research/2026-10-25/producer-result-slot-01-autonomous.json"
+    },
+    {
+      "at": "2026-10-24T11:50:52.980336+00:00",
+      "result": "factory/research/2026-10-25/producer-result-slot-01-current-1147.json",
+      "status": "needs_review",
+      "blocker": "Свежая глобальная выдача по точному запросу «промпт» получена: HTTP 200, 25 organic-пинов. У всех 25 отсутствует pinterestapp:repins; 7 дополнительных numeric pin URL с совпадающими изображениями также без публичного счётчика. Измеренный сильный паттерн не подтверждён. Допустимых резервов с измеренными сохранениями нет; дата повторной проверки метрик не обновляет возраст самой выдачи. Metricool MCP недоступен (installed=false), это дополнительный сигнал. Генерация остановлена на research quality gate.",
+      "posts_analyzed": 25,
+      "reference_images_reviewed": 3,
+      "global_search_report": "factory/research/2026-10-25/slot-01-metrics-check-current-1147.json"
+    },
+    {
+      "attempt_id": "producer-root-20261024T1147",
+      "at": "2026-10-24T11:51:15.878Z",
+      "status": "needs_review",
+      "blocker": "Свежая глобальная выдача Pinterest по точному запросу «промпт» получена: 25 organic пинов. У всех 25 публичные сохранения pinterestapp:repins недоступны (null, не ноль). Три верхних изображения визуально проверены. Выбрать измеренный сильный референс невозможно; research quality gate не пройден. Metricool MCP также не подключён (plugin installed=false), вторичная аналитика недоступна.",
+      "audit": "factory/research/2026-10-25/producer-root-research-audit.json",
+      "result": "factory/research/2026-10-25/producer-result-root.json",
+      "fresh_search": true,
+      "posts_analyzed": 25,
+      "reference_images_reviewed": 3,
+      "public_saves_available": 0,
+      "concurrency_note": "Manifest changed by another producer during research. Existing research, validation and attempt records preserved; append this independently verified fresh-search result only."
+    },
+    {
+      "at": "2026-10-24T11:51:19.206Z",
+      "status": "needs_review",
+      "blocker": "У всех 25 organic-кандидатов глобальной публичной выдачи Pinterest по запросу «промпт» публичные сохранения недоступны (pinterestapp:repins отсутствует, public_saves=null). Все страницы при повторной проверке вернули успешный ответ. Измеренный сильный референс выбрать нельзя; research quality gate не пройден. Metricool MCP также отсутствует в текущей сессии.",
+      "audit": "factory/research/2026-10-25/slot-01-session-research-audit.json",
+      "result": "factory/research/2026-10-25/producer-result-slot-01-session.json"
+    },
+    {
+      "at": "2026-10-24T11:52:39.048009+00:00",
+      "evidence": "factory/research/2026-10-25/attempt-1012",
+      "previous_manifest_snapshot": "factory/research/2026-10-25/attempt-1012/manifest-before-research.json",
+      "result": "research_recovered_with_verified_same_image_public_metrics"
+    }
+  ],
+  "generation": {
+    "provider": "builtin_image_gen",
+    "prompt_file": "factory/research/2026-10-25/attempt-1012/imagegen-prompt.txt",
+    "generated_at": "2026-10-24T11:54:20.912631+00:00",
+    "source_visual_review": "Один стеклянный скат, читаемый диагональный силуэт, прозрачное стекло с синими краями, шафрановый фон, свободная нижняя область. Нет текста, логотипов и видимых артефактов."
+  },
+  "visual_review": {
+    "checked_at": "2026-10-24T11:54:59.376627+00:00",
+    "passed": true,
+    "notes": [
+      "Финальный PNG визуально открыт: герой не обрезан, явных артефактов нет.",
+      "Промпт целиком помещается в четыре строки, CTA не обрезан и ведёт на https://musya.app/image-generation.",
+      "Оригинальная стеклянная скульптура ската; не копирует лицо или композицию публичного референса."
+    ],
+    "image": "factory/runs/2026-10-25-slot-01-liquid-glass-3d-prompt/pin-manta-1012.png"
+  }
+}

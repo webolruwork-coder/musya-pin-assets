@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "id": "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
+  "created_at": "2026-10-24T07:41:09.170Z",
+  "updated_at": "2026-11-02T21:12:43.805Z",
+  "status": "validated",
+  "search": {
+    "query": "surreal cinematic AI prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/1024428246497874445/"
+    ],
+    "reference_fingerprints": [
+      "5fc70a4d4905831ef8a0a34fcfd0f8598376c336ea3ad39f26d8d29235d77b5c"
+    ],
+    "pattern_summary": "Низкий ракурс, тёплая розово-терракотовая палитра, детальная поверхность и мягкий объёмный свет; перевод beauty-паттерна в кинематографичный сюрреалистический пейзаж."
+  },
+  "content": {
+    "prompt_ru": "Гигантский терракотовый бюст с закрытыми глазами на белой соляной равнине. Облако обвивает голову, у подножия — крошечная фигура в синем пальто. Низкий ракурс, розовый рассвет, мягкий боковой свет, фактурная глина. Кинематографичный сюрреализм, без надписей.",
+    "title_ru": "Промпт: терракотовый сон среди облаков — Musya",
+    "description_ru": "Гигантская скульптура, облачный ореол и белая соляная равнина: промпт для кинематографичного сюрреализма. Сохраните идею и создайте свою версию в Musya: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "сюрреализм",
+      "кинематографичный кадр",
+      "нейросеть",
+      "генерация изображений",
+      "Musya"
+    ],
+    "cta_ru": "Создать в Musya → musya.app/image-generation",
+    "cta_url": "https://musya.app/image-generation",
+    "layout": "bottom_dark_editorial"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-10-25-slot-05-surreal-cinematic-ai-prompt/source.png",
+    "final_image": "factory/runs/2026-10-25-slot-05-surreal-cinematic-ai-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-05-surreal-cinematic-ai-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-10-24T16:14:06.827Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-10-24T16:14:06.828Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-10-25",
+    "slot_index": 5,
+    "planned_at_local": "2026-11-03T10:00:00",
+    "pillar": "Сюрреализм",
+    "original_planned_at_local": "2026-10-25T08:30:00",
+    "reschedule_history": [
+      {
+        "at": "2026-11-02T21:11:58.150Z",
+        "from": "2026-10-25T08:30:00",
+        "to": "2026-11-03T10:00:00",
+        "reason": "Approved overdue queue assigned a free future Moscow-day slot; fresh daily count 0/15"
+      }
+    ]
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-10-25/slot-05-attempt-1910/global-prompt-search-ranked.json",
+    "date_range": "Global search captured 2026-10-24; own analytics requested 2026-09-24—2026-10-24",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 4,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/1024428246497874445/",
+      "title": "재미있는 광고 | 향수, 프로모션, 화장품",
+      "public_saves": 82,
+      "search_rank": 2,
+      "impressions": null,
+      "saves": null,
+      "clicks": null,
+      "global_pattern_rank": 7,
+      "save_metric": "pinterestapp:repins",
+      "checked_at": "2026-10-24T16:11:32.362485+00:00",
+      "image_signature": "f149927d08dd617b4620f0e4fad43034",
+      "identity_basis": "Exact og:image signature matches search result. 82 saves belong to selected numeric pin. Search rank 2 belongs to shared image; pattern rank 7 uses 307 saves on a separate used numeric pin. Opaque ID metrics remain unknown."
+    },
+    "transferred_features": [
+      "Низкая точка съёмки и монументальный главный объект",
+      "Тёплая розово-терракотовая палитра на светлом фоне",
+      "Мягкий направленный свет с плавными переходами и выраженной фактурой поверхности"
+    ],
+    "deliberate_changes": [
+      "Вместо beauty-портрета — монументальный глиняный бюст с закрытыми глазами в соляной пустыне",
+      "Облако обвивает голову скульптуры; крошечная фигура в кобальтовом пальто задаёт фантастический масштаб",
+      "Пейзажный общий план, открытое пространство и длинная тень вместо плотно обрезанного лица"
+    ],
+    "global_response": "factory/research/2026-10-25/global-prompt-response.json",
+    "global_search_captured_at": "2026-10-24T13:48:12Z",
+    "source_capture_date": "2026-10-24",
+    "daily_research_reused": true,
+    "global_search_fallback": false,
+    "reviewed_images": [
+      {
+        "search_rank": 2,
+        "global_pattern_rank": 7,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/02-e1_AfqPShwZoiyw4_8nEBsixlfPgmu2Qz90wKkzOhBntMnrqzUT-ImOtQ.jpg",
+        "reviewed_at": "2026-10-24T16:12:49.378773+00:00",
+        "observation": "Низкий ракурс, тёплый розовый румянец, белый фон, плавные светотеневые переходы; новый numeric pin совпадает по изображению."
+      },
+      {
+        "search_rank": 6,
+        "global_pattern_rank": 3,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/06-e1_AfqPShxtmcqCRBjOs0m6LSqDyzLENlp3oBg8qTU6u960Cr4ElVWgVw.jpg",
+        "reviewed_at": "2026-10-24T16:12:49.378773+00:00",
+        "observation": "Beauty-макро: детальная фактура кожи, розовые полупрозрачные акценты, мягкий объёмный свет."
+      },
+      {
+        "search_rank": 17,
+        "global_pattern_rank": 1,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/17-e1_AfqPShyIXcuBgCMQjVttUJLZRLSUvXPo3joTsEDpB_Cz1WwQxiB-7g.png",
+        "reviewed_at": "2026-10-24T16:12:49.378773+00:00",
+        "observation": "Косметический букет: мягкий свет, розово-белая палитра, крупный тактильный объект."
+      },
+      {
+        "search_rank": 22,
+        "global_pattern_rank": 2,
+        "local_image": "factory/research/2026-10-25/slot-02-attempt-1348/images/22-e1_AfqPShwjITARFdE4NCsoSXUERXB1Iq3ZI__91ocoU14aWVM7ICRe.jpg",
+        "reviewed_at": "2026-10-24T16:12:49.378773+00:00",
+        "observation": "Парящая глянцевая голова: сюрреалистический объект, округлая форма, тёплый коралловый фон."
+      }
+    ],
+    "metrics_evidence": "factory/research/2026-10-25/slot-05-attempt-1910/selected-public-metrics.json",
+    "own_account_validation": {
+      "checked_at": "2026-10-24T11:49:40.584103+00:00",
+      "status": "unavailable",
+      "brand_id": 6880455,
+      "requested_date_range": {
+        "from": "2026-09-24",
+        "to": "2026-10-24"
+      },
+      "available_metricool_tools": 0,
+      "reason": "Metricool MCP tools absent from available tool catalog; analytics call could not be made.",
+      "role": "additional_signal_only",
+      "daily_evidence": "factory/research/2026-10-25/metricool-own-pins-unavailable.json"
+    },
+    "pattern_recurrence": {
+      "sample_size": 4,
+      "warm_rose_palette": 4,
+      "soft_volume_light": 4,
+      "scope": "Only four images personally reviewed; not extrapolated to all 25."
+    },
+    "dedupe": {
+      "reference_url_used_elsewhere": false,
+      "composition_review": "Read all existing filled surreal/portrait/material prompts. No terracotta bust in white salt desert with cloud halo and tiny cobalt traveller; prior surreal subjects are pear, glass whale, hourglass city and portal staircase."
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-10-24T07:41:09.170Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-10-24T16:12:49.436Z",
+      "note": "25 daily global organic results reused with capture date preserved; 4 images visually inspected; unique numeric reference verified at 82 public saves and exact image match."
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-10-24T16:12:49.565Z",
+      "note": "Original surreal salt-desert clay bust concept; unique reference and composition; full Musya CTA and destination."
+    },
+    {
+      "status": "generated",
+      "at": "2026-10-24T16:13:50.995Z",
+      "note": "Original vertical ImageGen artwork saved locally; visual review passed."
+    },
+    {
+      "status": "rendered",
+      "at": "2026-10-24T16:13:53.101Z",
+      "note": "Rendered 1000×1500 card with local Playwright and Chrome"
+    },
+    {
+      "status": "validated",
+      "at": "2026-10-24T16:14:06.828Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "prompt_file": "factory/research/2026-10-25/slot-05-attempt-1910/imagegen-prompt.txt",
+    "original_output": "/Users/nataliakorcagina/.codex/generated_images/01a16ead-0d54-77b2-a607-0b8acdfaebab/exec-ddc2ec9b-4588-4268-809f-111e31fea488.png",
+    "generated_at": "2026-10-24T16:13:50.961994+00:00",
+    "visual_review": "Inspected generated vertical image: coherent clay sculpture anatomy, closed eyes, cloud at temple, realistic salt surface and tiny blue traveller. Original composition; no text or logos; clear lower foreground for overlay."
+  },
+  "final_visual_review": {
+    "passed": true,
+    "checked_at": "2026-10-24T16:14:06.641046+00:00",
+    "notes": "Inspected final PNG: readable complete Russian prompt and direct Musya CTA, no clipping, clear sculpture and blue traveller, coherent light/materials, no unintended text or logos.",
+    "cta_url": "https://musya.app/image-generation",
+    "render_recipe": "factory/research/2026-10-25/slot-05-attempt-1910/render-cta.mjs"
+  }
+}
