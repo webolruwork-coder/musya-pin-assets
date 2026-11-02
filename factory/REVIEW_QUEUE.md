@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт для editorial-портрета в движении
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-16 · 16:00 · Портрет<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Забирай промт по ссылке жми ➜ прейти на сайт и забирай | Промпт фотосессия, Портрет мужской, Промт для фотосессии — — показов, — сохранений
-
-![2026-10-16-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-16-slot-03-editorial-portrait-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-16-slot-03-editorial-portrait-ai-prompt/manifest.json)
-
----
-
 ## Промпт для fashion-кампании в архитектурном пространстве
 
 **Решение:** Одобрен<br>
