@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт: портрет в движении — создай в Musya
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-15 · 08:30 · Портрет<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Съемка в стиле папарацци / неожиданный кадр / девушка в толпе / промпт / prompt / нейрофотосессия | Webdesign, Grafisch ontwerp inspiratie — — показов, — сохранений
-
-![2026-10-15-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-15-slot-03-editorial-portrait-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-15-slot-03-editorial-portrait-ai-prompt/manifest.json)
-
----
-
 ## Промпт: яркая fashion-кампания — создай в Musya
 
 **Решение:** Одобрен<br>
