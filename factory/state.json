@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T13:11:49.406Z",
+  "updated_at": "2026-11-02T14:12:02.892Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -484,7 +484,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-02T13:11:49.406Z",
+    "checked_at": "2026-11-02T14:12:02.892Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -503,7 +503,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 10,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -547,7 +547,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 10 confirmed PUBLISHED and 5 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1611-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1712-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
@@ -628,10 +628,14 @@
       "media_url": false,
       "run_id": false
     },
-    "manifests_checked": 39
+    "manifests_checked": 39,
+    "verification_range": {
+      "from": "2026-09-01T00:00:00+03:00",
+      "to": "2026-12-31T23:59:59+03:00"
+    }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-02T13:11:49.406Z",
+    "checked_at": "2026-11-02T14:12:02.892Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -650,7 +654,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 10,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -694,7 +698,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 10 confirmed PUBLISHED and 5 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1611-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1712-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
@@ -775,10 +779,14 @@
       "media_url": false,
       "run_id": false
     },
-    "manifests_checked": 39
+    "manifests_checked": 39,
+    "verification_range": {
+      "from": "2026-09-01T00:00:00+03:00",
+      "to": "2026-12-31T23:59:59+03:00"
+    }
   },
   "publisher_health": {
-    "checked_at": "2026-11-02T13:11:49.406Z",
+    "checked_at": "2026-11-02T14:12:02.892Z",
     "date_moscow": "2026-11-02",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -797,7 +805,7 @@
       "created": 0,
       "rescheduled": 0,
       "confirmed_published": 10,
-      "newly_confirmed_published": 1
+      "newly_confirmed_published": 0
     },
     "ready_unscheduled_candidates": [
       "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -841,7 +849,7 @@
     "blocked_reason": null,
     "decision": "Daily cap reached: 10 confirmed PUBLISHED and 5 PENDING. No ERROR in checked planner range. Approved backlog remains queued. No create/update calls made.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-02/publisher-check-1611-metricool.json",
+    "evidence": "factory/research/2026-11-02/publisher-check-1712-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 0,
     "error_posts": [],
@@ -922,6 +930,10 @@
       "media_url": false,
       "run_id": false
     },
-    "manifests_checked": 39
+    "manifests_checked": 39,
+    "verification_range": {
+      "from": "2026-09-01T00:00:00+03:00",
+      "to": "2026-12-31T23:59:59+03:00"
+    }
   }
 }
