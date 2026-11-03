@@ -1,0 +1,120 @@
+{
+  "checked_at": "2026-11-03T20:33:37.154891+00:00",
+  "date_moscow": "2026-11-03",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_access_unavailable",
+  "decision": "No publication or rescheduling: current Pinterest connection, provider statuses and daily count could not be verified. Session has no Metricool MCP tools. Existing HTTPS MCP access could not obtain credentials: macOS Keychain lookup stalled and was terminated without a credential result. This does not establish that Pinterest is disconnected.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "error_confirmed": null,
+    "remaining": null,
+    "history_complete": false,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-03/publisher-blocked-20261103T203337Z-metricool-access.json",
+  "queue_manifests_scanned": 242,
+  "today_manifest_count": 15,
+  "today_ready_count": 0,
+  "ready_unscheduled_candidates": [],
+  "future_ready_excluded": [
+    "2026-11-04-slot-02-ai-product-photography-prompt"
+  ],
+  "skipped_candidates": [
+    {
+      "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-03-editorial-portrait-ai-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-15-trending-ai-image-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-02-ai-product-photography-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-06-beauty-cosmetic-photography-prompt",
+      "reason": "approval_pending"
+    },
+    {
+      "id": "2026-11-03-slot-07-chrome-translucent-3d-prompt",
+      "reason": "approval_pending"
+    }
+  ],
+  "last_verified_snapshot": {
+    "checked_at": "2026-11-03T20:32:06.200Z",
+    "evidence": "factory/research/2026-11-03/publisher-check-2333-metricool.json",
+    "pinterest_connected": true,
+    "daily": {
+      "limit": 15,
+      "published_confirmed": 6,
+      "pending_confirmed": 0,
+      "error_confirmed": 1,
+      "remaining": 9,
+      "history_complete": true,
+      "history_note": "Fresh broad planner returned 46 records and covers all locally known post IDs. Exact Moscow-day query agrees: 6 PUBLISHED, 1 ERROR. Neither response indicates pagination or truncation.",
+      "publishable_now": 0
+    },
+    "error_posts": [
+      {
+        "id": "414536325",
+        "uuid": "-2732908720757584197",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit."
+      }
+    ],
+    "stale": true
+  },
+  "error_recovery": "Preserve existing post IDs and UUIDs. Re-read Metricool first; recover eligible ERROR posts with updateScheduledPost using existing identity, never create a replacement. Persist the ID returned by the update."
+}
