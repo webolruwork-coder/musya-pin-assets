@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T00:12:59.452Z",
+  "updated_at": "2026-11-03T01:11:17.732Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -8,7 +8,7 @@
       "status": "published",
       "scheduled_at": "2026-09-22T16:40:00+03:00",
       "metricool_post_id": "380074785",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-09-22-liquid-glass-bookmark",
@@ -16,7 +16,7 @@
       "status": "published",
       "scheduled_at": "2026-10-08T23:45:00+03:00",
       "metricool_post_id": "391533783",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-01-liquid-glass-3d-prompt",
@@ -24,7 +24,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T04:00:00+03:00",
       "metricool_post_id": "391653182",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-02-ai-product-photography-prompt",
@@ -32,7 +32,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T05:25:00+03:00",
       "metricool_post_id": "391654242",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-03-editorial-portrait-ai-prompt",
@@ -40,7 +40,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T06:50:00+03:00",
       "metricool_post_id": "391654326",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-04-fashion-campaign-ai-prompt",
@@ -48,7 +48,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T08:15:00+03:00",
       "metricool_post_id": "391654475",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-05-surreal-cinematic-ai-prompt",
@@ -56,7 +56,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T09:40:00+03:00",
       "metricool_post_id": "391654519",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-06-beauty-cosmetic-photography-prompt",
@@ -64,7 +64,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T11:05:00+03:00",
       "metricool_post_id": "391654699",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-07-chrome-translucent-3d-prompt",
@@ -72,7 +72,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T12:30:00+03:00",
       "metricool_post_id": "391654930",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-08-luxury-product-advertising-prompt",
@@ -80,7 +80,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T13:55:00+03:00",
       "metricool_post_id": "391655045",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-09-cinematic-character-portrait-prompt",
@@ -88,7 +88,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T15:20:00+03:00",
       "metricool_post_id": "391655187",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-10-avant-garde-fashion-prompt",
@@ -96,7 +96,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T16:45:00+03:00",
       "metricool_post_id": "391655224",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-11-dreamlike-architecture-ai-prompt",
@@ -104,7 +104,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T18:10:00+03:00",
       "metricool_post_id": "391655268",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-12-skincare-texture-macro-prompt",
@@ -112,7 +112,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T19:35:00+03:00",
       "metricool_post_id": "391655278",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-13-inflatable-soft-sculpture-prompt",
@@ -120,7 +120,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T21:00:00+03:00",
       "metricool_post_id": "391655290",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-14-minimal-studio-still-life-prompt",
@@ -128,7 +128,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T22:25:00+03:00",
       "metricool_post_id": "391655295",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-09-slot-15-trending-ai-image-prompt",
@@ -136,7 +136,7 @@
       "status": "published",
       "scheduled_at": "2026-10-09T23:50:00+03:00",
       "metricool_post_id": "391655299",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-10-slot-01-liquid-glass-3d-prompt",
@@ -144,7 +144,7 @@
       "status": "published",
       "scheduled_at": "2026-10-13T22:15:00+03:00",
       "metricool_post_id": "395207490",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-10-slot-02-ai-product-photography-prompt",
@@ -152,7 +152,7 @@
       "status": "published",
       "scheduled_at": "2026-10-13T22:30:00+03:00",
       "metricool_post_id": "395207723",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
@@ -160,7 +160,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T04:45:00+03:00",
       "metricool_post_id": "413444940",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-10-slot-04-fashion-campaign-ai-prompt",
@@ -168,7 +168,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T05:00:00+03:00",
       "metricool_post_id": "413444970",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-10-slot-05-surreal-cinematic-ai-prompt",
@@ -264,7 +264,7 @@
       "status": "published",
       "scheduled_at": "2026-10-13T21:00:00+03:00",
       "metricool_post_id": "395182770",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-13-slot-02-ai-product-photography-prompt",
@@ -272,7 +272,7 @@
       "status": "published",
       "scheduled_at": "2026-10-13T21:15:00+03:00",
       "metricool_post_id": "395182923",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-13-slot-03-editorial-portrait-ai-prompt",
@@ -280,7 +280,7 @@
       "status": "published",
       "scheduled_at": "2026-10-13T21:30:00+03:00",
       "metricool_post_id": "395182931",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-13-slot-04-fashion-campaign-ai-prompt",
@@ -288,7 +288,7 @@
       "status": "published",
       "scheduled_at": "2026-10-13T21:45:00+03:00",
       "metricool_post_id": "395182939",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-13-slot-05-surreal-cinematic-ai-prompt",
@@ -296,7 +296,7 @@
       "status": "published",
       "scheduled_at": "2026-10-13T22:00:00+03:00",
       "metricool_post_id": "395182944",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-13-slot-06-beauty-cosmetic-photography-prompt",
@@ -384,7 +384,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T05:30:00+03:00",
       "metricool_post_id": "413444975",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-15-slot-02-ai-product-photography-prompt",
@@ -392,7 +392,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T07:00:00+03:00",
       "metricool_post_id": "413444977",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-15-slot-03-editorial-portrait-ai-prompt",
@@ -400,7 +400,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T08:30:00+03:00",
       "metricool_post_id": "413444981",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-15-slot-04-fashion-campaign-ai-prompt",
@@ -408,7 +408,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T10:00:00+03:00",
       "metricool_post_id": "413444987",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
@@ -416,7 +416,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T11:30:00+03:00",
       "metricool_post_id": "413444993",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-16-slot-01-liquid-glass-3d-prompt",
@@ -424,7 +424,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T13:00:00+03:00",
       "metricool_post_id": "413444997",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-16-slot-02-ai-product-photography-prompt",
@@ -432,7 +432,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T14:30:00+03:00",
       "metricool_post_id": "413445000",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-16-slot-03-editorial-portrait-ai-prompt",
@@ -440,7 +440,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T16:00:00+03:00",
       "metricool_post_id": "413445004",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-16-slot-04-fashion-campaign-ai-prompt",
@@ -448,7 +448,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T17:30:00+03:00",
       "metricool_post_id": "413445010",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-16-slot-05-surreal-cinematic-ai-prompt",
@@ -456,7 +456,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T19:00:00+03:00",
       "metricool_post_id": "413445016",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-17-slot-02-ai-product-photography-prompt",
@@ -464,7 +464,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T20:30:00+03:00",
       "metricool_post_id": "413445019",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-23-slot-01-liquid-glass-3d-prompt",
@@ -472,7 +472,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T22:00:00+03:00",
       "metricool_post_id": "413445022",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-23-slot-02-ai-product-photography-prompt",
@@ -480,7 +480,7 @@
       "status": "published",
       "scheduled_at": "2026-11-02T23:30:00+03:00",
       "metricool_post_id": "413445026",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
@@ -488,15 +488,15 @@
       "status": "published",
       "scheduled_at": "2026-11-03T02:30:00+03:00",
       "metricool_post_id": "414534567",
-      "updated_at": "2026-11-03T00:12:59.452Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
       "manifest": "factory/runs/2026-10-25-slot-01-liquid-glass-3d-prompt/manifest.json",
-      "status": "scheduled",
+      "status": "published",
       "scheduled_at": "2026-11-03T04:00:00+03:00",
       "metricool_post_id": "414536199",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-25-slot-02-ai-product-photography-prompt",
@@ -504,7 +504,7 @@
       "status": "scheduled",
       "scheduled_at": "2026-11-03T05:30:00+03:00",
       "metricool_post_id": "414536230",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
@@ -512,7 +512,7 @@
       "status": "scheduled",
       "scheduled_at": "2026-11-03T07:00:00+03:00",
       "metricool_post_id": "414536245",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-25-slot-04-fashion-campaign-ai-prompt",
@@ -520,7 +520,7 @@
       "status": "scheduled",
       "scheduled_at": "2026-11-03T08:30:00+03:00",
       "metricool_post_id": "414536267",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-25-slot-05-surreal-cinematic-ai-prompt",
@@ -528,7 +528,7 @@
       "status": "scheduled",
       "scheduled_at": "2026-11-03T10:00:00+03:00",
       "metricool_post_id": "414536302",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     },
     {
       "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
@@ -536,29 +536,29 @@
       "status": "scheduled",
       "scheduled_at": "2026-11-03T11:30:00+03:00",
       "metricool_post_id": "414536325",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T01:11:17.732Z"
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-03T00:12:59.452Z",
+    "checked_at": "2026-11-03T01:11:17.732Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 1,
-      "pending_confirmed": 6,
+      "published_confirmed": 2,
+      "pending_confirmed": 5,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returned 46 posts (40 PUBLISHED, 6 PENDING), matching every known local post ID. Exact Moscow-day query agrees on one PUBLISHED and six PENDING posts; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (41 PUBLISHED, 5 PENDING), matching every locally known post ID. Exact Moscow-day query agrees on 2 PUBLISHED and 5 PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 40,
+      "confirmed_published": 41,
       "newly_confirmed_published": 1,
       "backlog_slots_reassigned": 0
     },
@@ -627,43 +627,43 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "One approved backlog pin is now PUBLISHED; six remain PENDING. No approved ready unscheduled pins across the complete local queue, including overdue manifests. All 15 current-day manifests remain needs_review with approval pending. Eight daily slots remain; no ERROR posts to recover.",
+    "decision": "Pinterest connected. Two backlog pins confirmed published today; five remain pending. Eight daily slots remain, but no approved ready unscheduled manifests, including overdue queue. All 15 current-day manifests need review with approval pending. No ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0312-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0411-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
       {
-        "id": "414536199",
-        "uuid": "-4392399090032358177",
-        "scheduled_at": "2026-11-03T04:00:00+03:00"
-      },
-      {
         "id": "414536230",
         "uuid": "4100988984203235189",
-        "scheduled_at": "2026-11-03T05:30:00+03:00"
+        "scheduled_at": "2026-11-03T05:30:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536245",
         "uuid": "7208299773328574977",
-        "scheduled_at": "2026-11-03T07:00:00+03:00"
+        "scheduled_at": "2026-11-03T07:00:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536267",
         "uuid": "3744379920626764256",
-        "scheduled_at": "2026-11-03T08:30:00+03:00"
+        "scheduled_at": "2026-11-03T08:30:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536302",
         "uuid": "1881582207399578280",
-        "scheduled_at": "2026-11-03T10:00:00+03:00"
+        "scheduled_at": "2026-11-03T10:00:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536325",
         "uuid": "-2732908720757584197",
-        "scheduled_at": "2026-11-03T11:30:00+03:00"
+        "scheduled_at": "2026-11-03T11:30:00+03:00",
+        "provider_status": "PENDING"
       }
     ],
     "published_posts": [
@@ -671,7 +671,13 @@
         "id": "414534567",
         "uuid": "-744106144272202070",
         "scheduled_at": "2026-11-03T02:30:00+03:00",
-        "pinterest_url": "https://www.pinterest.es/pin/1152851204656646304"
+        "provider_status": "PUBLISHED"
+      },
+      {
+        "id": "414536199",
+        "uuid": "-4392399090032358177",
+        "scheduled_at": "2026-11-03T04:00:00+03:00",
+        "provider_status": "PUBLISHED"
       }
     ],
     "duplicate_check": {
@@ -688,25 +694,25 @@
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-03T00:12:59.452Z",
+    "checked_at": "2026-11-03T01:11:17.732Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 1,
-      "pending_confirmed": 6,
+      "published_confirmed": 2,
+      "pending_confirmed": 5,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returned 46 posts (40 PUBLISHED, 6 PENDING), matching every known local post ID. Exact Moscow-day query agrees on one PUBLISHED and six PENDING posts; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (41 PUBLISHED, 5 PENDING), matching every locally known post ID. Exact Moscow-day query agrees on 2 PUBLISHED and 5 PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 40,
+      "confirmed_published": 41,
       "newly_confirmed_published": 1,
       "backlog_slots_reassigned": 0
     },
@@ -775,43 +781,43 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "One approved backlog pin is now PUBLISHED; six remain PENDING. No approved ready unscheduled pins across the complete local queue, including overdue manifests. All 15 current-day manifests remain needs_review with approval pending. Eight daily slots remain; no ERROR posts to recover.",
+    "decision": "Pinterest connected. Two backlog pins confirmed published today; five remain pending. Eight daily slots remain, but no approved ready unscheduled manifests, including overdue queue. All 15 current-day manifests need review with approval pending. No ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0312-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0411-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
       {
-        "id": "414536199",
-        "uuid": "-4392399090032358177",
-        "scheduled_at": "2026-11-03T04:00:00+03:00"
-      },
-      {
         "id": "414536230",
         "uuid": "4100988984203235189",
-        "scheduled_at": "2026-11-03T05:30:00+03:00"
+        "scheduled_at": "2026-11-03T05:30:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536245",
         "uuid": "7208299773328574977",
-        "scheduled_at": "2026-11-03T07:00:00+03:00"
+        "scheduled_at": "2026-11-03T07:00:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536267",
         "uuid": "3744379920626764256",
-        "scheduled_at": "2026-11-03T08:30:00+03:00"
+        "scheduled_at": "2026-11-03T08:30:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536302",
         "uuid": "1881582207399578280",
-        "scheduled_at": "2026-11-03T10:00:00+03:00"
+        "scheduled_at": "2026-11-03T10:00:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536325",
         "uuid": "-2732908720757584197",
-        "scheduled_at": "2026-11-03T11:30:00+03:00"
+        "scheduled_at": "2026-11-03T11:30:00+03:00",
+        "provider_status": "PENDING"
       }
     ],
     "published_posts": [
@@ -819,7 +825,13 @@
         "id": "414534567",
         "uuid": "-744106144272202070",
         "scheduled_at": "2026-11-03T02:30:00+03:00",
-        "pinterest_url": "https://www.pinterest.es/pin/1152851204656646304"
+        "provider_status": "PUBLISHED"
+      },
+      {
+        "id": "414536199",
+        "uuid": "-4392399090032358177",
+        "scheduled_at": "2026-11-03T04:00:00+03:00",
+        "provider_status": "PUBLISHED"
       }
     ],
     "duplicate_check": {
@@ -836,25 +848,25 @@
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-03T00:12:59.452Z",
+    "checked_at": "2026-11-03T01:11:17.732Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 1,
-      "pending_confirmed": 6,
+      "published_confirmed": 2,
+      "pending_confirmed": 5,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returned 46 posts (40 PUBLISHED, 6 PENDING), matching every known local post ID. Exact Moscow-day query agrees on one PUBLISHED and six PENDING posts; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (41 PUBLISHED, 5 PENDING), matching every locally known post ID. Exact Moscow-day query agrees on 2 PUBLISHED and 5 PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 40,
+      "confirmed_published": 41,
       "newly_confirmed_published": 1,
       "backlog_slots_reassigned": 0
     },
@@ -923,43 +935,43 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "One approved backlog pin is now PUBLISHED; six remain PENDING. No approved ready unscheduled pins across the complete local queue, including overdue manifests. All 15 current-day manifests remain needs_review with approval pending. Eight daily slots remain; no ERROR posts to recover.",
+    "decision": "Pinterest connected. Two backlog pins confirmed published today; five remain pending. Eight daily slots remain, but no approved ready unscheduled manifests, including overdue queue. All 15 current-day manifests need review with approval pending. No ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0312-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0411-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
       {
-        "id": "414536199",
-        "uuid": "-4392399090032358177",
-        "scheduled_at": "2026-11-03T04:00:00+03:00"
-      },
-      {
         "id": "414536230",
         "uuid": "4100988984203235189",
-        "scheduled_at": "2026-11-03T05:30:00+03:00"
+        "scheduled_at": "2026-11-03T05:30:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536245",
         "uuid": "7208299773328574977",
-        "scheduled_at": "2026-11-03T07:00:00+03:00"
+        "scheduled_at": "2026-11-03T07:00:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536267",
         "uuid": "3744379920626764256",
-        "scheduled_at": "2026-11-03T08:30:00+03:00"
+        "scheduled_at": "2026-11-03T08:30:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536302",
         "uuid": "1881582207399578280",
-        "scheduled_at": "2026-11-03T10:00:00+03:00"
+        "scheduled_at": "2026-11-03T10:00:00+03:00",
+        "provider_status": "PENDING"
       },
       {
         "id": "414536325",
         "uuid": "-2732908720757584197",
-        "scheduled_at": "2026-11-03T11:30:00+03:00"
+        "scheduled_at": "2026-11-03T11:30:00+03:00",
+        "provider_status": "PENDING"
       }
     ],
     "published_posts": [
@@ -967,7 +979,13 @@
         "id": "414534567",
         "uuid": "-744106144272202070",
         "scheduled_at": "2026-11-03T02:30:00+03:00",
-        "pinterest_url": "https://www.pinterest.es/pin/1152851204656646304"
+        "provider_status": "PUBLISHED"
+      },
+      {
+        "id": "414536199",
+        "uuid": "-4392399090032358177",
+        "scheduled_at": "2026-11-03T04:00:00+03:00",
+        "provider_status": "PUBLISHED"
       }
     ],
     "duplicate_check": {

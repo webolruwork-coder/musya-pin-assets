@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-25-slot-03-editorial-portrait-ai-prompt",
   "created_at": "2026-10-24T07:41:09.167Z",
-  "updated_at": "2026-11-02T21:16:33.817Z",
+  "updated_at": "2026-11-03T01:11:17.732Z",
   "status": "scheduled",
   "search": {
     "query": "editorial portrait AI prompt",
@@ -50,7 +50,7 @@
     "provider_status": "PENDING",
     "detailedStatus": "Pending",
     "detailed_status": "Pending",
-    "checked_at": "2026-11-03T00:12:59.452Z",
+    "checked_at": "2026-11-03T01:11:17.732Z",
     "provider_media_urls": [
       "https://static.metricool.com/planner/202611/6880455-file-13581223788937310279.png"
     ]

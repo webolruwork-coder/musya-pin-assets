@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Скат из жидкого стекла — 3D-промпт для Musya
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-25 · 04:00 · 3D и материалы<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Глянцевый парящий 3D-аватар — — показов, — сохранений
-
-![2026-10-25-slot-01-liquid-glass-3d-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-01-liquid-glass-3d-prompt.png)
-
-[Открыть manifest](runs/2026-10-25-slot-01-liquid-glass-3d-prompt/manifest.json)
-
----
-
 ## Промпт для предметной съёмки мыла — создай в Musya
 
 **Решение:** Одобрен<br>
