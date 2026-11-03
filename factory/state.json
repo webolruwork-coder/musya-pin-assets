@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T12:23:12.097Z",
+  "updated_at": "2026-11-03T13:11:45.243Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -540,7 +540,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-03T12:23:12.097Z",
+    "checked_at": "2026-11-03T13:11:45.243Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -552,7 +552,7 @@
       "error_confirmed": 1,
       "remaining": 9,
       "history_complete": true,
-      "history_note": "Broad planner includes all 46 locally known IDs; exact Moscow-day query agrees. No pagination or truncation indicated.",
+      "history_note": "Fresh broad planner returned 46 records and includes all locally known post IDs; exact Moscow-day query returns the same 7 records (6 PUBLISHED, 1 ERROR). Neither response indicates pagination or truncation.",
       "publishable_now": 0
     },
     "actions": {
@@ -629,7 +629,7 @@
     "blocked_reason": "metricool_account_limit",
     "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins, including overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-1525-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-1611-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [
@@ -653,10 +653,13 @@
       "to": "2026-11-05T23:59:59+03:00",
       "timezone": "Europe/Moscow",
       "extendedRange": true
-    }
+    },
+    "future_ready_excluded": [
+      "2026-11-04-slot-02-ai-product-photography-prompt"
+    ]
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-03T12:23:12.097Z",
+    "checked_at": "2026-11-03T13:11:45.243Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -668,7 +671,7 @@
       "error_confirmed": 1,
       "remaining": 9,
       "history_complete": true,
-      "history_note": "Broad planner includes all 46 locally known IDs; exact Moscow-day query agrees. No pagination or truncation indicated.",
+      "history_note": "Fresh broad planner returned 46 records and includes all locally known post IDs; exact Moscow-day query returns the same 7 records (6 PUBLISHED, 1 ERROR). Neither response indicates pagination or truncation.",
       "publishable_now": 0
     },
     "actions": {
@@ -745,7 +748,7 @@
     "blocked_reason": "metricool_account_limit",
     "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins, including overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-1525-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-1611-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [
@@ -769,10 +772,13 @@
       "to": "2026-11-05T23:59:59+03:00",
       "timezone": "Europe/Moscow",
       "extendedRange": true
-    }
+    },
+    "future_ready_excluded": [
+      "2026-11-04-slot-02-ai-product-photography-prompt"
+    ]
   },
   "publisher_health": {
-    "checked_at": "2026-11-03T12:23:12.097Z",
+    "checked_at": "2026-11-03T13:11:45.243Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -784,7 +790,7 @@
       "error_confirmed": 1,
       "remaining": 9,
       "history_complete": true,
-      "history_note": "Broad planner includes all 46 locally known IDs; exact Moscow-day query agrees. No pagination or truncation indicated.",
+      "history_note": "Fresh broad planner returned 46 records and includes all locally known post IDs; exact Moscow-day query returns the same 7 records (6 PUBLISHED, 1 ERROR). Neither response indicates pagination or truncation.",
       "publishable_now": 0
     },
     "actions": {
@@ -861,7 +867,7 @@
     "blocked_reason": "metricool_account_limit",
     "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins, including overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-1525-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-1611-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [
@@ -885,6 +891,9 @@
       "to": "2026-11-05T23:59:59+03:00",
       "timezone": "Europe/Moscow",
       "extendedRange": true
-    }
+    },
+    "future_ready_excluded": [
+      "2026-11-04-slot-02-ai-product-photography-prompt"
+    ]
   }
 }
