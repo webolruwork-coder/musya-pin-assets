@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "id": "2026-11-04-slot-02-ai-product-photography-prompt",
+  "created_at": "2026-11-03T09:30:59.974Z",
+  "updated_at": "2026-11-03T21:12:47.146Z",
+  "status": "validated",
+  "search": {
+    "query": "AI product photography prompt",
+    "global_query": "промпт",
+    "result_limit": 25,
+    "reference_urls": [
+      "https://www.pinterest.com/pin/1122944488584155890/"
+    ],
+    "reference_fingerprints": [
+      "7214c84a3fc9451e7d002a0222b71c959bc9856fa55ed64fe7e36af5402015dd"
+    ],
+    "pattern_summary": "Двойной сверхкрупный портрет женщины и добермана: два глаза, боковой свет, контраст кожи и шерсти. Измеренный публичный референс с 1 сохранением; популярность не объявляется высокой."
+  },
+  "content": {
+    "prompt_ru": "Сверхкрупный портрет девушки рядом с доберманом. По одному глазу на одной высоте, спокойный взгляд в камеру. Мягкий боковой свет, тёплая кожа, чёрная шерсть с подпалом, глубокие тени. Реальная фактура, лица не сливаются. Вертикальный кадр 2:3.",
+    "title_ru": "Промпт для портрета с питомцем — создай в Musya",
+    "description_ru": "Два взгляда в одном кадре: крупный портрет девушки с доберманом, мягкий боковой свет и контраст кожи и шерсти. Сохраните промпт и создайте свою версию: https://musya.app/image-generation",
+    "keywords_ru": [
+      "промпт",
+      "портрет с питомцем",
+      "доберман",
+      "нейрофотосессия",
+      "нейросеть",
+      "Musya"
+    ],
+    "text_theme": "dark"
+  },
+  "assets": {
+    "source_image": "factory/runs/2026-11-04-slot-02-ai-product-photography-prompt/source.png",
+    "final_image": "factory/runs/2026-11-04-slot-02-ai-product-photography-prompt/pin.png",
+    "media_url": "https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-11-04-slot-02-ai-product-photography-prompt.png"
+  },
+  "publishing": {
+    "provider": "metricool",
+    "brand": "musya_gpt",
+    "blog_id": 6880455,
+    "timezone": "Europe/Moscow",
+    "board": "Промпты для нейросетей",
+    "target_url": "https://musya.app/image-generation",
+    "scheduled_at": null,
+    "metricool_post_id": null
+  },
+  "validation": {
+    "passed": true,
+    "checked_at": "2026-11-03T12:28:25.867Z",
+    "checks": {
+      "content": true,
+      "references": true,
+      "references_unique": true,
+      "research_evidence": true,
+      "final_image_exists": true,
+      "final_image_dimensions": true,
+      "final_image_detected": {
+        "width": 1000,
+        "height": 1500,
+        "format": "png"
+      },
+      "publishing_fields": true
+    },
+    "errors": []
+  },
+  "approval": {
+    "status": "approved",
+    "reviewed_at": "2026-11-03T12:28:25.868Z",
+    "note": "Automatically approved after research, image and publishing quality gates passed"
+  },
+  "production": {
+    "target_date": "2026-11-04",
+    "slot_index": 2,
+    "planned_at_local": "2026-11-04T04:00:00",
+    "pillar": "Предметная съёмка"
+  },
+  "research_evidence": {
+    "source": "Pinterest public global search",
+    "global_query": "промпт",
+    "global_search_report": "factory/research/2026-11-04/global-prompt-search.json",
+    "source_response": "factory/research/2026-11-04/global-prompt-response.json",
+    "source_captured_at": "2026-11-03T11:30:59.981Z",
+    "reused_daily_research": true,
+    "date_range": "Global search captured 2026-11-03; own analytics 2026-10-04 to 2026-11-03",
+    "posts_analyzed": 25,
+    "reference_images_reviewed": 6,
+    "selected_reference": {
+      "url": "https://www.pinterest.com/pin/1122944488584155890/",
+      "title": "Промпт для фото с питомцем | AI фотосессия",
+      "public_saves": 1,
+      "search_rank": 10,
+      "save_metric": "pinterestapp:repins",
+      "checked_at": "2026-11-03T12:24:44.220Z",
+      "image_url": "https://i.pinimg.com/736x/ce/99/e3/ce99e35e4c171e811eb491b2e81ed575.jpg",
+      "image_signature": "ce99e35e4c171e811eb491b2e81ed575",
+      "global_search_url": "https://www.pinterest.com/pin/e1_AfqPShwJB_8rjEiZaYOvPc_ihveeFJkucRt2KRh0PkcGT4_Q4sRQWQ/",
+      "canonical_url": "https://www.pinterest.com/pin/803470389821124044/",
+      "identity_basis": "Numeric public pin currently displays the exact image signature from global rank 10. Metric belongs to this numeric URL; encrypted search ID identity is not asserted. Historical report used only to discover URL; current HTML confirms image and saves.",
+      "impressions": null,
+      "saves": null,
+      "clicks": null,
+      "canonical_verification": "Canonical URL 803470389821124044 was checked separately: it returns a DIFFERENT male portrait image dddc47081660095c54df0018caa4f626. It is not used as reference identity or metric source. The measured reference is requested numeric URL 1122944488584155890 with the verified matching woman/dog image."
+    },
+    "transferred_features": [
+      "Два близких лица — женщина и чёрно-подпалый доберман; видимый глаз каждого на одной высоте",
+      "Тесный вертикальный портрет, спокойный прямой взгляд и отсутствие гибридного слияния лиц",
+      "Мягкий боковой свет, тёплая натуральная кожа и точная фактура короткой шерсти"
+    ],
+    "deliberate_changes": [
+      "Новая оригинальная модель и собственная постановка: чуть иной наклон головы, тонкая свободная прядь и естественный просвет между щекой и собакой",
+      "Собственная фотографическая сцена без чужого текста, рамок и брендинга; нижняя часть переходит в тёмную одежду/шерсть под reference-v1"
+    ],
+    "public_metrics_evidence": "factory/research/2026-11-04/slot-02-attempt-122247Z/additional-public-metrics.json",
+    "own_account_report": "factory/research/2026-11-04/metricool-own-pins-30d.json",
+    "own_account_validation": {
+      "reused_daily": true,
+      "rows": 40,
+      "assessment": "Данные Metricool только как дополнительная проверка: крупный живой портрет 148 показов/0 сохранений; двойной концептуальный портрет 2237/17. Прямого аналога с питомцем нет, прогноз эффективности не делается.",
+      "public_reference_metrics_substituted": false
+    }
+  },
+  "history": [
+    {
+      "status": "queued",
+      "at": "2026-11-03T09:30:59.974Z",
+      "note": "Run created"
+    },
+    {
+      "status": "research_ready",
+      "at": "2026-11-03T12:26:20.118Z",
+      "note": "25 global results reviewed; 6 full images, 2 taste examples; fresh public save count and image identity verified; duplicate references rejected"
+    },
+    {
+      "status": "concept_ready",
+      "at": "2026-11-03T12:26:20.133Z",
+      "note": "Original tight woman-and-dog portrait; reference-v1 layout; preserve mood, scale and tactile materials"
+    },
+    {
+      "status": "generated",
+      "at": "2026-11-03T12:27:52.098Z",
+      "note": "Original 1024x1536 ImageGen source visually reviewed; two separate subjects, coherent lighting and texture"
+    },
+    {
+      "status": "rendered",
+      "at": "2026-11-03T12:27:54.237Z",
+      "note": "Rendered reference-v1 card, 1000×1500, with adaptive text colour"
+    },
+    {
+      "status": "validated",
+      "at": "2026-11-03T12:28:25.868Z",
+      "note": "Automated manifest and image checks passed"
+    }
+  ],
+  "taste_review": {
+    "profile_id": "musya-taste-v1",
+    "example_ids": [
+      "clean-bun",
+      "lime-avatar"
+    ],
+    "examples_opened": true,
+    "layout_reference": "24-y2k-perfume-campaign-pin.png",
+    "reviewed_at": "2026-11-03T12:26:20.113Z",
+    "candidate_comparison": [
+      {
+        "url": "https://www.pinterest.com/pin/e1_AfqPShzMfnasoe7HixgyDP2eAUYs5Vi-KpMCS7IrLL_YM2OJEuVL/",
+        "rank": 13,
+        "image_url": "https://i.pinimg.com/originals/83/1e/f1/831ef1882e9ab70cb45bb2decee8c7f1.jpg",
+        "local_image": "factory/research/2026-11-04/reference-images/13-e1_AfqPShzMfnasoe7HixgyDP2eAUYs5Vi-KpMCS7IrLL_YM2OJEuVL.jpg",
+        "decision": "alternative",
+        "visual_reasons": "Чистая бело-кобальтовая палитра, тактильные матовое стекло, бумага и ткань; качество материалов сопоставимо с эталонами. Серия раскадровок менее цельная как единый пин; публичная метрика не получена."
+      },
+      {
+        "url": "https://www.pinterest.com/pin/e1_AfqPShyyzsTsB6xGhmX1q01DRI7FPvU84imzhmsRyHI36WY3JPSHFg/",
+        "rank": 18,
+        "image_url": "https://i.pinimg.com/originals/a3/5d/03/a35d035ec15b05349e7e4835f3f1aee1.jpg",
+        "local_image": "factory/research/2026-11-04/reference-images/18-e1_AfqPShyyzsTsB6xGhmX1q01DRI7FPvU84imzhmsRyHI36WY3JPSHFg.jpg",
+        "decision": "alternative",
+        "visual_reasons": "Сильный прямой взгляд, плотный ритм кудрей и живая кожа. Как clean-bun, лицо удерживает иерархию без реквизита; вспышка на лбу жёстче и менее деликатна. Публичная метрика недоступна."
+      },
+      {
+        "url": "https://www.pinterest.com/pin/e1_AfqPShx7cPZBxg7veC0lm7V15l_tohgm03dfrdc3UwELnKn995jZ/",
+        "rank": 22,
+        "image_url": "https://i.pinimg.com/originals/d7/65/72/d765720d118aa340380721279cead077.png",
+        "local_image": "factory/research/2026-11-04/reference-images/22-e1_AfqPShx7cPZBxg7veC0lm7V15l_tohgm03dfrdc3UwELnKn995jZ.png",
+        "decision": "reject_duplicate",
+        "visual_reasons": "Выразительный взгляд, тонкая фактура и скульптурный боковой свет; визуально сильный. Свежие 17 сохранений подтверждены, но URL уже использован в 2026-10-25-slot-06-beauty-cosmetic-photography-prompt. Исключён."
+      },
+      {
+        "url": "https://www.pinterest.com/pin/e1_AfqPShweqI0SQ51HpeeiGSPu_ilb-itIHJVcyxocn8OGe5o6jeLH7A/",
+        "rank": 6,
+        "image_url": "https://i.pinimg.com/originals/62/b3/04/62b3042474169ae172ce336ac4045a2c.jpg",
+        "local_image": "factory/research/2026-11-04/reference-images/06-e1_AfqPShweqI0SQ51HpeeiGSPu_ilb-itIHJVcyxocn8OGe5o6jeLH7A.jpg",
+        "decision": "reject_duplicate",
+        "visual_reasons": "Сильное макро глаза, каустика и бирюзовая вода; контраст фактур сопоставим с эталонами. Свежие 108 сохранений подтверждены, но изображение и композиционный приём уже использованы в 2026-10-09-slot-13-inflatable-soft-sculpture-prompt. Другой URL не устраняет повтор."
+      },
+      {
+        "url": "https://www.pinterest.com/pin/e1_AfqPShwJB_8rjEiZaYOvPc_ihveeFJkucRt2KRh0PkcGT4_Q4sRQWQ/",
+        "rank": 10,
+        "image_url": "https://i.pinimg.com/originals/ce/99/e3/ce99e35e4c171e811eb491b2e81ed575.png",
+        "local_image": "factory/research/2026-11-04/reference-images/10-e1_AfqPShwJB_8rjEiZaYOvPc_ihveeFJkucRt2KRh0PkcGT4_Q4sRQWQ.png",
+        "decision": "select",
+        "visual_reasons": "Выбран: близко расположенные глаз женщины и глаз добермана образуют ясный двойной фокус; тёплая кожа и чёрная шерсть разделены светом, детали тактильны. Чистота и уровень обработки сопоставимы с clean-bun, контраст материалов — с lime-avatar, без переноса 3D-стиля. Свежий счётчик 1 — слабый, но реальный положительный сигнал; отбор основан прежде всего на визуале."
+      },
+      {
+        "url": "https://www.pinterest.com/pin/e1_AfqPShzK5W1qsyAZZqLks5K87IM3BpojbLRcyzrOAuftGIQEMdOkbQ/",
+        "rank": 17,
+        "image_url": "https://i.pinimg.com/originals/84/fa/1f/84fa1f926ee4a6c3b3cc677e64cfb996.png",
+        "local_image": "factory/research/2026-11-04/reference-images/17-e1_AfqPShzK5W1qsyAZZqLks5K87IM3BpojbLRcyzrOAuftGIQEMdOkbQ.png",
+        "decision": "alternative",
+        "visual_reasons": "Бордовая фигура в кольце травы, глубокая зелень и мягкий свет дают цельное спокойное настроение; тема допустима независимо от эталонов. Проверенный числовой URL показывает 0 сохранений, поэтому обязательный gate public_saves > 0 не выполнен."
+      }
+    ],
+    "must_preserve": [
+      "Два близких лица — женщина и чёрно-подпалый доберман; видимый глаз каждого на одной высоте",
+      "Тесный вертикальный портрет, спокойный прямой взгляд и отсутствие гибридного слияния лиц",
+      "Мягкий боковой свет, тёплая натуральная кожа и точная фактура короткой шерсти"
+    ],
+    "allowed_changes": [
+      "Новая оригинальная модель и собственная постановка: чуть иной наклон головы, тонкая свободная прядь и естественный просвет между щекой и собакой",
+      "Собственная фотографическая сцена без чужого текста, рамок и брендинга; нижняя часть переходит в тёмную одежду/шерсть под reference-v1"
+    ],
+    "model_decision": "generate",
+    "user_decision": null,
+    "deduplication": {
+      "selected_url_used": false,
+      "image_signature_used": false,
+      "canonical_url_used": false,
+      "notes": "Проверены reference_urls и selected_reference всех manifests; совпадение в старом needs_review относится только к списку кандидатов. Портрет с водой и портрет с боковым светом исключены."
+    },
+    "source_comparison": {
+      "decision": "pass",
+      "hero": "Сохранены два близких героя и спокойные прямые взгляды; лица разделены естественной тенью, гибридного слияния нет.",
+      "lighting": "Мягкий боковой свет, связные блики в двух глазах, глубокие тёплые тени.",
+      "materials": "Видны поры, веснушки, короткая шерсть и фактура чёрного трикотажа. По тактильности и чистоте изображения сопоставимо с clean-bun; как в lime-avatar, материалы различимы, при этом стилизация фотографическая.",
+      "composition": "Два глаза на одной высоте; тесный кроп, снизу достаточно тёмной ткани и шерсти для текста.",
+      "artifacts": "Лишних глаз, склеенных лиц, лишних конечностей и посторонних надписей не обнаружено."
+    },
+    "final_comparison": {
+      "decision": "pass",
+      "reviewed_at": "2026-11-03T12:28:25.690Z",
+      "source_opened": true,
+      "final_opened": true,
+      "positive_example_ids": [
+        "clean-bun",
+        "lime-avatar"
+      ],
+      "layout_reference": "24-y2k-perfume-campaign-pin.png",
+      "hero_and_mood": "Крупные лица женщины и добермана сохраняют спокойный прямой взгляд и близость выбранного референса. Два отдельных героя, естественная анатомия; масштаб не уменьшен ради оригинальности.",
+      "lighting_and_color": "Согласованные блики в глазах, мягкий боковой свет, тёплая кожа и чёрно-коричневая шерсть. Как в clean-bun, свет подчёркивает кожу без лишнего реквизита; чёрный фон поддерживает контраст как в lime-avatar, без переноса его 3D-стиля.",
+      "materials": "Поры, губы, ресницы, короткая шерсть и трикотаж читаются отдельно и убедительно. Результат фотографический; лишних глаз, слипшихся контуров или надписей в исходнике не обнаружено.",
+      "composition": "Два глаза на одной горизонтали формируют главный фокус; новая модель, фактура ткани, положение морды и прядь отличают собственную постановку. Нижняя тёмная зона естественна и не закрывает глаза/лица.",
+      "typography": "reference-v1: заголовок ПРОМПТ, ровно четыре полные строки без обрезки, белый текст на тёмной области; нижняя плашка больше промптов — @musya_gpt. Верхних подписей, линий и дополнительных CTA нет.",
+      "limitations": "Визуальный pass — оценка агента, не новое пользовательское одобрение. У референса подтверждено только 1 публичное сохранение; высокая популярность и будущая эффективность не утверждаются."
+    }
+  },
+  "generation": {
+    "provider": "ImageGen built-in",
+    "generated_at": "2026-11-03T12:27:52.097Z",
+    "prompt_path": "factory/research/2026-11-04/slot-02-attempt-122247Z/imagegen-prompt.txt",
+    "attempts": 1,
+    "original_artwork": true
+  },
+  "rendering": {
+    "template": "reference-v1",
+    "theme": "dark",
+    "lines": [
+      "Сверхкрупный портрет девушки рядом с доберманом. По одному глазу на одной",
+      "высоте, спокойный взгляд в камеру. Мягкий боковой свет, тёплая кожа, чёрная",
+      "шерсть с подпалом, глубокие тени. Реальная фактура, лица не сливаются.",
+      "Вертикальный кадр 2:3."
+    ],
+    "width": 1000,
+    "height": 1500
+  },
+  "producer_attempt": {
+    "at": "2026-11-03T12:29:14.424Z",
+    "status": "success",
+    "reason_code": null,
+    "result_path": "factory/research/2026-11-04/slot-02-attempt-122247Z/producer-result.json",
+    "processed_manifests": 1
+  }
+}
