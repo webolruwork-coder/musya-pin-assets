@@ -1,0 +1,17 @@
+{
+  "at": "2026-11-03T21:15:46.831Z",
+  "request": {
+    "blogId": "6880455",
+    "date": "2026-11-04T04:00:00",
+    "info": "{\"publicationDate\":{\"dateTime\":\"2026-11-04T04:00:00\",\"timezone\":\"Europe/Moscow\"},\"text\":\"Два взгляда в одном кадре: крупный портрет девушки с доберманом, мягкий боковой свет и контраст кожи и шерсти. Сохраните промпт и создайте свою версию: https://musya.app/image-generation\",\"providers\":[{\"network\":\"pinterest\"}],\"media\":[\"https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-11-04-slot-02-ai-product-photography-prompt.png\"],\"autoPublish\":true,\"saveExternalMediaFiles\":true,\"shortener\":false,\"draft\":false,\"pinterestData\":{\"boardId\":\"1152851273304179107\",\"pinTitle\":\"Промпт для портрета с питомцем — создай в Musya\",\"pinLink\":\"https://musya.app/image-generation\"}}"
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error processing post information: Text '2026-11-04T04:00:00' could not be parsed at index 19"
+      }
+    ],
+    "isError": true
+  }
+}

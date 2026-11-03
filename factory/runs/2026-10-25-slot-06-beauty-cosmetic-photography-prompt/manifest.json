@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
   "created_at": "2026-10-24T07:41:09.171Z",
-  "updated_at": "2026-11-03T12:23:12.097Z",
-  "status": "hosted",
+  "updated_at": "2026-11-03T21:16:12.741Z",
+  "status": "scheduled",
   "search": {
     "query": "beauty cosmetic photography prompt",
     "global_query": "промпт",
@@ -45,20 +45,17 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-11-03T11:30:00+03:00",
-    "metricool_post_id": "414536325",
+    "scheduled_at": "2026-11-04T02:30:00+03:00",
+    "metricool_post_id": "415802065",
     "metricool_uuid": "-2732908720757584197",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-2732908720757584197",
-    "provider_status": "ERROR",
-    "detailedStatus": "You have reached your Metricool account limit.",
-    "detailed_status": "You have reached your Metricool account limit.",
-    "checked_at": "2026-11-03T20:32:06.200Z",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-11-03T21:16:12.741Z",
     "provider_media_urls": [
       "https://static.metricool.com/planner/202611/6880455-file-10901130648615773047.png"
-    ],
-    "blocked_reason": "metricool_account_limit",
-    "recovery_action": "After account limit is resolved, re-read status and daily count; use updateScheduledPost with existing ID and UUID, preserve content/media/pinterestData, and persist returned ID.",
-    "provider_error": "You have reached your Metricool account limit."
+    ]
   },
   "validation": {
     "passed": true,
@@ -87,7 +84,7 @@
   "production": {
     "target_date": "2026-10-25",
     "slot_index": 6,
-    "planned_at_local": "2026-11-03T11:30:00",
+    "planned_at_local": "2026-11-04T02:30:00",
     "pillar": "Beauty",
     "original_planned_at_local": "2026-10-25T10:00:00",
     "reschedule_history": [
@@ -96,6 +93,12 @@
         "from": "2026-10-25T10:00:00",
         "to": "2026-11-03T11:30:00",
         "reason": "Approved overdue queue assigned a free future Moscow-day slot; fresh daily count 0/15"
+      },
+      {
+        "at": "2026-11-03T21:12:46.592Z",
+        "from": "2026-11-03T11:30:00",
+        "to": "2026-11-04T02:30:00",
+        "reason": "Connected Pinterest; 0/15 today; recovered existing ERROR with updateScheduledPost, preserving UUID; old ID 414536325"
       }
     ]
   },
@@ -231,6 +234,11 @@
       "status": "scheduled",
       "at": "2026-11-02T21:16:24.560Z",
       "note": "Created once through Metricool MCP; ID and UUID persisted immediately."
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-11-03T21:12:46.592Z",
+      "note": "Metricool updateScheduledPost: 414536325 -> 415802065; UUID preserved; PENDING"
     }
   ],
   "generation": {

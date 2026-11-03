@@ -1,0 +1,106 @@
+{
+  "checked_at": "2026-11-03T21:16:12.741Z",
+  "date_moscow": "2026-11-04",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "blocked_reason": null,
+  "decision": "Recovered one approved overdue ERROR via updateScheduledPost with original ID and UUID; persisted returned ID. Created one approved current-day post after public hosting verification. No further approved ready candidates.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 2,
+    "error_confirmed": 0,
+    "remaining": 13,
+    "history_complete": true,
+    "history_note": "Broad fresh planner: 47 posts (45 PUBLISHED, 2 PENDING), all locally known IDs covered. Exact Moscow-day query confirms only these two PENDING posts; no pagination/truncation markers.",
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 1,
+    "rescheduled": 1,
+    "confirmed_published": 45,
+    "backlog_slots_reassigned": 1
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-04/publisher-final-0013.json",
+  "queue_manifests_scanned": 242,
+  "today_manifest_count": 15,
+  "today_ready_count": 0,
+  "ready_unscheduled_candidates": [],
+  "skipped_candidates": [
+    {
+      "id": "2026-11-04-slot-09-cinematic-character-portrait-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    },
+    {
+      "id": "2026-11-04-slot-11-dreamlike-architecture-ai-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    },
+    {
+      "id": "2026-11-04-slot-13-inflatable-soft-sculpture-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    },
+    {
+      "id": "2026-11-04-slot-03-editorial-portrait-ai-prompt",
+      "reason": "approval_pending",
+      "status": "needs_review"
+    },
+    {
+      "id": "2026-11-04-slot-04-fashion-campaign-ai-prompt",
+      "reason": "approval_pending",
+      "status": "needs_review"
+    },
+    {
+      "id": "2026-11-04-slot-06-beauty-cosmetic-photography-prompt",
+      "reason": "approval_pending",
+      "status": "needs_review"
+    },
+    {
+      "id": "2026-11-04-slot-10-avant-garde-fashion-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    },
+    {
+      "id": "2026-11-04-slot-01-liquid-glass-3d-prompt",
+      "reason": "approval_pending",
+      "status": "needs_review"
+    },
+    {
+      "id": "2026-11-04-slot-08-luxury-product-advertising-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    },
+    {
+      "id": "2026-11-04-slot-14-minimal-studio-still-life-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    },
+    {
+      "id": "2026-11-04-slot-12-skincare-texture-macro-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    },
+    {
+      "id": "2026-11-04-slot-15-trending-ai-image-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    },
+    {
+      "id": "2026-11-04-slot-05-surreal-cinematic-ai-prompt",
+      "reason": "approval_pending",
+      "status": "needs_review"
+    },
+    {
+      "id": "2026-11-04-slot-07-chrome-translucent-3d-prompt",
+      "reason": "approval_pending",
+      "status": "queued"
+    }
+  ],
+  "error_posts": [],
+  "provider_limit_note": "Historical Metricool account-limit error remains a publication risk until actual PUBLISHED confirmation; current update and creation accepted, final statuses PENDING.",
+  "error_recovery": "ERROR post 414536325 updated to 415802065; UUID -2732908720757584197 preserved. No replacement post created."
+}

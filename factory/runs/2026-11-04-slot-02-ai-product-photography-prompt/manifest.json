@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-11-04-slot-02-ai-product-photography-prompt",
   "created_at": "2026-11-03T09:30:59.974Z",
-  "updated_at": "2026-11-03T21:12:47.146Z",
-  "status": "validated",
+  "updated_at": "2026-11-03T21:16:12.741Z",
+  "status": "scheduled",
   "search": {
     "query": "AI product photography prompt",
     "global_query": "промпт",
@@ -42,8 +42,17 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": null,
-    "metricool_post_id": null
+    "scheduled_at": "2026-11-04T04:00:00+03:00",
+    "metricool_post_id": "415805249",
+    "metricool_uuid": "-6148691217174344003",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-11-03T21:16:12.741Z",
+    "provider_media_urls": [
+      "https://static.metricool.com/planner/202611/6880455-file-9208351632448418766.png"
+    ],
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-6148691217174344003"
   },
   "validation": {
     "passed": true,
@@ -150,6 +159,16 @@
       "status": "validated",
       "at": "2026-11-03T12:28:25.868Z",
       "note": "Automated manifest and image checks passed"
+    },
+    {
+      "status": "hosted",
+      "at": "2026-11-03T21:15:28.506Z",
+      "note": "Public media verified: https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-11-04-slot-02-ai-product-photography-prompt.png"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-11-03T21:15:57.017Z",
+      "note": "Created once through Metricool MCP; persisted post ID and UUID; PENDING is not published"
     }
   ],
   "taste_review": {

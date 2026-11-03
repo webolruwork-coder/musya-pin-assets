@@ -7,14 +7,28 @@ Production-пины автоматически одобряются только
 ## Промпт для beauty-макро: кобальтовая подводка — Musya
 
 **Решение:** Одобрен<br>
-**Статус:** `hosted`<br>
-**Слот:** 2026-10-25 · 11:30 · Beauty<br>
+**Статус:** `scheduled`<br>
+**Слот:** 2026-10-25 · 02:30 · Beauty<br>
 **Ссылка:** https://musya.app/image-generation<br>
 **Референс:** Emotions reference | Expressions photography, Female angry face, Game character — — показов, — сохранений
 
 ![2026-10-25-slot-06-beauty-cosmetic-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-06-beauty-cosmetic-photography-prompt.png)
 
 [Открыть manifest](runs/2026-10-25-slot-06-beauty-cosmetic-photography-prompt/manifest.json)
+
+---
+
+## Промпт для портрета с питомцем — создай в Musya
+
+**Решение:** Одобрен<br>
+**Статус:** `scheduled`<br>
+**Слот:** 2026-11-04 · 04:00 · Предметная съёмка<br>
+**Ссылка:** https://musya.app/image-generation<br>
+**Референс:** Промпт для фото с питомцем | AI фотосессия — — показов, — сохранений
+
+![2026-11-04-slot-02-ai-product-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-11-04-slot-02-ai-product-photography-prompt.png)
+
+[Открыть manifest](runs/2026-11-04-slot-02-ai-product-photography-prompt/manifest.json)
 
 ---
 
