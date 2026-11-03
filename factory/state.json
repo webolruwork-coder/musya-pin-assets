@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T14:11:54.576Z",
+  "updated_at": "2026-11-03T15:12:14Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -540,7 +540,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-03T14:11:54.576Z",
+    "checked_at": "2026-11-03T15:12:14Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -629,7 +629,7 @@
     "blocked_reason": "metricool_account_limit",
     "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins for today or overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-1711-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-1811-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [
@@ -660,7 +660,7 @@
     ]
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-03T14:11:54.576Z",
+    "checked_at": "2026-11-03T15:12:14Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -749,7 +749,7 @@
     "blocked_reason": "metricool_account_limit",
     "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins for today or overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-1711-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-1811-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [
@@ -780,7 +780,7 @@
     ]
   },
   "publisher_health": {
-    "checked_at": "2026-11-03T14:11:54.576Z",
+    "checked_at": "2026-11-03T15:12:14Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -869,7 +869,7 @@
     "blocked_reason": "metricool_account_limit",
     "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins for today or overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-1711-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-1811-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [
