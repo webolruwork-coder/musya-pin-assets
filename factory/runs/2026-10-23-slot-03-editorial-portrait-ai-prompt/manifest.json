@@ -2,8 +2,8 @@
   "version": 1,
   "id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
   "created_at": "2026-10-22T12:01:01.484Z",
-  "updated_at": "2026-11-02T21:16:33.817Z",
-  "status": "scheduled",
+  "updated_at": "2026-11-03T00:12:59.452Z",
+  "status": "published",
   "search": {
     "query": "editorial portrait AI prompt",
     "global_query": "промпт",
@@ -51,13 +51,14 @@
     "metricool_post_id": "414534567",
     "metricool_uuid": "-744106144272202070",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-744106144272202070",
-    "provider_status": "PENDING",
-    "detailedStatus": "Pending",
-    "detailed_status": "Pending",
-    "checked_at": "2026-11-02T22:11:35.078Z",
+    "provider_status": "PUBLISHED",
+    "detailedStatus": "Published",
+    "detailed_status": "Published",
+    "checked_at": "2026-11-03T00:12:59.452Z",
     "provider_media_urls": [
       "https://static.metricool.com/planner/202611/6880455-file-9834880495482530626.png"
-    ]
+    ],
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204656646304"
   },
   "validation": {
     "passed": true,
@@ -230,6 +231,11 @@
       "status": "scheduled",
       "at": "2026-11-02T21:15:00.445Z",
       "note": "Created once through Metricool MCP; ID and UUID persisted immediately."
+    },
+    {
+      "status": "published",
+      "at": "2026-11-03T00:12:59.452Z",
+      "note": "Confirmed PUBLISHED via fresh Metricool planner; https://www.pinterest.es/pin/1152851204656646304"
     }
   ],
   "generation": {

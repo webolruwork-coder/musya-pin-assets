@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T22:11:35.078Z",
+  "updated_at": "2026-11-03T00:12:59.452Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -485,10 +485,10 @@
     {
       "id": "2026-10-23-slot-03-editorial-portrait-ai-prompt",
       "manifest": "factory/runs/2026-10-23-slot-03-editorial-portrait-ai-prompt/manifest.json",
-      "status": "scheduled",
+      "status": "published",
       "scheduled_at": "2026-11-03T02:30:00+03:00",
       "metricool_post_id": "414534567",
-      "updated_at": "2026-11-02T21:16:33.817Z"
+      "updated_at": "2026-11-03T00:12:59.452Z"
     },
     {
       "id": "2026-10-25-slot-01-liquid-glass-3d-prompt",
@@ -540,26 +540,26 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-02T22:11:35.078Z",
+    "checked_at": "2026-11-03T00:12:59.452Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 0,
-      "pending_confirmed": 7,
+      "published_confirmed": 1,
+      "pending_confirmed": 6,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returned 46 posts (39 PUBLISHED, 7 PENDING), matching every local known post ID. Exact Moscow-day query agrees on seven PENDING posts; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (40 PUBLISHED, 6 PENDING), matching every known local post ID. Exact Moscow-day query agrees on one PUBLISHED and six PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 39,
-      "newly_confirmed_published": 0,
+      "confirmed_published": 40,
+      "newly_confirmed_published": 1,
       "backlog_slots_reassigned": 0
     },
     "ready_unscheduled_candidates": [],
@@ -627,19 +627,14 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "Seven previously scheduled approved backlog pins remain PENDING. No approved ready unscheduled pins, including overdue queue. All 15 current-day manifests are needs_review with approval pending. Eight daily slots remain. No ERROR posts to recover.",
+    "decision": "One approved backlog pin is now PUBLISHED; six remain PENDING. No approved ready unscheduled pins across the complete local queue, including overdue manifests. All 15 current-day manifests remain needs_review with approval pending. Eight daily slots remain; no ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0111-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0312-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
-      {
-        "id": "414534567",
-        "uuid": "-744106144272202070",
-        "scheduled_at": "2026-11-03T02:30:00+03:00"
-      },
       {
         "id": "414536199",
         "uuid": "-4392399090032358177",
@@ -671,7 +666,14 @@
         "scheduled_at": "2026-11-03T11:30:00+03:00"
       }
     ],
-    "published_posts": [],
+    "published_posts": [
+      {
+        "id": "414534567",
+        "uuid": "-744106144272202070",
+        "scheduled_at": "2026-11-03T02:30:00+03:00",
+        "pinterest_url": "https://www.pinterest.es/pin/1152851204656646304"
+      }
+    ],
     "duplicate_check": {
       "id": false,
       "uuid": false,
@@ -686,26 +688,26 @@
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-02T22:11:35.078Z",
+    "checked_at": "2026-11-03T00:12:59.452Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 0,
-      "pending_confirmed": 7,
+      "published_confirmed": 1,
+      "pending_confirmed": 6,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returned 46 posts (39 PUBLISHED, 7 PENDING), matching every local known post ID. Exact Moscow-day query agrees on seven PENDING posts; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (40 PUBLISHED, 6 PENDING), matching every known local post ID. Exact Moscow-day query agrees on one PUBLISHED and six PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 39,
-      "newly_confirmed_published": 0,
+      "confirmed_published": 40,
+      "newly_confirmed_published": 1,
       "backlog_slots_reassigned": 0
     },
     "ready_unscheduled_candidates": [],
@@ -773,19 +775,14 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "Seven previously scheduled approved backlog pins remain PENDING. No approved ready unscheduled pins, including overdue queue. All 15 current-day manifests are needs_review with approval pending. Eight daily slots remain. No ERROR posts to recover.",
+    "decision": "One approved backlog pin is now PUBLISHED; six remain PENDING. No approved ready unscheduled pins across the complete local queue, including overdue manifests. All 15 current-day manifests remain needs_review with approval pending. Eight daily slots remain; no ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0111-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0312-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
-      {
-        "id": "414534567",
-        "uuid": "-744106144272202070",
-        "scheduled_at": "2026-11-03T02:30:00+03:00"
-      },
       {
         "id": "414536199",
         "uuid": "-4392399090032358177",
@@ -817,7 +814,14 @@
         "scheduled_at": "2026-11-03T11:30:00+03:00"
       }
     ],
-    "published_posts": [],
+    "published_posts": [
+      {
+        "id": "414534567",
+        "uuid": "-744106144272202070",
+        "scheduled_at": "2026-11-03T02:30:00+03:00",
+        "pinterest_url": "https://www.pinterest.es/pin/1152851204656646304"
+      }
+    ],
     "duplicate_check": {
       "id": false,
       "uuid": false,
@@ -832,26 +836,26 @@
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-02T22:11:35.078Z",
+    "checked_at": "2026-11-03T00:12:59.452Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "daily": {
       "limit": 15,
-      "published_confirmed": 0,
-      "pending_confirmed": 7,
+      "published_confirmed": 1,
+      "pending_confirmed": 6,
       "error_confirmed": 0,
       "history_complete": true,
-      "history_note": "Fresh broad planner returned 46 posts (39 PUBLISHED, 7 PENDING), matching every local known post ID. Exact Moscow-day query agrees on seven PENDING posts; no pagination/truncation marker.",
+      "history_note": "Fresh broad planner returned 46 posts (40 PUBLISHED, 6 PENDING), matching every known local post ID. Exact Moscow-day query agrees on one PUBLISHED and six PENDING posts; no pagination/truncation marker.",
       "remaining": 8,
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
       "rescheduled": 0,
-      "confirmed_published": 39,
-      "newly_confirmed_published": 0,
+      "confirmed_published": 40,
+      "newly_confirmed_published": 1,
       "backlog_slots_reassigned": 0
     },
     "ready_unscheduled_candidates": [],
@@ -919,19 +923,14 @@
       }
     ],
     "blocked_reason": null,
-    "decision": "Seven previously scheduled approved backlog pins remain PENDING. No approved ready unscheduled pins, including overdue queue. All 15 current-day manifests are needs_review with approval pending. Eight daily slots remain. No ERROR posts to recover.",
+    "decision": "One approved backlog pin is now PUBLISHED; six remain PENDING. No approved ready unscheduled pins across the complete local queue, including overdue manifests. All 15 current-day manifests remain needs_review with approval pending. Eight daily slots remain; no ERROR posts to recover.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-0111-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-0312-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [],
     "overdue_error_count": 0,
     "scheduled_posts": [
-      {
-        "id": "414534567",
-        "uuid": "-744106144272202070",
-        "scheduled_at": "2026-11-03T02:30:00+03:00"
-      },
       {
         "id": "414536199",
         "uuid": "-4392399090032358177",
@@ -963,7 +962,14 @@
         "scheduled_at": "2026-11-03T11:30:00+03:00"
       }
     ],
-    "published_posts": [],
+    "published_posts": [
+      {
+        "id": "414534567",
+        "uuid": "-744106144272202070",
+        "scheduled_at": "2026-11-03T02:30:00+03:00",
+        "pinterest_url": "https://www.pinterest.es/pin/1152851204656646304"
+      }
+    ],
     "duplicate_check": {
       "id": false,
       "uuid": false,

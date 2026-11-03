@@ -4,20 +4,6 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
-## Промпт: портрет с серебристыми кудрями — создай в Musya
-
-**Решение:** Одобрен<br>
-**Статус:** `scheduled`<br>
-**Слот:** 2026-10-23 · 02:30 · Портрет<br>
-**Ссылка:** https://musya.app/image-generation<br>
-**Референс:** Промпт для дорогой женской аватарки с мягким сиянием кожи | Леди-босс, Леди ди, Лица — — показов, — сохранений
-
-![2026-10-23-slot-03-editorial-portrait-ai-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-23-slot-03-editorial-portrait-ai-prompt.png)
-
-[Открыть manifest](runs/2026-10-23-slot-03-editorial-portrait-ai-prompt/manifest.json)
-
----
-
 ## Скат из жидкого стекла — 3D-промпт для Musya
 
 **Решение:** Одобрен<br>
