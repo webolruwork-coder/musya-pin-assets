@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-11-03T11:30:23.035700+00:00",
+  "date_moscow": "2026-11-03",
+  "brand_id": "6880455",
+  "blocked_reason": "metricool_mcp_tools_unavailable_in_session",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "tool_discovery": {
+    "metricool_matches": 0,
+    "getBrandSettings_available": false,
+    "getScheduledPosts_available": false
+  },
+  "daily": {
+    "limit": 15,
+    "history_complete": false,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "confirmed_published": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "local_queue": {
+    "manifests_checked": 242,
+    "status_counts": {
+      "queued": 152,
+      "needs_review": 44,
+      "published": 44,
+      "scheduled": 2
+    },
+    "ready_unscheduled_candidates": [],
+    "today_count": 15,
+    "today_status_counts": {
+      "needs_review": 15
+    },
+    "today_approval_counts": {
+      "pending": 15
+    }
+  },
+  "last_provider_verification_unmodified": "2026-11-03T11:29:02.003Z",
+  "decision": "Publication blocked: fresh connection, provider statuses, daily total and duplicates cannot be verified. No create/update/hosting requests. This does not establish that Pinterest is disconnected. Retry via Metricool MCP when available; recover confirmed ERROR posts using updateScheduledPost with existing ID and UUID and persist any returned ID.",
+  "checkout_switched": false,
+  "git_preflight": {
+    "head": "8891ee5ce6fbc235a74c406c93a95f22052cab19",
+    "origin_main": "8891ee5ce6fbc235a74c406c93a95f22052cab19",
+    "fetch": "succeeded",
+    "commit_scope": "Only this report, publisher_check field and a review status notice; pre-existing changes excluded."
+  }
+}
