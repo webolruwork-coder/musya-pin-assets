@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T15:12:14Z",
+  "updated_at": "2026-11-03T20:32:06.200Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -540,141 +540,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-03T20:31:24.336106Z",
-    "date_moscow": "2026-11-03",
-    "brand_id": "6880455",
-    "blocked_reason": "metricool_mcp_tools_unavailable_in_session",
-    "pinterest_connected": null,
-    "provider_status_verified": false,
-    "tool_discovery": {
-      "metricool_matches": 0,
-      "getBrandSettings_available": false,
-      "getScheduledPosts_available": false,
-      "orca_cli_mcp_command_available": false
-    },
-    "daily": {
-      "limit": 15,
-      "history_complete": false,
-      "published_confirmed": null,
-      "pending_confirmed": null,
-      "remaining": null
-    },
-    "actions": {
-      "created": 0,
-      "rescheduled": 0,
-      "confirmed_published": 0
-    },
-    "target_url": "https://musya.app/image-generation",
-    "local_queue": {
-      "manifests_checked": 242,
-      "status_counts": {
-        "queued": 147,
-        "needs_review": 48,
-        "published": 45,
-        "hosted": 1,
-        "validated": 1
-      },
-      "today_count": 15,
-      "today_status_counts": {
-        "needs_review": 15
-      },
-      "today_approval_counts": {
-        "pending": 15
-      },
-      "ready_unscheduled_candidates": [],
-      "existing_error_posts": [
-        {
-          "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
-          "metricool_post_id": "414536325",
-          "metricool_uuid": "-2732908720757584197",
-          "last_known_provider_status": "ERROR",
-          "last_known_detailedStatus": "You have reached your Metricool account limit.",
-          "last_provider_checked_at": "2026-11-03T15:12:14Z"
-        }
-      ],
-      "future_ready_excluded": [
-        "2026-11-04-slot-02-ai-product-photography-prompt"
-      ]
-    },
-    "last_provider_verification_unmodified": "2026-11-03T15:12:14Z",
-    "decision": "Fresh Pinterest connection, provider statuses, daily total and duplicates cannot be verified. No create/update/hosting requests. This does not establish Pinterest disconnection. Recover verified ERROR posts only through updateScheduledPost with existing ID and UUID after checking connection, quota and daily count; persist any returned ID.",
-    "checkout_switched": false,
-    "git_preflight": {
-      "head": "ef6692863a0f20a774c64520c64e7dcc2918c48b",
-      "origin_main": "ef6692863a0f20a774c64520c64e7dcc2918c48b",
-      "fetch": "succeeded",
-      "commit_scope": "Only this report, publisher_check/publisher_attempt fields and a review notice; all pre-existing changes excluded."
-    }
-  },
-  "publisher_attempt": {
-    "checked_at": "2026-11-03T20:31:24.336106Z",
-    "date_moscow": "2026-11-03",
-    "brand_id": "6880455",
-    "blocked_reason": "metricool_mcp_tools_unavailable_in_session",
-    "pinterest_connected": null,
-    "provider_status_verified": false,
-    "tool_discovery": {
-      "metricool_matches": 0,
-      "getBrandSettings_available": false,
-      "getScheduledPosts_available": false,
-      "orca_cli_mcp_command_available": false
-    },
-    "daily": {
-      "limit": 15,
-      "history_complete": false,
-      "published_confirmed": null,
-      "pending_confirmed": null,
-      "remaining": null
-    },
-    "actions": {
-      "created": 0,
-      "rescheduled": 0,
-      "confirmed_published": 0
-    },
-    "target_url": "https://musya.app/image-generation",
-    "local_queue": {
-      "manifests_checked": 242,
-      "status_counts": {
-        "queued": 147,
-        "needs_review": 48,
-        "published": 45,
-        "hosted": 1,
-        "validated": 1
-      },
-      "today_count": 15,
-      "today_status_counts": {
-        "needs_review": 15
-      },
-      "today_approval_counts": {
-        "pending": 15
-      },
-      "ready_unscheduled_candidates": [],
-      "existing_error_posts": [
-        {
-          "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
-          "metricool_post_id": "414536325",
-          "metricool_uuid": "-2732908720757584197",
-          "last_known_provider_status": "ERROR",
-          "last_known_detailedStatus": "You have reached your Metricool account limit.",
-          "last_provider_checked_at": "2026-11-03T15:12:14Z"
-        }
-      ],
-      "future_ready_excluded": [
-        "2026-11-04-slot-02-ai-product-photography-prompt"
-      ]
-    },
-    "last_provider_verification_unmodified": "2026-11-03T15:12:14Z",
-    "decision": "Fresh Pinterest connection, provider statuses, daily total and duplicates cannot be verified. No create/update/hosting requests. This does not establish Pinterest disconnection. Recover verified ERROR posts only through updateScheduledPost with existing ID and UUID after checking connection, quota and daily count; persist any returned ID.",
-    "checkout_switched": false,
-    "git_preflight": {
-      "head": "ef6692863a0f20a774c64520c64e7dcc2918c48b",
-      "origin_main": "ef6692863a0f20a774c64520c64e7dcc2918c48b",
-      "fetch": "succeeded",
-      "commit_scope": "Only this report, publisher_check/publisher_attempt fields and a review notice; all pre-existing changes excluded."
-    }
-  },
-  "publisher_health": {
-    "checked_at": "2026-11-03T15:12:14Z",
+    "checked_at": "2026-11-03T20:32:06.200Z",
     "date_moscow": "2026-11-03",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -763,7 +629,7 @@
     "blocked_reason": "metricool_account_limit",
     "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins for today or overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-03/publisher-check-1811-metricool.json",
+    "evidence": "factory/research/2026-11-03/publisher-check-2333-metricool.json",
     "today_ready_count": 0,
     "today_manifest_count": 15,
     "error_posts": [
@@ -786,8 +652,248 @@
     "verification_range": {
       "from": "2026-09-01T00:00:00+03:00",
       "to": "2026-11-05T23:59:59+03:00",
-      "timezone": "Europe/Moscow",
-      "extendedRange": true
+      "extendedRange": true,
+      "timezone": "Europe/Moscow"
+    },
+    "future_ready_excluded": [
+      "2026-11-04-slot-02-ai-product-photography-prompt"
+    ]
+  },
+  "publisher_attempt": {
+    "checked_at": "2026-11-03T20:32:06.200Z",
+    "date_moscow": "2026-11-03",
+    "brand_id": "6880455",
+    "pinterest_connected": true,
+    "provider_status_verified": true,
+    "daily": {
+      "limit": 15,
+      "published_confirmed": 6,
+      "pending_confirmed": 0,
+      "error_confirmed": 1,
+      "remaining": 9,
+      "history_complete": true,
+      "history_note": "Fresh broad planner returned 46 records and covers all locally known post IDs. Exact Moscow-day query agrees: 6 PUBLISHED, 1 ERROR. Neither response indicates pagination or truncation.",
+      "publishable_now": 0
+    },
+    "actions": {
+      "created": 0,
+      "rescheduled": 0,
+      "confirmed_published": 45,
+      "newly_confirmed_published": 0,
+      "backlog_slots_reassigned": 0
+    },
+    "ready_unscheduled_candidates": [],
+    "selected_candidates": [],
+    "skipped_candidates": [
+      {
+        "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-02-ai-product-photography-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-03-editorial-portrait-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-06-beauty-cosmetic-photography-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-07-chrome-translucent-3d-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-15-trending-ai-image-prompt",
+        "reason": "approval_pending"
+      }
+    ],
+    "blocked_reason": "metricool_account_limit",
+    "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins for today or overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-11-03/publisher-check-2333-metricool.json",
+    "today_ready_count": 0,
+    "today_manifest_count": 15,
+    "error_posts": [
+      {
+        "id": "414536325",
+        "uuid": "-2732908720757584197",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit."
+      }
+    ],
+    "duplicate_check": {
+      "id": [],
+      "uuid": [],
+      "title": [],
+      "media_url": [],
+      "run_id": []
+    },
+    "manifests_checked": 46,
+    "queue_manifests_scanned": 242,
+    "verification_range": {
+      "from": "2026-09-01T00:00:00+03:00",
+      "to": "2026-11-05T23:59:59+03:00",
+      "extendedRange": true,
+      "timezone": "Europe/Moscow"
+    },
+    "future_ready_excluded": [
+      "2026-11-04-slot-02-ai-product-photography-prompt"
+    ]
+  },
+  "publisher_health": {
+    "checked_at": "2026-11-03T20:32:06.200Z",
+    "date_moscow": "2026-11-03",
+    "brand_id": "6880455",
+    "pinterest_connected": true,
+    "provider_status_verified": true,
+    "daily": {
+      "limit": 15,
+      "published_confirmed": 6,
+      "pending_confirmed": 0,
+      "error_confirmed": 1,
+      "remaining": 9,
+      "history_complete": true,
+      "history_note": "Fresh broad planner returned 46 records and covers all locally known post IDs. Exact Moscow-day query agrees: 6 PUBLISHED, 1 ERROR. Neither response indicates pagination or truncation.",
+      "publishable_now": 0
+    },
+    "actions": {
+      "created": 0,
+      "rescheduled": 0,
+      "confirmed_published": 45,
+      "newly_confirmed_published": 0,
+      "backlog_slots_reassigned": 0
+    },
+    "ready_unscheduled_candidates": [],
+    "selected_candidates": [],
+    "skipped_candidates": [
+      {
+        "id": "2026-11-03-slot-01-liquid-glass-3d-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-02-ai-product-photography-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-03-editorial-portrait-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-04-fashion-campaign-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-05-surreal-cinematic-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-06-beauty-cosmetic-photography-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-07-chrome-translucent-3d-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-08-luxury-product-advertising-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-09-cinematic-character-portrait-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-10-avant-garde-fashion-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-11-dreamlike-architecture-ai-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-12-skincare-texture-macro-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-13-inflatable-soft-sculpture-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-14-minimal-studio-still-life-prompt",
+        "reason": "approval_pending"
+      },
+      {
+        "id": "2026-11-03-slot-15-trending-ai-image-prompt",
+        "reason": "approval_pending"
+      }
+    ],
+    "blocked_reason": "metricool_account_limit",
+    "decision": "Pinterest connected; 6 published today, 0 pending, 1 ERROR due to Metricool account limit. No approved unscheduled ready pins for today or overdue queue. Preserve error post ID and UUID; recover with updateScheduledPost after quota resolution. No new posts or retries.",
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-11-03/publisher-check-2333-metricool.json",
+    "today_ready_count": 0,
+    "today_manifest_count": 15,
+    "error_posts": [
+      {
+        "id": "414536325",
+        "uuid": "-2732908720757584197",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit."
+      }
+    ],
+    "duplicate_check": {
+      "id": [],
+      "uuid": [],
+      "title": [],
+      "media_url": [],
+      "run_id": []
+    },
+    "manifests_checked": 46,
+    "queue_manifests_scanned": 242,
+    "verification_range": {
+      "from": "2026-09-01T00:00:00+03:00",
+      "to": "2026-11-05T23:59:59+03:00",
+      "extendedRange": true,
+      "timezone": "Europe/Moscow"
     },
     "future_ready_excluded": [
       "2026-11-04-slot-02-ai-product-photography-prompt"
