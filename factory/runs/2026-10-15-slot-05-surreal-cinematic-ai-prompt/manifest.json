@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-15-slot-05-surreal-cinematic-ai-prompt",
   "created_at": "2026-10-14T04:40:55.309Z",
-  "updated_at": "2026-11-03T11:29:58.033Z",
+  "updated_at": "2026-11-03T11:31:57.183Z",
   "status": "published",
   "search": {
     "query": "surreal cinematic AI prompt",
@@ -49,7 +49,7 @@
     "provider_status": "PUBLISHED",
     "detailedStatus": "Published",
     "detailed_status": "Published",
-    "checked_at": "2026-11-03T11:29:58.033Z",
+    "checked_at": "2026-11-03T11:31:57.183Z",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-2158202839327617526",
     "reschedule_history": [
       {
@@ -77,7 +77,8 @@
         "reason": "Approved overdue ERROR rescheduled via updateScheduledPost with previous ID and unchanged UUID; fresh planner confirms PENDING"
       }
     ],
-    "pinterest_url": "https://www.pinterest.es/pin/1152851204656589934"
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204656589934",
+    "provider_error": null
   },
   "validation": {
     "passed": true,

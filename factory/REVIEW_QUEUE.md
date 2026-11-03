@@ -4,6 +4,20 @@ Production-пины автоматически одобряются только
 
 Сейчас в производстве: **20**.
 
+## Промпт для beauty-макро: кобальтовая подводка — Musya
+
+**Решение:** Одобрен<br>
+**Статус:** `hosted`<br>
+**Слот:** 2026-10-25 · 11:30 · Beauty<br>
+**Ссылка:** https://musya.app/image-generation<br>
+**Референс:** Emotions reference | Expressions photography, Female angry face, Game character — — показов, — сохранений
+
+![2026-10-25-slot-06-beauty-cosmetic-photography-prompt](https://webolruwork-coder.github.io/musya-pin-assets/pins/2026-10-25-slot-06-beauty-cosmetic-photography-prompt.png)
+
+[Открыть manifest](runs/2026-10-25-slot-06-beauty-cosmetic-photography-prompt/manifest.json)
+
+---
+
 ## Промпт: лестница в другой мир | AI-сюрреализм
 
 **Решение:** Ждёт просмотра<br>

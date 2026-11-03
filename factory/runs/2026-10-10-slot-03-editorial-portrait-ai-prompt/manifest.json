@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-10-slot-03-editorial-portrait-ai-prompt",
   "created_at": "2026-10-08T21:22:37.925Z",
-  "updated_at": "2026-11-03T11:29:58.033Z",
+  "updated_at": "2026-11-03T11:31:57.183Z",
   "status": "published",
   "search": {
     "query": "editorial portrait AI prompt",
@@ -49,7 +49,7 @@
     "metricool_uuid": "6596028834034238310",
     "provider_status": "PUBLISHED",
     "detailedStatus": "Published",
-    "checked_at": "2026-11-03T11:29:58.033Z",
+    "checked_at": "2026-11-03T11:31:57.183Z",
     "reschedule_history": [
       {
         "previous_post_id": "395207737",
@@ -94,7 +94,8 @@
     ],
     "detailed_status": "Published",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=6596028834034238310",
-    "pinterest_url": "https://www.pinterest.es/pin/1152851204656571769"
+    "pinterest_url": "https://www.pinterest.es/pin/1152851204656571769",
+    "provider_error": null
   },
   "validation": {
     "passed": true,
