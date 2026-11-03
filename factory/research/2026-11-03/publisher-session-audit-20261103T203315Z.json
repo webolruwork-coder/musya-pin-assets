@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-03T20:33:15.218281+00:00",
+  "date_moscow": "2026-11-03",
+  "blocked_reason": "metricool_mcp_tools_unavailable_in_this_session",
+  "direct_provider_verification": false,
+  "metricool_tools_discovered": 0,
+  "created": 0,
+  "rescheduled": 0,
+  "target_url": "https://musya.app/image-generation",
+  "daily_limit": 15,
+  "day_plan_executed": true,
+  "ready_unscheduled_candidates": [],
+  "concurrent_run_evidence": {
+    "path": "factory/research/2026-11-03/publisher-check-2333-metricool.json",
+    "checked_at": "2026-11-03T20:32:06.200Z",
+    "pinterest_data": "musya_gpt",
+    "today_status_counts": {
+      "PUBLISHED": 6,
+      "ERROR": 1
+    },
+    "error_posts": [
+      {
+        "id": 414536325,
+        "uuid": "-2732908720757584197",
+        "provider": {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      }
+    ]
+  },
+  "decision": "No publish/update requests. Concurrent provider report records account quota error; retain post ID/UUID for updateScheduledPost after quota resolution and fresh status/day-limit checks. Shared state, review and manifests updated concurrently; do not overwrite or commit those changes.",
+  "checkout_switched": false
+}
