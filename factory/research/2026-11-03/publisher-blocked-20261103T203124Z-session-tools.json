@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-03T20:31:24.336106Z",
+  "date_moscow": "2026-11-03",
+  "brand_id": "6880455",
+  "blocked_reason": "metricool_mcp_tools_unavailable_in_session",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "tool_discovery": {
+    "metricool_matches": 0,
+    "getBrandSettings_available": false,
+    "getScheduledPosts_available": false,
+    "orca_cli_mcp_command_available": false
+  },
+  "daily": {
+    "limit": 15,
+    "history_complete": false,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "confirmed_published": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "local_queue": {
+    "manifests_checked": 242,
+    "status_counts": {
+      "queued": 147,
+      "needs_review": 48,
+      "published": 45,
+      "hosted": 1,
+      "validated": 1
+    },
+    "today_count": 15,
+    "today_status_counts": {
+      "needs_review": 15
+    },
+    "today_approval_counts": {
+      "pending": 15
+    },
+    "ready_unscheduled_candidates": [],
+    "existing_error_posts": [
+      {
+        "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+        "metricool_post_id": "414536325",
+        "metricool_uuid": "-2732908720757584197",
+        "last_known_provider_status": "ERROR",
+        "last_known_detailedStatus": "You have reached your Metricool account limit.",
+        "last_provider_checked_at": "2026-11-03T15:12:14Z"
+      }
+    ],
+    "future_ready_excluded": [
+      "2026-11-04-slot-02-ai-product-photography-prompt"
+    ]
+  },
+  "last_provider_verification_unmodified": "2026-11-03T15:12:14Z",
+  "decision": "Fresh Pinterest connection, provider statuses, daily total and duplicates cannot be verified. No create/update/hosting requests. This does not establish Pinterest disconnection. Recover verified ERROR posts only through updateScheduledPost with existing ID and UUID after checking connection, quota and daily count; persist any returned ID.",
+  "checkout_switched": false,
+  "git_preflight": {
+    "head": "ef6692863a0f20a774c64520c64e7dcc2918c48b",
+    "origin_main": "ef6692863a0f20a774c64520c64e7dcc2918c48b",
+    "fetch": "succeeded",
+    "commit_scope": "Only this report, publisher_check/publisher_attempt fields and a review notice; all pre-existing changes excluded."
+  }
+}
