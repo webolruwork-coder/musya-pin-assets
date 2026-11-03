@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-14-slot-02-ai-product-photography-prompt",
   "created_at": "2026-10-13T04:01:13.728Z",
-  "updated_at": "2026-11-03T11:31:57.183Z",
+  "updated_at": "2026-11-03T12:23:12.097Z",
   "status": "published",
   "search": {
     "query": "AI product photography prompt",
@@ -48,7 +48,7 @@
     "metricool_uuid": "-5245920552051587146",
     "provider_status": "PUBLISHED",
     "detailedStatus": "Published",
-    "checked_at": "2026-11-03T11:31:57.183Z",
+    "checked_at": "2026-11-03T12:23:12.097Z",
     "detailed_status": "Published",
     "reschedule_history": [
       {
@@ -86,7 +86,10 @@
     ],
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-5245920552051587146",
     "pinterest_url": "https://www.pinterest.es/pin/1152851204656573697",
-    "provider_error": null
+    "provider_error": null,
+    "provider_media_urls": [
+      "https://static.metricool.com/planner/202610/6880455-file-10755502680788974719.png"
+    ]
   },
   "validation": {
     "passed": true,

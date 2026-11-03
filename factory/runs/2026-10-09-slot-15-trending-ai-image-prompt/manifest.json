@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-09-slot-15-trending-ai-image-prompt",
   "created_at": "2026-10-08T21:30:41.720Z",
-  "updated_at": "2026-11-03T11:31:57.183Z",
+  "updated_at": "2026-11-03T12:23:12.097Z",
   "status": "published",
   "search": {
     "query": "Промпт для сюрреалистичного food still life",
@@ -46,11 +46,14 @@
     "metricool_post_id": "391655299",
     "provider_status": "PUBLISHED",
     "detailedStatus": "Published",
-    "checked_at": "2026-11-03T11:31:57.183Z",
+    "checked_at": "2026-11-03T12:23:12.097Z",
     "metricool_uuid": "3818659787370482398",
     "provider_error": null,
     "pinterest_url": "https://www.pinterest.es/pin/1152851204654573926",
-    "detailed_status": "Published"
+    "detailed_status": "Published",
+    "provider_media_urls": [
+      "https://static.metricool.com/planner/202610/6880455-file-11390919251972107796.png"
+    ]
   },
   "validation": {
     "passed": true,
