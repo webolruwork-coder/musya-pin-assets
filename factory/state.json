@@ -548,7 +548,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-04T16:11:40.677Z",
+    "checked_at": "2026-11-04T17:12:11.814Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -573,14 +573,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T161140Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T161140Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T171211Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T171211Z-result.json",
     "queue_manifests_scanned": 257,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 157,
-      "needs_review": 53,
+      "queued": 156,
+      "needs_review": 54,
       "published": 45,
       "scheduled": 2
     },
@@ -619,13 +619,13 @@
     "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID; preserve text/media/pinterestData, omit unrelated network fields and save returned ID. Never create a replacement.",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "bc1dc783ea460bc50623752fccbb54261c49f6e8",
-      "origin_main_checked": "bc1dc783ea460bc50623752fccbb54261c49f6e8",
+      "head_before": "8caf2fd8513113571761b08d9c175e0bd9822a13",
+      "origin_main_checked": "8caf2fd8513113571761b08d9c175e0bd9822a13",
       "strategy": "Publisher-only field updates on HEAD via isolated index; preserve pre-existing staged and unstaged changes; no force push."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-04T16:11:40.677Z",
+    "checked_at": "2026-11-04T17:12:11.814Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -650,14 +650,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T161140Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T161140Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T171211Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T171211Z-result.json",
     "queue_manifests_scanned": 257,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 157,
-      "needs_review": 53,
+      "queued": 156,
+      "needs_review": 54,
       "published": 45,
       "scheduled": 2
     },
@@ -696,13 +696,13 @@
     "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID; preserve text/media/pinterestData, omit unrelated network fields and save returned ID. Never create a replacement.",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "bc1dc783ea460bc50623752fccbb54261c49f6e8",
-      "origin_main_checked": "bc1dc783ea460bc50623752fccbb54261c49f6e8",
+      "head_before": "8caf2fd8513113571761b08d9c175e0bd9822a13",
+      "origin_main_checked": "8caf2fd8513113571761b08d9c175e0bd9822a13",
       "strategy": "Publisher-only field updates on HEAD via isolated index; preserve pre-existing staged and unstaged changes; no force push."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-04T16:11:40.677Z",
+    "checked_at": "2026-11-04T17:12:11.814Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -727,14 +727,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T161140Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T161140Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T171211Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T171211Z-result.json",
     "queue_manifests_scanned": 257,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 157,
-      "needs_review": 53,
+      "queued": 156,
+      "needs_review": 54,
       "published": 45,
       "scheduled": 2
     },
@@ -773,8 +773,8 @@
     "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID; preserve text/media/pinterestData, omit unrelated network fields and save returned ID. Never create a replacement.",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "bc1dc783ea460bc50623752fccbb54261c49f6e8",
-      "origin_main_checked": "bc1dc783ea460bc50623752fccbb54261c49f6e8",
+      "head_before": "8caf2fd8513113571761b08d9c175e0bd9822a13",
+      "origin_main_checked": "8caf2fd8513113571761b08d9c175e0bd9822a13",
       "strategy": "Publisher-only field updates on HEAD via isolated index; preserve pre-existing staged and unstaged changes; no force push."
     }
   }
