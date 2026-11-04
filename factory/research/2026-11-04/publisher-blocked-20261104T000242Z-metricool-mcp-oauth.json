@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-04T00:02:42.165109+00:00",
+  "date_moscow": "2026-11-04",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_oauth_metadata_unavailable",
+  "decision": "No publication or rescheduling: Metricool MCP startup failed during OAuth metadata discovery. Current Pinterest connection, provider statuses, duplicates and Moscow-day count could not be verified. This does not establish that Pinterest is disconnected.",
+  "mcp_error": "MCP startup failed: failed to resolve OAuth metadata before using stored credentials: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "error_confirmed": null,
+    "remaining": null,
+    "history_complete": false,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-04/publisher-blocked-20261104T000242Z-metricool-mcp-oauth.json",
+  "queue_manifests_scanned": 242,
+  "today_manifest_count": 15,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 146,
+    "needs_review": 49,
+    "published": 45,
+    "scheduled": 2
+  },
+  "last_verified_snapshot": {
+    "checked_at": "2026-11-03T21:16:12.741Z",
+    "evidence": "factory/research/2026-11-04/publisher-final-0013.json",
+    "pinterest_connected": true,
+    "daily": {
+      "limit": 15,
+      "published_confirmed": 0,
+      "pending_confirmed": 2,
+      "error_confirmed": 0,
+      "remaining": 13,
+      "history_complete": true,
+      "history_note": "Broad fresh planner: 47 posts (45 PUBLISHED, 2 PENDING), all locally known IDs covered. Exact Moscow-day query confirms only these two PENDING posts; no pagination/truncation markers.",
+      "publishable_now": 0
+    },
+    "stale": true
+  },
+  "scheduled_posts_requiring_verification": [
+    {
+      "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "metricool_post_id": "415802065",
+      "metricool_uuid": "-2732908720757584197",
+      "scheduled_at": "2026-11-04T02:30:00+03:00",
+      "last_known_provider_status": "PENDING",
+      "last_verified_at": "2026-11-03T21:16:12.741Z"
+    },
+    {
+      "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "415805249",
+      "metricool_uuid": "-6148691217174344003",
+      "scheduled_at": "2026-11-04T04:00:00+03:00",
+      "last_known_provider_status": "PENDING",
+      "last_verified_at": "2026-11-03T21:16:12.741Z"
+    }
+  ],
+  "error_recovery": "Re-read Metricool after access restoration. Recover eligible ERROR posts only via updateScheduledPost with existing ID and UUID; persist returned ID. Do not create replacement posts.",
+  "git": {
+    "checkout": "natashakorchagina/pinterest-automation",
+    "head_before": "e78f0b28f8cb1e4f2bcbb6497aed14ebe231c486",
+    "origin_main_before": "e78f0b28f8cb1e4f2bcbb6497aed14ebe231c486",
+    "strategy": "Commit only this run audit and publisher attempt/health fields using a separate index. Preserve pre-existing working tree and staged changes."
+  }
+}
