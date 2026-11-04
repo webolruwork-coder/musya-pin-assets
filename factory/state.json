@@ -548,13 +548,13 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-04T13:39:35.404Z",
+    "checked_at": "2026-11-04T15:12:00.620Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "No new approved ready pins in current-day or overdue queue. Both existing posts have Metricool account-limit errors. Preserve IDs/UUIDs and defer updates until the account limit is resolved.",
+    "decision": "No approved ready unscheduled pins in the current-day or overdue queue. Both existing ERROR posts report the Metricool account limit. Preserve IDs/UUIDs and defer updates until the account limit is resolved.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -562,7 +562,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh September 1–December 1 planner contains all 47 known posts (45 PUBLISHED, 2 ERROR), no pagination markers; exact Moscow-day query contains only the two ERROR posts.",
+      "history_note": "Fresh September 1–December 1 planner returns all 47 known posts (45 PUBLISHED, 2 ERROR), no pagination markers; exact Moscow-day query contains only the two ERROR posts.",
       "publishable_now": 0
     },
     "actions": {
@@ -573,15 +573,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T133935Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T133935Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T151200Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T151200Z-result.json",
     "queue_manifests_scanned": 257,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 161,
-      "needs_review": 49,
       "published": 45,
+      "needs_review": 52,
+      "queued": 158,
       "scheduled": 2
     },
     "error_posts": [
@@ -616,22 +616,22 @@
         ]
       }
     ],
-    "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID, preserve text/media/pinterestData, omit unrelated network fields and save returned ID; never create a replacement.",
+    "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID; preserve text/media/pinterestData, omit unrelated network fields and save returned ID. Never create a replacement.",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "fbf41d52ec241be3a8a71ebc27c989a69bef98be",
-      "origin_main_checked": "fbf41d52ec241be3a8a71ebc27c989a69bef98be",
+      "head_before": "e6e9af638600155b07706a97b3eb0cac92defcb0",
+      "origin_main_checked": "e6e9af638600155b07706a97b3eb0cac92defcb0",
       "strategy": "Publisher-only field updates on HEAD via isolated index; preserve pre-existing staged and unstaged changes; no force push."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-04T13:39:35.404Z",
+    "checked_at": "2026-11-04T15:12:00.620Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "No new approved ready pins in current-day or overdue queue. Both existing posts have Metricool account-limit errors. Preserve IDs/UUIDs and defer updates until the account limit is resolved.",
+    "decision": "No approved ready unscheduled pins in the current-day or overdue queue. Both existing ERROR posts report the Metricool account limit. Preserve IDs/UUIDs and defer updates until the account limit is resolved.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -639,7 +639,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh September 1–December 1 planner contains all 47 known posts (45 PUBLISHED, 2 ERROR), no pagination markers; exact Moscow-day query contains only the two ERROR posts.",
+      "history_note": "Fresh September 1–December 1 planner returns all 47 known posts (45 PUBLISHED, 2 ERROR), no pagination markers; exact Moscow-day query contains only the two ERROR posts.",
       "publishable_now": 0
     },
     "actions": {
@@ -650,15 +650,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T133935Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T133935Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T151200Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T151200Z-result.json",
     "queue_manifests_scanned": 257,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 161,
-      "needs_review": 49,
       "published": 45,
+      "needs_review": 52,
+      "queued": 158,
       "scheduled": 2
     },
     "error_posts": [
@@ -693,22 +693,22 @@
         ]
       }
     ],
-    "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID, preserve text/media/pinterestData, omit unrelated network fields and save returned ID; never create a replacement.",
+    "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID; preserve text/media/pinterestData, omit unrelated network fields and save returned ID. Never create a replacement.",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "fbf41d52ec241be3a8a71ebc27c989a69bef98be",
-      "origin_main_checked": "fbf41d52ec241be3a8a71ebc27c989a69bef98be",
+      "head_before": "e6e9af638600155b07706a97b3eb0cac92defcb0",
+      "origin_main_checked": "e6e9af638600155b07706a97b3eb0cac92defcb0",
       "strategy": "Publisher-only field updates on HEAD via isolated index; preserve pre-existing staged and unstaged changes; no force push."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-04T13:39:35.404Z",
+    "checked_at": "2026-11-04T15:12:00.620Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "No new approved ready pins in current-day or overdue queue. Both existing posts have Metricool account-limit errors. Preserve IDs/UUIDs and defer updates until the account limit is resolved.",
+    "decision": "No approved ready unscheduled pins in the current-day or overdue queue. Both existing ERROR posts report the Metricool account limit. Preserve IDs/UUIDs and defer updates until the account limit is resolved.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -716,7 +716,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh September 1–December 1 planner contains all 47 known posts (45 PUBLISHED, 2 ERROR), no pagination markers; exact Moscow-day query contains only the two ERROR posts.",
+      "history_note": "Fresh September 1–December 1 planner returns all 47 known posts (45 PUBLISHED, 2 ERROR), no pagination markers; exact Moscow-day query contains only the two ERROR posts.",
       "publishable_now": 0
     },
     "actions": {
@@ -727,15 +727,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T133935Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T133935Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T151200Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T151200Z-result.json",
     "queue_manifests_scanned": 257,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 161,
-      "needs_review": 49,
       "published": 45,
+      "needs_review": 52,
+      "queued": 158,
       "scheduled": 2
     },
     "error_posts": [
@@ -770,11 +770,11 @@
         ]
       }
     ],
-    "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID, preserve text/media/pinterestData, omit unrelated network fields and save returned ID; never create a replacement.",
+    "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID; preserve text/media/pinterestData, omit unrelated network fields and save returned ID. Never create a replacement.",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "fbf41d52ec241be3a8a71ebc27c989a69bef98be",
-      "origin_main_checked": "fbf41d52ec241be3a8a71ebc27c989a69bef98be",
+      "head_before": "e6e9af638600155b07706a97b3eb0cac92defcb0",
+      "origin_main_checked": "e6e9af638600155b07706a97b3eb0cac92defcb0",
       "strategy": "Publisher-only field updates on HEAD via isolated index; preserve pre-existing staged and unstaged changes; no force push."
     }
   }
