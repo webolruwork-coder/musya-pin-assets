@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T00:12:08.904Z",
+  "updated_at": "2026-11-04T01:11:57.800Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -548,21 +548,21 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-04T00:12:08.904Z",
+    "checked_at": "2026-11-04T01:11:57.800Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "No new approved ready pins in current-day or overdue queue. ERROR 415802065 was already recovered today via updateScheduledPost but failed again at 02:30 with Metricool account limit. Preserve ID/UUID; defer another update until the account limit is resolved. Existing PENDING 415805249 remains at 04:00.",
+    "decision": "No new approved ready pins in current-day or overdue queue. Both existing posts failed with Metricool account limit. Preserve IDs/UUIDs; defer updates until the account limit is resolved.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
-      "pending_confirmed": 1,
-      "error_confirmed": 1,
-      "remaining": 14,
+      "pending_confirmed": 0,
+      "error_confirmed": 2,
+      "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh September 1–November 5 planner returns all 47 known posts (45 PUBLISHED, 1 ERROR, 1 PENDING), with no pagination markers. Exact Moscow-day query returns 1 ERROR and 1 PENDING.",
+      "history_note": "Fresh September 1–December 1 planner returns all 47 known posts (45 PUBLISHED, 2 ERROR), with no pagination markers. Exact Moscow-day query confirms 2 ERROR and no published/pending posts.",
       "publishable_now": 0
     },
     "actions": {
@@ -573,8 +573,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T001208Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T001208Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T011157Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T011157Z-result.json",
     "queue_manifests_scanned": 242,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -586,7 +586,7 @@
     },
     "error_posts": [
       {
-        "id": "415802065",
+        "id": 415802065,
         "uuid": "-2732908720757584197",
         "publicationDate": {
           "dateTime": "2026-11-04T02:30:00",
@@ -599,32 +599,47 @@
             "detailedStatus": "You have reached your Metricool account limit."
           }
         ]
+      },
+      {
+        "id": 415805249,
+        "uuid": "-6148691217174344003",
+        "publicationDate": {
+          "dateTime": "2026-11-04T04:00:00",
+          "timezone": "Europe/Moscow"
+        },
+        "providers": [
+          {
+            "network": "pinterest",
+            "status": "ERROR",
+            "detailedStatus": "You have reached your Metricool account limit."
+          }
+        ]
       }
     ],
-    "error_recovery": "No reconnection recovery is pending: Pinterest is connected. The already recovered ERROR post hit an account limit again. After resolution re-read Metricool, use updateScheduledPost with its then-current ID and UUID, retain content/media/pinterestData and save returned ID; never create a replacement.",
+    "error_recovery": "Pinterest is connected; current errors are account-limit failures, not disconnection. After limit resolution re-read Metricool and updateScheduledPost using current ID/UUID; retain content, media and pinterestData, omit unrelated network fields, save returned ID, never create a replacement.",
     "git": {
       "checkout": "natashakorchagina/pinterest-automation",
-      "head_before": "3c5062fffd8d6e6012faab42603ee91fb7f57821",
-      "origin_main_checked": "3c5062fffd8d6e6012faab42603ee91fb7f57821",
-      "strategy": "Separate index containing only fresh provider fields, publisher report and review status block; preserve all pre-existing working-tree and staged changes."
+      "head_before": "87862c2313fb2044eb6923b7d28ca95363a92bbe",
+      "origin_main_checked": "87862c2313fb2044eb6923b7d28ca95363a92bbe",
+      "strategy": "Separate index with publisher-only field changes applied to HEAD; preserve existing worktree and staged changes."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-04T00:12:08.904Z",
+    "checked_at": "2026-11-04T01:11:57.800Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "No new approved ready pins in current-day or overdue queue. ERROR 415802065 was already recovered today via updateScheduledPost but failed again at 02:30 with Metricool account limit. Preserve ID/UUID; defer another update until the account limit is resolved. Existing PENDING 415805249 remains at 04:00.",
+    "decision": "No new approved ready pins in current-day or overdue queue. Both existing posts failed with Metricool account limit. Preserve IDs/UUIDs; defer updates until the account limit is resolved.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
-      "pending_confirmed": 1,
-      "error_confirmed": 1,
-      "remaining": 14,
+      "pending_confirmed": 0,
+      "error_confirmed": 2,
+      "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh September 1–November 5 planner returns all 47 known posts (45 PUBLISHED, 1 ERROR, 1 PENDING), with no pagination markers. Exact Moscow-day query returns 1 ERROR and 1 PENDING.",
+      "history_note": "Fresh September 1–December 1 planner returns all 47 known posts (45 PUBLISHED, 2 ERROR), with no pagination markers. Exact Moscow-day query confirms 2 ERROR and no published/pending posts.",
       "publishable_now": 0
     },
     "actions": {
@@ -635,8 +650,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T001208Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T001208Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T011157Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T011157Z-result.json",
     "queue_manifests_scanned": 242,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -648,7 +663,7 @@
     },
     "error_posts": [
       {
-        "id": "415802065",
+        "id": 415802065,
         "uuid": "-2732908720757584197",
         "publicationDate": {
           "dateTime": "2026-11-04T02:30:00",
@@ -661,32 +676,47 @@
             "detailedStatus": "You have reached your Metricool account limit."
           }
         ]
+      },
+      {
+        "id": 415805249,
+        "uuid": "-6148691217174344003",
+        "publicationDate": {
+          "dateTime": "2026-11-04T04:00:00",
+          "timezone": "Europe/Moscow"
+        },
+        "providers": [
+          {
+            "network": "pinterest",
+            "status": "ERROR",
+            "detailedStatus": "You have reached your Metricool account limit."
+          }
+        ]
       }
     ],
-    "error_recovery": "No reconnection recovery is pending: Pinterest is connected. The already recovered ERROR post hit an account limit again. After resolution re-read Metricool, use updateScheduledPost with its then-current ID and UUID, retain content/media/pinterestData and save returned ID; never create a replacement.",
+    "error_recovery": "Pinterest is connected; current errors are account-limit failures, not disconnection. After limit resolution re-read Metricool and updateScheduledPost using current ID/UUID; retain content, media and pinterestData, omit unrelated network fields, save returned ID, never create a replacement.",
     "git": {
       "checkout": "natashakorchagina/pinterest-automation",
-      "head_before": "3c5062fffd8d6e6012faab42603ee91fb7f57821",
-      "origin_main_checked": "3c5062fffd8d6e6012faab42603ee91fb7f57821",
-      "strategy": "Separate index containing only fresh provider fields, publisher report and review status block; preserve all pre-existing working-tree and staged changes."
+      "head_before": "87862c2313fb2044eb6923b7d28ca95363a92bbe",
+      "origin_main_checked": "87862c2313fb2044eb6923b7d28ca95363a92bbe",
+      "strategy": "Separate index with publisher-only field changes applied to HEAD; preserve existing worktree and staged changes."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-04T00:12:08.904Z",
+    "checked_at": "2026-11-04T01:11:57.800Z",
     "date_moscow": "2026-11-04",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "No new approved ready pins in current-day or overdue queue. ERROR 415802065 was already recovered today via updateScheduledPost but failed again at 02:30 with Metricool account limit. Preserve ID/UUID; defer another update until the account limit is resolved. Existing PENDING 415805249 remains at 04:00.",
+    "decision": "No new approved ready pins in current-day or overdue queue. Both existing posts failed with Metricool account limit. Preserve IDs/UUIDs; defer updates until the account limit is resolved.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
-      "pending_confirmed": 1,
-      "error_confirmed": 1,
-      "remaining": 14,
+      "pending_confirmed": 0,
+      "error_confirmed": 2,
+      "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh September 1–November 5 planner returns all 47 known posts (45 PUBLISHED, 1 ERROR, 1 PENDING), with no pagination markers. Exact Moscow-day query returns 1 ERROR and 1 PENDING.",
+      "history_note": "Fresh September 1–December 1 planner returns all 47 known posts (45 PUBLISHED, 2 ERROR), with no pagination markers. Exact Moscow-day query confirms 2 ERROR and no published/pending posts.",
       "publishable_now": 0
     },
     "actions": {
@@ -697,8 +727,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-04/publisher-check-20261104T001208Z-metricool.json",
-    "result": "factory/research/2026-11-04/publisher-check-20261104T001208Z-result.json",
+    "evidence": "factory/research/2026-11-04/publisher-check-20261104T011157Z-metricool.json",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T011157Z-result.json",
     "queue_manifests_scanned": 242,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -710,7 +740,7 @@
     },
     "error_posts": [
       {
-        "id": "415802065",
+        "id": 415802065,
         "uuid": "-2732908720757584197",
         "publicationDate": {
           "dateTime": "2026-11-04T02:30:00",
@@ -723,14 +753,29 @@
             "detailedStatus": "You have reached your Metricool account limit."
           }
         ]
+      },
+      {
+        "id": 415805249,
+        "uuid": "-6148691217174344003",
+        "publicationDate": {
+          "dateTime": "2026-11-04T04:00:00",
+          "timezone": "Europe/Moscow"
+        },
+        "providers": [
+          {
+            "network": "pinterest",
+            "status": "ERROR",
+            "detailedStatus": "You have reached your Metricool account limit."
+          }
+        ]
       }
     ],
-    "error_recovery": "No reconnection recovery is pending: Pinterest is connected. The already recovered ERROR post hit an account limit again. After resolution re-read Metricool, use updateScheduledPost with its then-current ID and UUID, retain content/media/pinterestData and save returned ID; never create a replacement.",
+    "error_recovery": "Pinterest is connected; current errors are account-limit failures, not disconnection. After limit resolution re-read Metricool and updateScheduledPost using current ID/UUID; retain content, media and pinterestData, omit unrelated network fields, save returned ID, never create a replacement.",
     "git": {
       "checkout": "natashakorchagina/pinterest-automation",
-      "head_before": "3c5062fffd8d6e6012faab42603ee91fb7f57821",
-      "origin_main_checked": "3c5062fffd8d6e6012faab42603ee91fb7f57821",
-      "strategy": "Separate index containing only fresh provider fields, publisher report and review status block; preserve all pre-existing working-tree and staged changes."
+      "head_before": "87862c2313fb2044eb6923b7d28ca95363a92bbe",
+      "origin_main_checked": "87862c2313fb2044eb6923b7d28ca95363a92bbe",
+      "strategy": "Separate index with publisher-only field changes applied to HEAD; preserve existing worktree and staged changes."
     }
   }
 }
