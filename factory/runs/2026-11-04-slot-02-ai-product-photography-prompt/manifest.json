@@ -48,11 +48,12 @@
     "provider_status": "PENDING",
     "detailedStatus": "Pending",
     "detailed_status": "Pending",
-    "checked_at": "2026-11-03T21:16:12.741Z",
+    "checked_at": "2026-11-04T00:12:08.904Z",
     "provider_media_urls": [
       "https://static.metricool.com/planner/202611/6880455-file-9208351632448418766.png"
     ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-6148691217174344003"
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-6148691217174344003",
+    "provider_error": null
   },
   "validation": {
     "passed": true,
