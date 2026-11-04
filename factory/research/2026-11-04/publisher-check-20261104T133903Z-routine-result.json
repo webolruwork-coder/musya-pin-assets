@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-11-04T13:39:03.341Z",
+  "date_moscow": "2026-11-04",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "blocked_reason": "metricool_account_limit",
+  "decision": "No newly ready approved manifests, including overdue queue. Both existing ERROR posts report Metricool account limit. Preserve IDs/UUIDs pending resolution; no create or update calls made.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 0,
+    "error_confirmed": 2,
+    "remaining": 15,
+    "history_complete": true
+  },
+  "queue_manifests_scanned": 257,
+  "today_manifest_count": 15,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 161,
+    "needs_review": 49,
+    "published": 45,
+    "scheduled": 2
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-04/publisher-check-20261104T133903Z-routine-metricool.json",
+  "concurrency": {
+    "observed_head": "8add0273ccd4d61aeecaba9a36ef50a96181cf5f",
+    "newer_checked_at": "2026-11-04T13:39:35.404Z",
+    "decision": "A concurrent publisher run already reconciled all matching manifests, state and review using fresher equivalent data. Preserve these updates; commit only this run's separate evidence and result."
+  },
+  "error_posts": [
+    {
+      "id": 415802065,
+      "uuid": "-2732908720757584197",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    },
+    {
+      "id": 415805249,
+      "uuid": "-6148691217174344003",
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    }
+  ],
+  "error_recovery": "After account-limit resolution reread Metricool and updateScheduledPost using current ID and UUID, preserving text, media and pinterestData; omit unrelated network fields and store the returned ID."
+}
