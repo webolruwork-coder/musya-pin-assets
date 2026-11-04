@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-11-04T10:31:11.317Z",
+  "date_moscow": "2026-11-04",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "blocked_reason": "metricool_account_limit",
+  "decision": "No new approved ready pins, including overdue queue. Existing ERROR posts retain ID/UUID; retry via updateScheduledPost after account-limit resolution.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 0,
+    "error_confirmed": 2,
+    "remaining": 15,
+    "history_complete": true,
+    "history_note": "47 posts returned across September 1–December 1, covering all local post IDs; exact Moscow-day query returns only two ERROR posts.",
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "queue_manifests_scanned": 257,
+  "today_manifest_count": 15,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 161,
+    "needs_review": 49,
+    "published": 45,
+    "scheduled": 2
+  },
+  "history_status_counts": {
+    "PUBLISHED": 45,
+    "ERROR": 2
+  },
+  "error_posts": [
+    {
+      "id": 415802065,
+      "uuid": "-2732908720757584197",
+      "publicationDate": {
+        "dateTime": "2026-11-04T02:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    },
+    {
+      "id": 415805249,
+      "uuid": "-6148691217174344003",
+      "publicationDate": {
+        "dateTime": "2026-11-04T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    }
+  ],
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-04/publisher-check-20261104T103111Z-metricool.json",
+  "concurrent_update": {
+    "checked_at": "2026-11-04T10:38:25.490Z",
+    "result": "factory/research/2026-11-04/publisher-check-20261104T103825Z-routine-result.json",
+    "handling": "A concurrent run already saved newer matching provider statuses to all 47 manifests, state and review. Verified these fields, preserved them; this commit includes only this run's separate evidence and report."
+  }
+}
