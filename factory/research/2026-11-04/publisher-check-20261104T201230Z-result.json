@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-04T20:12:30.214373+00:00",
+  "date_moscow": "2026-11-04",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "blocked_reason": "metricool_account_limit",
+  "decision": "No approved ready unscheduled pins in the current-day or overdue queue. Both existing ERROR posts report the Metricool account limit. Preserve IDs/UUIDs and defer updates until the account limit is resolved.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 0,
+    "error_confirmed": 2,
+    "remaining": 15,
+    "history_complete": true,
+    "history_note": "Fresh September 1–December 31 planner returns all 47 known posts (45 PUBLISHED, 2 ERROR), with no pagination markers; exact Moscow-day query contains only two ERROR posts.",
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "confirmed_published": 45,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-04/publisher-check-20261104T201230Z-metricool.json",
+  "result": "factory/research/2026-11-04/publisher-check-20261104T201230Z-result.json",
+  "queue_manifests_scanned": 257,
+  "today_manifest_count": 15,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 155,
+    "needs_review": 55,
+    "published": 45,
+    "scheduled": 2
+  },
+  "error_posts": [
+    {
+      "id": 415802065,
+      "uuid": "-2732908720757584197",
+      "publicationDate": {
+        "dateTime": "2026-11-04T02:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    },
+    {
+      "id": 415805249,
+      "uuid": "-6148691217174344003",
+      "publicationDate": {
+        "dateTime": "2026-11-04T04:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    }
+  ],
+  "error_recovery": "After account-limit resolution re-read Metricool and use updateScheduledPost with current ID/UUID; preserve text/media/pinterestData, omit unrelated network fields and save returned ID. Never create a replacement.",
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "dd28c46ee16a2f4e69714b629e0696515aae50af",
+    "origin_main_checked": "dd28c46ee16a2f4e69714b629e0696515aae50af",
+    "strategy": "Publisher-only field updates on HEAD via isolated index; preserve pre-existing staged and unstaged changes; no force push."
+  }
+}
