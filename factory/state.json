@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T17:12:18.765Z",
+  "updated_at": "2026-11-05T18:12:31.026Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -548,7 +548,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-05T17:12:18.765Z",
+    "checked_at": "2026-11-05T18:12:31.026Z",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -573,14 +573,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-check-20261105T171218Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-check-20261105T171218Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T181231Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T181231Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 167,
-      "needs_review": 58,
+      "queued": 166,
+      "needs_review": 59,
       "published": 45,
       "scheduled": 2
     },
@@ -631,13 +631,13 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "5618d7a4194f143d5f2e7448520fbfa04ecd81a0",
-      "origin_main_checked": "5618d7a4194f143d5f2e7448520fbfa04ecd81a0",
+      "head_before": "eac875c3cd774ad46669183bcb1121faefeeb479",
+      "origin_main_checked": "eac875c3cd774ad46669183bcb1121faefeeb479",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-05T17:12:18.765Z",
+    "checked_at": "2026-11-05T18:12:31.026Z",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -662,14 +662,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-check-20261105T171218Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-check-20261105T171218Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T181231Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T181231Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 167,
-      "needs_review": 58,
+      "queued": 166,
+      "needs_review": 59,
       "published": 45,
       "scheduled": 2
     },
@@ -720,13 +720,13 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "5618d7a4194f143d5f2e7448520fbfa04ecd81a0",
-      "origin_main_checked": "5618d7a4194f143d5f2e7448520fbfa04ecd81a0",
+      "head_before": "eac875c3cd774ad46669183bcb1121faefeeb479",
+      "origin_main_checked": "eac875c3cd774ad46669183bcb1121faefeeb479",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-05T17:12:18.765Z",
+    "checked_at": "2026-11-05T18:12:31.026Z",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -751,14 +751,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-check-20261105T171218Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-check-20261105T171218Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T181231Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T181231Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 167,
-      "needs_review": 58,
+      "queued": 166,
+      "needs_review": 59,
       "published": 45,
       "scheduled": 2
     },
@@ -809,8 +809,8 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "5618d7a4194f143d5f2e7448520fbfa04ecd81a0",
-      "origin_main_checked": "5618d7a4194f143d5f2e7448520fbfa04ecd81a0",
+      "head_before": "eac875c3cd774ad46669183bcb1121faefeeb479",
+      "origin_main_checked": "eac875c3cd774ad46669183bcb1121faefeeb479",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   }
