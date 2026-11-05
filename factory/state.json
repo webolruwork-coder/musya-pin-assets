@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T18:12:31.026Z",
+  "updated_at": "2026-11-05T19:12:09.547207+00:00",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -548,7 +548,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-05T18:12:31.026Z",
+    "checked_at": "2026-11-05T19:12:09.547207+00:00",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -562,7 +562,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "September and October-November planner responses reconcile all 47 known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day planner contains only the two ERROR posts. Daily analytics returns zero; analytics can lag.",
+      "history_note": "Planner responses from account creation in September through December reconcile all 47 known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day planner contains only the two ERROR posts. Daily analytics returns zero; analytics can lag.",
       "publishable_now": 0
     },
     "actions": {
@@ -573,8 +573,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-check-20261105T181231Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-check-20261105T181231Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T191209Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T191209Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -629,15 +629,19 @@
       "reason": "Both updateScheduledPost recoveries earlier today failed again with account limit. Resume through updateScheduledPost using these existing IDs and UUIDs after quota restoration; never create replacements.",
       "previous_recovery_evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json"
     },
+    "review": {
+      "regenerated": true,
+      "changed": false
+    },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "eac875c3cd774ad46669183bcb1121faefeeb479",
-      "origin_main_checked": "eac875c3cd774ad46669183bcb1121faefeeb479",
+      "head_before": "a7ffe3fee01de357f07aa2120af99398b965b631",
+      "origin_main_checked": "a7ffe3fee01de357f07aa2120af99398b965b631",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-05T18:12:31.026Z",
+    "checked_at": "2026-11-05T19:12:09.547207+00:00",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -651,7 +655,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "September and October-November planner responses reconcile all 47 known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day planner contains only the two ERROR posts. Daily analytics returns zero; analytics can lag.",
+      "history_note": "Planner responses from account creation in September through December reconcile all 47 known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day planner contains only the two ERROR posts. Daily analytics returns zero; analytics can lag.",
       "publishable_now": 0
     },
     "actions": {
@@ -662,8 +666,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-check-20261105T181231Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-check-20261105T181231Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T191209Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T191209Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -718,15 +722,19 @@
       "reason": "Both updateScheduledPost recoveries earlier today failed again with account limit. Resume through updateScheduledPost using these existing IDs and UUIDs after quota restoration; never create replacements.",
       "previous_recovery_evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json"
     },
+    "review": {
+      "regenerated": true,
+      "changed": false
+    },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "eac875c3cd774ad46669183bcb1121faefeeb479",
-      "origin_main_checked": "eac875c3cd774ad46669183bcb1121faefeeb479",
+      "head_before": "a7ffe3fee01de357f07aa2120af99398b965b631",
+      "origin_main_checked": "a7ffe3fee01de357f07aa2120af99398b965b631",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-05T18:12:31.026Z",
+    "checked_at": "2026-11-05T19:12:09.547207+00:00",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -740,7 +748,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "September and October-November planner responses reconcile all 47 known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day planner contains only the two ERROR posts. Daily analytics returns zero; analytics can lag.",
+      "history_note": "Planner responses from account creation in September through December reconcile all 47 known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day planner contains only the two ERROR posts. Daily analytics returns zero; analytics can lag.",
       "publishable_now": 0
     },
     "actions": {
@@ -751,8 +759,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-check-20261105T181231Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-check-20261105T181231Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T191209Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T191209Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -807,10 +815,14 @@
       "reason": "Both updateScheduledPost recoveries earlier today failed again with account limit. Resume through updateScheduledPost using these existing IDs and UUIDs after quota restoration; never create replacements.",
       "previous_recovery_evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json"
     },
+    "review": {
+      "regenerated": true,
+      "changed": false
+    },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "eac875c3cd774ad46669183bcb1121faefeeb479",
-      "origin_main_checked": "eac875c3cd774ad46669183bcb1121faefeeb479",
+      "head_before": "a7ffe3fee01de357f07aa2120af99398b965b631",
+      "origin_main_checked": "a7ffe3fee01de357f07aa2120af99398b965b631",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   }
