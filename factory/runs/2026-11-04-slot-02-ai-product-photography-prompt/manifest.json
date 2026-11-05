@@ -42,18 +42,17 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-11-04T04:00:00+03:00",
-    "metricool_post_id": "415805249",
+    "scheduled_at": "2026-11-05T19:00:00+03:00",
+    "metricool_post_id": "417750973",
     "metricool_uuid": "-6148691217174344003",
-    "provider_status": "ERROR",
-    "detailedStatus": "You have reached your Metricool account limit.",
-    "detailed_status": "You have reached your Metricool account limit.",
-    "checked_at": "2026-11-05T13:39:07.736737+00:00",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-11-05T13:42:09.907390+00:00",
     "provider_media_urls": [
       "https://static.metricool.com/planner/202611/6880455-file-9208351632448418766.png"
     ],
-    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-6148691217174344003",
-    "provider_error": "You have reached your Metricool account limit."
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-6148691217174344003"
   },
   "validation": {
     "passed": true,
@@ -82,8 +81,17 @@
   "production": {
     "target_date": "2026-11-04",
     "slot_index": 2,
-    "planned_at_local": "2026-11-04T04:00:00",
-    "pillar": "Предметная съёмка"
+    "planned_at_local": "2026-11-05T19:00:00",
+    "pillar": "Предметная съёмка",
+    "original_planned_at_local": "2026-11-04T04:00:00",
+    "reschedule_history": [
+      {
+        "at": "2026-11-05T13:42:09.907390+00:00",
+        "from": "2026-11-04T04:00:00",
+        "to": "2026-11-05T19:00:00",
+        "reason": "Connected Pinterest and verified day capacity; updateScheduledPost recovered ERROR, old ID 415805249, new ID 417750973, UUID preserved."
+      }
+    ]
   },
   "research_evidence": {
     "source": "Pinterest public global search",
