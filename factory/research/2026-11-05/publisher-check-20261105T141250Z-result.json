@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-11-05T14:12:50.344Z",
+  "date_moscow": "2026-11-05",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "blocked_reason": null,
+  "decision": "No additional approved ready pins today or in overdue queue. Existing two recovered posts remain PENDING at 17:30 and 19:00 Moscow. No create/update calls needed; publication is not yet confirmed.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 2,
+    "error_confirmed": 0,
+    "remaining": 13,
+    "history_complete": true,
+    "history_note": "Broad planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), without pagination markers. Exact Moscow day contains only two PENDING posts. PIEV02 returns 0 published pins; analytics may lag.",
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "confirmed_published": 45,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-05/publisher-check-20261105T141250Z-metricool.json",
+  "result": "factory/research/2026-11-05/publisher-check-20261105T141250Z-result.json",
+  "queue_manifests_scanned": 272,
+  "today_manifest_count": 15,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 169,
+    "needs_review": 56,
+    "published": 45,
+    "scheduled": 2
+  },
+  "error_posts": [],
+  "pending_posts": [
+    {
+      "id": 417750878,
+      "uuid": "-2732908720757584197",
+      "publicationDate": {
+        "dateTime": "2026-11-05T17:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    },
+    {
+      "id": 417750973,
+      "uuid": "-6148691217174344003",
+      "publicationDate": {
+        "dateTime": "2026-11-05T19:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    }
+  ],
+  "duplicate_check": {
+    "id": [],
+    "uuid": [],
+    "title": [],
+    "media_url": [],
+    "run_id": []
+  },
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "82427444c96a08c8a32ecf1177c2700ce7e320b4",
+    "origin_main_checked": "82427444c96a08c8a32ecf1177c2700ce7e320b4",
+    "strategy": "Isolated index, HEAD-based projections of publisher-only changes; unrelated working-tree and staged changes preserved; no checkout switch or force push."
+  }
+}

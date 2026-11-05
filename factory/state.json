@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T13:39:07.736737+00:00",
+  "updated_at": "2026-11-05T14:12:50.344Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -548,13 +548,13 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-05T13:42:09.907390+00:00",
+    "checked_at": "2026-11-05T14:12:50.344Z",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": null,
-    "decision": "Two approved overdue ERROR posts recovered via updateScheduledPost and verified PENDING at 17:30 and 19:00 Moscow; returned IDs persisted, UUIDs unchanged. No additional approved ready unscheduled pins. Previous account-limit errors are historical; actual publication remains unconfirmed.",
+    "decision": "No additional approved ready pins today or in overdue queue. Existing two recovered posts remain PENDING at 17:30 and 19:00 Moscow. No create/update calls needed; publication is not yet confirmed.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -562,19 +562,19 @@
       "error_confirmed": 0,
       "remaining": 13,
       "history_complete": true,
-      "history_note": "Sep 1–Dec 31 planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), no pagination markers. Exact Moscow-day planner contains the two recovered posts. Fresh PIEV02 before recovery reports zero published pins; analytics may lag.",
+      "history_note": "Broad planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), without pagination markers. Exact Moscow day contains only two PENDING posts. PIEV02 returns 0 published pins; analytics may lag.",
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
-      "rescheduled": 2,
+      "rescheduled": 0,
       "confirmed_published": 45,
       "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 2
+      "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T141250Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T141250Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -585,10 +585,8 @@
       "scheduled": 2
     },
     "error_posts": [],
-    "recovered_posts": [
+    "pending_posts": [
       {
-        "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
-        "old_id": 415802065,
         "id": 417750878,
         "uuid": "-2732908720757584197",
         "publicationDate": {
@@ -604,8 +602,6 @@
         ]
       },
       {
-        "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
-        "old_id": 415805249,
         "id": 417750973,
         "uuid": "-6148691217174344003",
         "publicationDate": {
@@ -630,19 +626,19 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "6ffe7df46d0c13a5c16edd18fabcb23be9744881",
-      "origin_main_checked": "6ffe7df46d0c13a5c16edd18fabcb23be9744881",
-      "strategy": "Publisher-only projections on latest HEAD with isolated index; preserve unrelated staged and worktree edits; no checkout switch or force push."
+      "head_before": "82427444c96a08c8a32ecf1177c2700ce7e320b4",
+      "origin_main_checked": "82427444c96a08c8a32ecf1177c2700ce7e320b4",
+      "strategy": "Isolated index, HEAD-based projections of publisher-only changes; unrelated working-tree and staged changes preserved; no checkout switch or force push."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-05T13:42:09.907390+00:00",
+    "checked_at": "2026-11-05T14:12:50.344Z",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": null,
-    "decision": "Two approved overdue ERROR posts recovered via updateScheduledPost and verified PENDING at 17:30 and 19:00 Moscow; returned IDs persisted, UUIDs unchanged. No additional approved ready unscheduled pins. Previous account-limit errors are historical; actual publication remains unconfirmed.",
+    "decision": "No additional approved ready pins today or in overdue queue. Existing two recovered posts remain PENDING at 17:30 and 19:00 Moscow. No create/update calls needed; publication is not yet confirmed.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -650,19 +646,19 @@
       "error_confirmed": 0,
       "remaining": 13,
       "history_complete": true,
-      "history_note": "Sep 1–Dec 31 planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), no pagination markers. Exact Moscow-day planner contains the two recovered posts. Fresh PIEV02 before recovery reports zero published pins; analytics may lag.",
+      "history_note": "Broad planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), without pagination markers. Exact Moscow day contains only two PENDING posts. PIEV02 returns 0 published pins; analytics may lag.",
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
-      "rescheduled": 2,
+      "rescheduled": 0,
       "confirmed_published": 45,
       "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 2
+      "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T141250Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T141250Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -673,10 +669,8 @@
       "scheduled": 2
     },
     "error_posts": [],
-    "recovered_posts": [
+    "pending_posts": [
       {
-        "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
-        "old_id": 415802065,
         "id": 417750878,
         "uuid": "-2732908720757584197",
         "publicationDate": {
@@ -692,8 +686,6 @@
         ]
       },
       {
-        "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
-        "old_id": 415805249,
         "id": 417750973,
         "uuid": "-6148691217174344003",
         "publicationDate": {
@@ -718,19 +710,19 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "6ffe7df46d0c13a5c16edd18fabcb23be9744881",
-      "origin_main_checked": "6ffe7df46d0c13a5c16edd18fabcb23be9744881",
-      "strategy": "Publisher-only projections on latest HEAD with isolated index; preserve unrelated staged and worktree edits; no checkout switch or force push."
+      "head_before": "82427444c96a08c8a32ecf1177c2700ce7e320b4",
+      "origin_main_checked": "82427444c96a08c8a32ecf1177c2700ce7e320b4",
+      "strategy": "Isolated index, HEAD-based projections of publisher-only changes; unrelated working-tree and staged changes preserved; no checkout switch or force push."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-05T13:42:09.907390+00:00",
+    "checked_at": "2026-11-05T14:12:50.344Z",
     "date_moscow": "2026-11-05",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": null,
-    "decision": "Two approved overdue ERROR posts recovered via updateScheduledPost and verified PENDING at 17:30 and 19:00 Moscow; returned IDs persisted, UUIDs unchanged. No additional approved ready unscheduled pins. Previous account-limit errors are historical; actual publication remains unconfirmed.",
+    "decision": "No additional approved ready pins today or in overdue queue. Existing two recovered posts remain PENDING at 17:30 and 19:00 Moscow. No create/update calls needed; publication is not yet confirmed.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -738,19 +730,19 @@
       "error_confirmed": 0,
       "remaining": 13,
       "history_complete": true,
-      "history_note": "Sep 1–Dec 31 planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), no pagination markers. Exact Moscow-day planner contains the two recovered posts. Fresh PIEV02 before recovery reports zero published pins; analytics may lag.",
+      "history_note": "Broad planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), without pagination markers. Exact Moscow day contains only two PENDING posts. PIEV02 returns 0 published pins; analytics may lag.",
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
-      "rescheduled": 2,
+      "rescheduled": 0,
       "confirmed_published": 45,
       "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 2
+      "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-metricool.json",
-    "result": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json",
+    "evidence": "factory/research/2026-11-05/publisher-check-20261105T141250Z-metricool.json",
+    "result": "factory/research/2026-11-05/publisher-check-20261105T141250Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -761,10 +753,8 @@
       "scheduled": 2
     },
     "error_posts": [],
-    "recovered_posts": [
+    "pending_posts": [
       {
-        "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
-        "old_id": 415802065,
         "id": 417750878,
         "uuid": "-2732908720757584197",
         "publicationDate": {
@@ -780,8 +770,6 @@
         ]
       },
       {
-        "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
-        "old_id": 415805249,
         "id": 417750973,
         "uuid": "-6148691217174344003",
         "publicationDate": {
@@ -806,9 +794,9 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "6ffe7df46d0c13a5c16edd18fabcb23be9744881",
-      "origin_main_checked": "6ffe7df46d0c13a5c16edd18fabcb23be9744881",
-      "strategy": "Publisher-only projections on latest HEAD with isolated index; preserve unrelated staged and worktree edits; no checkout switch or force push."
+      "head_before": "82427444c96a08c8a32ecf1177c2700ce7e320b4",
+      "origin_main_checked": "82427444c96a08c8a32ecf1177c2700ce7e320b4",
+      "strategy": "Isolated index, HEAD-based projections of publisher-only changes; unrelated working-tree and staged changes preserved; no checkout switch or force push."
     }
   }
 }
