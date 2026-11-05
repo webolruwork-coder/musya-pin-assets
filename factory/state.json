@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T22:11:31.922Z",
+  "updated_at": "2026-11-05T23:11:53.838Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -548,13 +548,13 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-05T22:11:31.922Z",
+    "checked_at": "2026-11-05T23:11:53.838Z",
     "date_moscow": "2026-11-06",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. The two previously recovered posts failed again with the Metricool account limit. No evidence of restored quota; retain current IDs and UUIDs and defer another retry. No approved ready unscheduled pins in current or overdue queue.",
+    "decision": "Pinterest connected. Both posts recovered on November 5 have failed again with the Metricool account limit. No evidence of restored quota; retain current IDs and UUIDs and defer another retry. No approved ready unscheduled pins in current or overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -562,7 +562,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh history returns all 47 locally known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
+      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
       "publishable_now": 0
     },
     "actions": {
@@ -573,8 +573,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-06/publisher-check-20261105T221131Z-metricool.json",
-    "result": "factory/research/2026-11-06/publisher-check-20261105T221131Z-result.json",
+    "evidence": "factory/research/2026-11-06/publisher-check-20261105T231153Z-metricool.json",
+    "result": "factory/research/2026-11-06/publisher-check-20261105T231153Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -626,7 +626,7 @@
     },
     "recovery": {
       "retry_deferred": true,
-      "reason": "Two prior updateScheduledPost recoveries on November 5 failed again with account limit. Resume using current IDs and UUIDs after quota restoration; do not create replacements.",
+      "reason": "Both updateScheduledPost recoveries on November 5 failed again with account limit. Resume through updateScheduledPost using these existing IDs and UUIDs after quota restoration; never create replacements.",
       "previous_recovery_evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json"
     },
     "review": {
@@ -635,19 +635,19 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "bdb960a71e6cbe3a7444da249504b1bc27b5184d",
-      "origin_main_checked": "bdb960a71e6cbe3a7444da249504b1bc27b5184d",
-      "strategy": "Only this run changes projected on HEAD using isolated index; unrelated staged and worktree edits preserved; no checkout switch or force push."
+      "head_before": "e95ae3ac22a149435547f28d17a961c832fb3e0f",
+      "origin_main_checked": "e95ae3ac22a149435547f28d17a961c832fb3e0f",
+      "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-05T22:11:31.922Z",
+    "checked_at": "2026-11-05T23:11:53.838Z",
     "date_moscow": "2026-11-06",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. The two previously recovered posts failed again with the Metricool account limit. No evidence of restored quota; retain current IDs and UUIDs and defer another retry. No approved ready unscheduled pins in current or overdue queue.",
+    "decision": "Pinterest connected. Both posts recovered on November 5 have failed again with the Metricool account limit. No evidence of restored quota; retain current IDs and UUIDs and defer another retry. No approved ready unscheduled pins in current or overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -655,7 +655,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh history returns all 47 locally known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
+      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
       "publishable_now": 0
     },
     "actions": {
@@ -666,8 +666,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-06/publisher-check-20261105T221131Z-metricool.json",
-    "result": "factory/research/2026-11-06/publisher-check-20261105T221131Z-result.json",
+    "evidence": "factory/research/2026-11-06/publisher-check-20261105T231153Z-metricool.json",
+    "result": "factory/research/2026-11-06/publisher-check-20261105T231153Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -719,7 +719,7 @@
     },
     "recovery": {
       "retry_deferred": true,
-      "reason": "Two prior updateScheduledPost recoveries on November 5 failed again with account limit. Resume using current IDs and UUIDs after quota restoration; do not create replacements.",
+      "reason": "Both updateScheduledPost recoveries on November 5 failed again with account limit. Resume through updateScheduledPost using these existing IDs and UUIDs after quota restoration; never create replacements.",
       "previous_recovery_evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json"
     },
     "review": {
@@ -728,19 +728,19 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "bdb960a71e6cbe3a7444da249504b1bc27b5184d",
-      "origin_main_checked": "bdb960a71e6cbe3a7444da249504b1bc27b5184d",
-      "strategy": "Only this run changes projected on HEAD using isolated index; unrelated staged and worktree edits preserved; no checkout switch or force push."
+      "head_before": "e95ae3ac22a149435547f28d17a961c832fb3e0f",
+      "origin_main_checked": "e95ae3ac22a149435547f28d17a961c832fb3e0f",
+      "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-05T22:11:31.922Z",
+    "checked_at": "2026-11-05T23:11:53.838Z",
     "date_moscow": "2026-11-06",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. The two previously recovered posts failed again with the Metricool account limit. No evidence of restored quota; retain current IDs and UUIDs and defer another retry. No approved ready unscheduled pins in current or overdue queue.",
+    "decision": "Pinterest connected. Both posts recovered on November 5 have failed again with the Metricool account limit. No evidence of restored quota; retain current IDs and UUIDs and defer another retry. No approved ready unscheduled pins in current or overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -748,7 +748,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh history returns all 47 locally known posts: 45 PUBLISHED and 2 ERROR, without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
+      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
       "publishable_now": 0
     },
     "actions": {
@@ -759,8 +759,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-06/publisher-check-20261105T221131Z-metricool.json",
-    "result": "factory/research/2026-11-06/publisher-check-20261105T221131Z-result.json",
+    "evidence": "factory/research/2026-11-06/publisher-check-20261105T231153Z-metricool.json",
+    "result": "factory/research/2026-11-06/publisher-check-20261105T231153Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -812,7 +812,7 @@
     },
     "recovery": {
       "retry_deferred": true,
-      "reason": "Two prior updateScheduledPost recoveries on November 5 failed again with account limit. Resume using current IDs and UUIDs after quota restoration; do not create replacements.",
+      "reason": "Both updateScheduledPost recoveries on November 5 failed again with account limit. Resume through updateScheduledPost using these existing IDs and UUIDs after quota restoration; never create replacements.",
       "previous_recovery_evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json"
     },
     "review": {
@@ -821,9 +821,9 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "bdb960a71e6cbe3a7444da249504b1bc27b5184d",
-      "origin_main_checked": "bdb960a71e6cbe3a7444da249504b1bc27b5184d",
-      "strategy": "Only this run changes projected on HEAD using isolated index; unrelated staged and worktree edits preserved; no checkout switch or force push."
+      "head_before": "e95ae3ac22a149435547f28d17a961c832fb3e0f",
+      "origin_main_checked": "e95ae3ac22a149435547f28d17a961c832fb3e0f",
+      "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   }
 }
