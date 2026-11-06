@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T01:11:47.846Z",
+  "updated_at": "2026-11-06T02:11:47.166Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -548,7 +548,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-06T01:11:47.846Z",
+    "checked_at": "2026-11-06T02:11:47.166Z",
     "date_moscow": "2026-11-06",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -562,7 +562,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
+      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. Both ERROR posts belong to November 5.",
       "publishable_now": 0
     },
     "actions": {
@@ -573,8 +573,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-06/publisher-check-20261106T011147Z-metricool.json",
-    "result": "factory/research/2026-11-06/publisher-check-20261106T011147Z-result.json",
+    "evidence": "factory/research/2026-11-06/publisher-check-20261106T021147Z-metricool.json",
+    "result": "factory/research/2026-11-06/publisher-check-20261106T021147Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -635,13 +635,13 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "426a4e99ca74d111b5ae962196a909147e467112",
-      "origin_main_checked": "426a4e99ca74d111b5ae962196a909147e467112",
+      "head_before": "f3f80a7111194a2c911ec19abcda54741fd66016",
+      "origin_main_checked": "f3f80a7111194a2c911ec19abcda54741fd66016",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-06T01:11:47.846Z",
+    "checked_at": "2026-11-06T02:11:47.166Z",
     "date_moscow": "2026-11-06",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -655,7 +655,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
+      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. Both ERROR posts belong to November 5.",
       "publishable_now": 0
     },
     "actions": {
@@ -666,8 +666,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-06/publisher-check-20261106T011147Z-metricool.json",
-    "result": "factory/research/2026-11-06/publisher-check-20261106T011147Z-result.json",
+    "evidence": "factory/research/2026-11-06/publisher-check-20261106T021147Z-metricool.json",
+    "result": "factory/research/2026-11-06/publisher-check-20261106T021147Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -728,13 +728,13 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "426a4e99ca74d111b5ae962196a909147e467112",
-      "origin_main_checked": "426a4e99ca74d111b5ae962196a909147e467112",
+      "head_before": "f3f80a7111194a2c911ec19abcda54741fd66016",
+      "origin_main_checked": "f3f80a7111194a2c911ec19abcda54741fd66016",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-06T01:11:47.846Z",
+    "checked_at": "2026-11-06T02:11:47.166Z",
     "date_moscow": "2026-11-06",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -748,7 +748,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. PIEV02 returns 0; analytics can lag. Both ERROR posts belong to November 5.",
+      "history_note": "Fresh planner query from September account creation through December returns all 47 known posts (45 PUBLISHED, 2 ERROR) without pagination markers. Exact Moscow-day query is empty. Both ERROR posts belong to November 5.",
       "publishable_now": 0
     },
     "actions": {
@@ -759,8 +759,8 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-06/publisher-check-20261106T011147Z-metricool.json",
-    "result": "factory/research/2026-11-06/publisher-check-20261106T011147Z-result.json",
+    "evidence": "factory/research/2026-11-06/publisher-check-20261106T021147Z-metricool.json",
+    "result": "factory/research/2026-11-06/publisher-check-20261106T021147Z-result.json",
     "queue_manifests_scanned": 272,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
@@ -821,8 +821,8 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "426a4e99ca74d111b5ae962196a909147e467112",
-      "origin_main_checked": "426a4e99ca74d111b5ae962196a909147e467112",
+      "head_before": "f3f80a7111194a2c911ec19abcda54741fd66016",
+      "origin_main_checked": "f3f80a7111194a2c911ec19abcda54741fd66016",
       "strategy": "Publisher-only projections on HEAD with isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push."
     }
   }
