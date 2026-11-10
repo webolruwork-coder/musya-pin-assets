@@ -2,7 +2,7 @@
   "version": 1,
   "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
   "created_at": "2026-10-24T07:41:09.171Z",
-  "updated_at": "2026-11-03T21:16:12.741Z",
+  "updated_at": "2026-11-10T09:25:19.257979+00:00",
   "status": "scheduled",
   "search": {
     "query": "beauty cosmetic photography prompt",
@@ -45,18 +45,18 @@
     "timezone": "Europe/Moscow",
     "board": "Промпты для нейросетей",
     "target_url": "https://musya.app/image-generation",
-    "scheduled_at": "2026-11-05T17:30:00+03:00",
-    "metricool_post_id": "417750878",
+    "scheduled_at": "2026-11-10T13:00:00+03:00",
+    "metricool_post_id": "422900181",
     "metricool_uuid": "-2732908720757584197",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-2732908720757584197",
-    "provider_status": "ERROR",
-    "detailedStatus": "You have reached your Metricool account limit.",
-    "detailed_status": "You have reached your Metricool account limit.",
-    "checked_at": "2026-11-10T09:21:30.665Z",
+    "provider_status": "PENDING",
+    "detailedStatus": "Pending",
+    "detailed_status": "Pending",
+    "checked_at": "2026-11-10T09:25:19.257979+00:00",
     "provider_media_urls": [
       "https://static.metricool.com/planner/202611/6880455-file-10901130648615773047.png"
     ],
-    "provider_error": "You have reached your Metricool account limit."
+    "provider_error": null
   },
   "validation": {
     "passed": true,
@@ -85,7 +85,7 @@
   "production": {
     "target_date": "2026-10-25",
     "slot_index": 6,
-    "planned_at_local": "2026-11-05T17:30:00",
+    "planned_at_local": "2026-11-10T13:00:00",
     "pillar": "Beauty",
     "original_planned_at_local": "2026-10-25T10:00:00",
     "reschedule_history": [
@@ -106,6 +106,12 @@
         "from": "2026-11-04T02:30:00",
         "to": "2026-11-05T17:30:00",
         "reason": "Connected Pinterest and verified day capacity; updateScheduledPost recovered ERROR, old ID 415802065, new ID 417750878, UUID preserved."
+      },
+      {
+        "at": "2026-11-10T09:23:15.713824+00:00",
+        "from": "2026-11-05T17:30:00",
+        "to": "2026-11-10T13:00:00",
+        "reason": "Verified connected Pinterest and daily capacity; updateScheduledPost from ID 417750878 to 422900181, UUID preserved."
       }
     ]
   },
@@ -246,6 +252,11 @@
       "status": "scheduled",
       "at": "2026-11-03T21:12:46.592Z",
       "note": "Metricool updateScheduledPost: 414536325 -> 415802065; UUID preserved; PENDING"
+    },
+    {
+      "status": "scheduled",
+      "at": "2026-11-10T09:25:19.257979+00:00",
+      "note": "Recovered via Metricool updateScheduledPost: 417750878 -> 422900181; UUID unchanged; verified PENDING for 2026-11-10T13:00:00 Europe/Moscow."
     }
   ],
   "generation": {

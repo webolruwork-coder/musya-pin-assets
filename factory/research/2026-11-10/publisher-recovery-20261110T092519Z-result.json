@@ -1,0 +1,92 @@
+{
+  "checked_at": "2026-11-10T09:25:19.257979+00:00",
+  "date_moscow": "2026-11-10",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "blocked_reason": null,
+  "decision": "Recovered two approved overdue ERROR posts through updateScheduledPost and verified PENDING for 13:00 and 14:30 Moscow. Returned new IDs persisted; UUIDs, text, media and Pinterest data unchanged. Prior account-limit errors were historical; successful scheduling does not confirm publication or delivery quota. No other approved ready pins.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 2,
+    "error_confirmed": 0,
+    "remaining": 13,
+    "history_complete": true,
+    "history_note": "Fresh Sep 1-Dec 31 planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), no pagination markers. Exact Moscow-day planner has the same two PENDING posts.",
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 2,
+    "confirmed_published": 45,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 2
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-10/publisher-recovery-20261110T092519Z-metricool.json",
+  "result": "factory/research/2026-11-10/publisher-recovery-20261110T092519Z-result.json",
+  "queue_manifests_scanned": 302,
+  "today_manifest_count": 0,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "published": 45,
+    "needs_review": 61,
+    "queued": 194,
+    "scheduled": 2
+  },
+  "error_posts": [],
+  "recovered_posts": [
+    {
+      "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "old_id": 417750878,
+      "id": 422900181,
+      "uuid": "-2732908720757584197",
+      "publicationDate": {
+        "dateTime": "2026-11-10T13:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+      "old_id": 417750973,
+      "id": 422900240,
+      "uuid": "-6148691217174344003",
+      "publicationDate": {
+        "dateTime": "2026-11-10T14:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    }
+  ],
+  "duplicate_check": {
+    "id": [],
+    "uuid": [],
+    "title": [],
+    "media_url": [],
+    "run_id": []
+  },
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "f3e7e79bf8f828b75b76d24ad97d64a7c564d348",
+    "origin_main_checked": "f3e7e79bf8f828b75b76d24ad97d64a7c564d348",
+    "strategy": "Publisher-only field projections on latest HEAD with isolated index. Preserve unrelated staged/worktree edits, no checkout switch or force push."
+  },
+  "review": {
+    "regenerated": true,
+    "projection": "Committed review generated from HEAD manifests plus publisher changes only."
+  }
+}

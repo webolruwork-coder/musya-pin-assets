@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T09:24:08.285Z",
+  "updated_at": "2026-11-10T09:25:19.257979+00:00",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -534,43 +534,61 @@
       "id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
       "manifest": "factory/runs/2026-10-25-slot-06-beauty-cosmetic-photography-prompt/manifest.json",
       "status": "scheduled",
-      "scheduled_at": "2026-11-05T17:30:00+03:00",
-      "metricool_post_id": "417750878",
-      "updated_at": "2026-11-05T13:42:09.907390+00:00"
+      "scheduled_at": "2026-11-10T13:00:00+03:00",
+      "metricool_post_id": "422900181",
+      "updated_at": "2026-11-10T09:25:19.257979+00:00"
     },
     {
       "id": "2026-11-04-slot-02-ai-product-photography-prompt",
       "manifest": "factory/runs/2026-11-04-slot-02-ai-product-photography-prompt/manifest.json",
       "status": "scheduled",
-      "scheduled_at": "2026-11-05T19:00:00+03:00",
-      "metricool_post_id": "417750973",
-      "updated_at": "2026-11-05T13:42:09.907390+00:00"
+      "scheduled_at": "2026-11-10T14:30:00+03:00",
+      "metricool_post_id": "422900240",
+      "updated_at": "2026-11-10T09:25:19.257979+00:00"
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-10T09:24:08.285Z",
+    "checked_at": "2026-11-10T09:25:19.257979+00:00",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": null,
-    "decision": "Concurrent publisher recovered the two ERROR posts during this run. Fresh Metricool planner confirms PENDING at 13:00 and 14:30 Moscow, replacement IDs and unchanged UUIDs. This verification run performed no Metricool writes. No additional approved ready unscheduled pins.",
+    "decision": "Recovered two approved overdue ERROR posts through updateScheduledPost and verified PENDING for 13:00 and 14:30 Moscow. Returned new IDs persisted; UUIDs, text, media and Pinterest data unchanged. Prior account-limit errors were historical; successful scheduling does not confirm publication or delivery quota. No other approved ready pins.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
       "pending_confirmed": 2,
+      "error_confirmed": 0,
       "remaining": 13,
       "history_complete": true,
+      "history_note": "Fresh Sep 1-Dec 31 planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), no pagination markers. Exact Moscow-day planner has the same two PENDING posts.",
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
-      "rescheduled": 0,
+      "rescheduled": 2,
+      "confirmed_published": 45,
       "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 0
+      "backlog_slots_reassigned": 2
     },
-    "observed_concurrent_recoveries": [
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-11-10/publisher-recovery-20261110T092519Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-recovery-20261110T092519Z-result.json",
+    "queue_manifests_scanned": 302,
+    "today_manifest_count": 0,
+    "ready_unscheduled_candidates": [],
+    "local_status_counts": {
+      "published": 45,
+      "needs_review": 61,
+      "queued": 194,
+      "scheduled": 2
+    },
+    "error_posts": [],
+    "recovered_posts": [
       {
+        "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+        "old_id": 417750878,
         "id": 422900181,
         "uuid": "-2732908720757584197",
         "publicationDate": {
@@ -586,6 +604,8 @@
         ]
       },
       {
+        "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+        "old_id": 417750973,
         "id": 422900240,
         "uuid": "-6148691217174344003",
         "publicationDate": {
@@ -601,45 +621,66 @@
         ]
       }
     ],
-    "target_url": "https://musya.app/image-generation",
-    "today_manifest_count": 0,
-    "ready_unscheduled_candidates": [],
-    "evidence": "factory/research/2026-11-10/publisher-verification-20261110T0924-live.json",
-    "recovery": {
-      "status": "PENDING confirmed; publication not yet confirmed",
-      "quota_restoration_verified": false,
-      "note": "PENDING confirms scheduling, not delivery or quota restoration."
+    "duplicate_check": {
+      "id": [],
+      "uuid": [],
+      "title": [],
+      "media_url": [],
+      "run_id": []
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "e18a98a95c6a6d3dd8a59af07287f320bfeee0ac",
-      "strategy": "Isolated index with publisher-only field deltas; retain unrelated index and working tree changes."
+      "head_before": "f3e7e79bf8f828b75b76d24ad97d64a7c564d348",
+      "origin_main_checked": "f3e7e79bf8f828b75b76d24ad97d64a7c564d348",
+      "strategy": "Publisher-only field projections on latest HEAD with isolated index. Preserve unrelated staged/worktree edits, no checkout switch or force push."
+    },
+    "review": {
+      "regenerated": true,
+      "projection": "Committed review generated from HEAD manifests plus publisher changes only."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-10T09:24:08.285Z",
+    "checked_at": "2026-11-10T09:25:19.257979+00:00",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": null,
-    "decision": "Concurrent publisher recovered the two ERROR posts during this run. Fresh Metricool planner confirms PENDING at 13:00 and 14:30 Moscow, replacement IDs and unchanged UUIDs. This verification run performed no Metricool writes. No additional approved ready unscheduled pins.",
+    "decision": "Recovered two approved overdue ERROR posts through updateScheduledPost and verified PENDING for 13:00 and 14:30 Moscow. Returned new IDs persisted; UUIDs, text, media and Pinterest data unchanged. Prior account-limit errors were historical; successful scheduling does not confirm publication or delivery quota. No other approved ready pins.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
       "pending_confirmed": 2,
+      "error_confirmed": 0,
       "remaining": 13,
       "history_complete": true,
+      "history_note": "Fresh Sep 1-Dec 31 planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), no pagination markers. Exact Moscow-day planner has the same two PENDING posts.",
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
-      "rescheduled": 0,
+      "rescheduled": 2,
+      "confirmed_published": 45,
       "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 0
+      "backlog_slots_reassigned": 2
     },
-    "observed_concurrent_recoveries": [
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-11-10/publisher-recovery-20261110T092519Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-recovery-20261110T092519Z-result.json",
+    "queue_manifests_scanned": 302,
+    "today_manifest_count": 0,
+    "ready_unscheduled_candidates": [],
+    "local_status_counts": {
+      "published": 45,
+      "needs_review": 61,
+      "queued": 194,
+      "scheduled": 2
+    },
+    "error_posts": [],
+    "recovered_posts": [
       {
+        "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+        "old_id": 417750878,
         "id": 422900181,
         "uuid": "-2732908720757584197",
         "publicationDate": {
@@ -655,6 +696,8 @@
         ]
       },
       {
+        "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+        "old_id": 417750973,
         "id": 422900240,
         "uuid": "-6148691217174344003",
         "publicationDate": {
@@ -670,45 +713,66 @@
         ]
       }
     ],
-    "target_url": "https://musya.app/image-generation",
-    "today_manifest_count": 0,
-    "ready_unscheduled_candidates": [],
-    "evidence": "factory/research/2026-11-10/publisher-verification-20261110T0924-live.json",
-    "recovery": {
-      "status": "PENDING confirmed; publication not yet confirmed",
-      "quota_restoration_verified": false,
-      "note": "PENDING confirms scheduling, not delivery or quota restoration."
+    "duplicate_check": {
+      "id": [],
+      "uuid": [],
+      "title": [],
+      "media_url": [],
+      "run_id": []
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "e18a98a95c6a6d3dd8a59af07287f320bfeee0ac",
-      "strategy": "Isolated index with publisher-only field deltas; retain unrelated index and working tree changes."
+      "head_before": "f3e7e79bf8f828b75b76d24ad97d64a7c564d348",
+      "origin_main_checked": "f3e7e79bf8f828b75b76d24ad97d64a7c564d348",
+      "strategy": "Publisher-only field projections on latest HEAD with isolated index. Preserve unrelated staged/worktree edits, no checkout switch or force push."
+    },
+    "review": {
+      "regenerated": true,
+      "projection": "Committed review generated from HEAD manifests plus publisher changes only."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-10T09:24:08.285Z",
+    "checked_at": "2026-11-10T09:25:19.257979+00:00",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": null,
-    "decision": "Concurrent publisher recovered the two ERROR posts during this run. Fresh Metricool planner confirms PENDING at 13:00 and 14:30 Moscow, replacement IDs and unchanged UUIDs. This verification run performed no Metricool writes. No additional approved ready unscheduled pins.",
+    "decision": "Recovered two approved overdue ERROR posts through updateScheduledPost and verified PENDING for 13:00 and 14:30 Moscow. Returned new IDs persisted; UUIDs, text, media and Pinterest data unchanged. Prior account-limit errors were historical; successful scheduling does not confirm publication or delivery quota. No other approved ready pins.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
       "pending_confirmed": 2,
+      "error_confirmed": 0,
       "remaining": 13,
       "history_complete": true,
+      "history_note": "Fresh Sep 1-Dec 31 planner reconciles all 47 known posts (45 PUBLISHED, 2 PENDING), no pagination markers. Exact Moscow-day planner has the same two PENDING posts.",
       "publishable_now": 0
     },
     "actions": {
       "created": 0,
-      "rescheduled": 0,
+      "rescheduled": 2,
+      "confirmed_published": 45,
       "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 0
+      "backlog_slots_reassigned": 2
     },
-    "observed_concurrent_recoveries": [
+    "target_url": "https://musya.app/image-generation",
+    "evidence": "factory/research/2026-11-10/publisher-recovery-20261110T092519Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-recovery-20261110T092519Z-result.json",
+    "queue_manifests_scanned": 302,
+    "today_manifest_count": 0,
+    "ready_unscheduled_candidates": [],
+    "local_status_counts": {
+      "published": 45,
+      "needs_review": 61,
+      "queued": 194,
+      "scheduled": 2
+    },
+    "error_posts": [],
+    "recovered_posts": [
       {
+        "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+        "old_id": 417750878,
         "id": 422900181,
         "uuid": "-2732908720757584197",
         "publicationDate": {
@@ -724,6 +788,8 @@
         ]
       },
       {
+        "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+        "old_id": 417750973,
         "id": 422900240,
         "uuid": "-6148691217174344003",
         "publicationDate": {
@@ -739,19 +805,22 @@
         ]
       }
     ],
-    "target_url": "https://musya.app/image-generation",
-    "today_manifest_count": 0,
-    "ready_unscheduled_candidates": [],
-    "evidence": "factory/research/2026-11-10/publisher-verification-20261110T0924-live.json",
-    "recovery": {
-      "status": "PENDING confirmed; publication not yet confirmed",
-      "quota_restoration_verified": false,
-      "note": "PENDING confirms scheduling, not delivery or quota restoration."
+    "duplicate_check": {
+      "id": [],
+      "uuid": [],
+      "title": [],
+      "media_url": [],
+      "run_id": []
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "e18a98a95c6a6d3dd8a59af07287f320bfeee0ac",
-      "strategy": "Isolated index with publisher-only field deltas; retain unrelated index and working tree changes."
+      "head_before": "f3e7e79bf8f828b75b76d24ad97d64a7c564d348",
+      "origin_main_checked": "f3e7e79bf8f828b75b76d24ad97d64a7c564d348",
+      "strategy": "Publisher-only field projections on latest HEAD with isolated index. Preserve unrelated staged/worktree edits, no checkout switch or force push."
+    },
+    "review": {
+      "regenerated": true,
+      "projection": "Committed review generated from HEAD manifests plus publisher changes only."
     }
   }
 }
