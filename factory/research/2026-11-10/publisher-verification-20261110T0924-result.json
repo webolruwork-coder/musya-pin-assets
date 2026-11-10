@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-10T09:24:08.285Z",
+  "date_moscow": "2026-11-10",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "blocked_reason": null,
+  "decision": "Concurrent publisher recovered the two ERROR posts during this run. Fresh Metricool planner confirms PENDING at 13:00 and 14:30 Moscow, replacement IDs and unchanged UUIDs. This verification run performed no Metricool writes. No additional approved ready unscheduled pins.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 2,
+    "remaining": 13,
+    "history_complete": true,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "observed_concurrent_recoveries": [
+    {
+      "id": 422900181,
+      "uuid": "-2732908720757584197",
+      "publicationDate": {
+        "dateTime": "2026-11-10T13:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    },
+    {
+      "id": 422900240,
+      "uuid": "-6148691217174344003",
+      "publicationDate": {
+        "dateTime": "2026-11-10T14:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    }
+  ],
+  "target_url": "https://musya.app/image-generation",
+  "today_manifest_count": 0,
+  "ready_unscheduled_candidates": [],
+  "evidence": "factory/research/2026-11-10/publisher-verification-20261110T0924-live.json",
+  "recovery": {
+    "status": "PENDING confirmed; publication not yet confirmed",
+    "quota_restoration_verified": false,
+    "note": "PENDING confirms scheduling, not delivery or quota restoration."
+  },
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "e18a98a95c6a6d3dd8a59af07287f320bfeee0ac",
+    "strategy": "Isolated index with publisher-only field deltas; retain unrelated index and working tree changes."
+  }
+}
