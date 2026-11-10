@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T00:17:17.800Z",
+  "updated_at": "2026-11-10T01:11:30.572Z",
   "runs": [
     {
       "id": "2026-09-21-prompt-trends",
@@ -548,13 +548,13 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-10T00:17:17.800Z",
+    "checked_at": "2026-11-10T01:11:30.572Z",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. Two existing ERROR posts still report the Metricool account limit after previous recovery. No evidence of quota restoration; preserve IDs and UUIDs and defer another retry. No approved ready unscheduled pins in current or overdue queue.",
+    "decision": "Pinterest connected. Both existing ERROR posts still report the Metricool account limit after November 5 recovery. No evidence of quota restoration; retain IDs and UUIDs and defer retry. No approved ready unscheduled pins in current or overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -562,7 +562,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh Sep 1-Dec 31 planner returned all 47 locally known posts: 45 PUBLISHED and 2 ERROR, no pagination markers. Exact Moscow-day query is empty; initial transport error resolved by a read-only retry.",
+      "history_note": "Fresh Sep 1-Dec 31 planner contains all 47 locally known posts: 45 PUBLISHED and 2 ERROR, with no pagination markers. Exact Moscow-day query is empty.",
       "publishable_now": 0
     },
     "actions": {
@@ -573,15 +573,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-10/publisher-check-20261110T001717Z-metricool.json",
-    "result": "factory/research/2026-11-10/publisher-check-20261110T001717Z-result.json",
+    "evidence": "factory/research/2026-11-10/publisher-check-20261110T011130Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-check-20261110T011130Z-result.json",
     "queue_manifests_scanned": 287,
     "today_manifest_count": 0,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 60,
       "queued": 180,
+      "needs_review": 60,
+      "published": 45,
       "scheduled": 2
     },
     "error_posts": [
@@ -631,10 +631,9 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "f75aa9f8ae1b5b2611697f939b5007b1f0b57df5",
-      "origin_main_checked": "f75aa9f8ae1b5b2611697f939b5007b1f0b57df5",
-      "strategy": "Commit only this run field deltas using isolated index; preserve unrelated staged and worktree changes, no checkout switch or force push.",
-      "concurrent_commits_preserved": true
+      "head_before": "b44dc02d61843b6e5392f91d9d806af11e19317c",
+      "origin_main_checked": "b44dc02d61843b6e5392f91d9d806af11e19317c",
+      "strategy": "Isolated index and field-only publisher deltas; retain unrelated staged/worktree edits, same checkout, no force push."
     },
     "review": {
       "regenerated": true,
@@ -642,13 +641,13 @@
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-10T00:16:26.796Z",
+    "checked_at": "2026-11-10T01:11:30.572Z",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. Two ERROR posts previously recovered on November 5 still report the Metricool account limit. No evidence of quota restoration; defer another retry and retain IDs/UUIDs. No approved ready unscheduled pins in current or overdue queue.",
+    "decision": "Pinterest connected. Both existing ERROR posts still report the Metricool account limit after November 5 recovery. No evidence of quota restoration; retain IDs and UUIDs and defer retry. No approved ready unscheduled pins in current or overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -656,7 +655,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh Sep 1–Dec 31 planner contains all 47 locally known posts: 45 PUBLISHED, 2 ERROR, no pagination markers. Exact Moscow-day query is empty.",
+      "history_note": "Fresh Sep 1-Dec 31 planner contains all 47 locally known posts: 45 PUBLISHED and 2 ERROR, with no pagination markers. Exact Moscow-day query is empty.",
       "publishable_now": 0
     },
     "actions": {
@@ -667,15 +666,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-10/publisher-check-20261110T001626Z-metricool.json",
-    "result": "factory/research/2026-11-10/publisher-check-20261110T001626Z-result.json",
+    "evidence": "factory/research/2026-11-10/publisher-check-20261110T011130Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-check-20261110T011130Z-result.json",
     "queue_manifests_scanned": 287,
     "today_manifest_count": 0,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 60,
       "queued": 180,
+      "needs_review": 60,
+      "published": 45,
       "scheduled": 2
     },
     "error_posts": [
@@ -720,14 +719,14 @@
     },
     "recovery": {
       "retry_deferred": true,
-      "reason": "Both November 5 recoveries failed again with account limit; use updateScheduledPost with existing IDs and UUIDs after quota restoration, preserving returned replacement IDs.",
+      "reason": "Both November 5 recoveries failed again with account limit; use updateScheduledPost with existing IDs and UUIDs after quota restoration and save replacement IDs returned by Metricool.",
       "previous_recovery_evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json"
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "706922f650b9baac1971df320acffb1748423420",
-      "origin_main_checked": "706922f650b9baac1971df320acffb1748423420",
-      "strategy": "Commit only fresh publisher field deltas on HEAD with isolated index; preserve unrelated staged and worktree changes; no checkout switch or force push."
+      "head_before": "b44dc02d61843b6e5392f91d9d806af11e19317c",
+      "origin_main_checked": "b44dc02d61843b6e5392f91d9d806af11e19317c",
+      "strategy": "Isolated index and field-only publisher deltas; retain unrelated staged/worktree edits, same checkout, no force push."
     },
     "review": {
       "regenerated": true,
@@ -735,13 +734,13 @@
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-10T00:16:26.796Z",
+    "checked_at": "2026-11-10T01:11:30.572Z",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. Two ERROR posts previously recovered on November 5 still report the Metricool account limit. No evidence of quota restoration; defer another retry and retain IDs/UUIDs. No approved ready unscheduled pins in current or overdue queue.",
+    "decision": "Pinterest connected. Both existing ERROR posts still report the Metricool account limit after November 5 recovery. No evidence of quota restoration; retain IDs and UUIDs and defer retry. No approved ready unscheduled pins in current or overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -749,7 +748,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Fresh Sep 1–Dec 31 planner contains all 47 locally known posts: 45 PUBLISHED, 2 ERROR, no pagination markers. Exact Moscow-day query is empty.",
+      "history_note": "Fresh Sep 1-Dec 31 planner contains all 47 locally known posts: 45 PUBLISHED and 2 ERROR, with no pagination markers. Exact Moscow-day query is empty.",
       "publishable_now": 0
     },
     "actions": {
@@ -760,15 +759,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-10/publisher-check-20261110T001626Z-metricool.json",
-    "result": "factory/research/2026-11-10/publisher-check-20261110T001626Z-result.json",
+    "evidence": "factory/research/2026-11-10/publisher-check-20261110T011130Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-check-20261110T011130Z-result.json",
     "queue_manifests_scanned": 287,
     "today_manifest_count": 0,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 60,
       "queued": 180,
+      "needs_review": 60,
+      "published": 45,
       "scheduled": 2
     },
     "error_posts": [
@@ -813,14 +812,14 @@
     },
     "recovery": {
       "retry_deferred": true,
-      "reason": "Both November 5 recoveries failed again with account limit; use updateScheduledPost with existing IDs and UUIDs after quota restoration, preserving returned replacement IDs.",
+      "reason": "Both November 5 recoveries failed again with account limit; use updateScheduledPost with existing IDs and UUIDs after quota restoration and save replacement IDs returned by Metricool.",
       "previous_recovery_evidence": "factory/research/2026-11-05/publisher-recovery-20261105T134209Z-result.json"
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "706922f650b9baac1971df320acffb1748423420",
-      "origin_main_checked": "706922f650b9baac1971df320acffb1748423420",
-      "strategy": "Commit only fresh publisher field deltas on HEAD with isolated index; preserve unrelated staged and worktree changes; no checkout switch or force push."
+      "head_before": "b44dc02d61843b6e5392f91d9d806af11e19317c",
+      "origin_main_checked": "b44dc02d61843b6e5392f91d9d806af11e19317c",
+      "strategy": "Isolated index and field-only publisher deltas; retain unrelated staged/worktree edits, same checkout, no force push."
     },
     "review": {
       "regenerated": true,
