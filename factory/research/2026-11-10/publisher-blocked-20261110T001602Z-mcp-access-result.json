@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-11-10T00:16:02.252311+00:00",
+  "date_moscow": "2026-11-10",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_access_unavailable",
+  "decision": "Fresh getBrandSettings and getScheduledPosts could not be called: no Metricool tools exposed in session; configured MCP credential lookup returned exit 24. Pinterest connection, provider statuses and daily count remain unverified. No publishing or recovery mutations attempted.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null,
+    "history_complete": false,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "queue_manifests_scanned": 287,
+  "today_manifest_count": 0,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 180,
+    "needs_review": 60,
+    "published": 45,
+    "scheduled": 2
+  },
+  "evidence": "factory/research/2026-11-10/publisher-blocked-20261110T001602Z-mcp-access-result.json",
+  "recovery": {
+    "retry_deferred": true,
+    "reason": "Live verification unavailable. Preserve current post IDs and UUIDs; use updateScheduledPost after connection/quota recovery is verified. Historical account-limit errors are not fresh evidence of current quota or connection."
+  },
+  "access_evidence": {
+    "session_metricool_tools": 0,
+    "plugin_discovery_installed": false,
+    "configured_mcp_url": "https://ai.metricool.com/mcp",
+    "credential_lookup_exit_code": 24,
+    "credential_lookup_stderr": "",
+    "getBrandSettings_called": false,
+    "getScheduledPosts_called": false
+  },
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "3c39f13708c4b95df2780a073d7624c2c4a3178c",
+    "origin_main_checked": "3c39f13708c4b95df2780a073d7624c2c4a3178c",
+    "strategy": "Publisher-only state fields on HEAD via isolated index; preserve unrelated staged and worktree changes."
+  },
+  "review": {
+    "regenerated": true,
+    "changed": false
+  }
+}
