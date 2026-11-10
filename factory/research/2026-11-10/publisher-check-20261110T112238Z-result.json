@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-11-10T11:22:38.098Z",
+  "date_moscow": "2026-11-10",
+  "brand_id": "6880455",
+  "pinterest_connected": true,
+  "provider_status_verified": true,
+  "blocked_reason": "metricool_account_limit",
+  "decision": "Pinterest is connected. Existing ERROR is an unresolved Metricool account quota failure after recovery; preserve its ID and UUID without another retry. One post remains PENDING at 14:30 Moscow. No approved ready unscheduled current-day or overdue pins.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 1,
+    "error_confirmed": 1,
+    "remaining": 14,
+    "history_complete": true,
+    "history_note": "Broad planner contains all 47 locally known posts, including 45 PUBLISHED, without pagination markers. Exact Moscow-day query matches the broad response. ERROR is not counted as published or pending.",
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "confirmed_published": 45,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-10/publisher-check-20261110T112238Z-metricool.json",
+  "result": "factory/research/2026-11-10/publisher-check-20261110T112238Z-result.json",
+  "queue_manifests_scanned": 302,
+  "today_manifest_count": 0,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 193,
+    "needs_review": 62,
+    "published": 45,
+    "scheduled": 2
+  },
+  "error_posts": [
+    {
+      "id": 422900181,
+      "uuid": "-2732908720757584197",
+      "publicationDate": {
+        "dateTime": "2026-11-10T13:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ]
+    }
+  ],
+  "pending_posts": [
+    {
+      "id": 422900240,
+      "uuid": "-6148691217174344003",
+      "publicationDate": {
+        "dateTime": "2026-11-10T14:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    }
+  ],
+  "duplicate_check": {
+    "id": [],
+    "uuid": [],
+    "title": [],
+    "media_url": [],
+    "run_id": []
+  },
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "46e96ead99ab69986da6f6436980577358365575",
+    "origin_main_checked": "46e96ead99ab69986da6f6436980577358365575",
+    "strategy": "Commit only publisher field deltas projected onto HEAD using a separate index. Preserve unrelated staged and working changes; no checkout switch or force push."
+  },
+  "review": {
+    "regenerated": true,
+    "projection": "HEAD manifests plus publisher-only field updates."
+  }
+}
