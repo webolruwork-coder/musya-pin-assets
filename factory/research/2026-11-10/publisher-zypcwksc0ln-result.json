@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-10T09:24:04.374Z",
+  "date_moscow": "2026-11-10",
+  "pinterest_connected": true,
+  "daily": {
+    "limit": 15,
+    "published_confirmed": 0,
+    "pending_confirmed": 2,
+    "remaining": 13,
+    "history_complete": true
+  },
+  "global_status_counts": {
+    "PUBLISHED": 45,
+    "PENDING": 2,
+    "ERROR": 0
+  },
+  "local_status_counts": {
+    "queued": 194,
+    "needs_review": 61,
+    "published": 45,
+    "scheduled": 2
+  },
+  "queue_manifests_scanned": 302,
+  "today_manifest_count": 0,
+  "ready_unscheduled_candidates": [],
+  "actions_this_run": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "concurrent_recovery_observed": true,
+  "pending_posts": [
+    {
+      "id": 422900181,
+      "uuid": "-2732908720757584197",
+      "publicationDate": {
+        "dateTime": "2026-11-10T13:00:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    },
+    {
+      "id": 422900240,
+      "uuid": "-6148691217174344003",
+      "publicationDate": {
+        "dateTime": "2026-11-10T14:30:00",
+        "timezone": "Europe/Moscow"
+      },
+      "providers": [
+        {
+          "network": "pinterest",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ]
+    }
+  ],
+  "decision": "Concurrent publisher recovered both ERROR posts during this run. Fresh planner and exact-day rereads confirm both PENDING with preserved UUIDs and replacement IDs; local manifests match. Do not duplicate or reschedule them. No additional approved ready candidates. Historical account-limit error does not establish current quota availability; successful publication remains unconfirmed.",
+  "duplicate_check": "No duplicate post ID, UUID, title or media URL across all 47 planner posts.",
+  "target_url": "https://musya.app/image-generation",
+  "review_regenerated": true,
+  "evidence": "factory/research/2026-11-10/publisher-zypcwksc0ln-final-metricool.json",
+  "git_note": "Concurrent writers present. Commit only this run evidence/report; shared manifests already contain confirmed live provider statuses and were not included."
+}
