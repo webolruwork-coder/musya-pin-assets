@@ -548,13 +548,13 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-10T14:10:53.293Z",
+    "checked_at": "2026-11-10T15:11:35.000Z",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. Both recovered posts remain ERROR: You have reached your Metricool account limit. Keep existing IDs and UUIDs; do not repeat recovery until account quota is resolved. No approved ready unscheduled pins today or in overdue queue.",
+    "decision": "Pinterest connected. Both posts recovered earlier today remain ERROR: You have reached your Metricool account limit. Retain current IDs and UUIDs; defer another retry until quota restoration. No approved ready unscheduled pins today or in the overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -562,7 +562,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Broad planner returned all 47 locally known posts, including 45 PUBLISHED, without pagination markers. Exact Moscow-day query agrees; ERROR is not published or pending.",
+      "history_note": "Broad planner returned all 47 locally known posts, including 45 PUBLISHED, without pagination markers. Exact Moscow-day planner agrees; Pinterest posts analytics returned no rows. ERROR is not published or pending.",
       "publishable_now": 0
     },
     "actions": {
@@ -573,14 +573,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-10/publisher-check-20261110T141053Z-metricool.json",
-    "result": "factory/research/2026-11-10/publisher-check-20261110T141053Z-result.json",
+    "evidence": "factory/research/2026-11-10/publisher-check-20261110T151135Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-check-20261110T151135Z-result.json",
     "queue_manifests_scanned": 302,
     "today_manifest_count": 0,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 190,
-      "needs_review": 65,
+      "queued": 189,
+      "needs_review": 66,
       "published": 45,
       "scheduled": 2
     },
@@ -624,25 +624,29 @@
       "media_url": [],
       "run_id": []
     },
+    "recovery": {
+      "retry_deferred": true,
+      "reason": "Both posts were recovered today and then failed with account limit. Quota restoration is unverified. After restoration, use updateScheduledPost with current ID/UUID, preserve content and save returned replacement ID."
+    },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "109b39804ece87c54f527a0f2372ede4dc1a9ab8",
-      "origin_main_checked": "109b39804ece87c54f527a0f2372ede4dc1a9ab8",
-      "strategy": "Only publisher fields projected onto HEAD with a separate index; preserve unrelated staged and working changes. No checkout switch or force push."
+      "head_before": "12a09acc1bfd44d7e1698692dfaaac7e64399705",
+      "origin_main_checked": "12a09acc1bfd44d7e1698692dfaaac7e64399705",
+      "strategy": "Only publisher fields projected onto HEAD using a separate index; preserve unrelated staged and working changes. No checkout switch or force push."
     },
     "review": {
       "updated": true,
-      "projection": "Only publisher summary, verified provider status and recovered slot date changed."
+      "projection": "Publisher verification summary and provider status only."
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-10T14:10:53.293Z",
+    "checked_at": "2026-11-10T15:11:35.000Z",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. Both recovered posts remain ERROR: You have reached your Metricool account limit. Keep existing IDs and UUIDs; do not repeat recovery until account quota is resolved. No approved ready unscheduled pins today or in overdue queue.",
+    "decision": "Pinterest connected. Both posts recovered earlier today remain ERROR: You have reached your Metricool account limit. Retain current IDs and UUIDs; defer another retry until quota restoration. No approved ready unscheduled pins today or in the overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -650,7 +654,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Broad planner returned all 47 locally known posts, including 45 PUBLISHED, without pagination markers. Exact Moscow-day query agrees; ERROR is not published or pending.",
+      "history_note": "Broad planner returned all 47 locally known posts, including 45 PUBLISHED, without pagination markers. Exact Moscow-day planner agrees; Pinterest posts analytics returned no rows. ERROR is not published or pending.",
       "publishable_now": 0
     },
     "actions": {
@@ -661,14 +665,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-10/publisher-check-20261110T141053Z-metricool.json",
-    "result": "factory/research/2026-11-10/publisher-check-20261110T141053Z-result.json",
+    "evidence": "factory/research/2026-11-10/publisher-check-20261110T151135Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-check-20261110T151135Z-result.json",
     "queue_manifests_scanned": 302,
     "today_manifest_count": 0,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 190,
-      "needs_review": 65,
+      "queued": 189,
+      "needs_review": 66,
       "published": 45,
       "scheduled": 2
     },
@@ -712,25 +716,29 @@
       "media_url": [],
       "run_id": []
     },
+    "recovery": {
+      "retry_deferred": true,
+      "reason": "Both posts were recovered today and then failed with account limit. Quota restoration is unverified. After restoration, use updateScheduledPost with current ID/UUID, preserve content and save returned replacement ID."
+    },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "109b39804ece87c54f527a0f2372ede4dc1a9ab8",
-      "origin_main_checked": "109b39804ece87c54f527a0f2372ede4dc1a9ab8",
-      "strategy": "Only publisher fields projected onto HEAD with a separate index; preserve unrelated staged and working changes. No checkout switch or force push."
+      "head_before": "12a09acc1bfd44d7e1698692dfaaac7e64399705",
+      "origin_main_checked": "12a09acc1bfd44d7e1698692dfaaac7e64399705",
+      "strategy": "Only publisher fields projected onto HEAD using a separate index; preserve unrelated staged and working changes. No checkout switch or force push."
     },
     "review": {
       "updated": true,
-      "projection": "Only publisher summary, verified provider status and recovered slot date changed."
+      "projection": "Publisher verification summary and provider status only."
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-10T14:10:53.293Z",
+    "checked_at": "2026-11-10T15:11:35.000Z",
     "date_moscow": "2026-11-10",
     "brand_id": "6880455",
     "pinterest_connected": true,
     "provider_status_verified": true,
     "blocked_reason": "metricool_account_limit",
-    "decision": "Pinterest connected. Both recovered posts remain ERROR: You have reached your Metricool account limit. Keep existing IDs and UUIDs; do not repeat recovery until account quota is resolved. No approved ready unscheduled pins today or in overdue queue.",
+    "decision": "Pinterest connected. Both posts recovered earlier today remain ERROR: You have reached your Metricool account limit. Retain current IDs and UUIDs; defer another retry until quota restoration. No approved ready unscheduled pins today or in the overdue queue.",
     "daily": {
       "limit": 15,
       "published_confirmed": 0,
@@ -738,7 +746,7 @@
       "error_confirmed": 2,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Broad planner returned all 47 locally known posts, including 45 PUBLISHED, without pagination markers. Exact Moscow-day query agrees; ERROR is not published or pending.",
+      "history_note": "Broad planner returned all 47 locally known posts, including 45 PUBLISHED, without pagination markers. Exact Moscow-day planner agrees; Pinterest posts analytics returned no rows. ERROR is not published or pending.",
       "publishable_now": 0
     },
     "actions": {
@@ -749,14 +757,14 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-10/publisher-check-20261110T141053Z-metricool.json",
-    "result": "factory/research/2026-11-10/publisher-check-20261110T141053Z-result.json",
+    "evidence": "factory/research/2026-11-10/publisher-check-20261110T151135Z-metricool.json",
+    "result": "factory/research/2026-11-10/publisher-check-20261110T151135Z-result.json",
     "queue_manifests_scanned": 302,
     "today_manifest_count": 0,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 190,
-      "needs_review": 65,
+      "queued": 189,
+      "needs_review": 66,
       "published": 45,
       "scheduled": 2
     },
@@ -800,15 +808,19 @@
       "media_url": [],
       "run_id": []
     },
+    "recovery": {
+      "retry_deferred": true,
+      "reason": "Both posts were recovered today and then failed with account limit. Quota restoration is unverified. After restoration, use updateScheduledPost with current ID/UUID, preserve content and save returned replacement ID."
+    },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "109b39804ece87c54f527a0f2372ede4dc1a9ab8",
-      "origin_main_checked": "109b39804ece87c54f527a0f2372ede4dc1a9ab8",
-      "strategy": "Only publisher fields projected onto HEAD with a separate index; preserve unrelated staged and working changes. No checkout switch or force push."
+      "head_before": "12a09acc1bfd44d7e1698692dfaaac7e64399705",
+      "origin_main_checked": "12a09acc1bfd44d7e1698692dfaaac7e64399705",
+      "strategy": "Only publisher fields projected onto HEAD using a separate index; preserve unrelated staged and working changes. No checkout switch or force push."
     },
     "review": {
       "updated": true,
-      "projection": "Only publisher summary, verified provider status and recovered slot date changed."
+      "projection": "Publisher verification summary and provider status only."
     }
   }
 }
