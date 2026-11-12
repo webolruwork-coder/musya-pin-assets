@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-12T11:03:32.187Z",
+  "getBrandSettings": {
+    "isError": true,
+    "message": "MCP authentication required. Reconnect to continue using this server."
+  },
+  "getScheduledPosts": {
+    "isError": true,
+    "message": "MCP authentication required. Reconnect to continue using this server.",
+    "request": {
+      "brandId": "6880455",
+      "fromDate": "2026-09-22T00:00:00+03:00",
+      "toDate": "2026-11-13T23:59:59+03:00",
+      "timezone": "Europe/Moscow"
+    }
+  }
+}
