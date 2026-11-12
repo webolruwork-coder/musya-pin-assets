@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-12T11:04:56.870440+00:00",
+  "transport": "Metricool MCP HTTPS using existing OAuth credentials",
+  "oauth_refresh": {
+    "http_status": 400,
+    "success": false
+  },
+  "mcp_initialize": {
+    "http_status": 401,
+    "success": false
+  },
+  "getBrandSettings": {
+    "attempted": false,
+    "reason": "MCP initialize rejected authentication"
+  },
+  "getScheduledPosts": {
+    "attempted": false,
+    "reason": "MCP initialize rejected authentication"
+  },
+  "plugin_discovery": {
+    "metricool_installed": false
+  },
+  "secrets_recorded": false
+}

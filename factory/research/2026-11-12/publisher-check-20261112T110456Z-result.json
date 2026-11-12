@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-11-12T11:04:56.870440+00:00",
+  "date_moscow": "2026-11-12",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_authentication_required",
+  "decision": "MCP initialize returned HTTP 401; OAuth refresh returned HTTP 400. Fresh Pinterest connection, statuses, duplicate checks and daily count unavailable. No publishing or rescheduling.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null,
+    "history_complete": false,
+    "publishable_now": 0
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-12/publisher-check-20261112T110456Z-metricool.json",
+  "result": "factory/research/2026-11-12/publisher-check-20261112T110456Z-result.json",
+  "queue_manifests_scanned": 332,
+  "today_manifest_count": 15,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 215,
+    "needs_review": 70,
+    "published": 45,
+    "scheduled": 2
+  },
+  "recovery": {
+    "retry_deferred": true,
+    "reason": "Reauthenticate Metricool MCP and read current post IDs/UUIDs and provider statuses before updateScheduledPost. Preserve existing IDs; no creates for ERROR posts."
+  },
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
+    "origin_main_checked": "9932981910bd8e4e44dfbb1313d24c486b21b11d",
+    "strategy": "Isolated index, only current publisher fields projected onto HEAD; unrelated changes preserved."
+  }
+}
