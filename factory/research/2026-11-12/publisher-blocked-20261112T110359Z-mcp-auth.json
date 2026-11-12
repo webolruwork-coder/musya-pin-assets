@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-12T11:03:59.899171+00:00",
+  "date_moscow": "2026-11-12",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_authentication",
+  "decision": "Metricool MCP initialize returned HTTP 401; OAuth refresh returned HTTP 400. Pinterest connection, provider statuses and daily count cannot be verified. No create/update requests sent. Reauthorize Metricool MCP. Previous provider results and post IDs retained.",
+  "daily": {
+    "limit": 15,
+    "history_complete": false,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "queue_manifests_scanned": 332,
+  "today_manifest_count": 15,
+  "ready_unscheduled_candidates": [],
+  "local_status_counts": {
+    "queued": 215,
+    "needs_review": 70,
+    "published": 45,
+    "scheduled": 2
+  },
+  "recovery": {
+    "retry_deferred": true,
+    "reason": "Fresh provider state unavailable. Preserve IDs and UUIDs; recover ERROR posts through updateScheduledPost after authentication and connection verification."
+  },
+  "result": "factory/research/2026-11-12/publisher-blocked-20261112T110359Z-mcp-auth.json"
+}

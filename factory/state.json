@@ -548,139 +548,109 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-12T11:03:32.187Z",
+    "checked_at": "2026-11-12T11:03:59.899171+00:00",
     "date_moscow": "2026-11-12",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Metricool MCP requires reauthentication. Current Pinterest connection, provider statuses, duplicate checks and Moscow daily count are unverified. Do not create or update posts until authentication and live checks succeed.",
+    "blocked_reason": "metricool_mcp_authentication",
+    "decision": "Metricool MCP initialize returned HTTP 401; OAuth refresh returned HTTP 400. Pinterest connection, provider statuses and daily count cannot be verified. No create/update requests sent. Reauthorize Metricool MCP. Previous provider results and post IDs retained.",
     "daily": {
       "limit": 15,
+      "history_complete": false,
       "published_confirmed": null,
       "pending_confirmed": null,
-      "remaining": null,
-      "history_complete": false,
-      "publishable_now": 0
+      "remaining": null
     },
     "actions": {
       "created": 0,
-      "rescheduled": 0,
-      "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 0
+      "rescheduled": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-12/publisher-check-20261112T110332Z-metricool.json",
-    "result": "factory/research/2026-11-12/publisher-check-20261112T110332Z-result.json",
     "queue_manifests_scanned": 332,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 216,
-      "needs_review": 69,
+      "queued": 215,
+      "needs_review": 70,
       "published": 45,
       "scheduled": 2
     },
     "recovery": {
       "retry_deferred": true,
-      "reason": "Fresh statuses and current IDs/UUIDs unavailable. Keep existing posts; use updateScheduledPost only after reconnect and live verification."
+      "reason": "Fresh provider state unavailable. Preserve IDs and UUIDs; recover ERROR posts through updateScheduledPost after authentication and connection verification."
     },
-    "git": {
-      "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "783c8f6e8d3da45e99341a00345b569050d6e215",
-      "origin_main_checked": "783c8f6e8d3da45e99341a00345b569050d6e215",
-      "strategy": "Project only this invocation publisher state and review summary onto HEAD with separate index; preserve unrelated index and worktree changes."
-    }
+    "result": "factory/research/2026-11-12/publisher-blocked-20261112T110359Z-mcp-auth.json"
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-12T11:03:32.187Z",
+    "checked_at": "2026-11-12T11:03:59.899171+00:00",
     "date_moscow": "2026-11-12",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Metricool MCP requires reauthentication. Current Pinterest connection, provider statuses, duplicate checks and Moscow daily count are unverified. Do not create or update posts until authentication and live checks succeed.",
+    "blocked_reason": "metricool_mcp_authentication",
+    "decision": "Metricool MCP initialize returned HTTP 401; OAuth refresh returned HTTP 400. Pinterest connection, provider statuses and daily count cannot be verified. No create/update requests sent. Reauthorize Metricool MCP. Previous provider results and post IDs retained.",
     "daily": {
       "limit": 15,
+      "history_complete": false,
       "published_confirmed": null,
       "pending_confirmed": null,
-      "remaining": null,
-      "history_complete": false,
-      "publishable_now": 0
+      "remaining": null
     },
     "actions": {
       "created": 0,
-      "rescheduled": 0,
-      "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 0
+      "rescheduled": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-12/publisher-check-20261112T110332Z-metricool.json",
-    "result": "factory/research/2026-11-12/publisher-check-20261112T110332Z-result.json",
     "queue_manifests_scanned": 332,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 216,
-      "needs_review": 69,
+      "queued": 215,
+      "needs_review": 70,
       "published": 45,
       "scheduled": 2
     },
     "recovery": {
       "retry_deferred": true,
-      "reason": "Fresh statuses and current IDs/UUIDs unavailable. Keep existing posts; use updateScheduledPost only after reconnect and live verification."
+      "reason": "Fresh provider state unavailable. Preserve IDs and UUIDs; recover ERROR posts through updateScheduledPost after authentication and connection verification."
     },
-    "git": {
-      "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "783c8f6e8d3da45e99341a00345b569050d6e215",
-      "origin_main_checked": "783c8f6e8d3da45e99341a00345b569050d6e215",
-      "strategy": "Project only this invocation publisher state and review summary onto HEAD with separate index; preserve unrelated index and worktree changes."
-    }
+    "result": "factory/research/2026-11-12/publisher-blocked-20261112T110359Z-mcp-auth.json"
   },
   "publisher_health": {
-    "checked_at": "2026-11-12T11:03:32.187Z",
+    "checked_at": "2026-11-12T11:03:59.899171+00:00",
     "date_moscow": "2026-11-12",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Metricool MCP requires reauthentication. Current Pinterest connection, provider statuses, duplicate checks and Moscow daily count are unverified. Do not create or update posts until authentication and live checks succeed.",
+    "blocked_reason": "metricool_mcp_authentication",
+    "decision": "Metricool MCP initialize returned HTTP 401; OAuth refresh returned HTTP 400. Pinterest connection, provider statuses and daily count cannot be verified. No create/update requests sent. Reauthorize Metricool MCP. Previous provider results and post IDs retained.",
     "daily": {
       "limit": 15,
+      "history_complete": false,
       "published_confirmed": null,
       "pending_confirmed": null,
-      "remaining": null,
-      "history_complete": false,
-      "publishable_now": 0
+      "remaining": null
     },
     "actions": {
       "created": 0,
-      "rescheduled": 0,
-      "newly_confirmed_published": 0,
-      "backlog_slots_reassigned": 0
+      "rescheduled": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-12/publisher-check-20261112T110332Z-metricool.json",
-    "result": "factory/research/2026-11-12/publisher-check-20261112T110332Z-result.json",
     "queue_manifests_scanned": 332,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "queued": 216,
-      "needs_review": 69,
+      "queued": 215,
+      "needs_review": 70,
       "published": 45,
       "scheduled": 2
     },
     "recovery": {
       "retry_deferred": true,
-      "reason": "Fresh statuses and current IDs/UUIDs unavailable. Keep existing posts; use updateScheduledPost only after reconnect and live verification."
+      "reason": "Fresh provider state unavailable. Preserve IDs and UUIDs; recover ERROR posts through updateScheduledPost after authentication and connection verification."
     },
-    "git": {
-      "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "783c8f6e8d3da45e99341a00345b569050d6e215",
-      "origin_main_checked": "783c8f6e8d3da45e99341a00345b569050d6e215",
-      "strategy": "Project only this invocation publisher state and review summary onto HEAD with separate index; preserve unrelated index and worktree changes."
-    }
+    "result": "factory/research/2026-11-12/publisher-blocked-20261112T110359Z-mcp-auth.json"
   },
   "publisher_last_check": {
     "checked_at": "2026-11-12T10:25:31.782Z",
