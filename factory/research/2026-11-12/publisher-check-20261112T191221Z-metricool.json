@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-12T19:11:29.109637+00:00",
+  "endpoint": "https://ai.metricool.com/mcp",
+  "session_metricool_tools": 0,
+  "plugin_installed": false,
+  "requests": [
+    {
+      "method": "initialize",
+      "http_status": 401
+    }
+  ],
+  "credential_read_exit_code": 0,
+  "oauth_refresh": {
+    "http_status": 400
+  },
+  "blocked_reason": "metricool_mcp_authentication_required"
+}
