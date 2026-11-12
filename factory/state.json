@@ -928,7 +928,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-12T21:11:34.921600+00:00",
+    "checked_at": "2026-11-12T22:11:29.382555+00:00",
     "date_moscow": "2026-11-13",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -983,12 +983,12 @@
       "save_returned_id": true,
       "reason": "Reauthenticate Metricool MCP; verify live Pinterest connection, statuses, account quota and daily count before retry."
     },
-    "evidence": "factory/research/2026-11-13/publisher-check-20261112T211154Z-metricool.json",
-    "result": "factory/research/2026-11-13/publisher-check-20261112T211154Z-result.json",
+    "evidence": "factory/research/2026-11-13/publisher-check-20261112T221145Z-metricool.json",
+    "result": "factory/research/2026-11-13/publisher-check-20261112T221145Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "2f182208a2c51e432fa4be4f02538b0cae10de17",
+      "origin_main_checked": "f177a6b34036b4c94b74b814d8a8bc364b365cd2",
       "strategy": "Separate index based on freshly fetched origin/main; project only this attempt field, review notice and new evidence. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
