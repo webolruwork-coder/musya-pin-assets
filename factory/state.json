@@ -548,7 +548,7 @@
     }
   ],
   "publisher_check": {
-    "checked_at": "2026-11-11T23:36:34.766Z",
+    "checked_at": "2026-11-12T00:11:28.782Z",
     "date_moscow": "2026-11-12",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -562,7 +562,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Broad planner returned all 47 locally known posts including 45 PUBLISHED without pagination markers. Exact Moscow-day planner and Pinterest posts analytics returned no rows. Two ERROR posts belong to November 10.",
+      "history_note": "Fresh broad planner returned all 47 locally linked posts: 45 PUBLISHED and 2 ERROR; no pagination markers. Exact Moscow-day planner and Pinterest posts analytics returned no rows.",
       "publishable_now": 0
     },
     "actions": {
@@ -573,15 +573,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-12/publisher-check-20261111T233634Z-metricool.json",
-    "result": "factory/research/2026-11-12/publisher-check-20261111T233634Z-result.json",
+    "evidence": "factory/research/2026-11-12/publisher-check-20261112T001128Z-metricool.json",
+    "result": "factory/research/2026-11-12/publisher-check-20261112T001128Z-result.json",
     "queue_manifests_scanned": 317,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 69,
       "queued": 201,
+      "needs_review": 69,
+      "published": 45,
       "scheduled": 2
     },
     "error_posts": [
@@ -630,8 +630,8 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "06fa96e96b68e8de2a2455994836d4b917147bfd",
-      "origin_main_checked": "06fa96e96b68e8de2a2455994836d4b917147bfd",
+      "head_before": "6980a2c640a7abc1f3b049eecbf60ecc9707e850",
+      "origin_main_checked": "6980a2c640a7abc1f3b049eecbf60ecc9707e850",
       "strategy": "Only publisher fields projected onto HEAD using separate index. Preserve unrelated staged and working changes. No checkout switch or force push."
     },
     "review": {
@@ -640,7 +640,7 @@
     }
   },
   "publisher_attempt": {
-    "checked_at": "2026-11-11T23:36:34.766Z",
+    "checked_at": "2026-11-12T00:11:28.782Z",
     "date_moscow": "2026-11-12",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -654,7 +654,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Broad planner returned all 47 locally known posts including 45 PUBLISHED without pagination markers. Exact Moscow-day planner and Pinterest posts analytics returned no rows. Two ERROR posts belong to November 10.",
+      "history_note": "Fresh broad planner returned all 47 locally linked posts: 45 PUBLISHED and 2 ERROR; no pagination markers. Exact Moscow-day planner and Pinterest posts analytics returned no rows.",
       "publishable_now": 0
     },
     "actions": {
@@ -665,15 +665,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-12/publisher-check-20261111T233634Z-metricool.json",
-    "result": "factory/research/2026-11-12/publisher-check-20261111T233634Z-result.json",
+    "evidence": "factory/research/2026-11-12/publisher-check-20261112T001128Z-metricool.json",
+    "result": "factory/research/2026-11-12/publisher-check-20261112T001128Z-result.json",
     "queue_manifests_scanned": 317,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 69,
       "queued": 201,
+      "needs_review": 69,
+      "published": 45,
       "scheduled": 2
     },
     "error_posts": [
@@ -722,8 +722,8 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "06fa96e96b68e8de2a2455994836d4b917147bfd",
-      "origin_main_checked": "06fa96e96b68e8de2a2455994836d4b917147bfd",
+      "head_before": "6980a2c640a7abc1f3b049eecbf60ecc9707e850",
+      "origin_main_checked": "6980a2c640a7abc1f3b049eecbf60ecc9707e850",
       "strategy": "Only publisher fields projected onto HEAD using separate index. Preserve unrelated staged and working changes. No checkout switch or force push."
     },
     "review": {
@@ -732,7 +732,7 @@
     }
   },
   "publisher_health": {
-    "checked_at": "2026-11-11T23:36:34.766Z",
+    "checked_at": "2026-11-12T00:11:28.782Z",
     "date_moscow": "2026-11-12",
     "brand_id": "6880455",
     "pinterest_connected": true,
@@ -746,7 +746,7 @@
       "error_confirmed": 0,
       "remaining": 15,
       "history_complete": true,
-      "history_note": "Broad planner returned all 47 locally known posts including 45 PUBLISHED without pagination markers. Exact Moscow-day planner and Pinterest posts analytics returned no rows. Two ERROR posts belong to November 10.",
+      "history_note": "Fresh broad planner returned all 47 locally linked posts: 45 PUBLISHED and 2 ERROR; no pagination markers. Exact Moscow-day planner and Pinterest posts analytics returned no rows.",
       "publishable_now": 0
     },
     "actions": {
@@ -757,15 +757,15 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "evidence": "factory/research/2026-11-12/publisher-check-20261111T233634Z-metricool.json",
-    "result": "factory/research/2026-11-12/publisher-check-20261111T233634Z-result.json",
+    "evidence": "factory/research/2026-11-12/publisher-check-20261112T001128Z-metricool.json",
+    "result": "factory/research/2026-11-12/publisher-check-20261112T001128Z-result.json",
     "queue_manifests_scanned": 317,
     "today_manifest_count": 15,
     "ready_unscheduled_candidates": [],
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 69,
       "queued": 201,
+      "needs_review": 69,
+      "published": 45,
       "scheduled": 2
     },
     "error_posts": [
@@ -814,8 +814,8 @@
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
-      "head_before": "06fa96e96b68e8de2a2455994836d4b917147bfd",
-      "origin_main_checked": "06fa96e96b68e8de2a2455994836d4b917147bfd",
+      "head_before": "6980a2c640a7abc1f3b049eecbf60ecc9707e850",
+      "origin_main_checked": "6980a2c640a7abc1f3b049eecbf60ecc9707e850",
       "strategy": "Only publisher fields projected onto HEAD using separate index. Preserve unrelated staged and working changes. No checkout switch or force push."
     },
     "review": {
