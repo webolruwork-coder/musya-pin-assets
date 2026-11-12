@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-11-12T10:25:31.782Z",
+  "date_moscow": "2026-11-12",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_authentication_required",
+  "decision": "Metricool MCP authentication required. Reconnect Metricool MCP before verifying Pinterest connection, provider statuses and daily count. No publishing or rescheduling performed. Previous provider observations remain historical.",
+  "daily": {
+    "limit": 15,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null,
+    "history_complete": false
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "evidence": "factory/research/2026-11-12/publisher-check-20261112T102531Z-metricool.json",
+  "result": "factory/research/2026-11-12/publisher-check-20261112T102531Z-result.json",
+  "queue_manifests_scanned": 332,
+  "local_status_counts": {
+    "queued": 216,
+    "needs_review": 69,
+    "published": 45,
+    "scheduled": 2
+  },
+  "ready_unscheduled_candidates": [],
+  "recovery": {
+    "retry_deferred": true,
+    "reason": "Authentication prevents reading current IDs/statuses. Retain existing IDs and UUIDs; use updateScheduledPost after verification."
+  },
+  "git": {
+    "head_before": "e797f67b888f9576c7f0bce295954f30f9187573",
+    "origin_main_checked": "e797f67b888f9576c7f0bce295954f30f9187573",
+    "strategy": "Project publisher fields onto HEAD with separate index; preserve unrelated changes."
+  }
+}

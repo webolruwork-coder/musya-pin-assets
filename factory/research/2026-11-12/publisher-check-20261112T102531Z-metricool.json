@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-12T10:25:31.782Z",
+  "brand": {
+    "content": [
+      {
+        "type": "text",
+        "text": "MCP authentication required. Reconnect to continue using this server."
+      }
+    ],
+    "isError": true
+  },
+  "posts": {
+    "content": [
+      {
+        "type": "text",
+        "text": "MCP authentication required. Reconnect to continue using this server."
+      }
+    ],
+    "isError": true
+  },
+  "today": {
+    "content": [
+      {
+        "type": "text",
+        "text": "MCP authentication required. Reconnect to continue using this server."
+      }
+    ],
+    "isError": true
+  }
+}
