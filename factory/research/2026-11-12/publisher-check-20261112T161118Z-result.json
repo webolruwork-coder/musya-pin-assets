@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-11-12T16:11:18.134977+00:00",
+  "date_moscow": "2026-11-12",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_authentication_required",
+  "decision": "MCP initialize HTTP 401; OAuth refresh HTTP 400. Current Pinterest connection, provider statuses, duplicates and daily count cannot be verified. No publishing or rescheduling. Preserve historical verification timestamps and existing IDs/UUIDs.",
+  "daily": {
+    "limit": 15,
+    "history_complete": false,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "queue_manifests_scanned": 332,
+  "today_manifest_count": 15,
+  "local_status_counts": {
+    "queued": 210,
+    "needs_review": 75,
+    "published": 45,
+    "scheduled": 2
+  },
+  "ready_unscheduled_candidates": [],
+  "historical_error_posts": [
+    {
+      "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "publishing": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-11-10T13:00:00+03:00",
+        "metricool_post_id": "422900181",
+        "metricool_uuid": "-2732908720757584197",
+        "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-2732908720757584197",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "checked_at": "2026-11-12T11:02:59.226Z",
+        "provider_media_urls": [
+          "https://static.metricool.com/planner/202611/6880455-file-10901130648615773047.png"
+        ],
+        "provider_error": "You have reached your Metricool account limit."
+      }
+    },
+    {
+      "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+      "publishing": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-11-10T14:30:00+03:00",
+        "metricool_post_id": "422900240",
+        "metricool_uuid": "-6148691217174344003",
+        "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-6148691217174344003",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "checked_at": "2026-11-12T11:02:59.226Z",
+        "provider_media_urls": [
+          "https://static.metricool.com/planner/202611/6880455-file-9208351632448418766.png"
+        ],
+        "provider_error": "You have reached your Metricool account limit."
+      }
+    }
+  ],
+  "recovery": {
+    "retry_deferred": true,
+    "method": "updateScheduledPost",
+    "preserve_existing_id_and_uuid": true,
+    "save_returned_id": true,
+    "reason": "Reauthenticate Metricool MCP and verify live connection, statuses and quota before retry."
+  },
+  "evidence": "factory/research/2026-11-12/publisher-check-20261112T161118Z-metricool.json",
+  "result": "factory/research/2026-11-12/publisher-check-20261112T161118Z-result.json",
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
+    "origin_main_checked": "3d2bcfd625a7216aaa3ecb94dd6b6176dfe286e6",
+    "strategy": "Separate index based on freshly fetched origin/main; project only this run publisher fields, review notice and evidence. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
+  }
+}
