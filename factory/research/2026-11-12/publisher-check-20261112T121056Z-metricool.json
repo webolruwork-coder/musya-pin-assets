@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-11-12T12:10:56.505876+00:00",
+  "session_metricool_tools": 0,
+  "plugin_installed": false,
+  "credential_read_exit_code": 0,
+  "mcp_initialize_http_status": 401,
+  "getBrandSettings_attempted": false,
+  "getScheduledPosts_attempted": false,
+  "oauth_refresh_http_status": 400
+}
