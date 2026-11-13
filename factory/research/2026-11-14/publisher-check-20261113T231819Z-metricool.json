@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-13T23:18:19.781070+00:00",
+  "transport": "Metricool MCP HTTPS with existing saved OAuth credentials",
+  "authenticated_mcp_initialize_http_status": 401,
+  "publication_calls_sent": 0,
+  "oauth_metadata_http_status": 200,
+  "oauth_refresh_http_status": 400,
+  "oauth_error": "invalid_grant",
+  "oauth_error_description": null,
+  "blocked_reason": "metricool_mcp_authentication_required"
+}
