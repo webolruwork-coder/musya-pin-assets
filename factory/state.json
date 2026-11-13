@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-13T13:12:09.759840+00:00",
+    "checked_at": "2026-11-13T15:11:24.660523+00:00",
     "date_moscow": "2026-11-13",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -922,9 +922,9 @@
     "queue_manifests_scanned": 347,
     "today_manifest_count": 15,
     "local_status_counts": {
+      "queued": 220,
+      "needs_review": 80,
       "published": 45,
-      "needs_review": 78,
-      "queued": 222,
       "scheduled": 2
     },
     "ready_unscheduled_candidates": [],
@@ -953,12 +953,12 @@
       "save_returned_id": true,
       "reason": "Reauthenticate Metricool MCP; verify live Pinterest connection, statuses, account quota and daily count before retry."
     },
-    "evidence": "factory/research/2026-11-13/publisher-check-20261113T131209Z-metricool.json",
-    "result": "factory/research/2026-11-13/publisher-check-20261113T131209Z-result.json",
+    "evidence": "factory/research/2026-11-13/publisher-check-20261113T151124Z-metricool.json",
+    "result": "factory/research/2026-11-13/publisher-check-20261113T151124Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "a826d6e1fe959bfb8dcce09c29cdbd84f0061090",
+      "origin_main_checked": "f822f30a89cfafa95b1b9ba11083886d0334162e",
       "strategy": "Separate index based on freshly fetched origin/main; project only this run blocked-attempt field, review notice and new evidence. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
