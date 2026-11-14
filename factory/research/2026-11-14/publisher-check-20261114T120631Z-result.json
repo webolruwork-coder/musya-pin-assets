@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-11-14T12:06:31.713688+00:00",
+  "date_moscow": "2026-11-14",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_authentication_required",
+  "decision": "Authenticated MCP initialize HTTP 401; OAuth refresh HTTP 400 invalid_grant. Live Pinterest connection, provider statuses, duplicates and daily count cannot be verified. No publication or rescheduling. Historical provider timestamps and IDs/UUIDs preserved.",
+  "daily": {
+    "limit": 15,
+    "history_complete": false,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "queue_manifests_scanned": 362,
+  "today_manifest_count": 15,
+  "local_status_counts": {
+    "published": 45,
+    "needs_review": 83,
+    "queued": 232,
+    "scheduled": 2
+  },
+  "ready_unscheduled_candidates": [],
+  "historical_error_posts": [
+    {
+      "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "post_id": "422900181",
+      "uuid": "-2732908720757584197",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_observed_at": "2026-11-12T11:02:59.226Z"
+    },
+    {
+      "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+      "post_id": "422900240",
+      "uuid": "-6148691217174344003",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "last_observed_at": "2026-11-12T11:02:59.226Z"
+    }
+  ],
+  "recovery": {
+    "retry_deferred": true,
+    "method": "updateScheduledPost",
+    "preserve_existing_id_and_uuid": true,
+    "save_returned_id": true,
+    "reason": "Reauthenticate Metricool MCP; verify live Pinterest connection, statuses, account quota and daily count before retry."
+  },
+  "evidence": "factory/research/2026-11-14/publisher-check-20261114T120631Z-metricool.json",
+  "result": "factory/research/2026-11-14/publisher-check-20261114T120631Z-result.json",
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
+    "origin_main_checked": "6e4234653405296b946bd6ee6f8e923ffc9d4b93",
+    "strategy": "Separate index based on freshly fetched origin/main; project only this run blocked-attempt field, review notice and new evidence. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
+  }
+}
