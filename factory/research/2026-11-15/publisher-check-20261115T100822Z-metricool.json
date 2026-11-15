@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-15T10:08:22.760569+00:00",
+  "server": "metricool",
+  "discovery": {
+    "available_metricool_tools": [],
+    "plugin_search": {
+      "display_name": "Metricool",
+      "installed": false
+    }
+  },
+  "mcp_probe": {
+    "resources/list": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/.well-known/oauth-protected-resource; HTTP request failed: error sending request for URL.",
+    "resources/templates/list": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/.well-known/oauth-protected-resource; HTTP request failed: error sending request for URL."
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/.well-known/oauth-protected-resource; HTTP request failed: error sending request for URL."
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/.well-known/oauth-protected-resource; HTTP request failed: error sending request for URL."
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false
+}
