@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-15T10:08:19.730400+00:00",
+  "server": "metricool",
+  "discovery": {
+    "available_metricool_tools": [],
+    "local_server_configured": true,
+    "chatgpt_plugin_installed": false
+  },
+  "mcp_probe": {
+    "resources/list": "MCP startup failed: failed to resolve OAuth metadata before using stored credentials: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed: error sending request for url (https://ai.metricool.com/mcp)",
+    "resources/templates/list": "MCP startup failed: failed to resolve OAuth metadata before using stored credentials: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed: error sending request for url (https://ai.metricool.com/mcp)"
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "MCP startup failed: failed to resolve OAuth metadata before using stored credentials: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed: error sending request for url (https://ai.metricool.com/mcp)"
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "MCP startup failed: failed to resolve OAuth metadata before using stored credentials: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed: error sending request for url (https://ai.metricool.com/mcp)"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false
+}
