@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-15T10:08:07.441761+00:00",
+  "server": "metricool",
+  "discovery": {
+    "available_metricool_tools": [],
+    "plugin_search": "Metricool found, installed=false"
+  },
+  "mcp_probe": {
+    "initialize": {
+      "http_status": 401,
+      "error": "unauthorized",
+      "error_description": "This endpoint requires authentication",
+      "authenticated": false
+    }
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "Authenticated Metricool MCP tools unavailable"
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "Authenticated Metricool MCP tools unavailable"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false
+}
