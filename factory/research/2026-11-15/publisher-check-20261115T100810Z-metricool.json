@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-15T10:08:10.314659+00:00",
+  "server": "metricool",
+  "discovery": {
+    "available_metricool_tools": []
+  },
+  "mcp_probe": {
+    "operation": "resources/list",
+    "error": "resources/list failed: failed to get client: MCP startup failed: OAuth token refresh failed: Request failed"
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "MCP OAuth token refresh failed"
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "MCP OAuth token refresh failed"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false
+}
