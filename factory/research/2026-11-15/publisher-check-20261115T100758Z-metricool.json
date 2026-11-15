@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-15T10:07:58.213202+00:00",
+  "server": "metricool",
+  "available_metricool_tools": [],
+  "mcp_probe": {
+    "resources/list": "MCP startup failed: OAuth authorization required",
+    "resources/templates/list": "MCP startup failed: OAuth authorization required"
+  },
+  "getBrandSettings": {
+    "executed": false
+  },
+  "getScheduledPosts": {
+    "executed": false
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false
+}
