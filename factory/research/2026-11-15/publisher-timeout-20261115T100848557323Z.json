@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-15T10:08:48.557323+00:00",
+  "date_moscow": "2026-11-15",
+  "brand_id": 6880455,
+  "blocked_reason": "metricool_mcp_startup_timeout",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "getBrandSettings_executed": false,
+  "getScheduledPosts_executed": false,
+  "mcp_probe": {
+    "resources/list": "MCP client startup timed out after 30s",
+    "resources/templates/list": "MCP client startup timed out after 30s"
+  },
+  "daily_history_complete": false,
+  "daily_limit": 15,
+  "created": 0,
+  "rescheduled": 0,
+  "ready_unscheduled": 0,
+  "manifests_scanned": 362,
+  "target_url": "https://musya.app/image-generation",
+  "decision": "No publishing or rescheduling; live connection and daily count unverified. Preserve existing IDs, UUIDs and historical provider statuses.",
+  "origin_main_checked": "b4f8f7ae9515d826596a816612579e82d6e2fcd6"
+}
