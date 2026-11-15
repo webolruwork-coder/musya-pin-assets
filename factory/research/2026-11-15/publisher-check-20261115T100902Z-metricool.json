@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-15T10:09:02.621993+00:00",
+  "server": "metricool",
+  "discovery": {
+    "available_metricool_tools": []
+  },
+  "mcp_probe": {
+    "resources/list": "MCP startup failed: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed while sending request to MCP endpoint",
+    "resources/templates/list": "MCP startup failed: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed while sending request to MCP endpoint"
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "MCP startup failed during OAuth metadata discovery"
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "MCP startup failed during OAuth metadata discovery"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "independent_metadata_probe": {
+    "url": "https://ai.metricool.com/.well-known/oauth-protected-resource",
+    "http_status": 200,
+    "note": "Metadata endpoint responds in shell; configured MCP client still fails startup."
+  }
+}
