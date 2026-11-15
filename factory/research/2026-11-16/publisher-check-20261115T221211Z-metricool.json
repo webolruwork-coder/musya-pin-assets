@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-15T22:12:11.823419+00:00",
+  "provider": "metricool",
+  "metricool_tools_available": false,
+  "discovery_tool": "plugin_management.search_plugins",
+  "discovery_result": {
+    "id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+    "display_name": "Metricool",
+    "status": "ENABLED",
+    "installation_policy": "AVAILABLE",
+    "installed": false
+  },
+  "getBrandSettings": {
+    "called": false,
+    "reason": "MCP tool unavailable"
+  },
+  "getScheduledPosts": {
+    "called": false,
+    "reason": "MCP tool unavailable"
+  },
+  "pinterest_connection_status": "unknown",
+  "daily_count": null,
+  "history_complete": false,
+  "publication_requests": 0
+}

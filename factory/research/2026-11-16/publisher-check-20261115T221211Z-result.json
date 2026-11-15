@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-11-15T22:12:11.823419+00:00",
+  "date_moscow": "2026-11-16",
+  "timezone": "Europe/Moscow",
+  "outcome": "blocked",
+  "reason_code": "metricool_mcp_unavailable",
+  "reason": "Metricool tools are absent from this session; fresh plugin discovery reports installed=false. Pinterest connection, actual scheduled-post statuses and daily count cannot be verified. No posting or rescheduling requests made.",
+  "blog_id": 6880455,
+  "target_url": "https://musya.app/image-generation",
+  "daily_limit": 15,
+  "provider_daily_total": null,
+  "remaining_capacity": null,
+  "created_posts": 0,
+  "updated_posts": 0,
+  "published_posts_confirmed": 0,
+  "day_plan_command": "npm run factory:day-plan -- --date 2026-11-16",
+  "current_day": {
+    "total": 15,
+    "statuses": {
+      "needs_review": 9,
+      "queued": 6
+    },
+    "approvals": {
+      "pending": 15
+    }
+  },
+  "ready_approved_current_and_overdue": [],
+  "local_error_posts_historical_only": [
+    {
+      "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "metricool_post_id": "422900181",
+      "metricool_uuid": "-2732908720757584197",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-11-12T11:02:59.226Z",
+      "fresh": false
+    },
+    {
+      "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+      "metricool_post_id": "422900240",
+      "metricool_uuid": "-6148691217174344003",
+      "provider_status": "ERROR",
+      "detailedStatus": "You have reached your Metricool account limit.",
+      "checked_at": "2026-11-12T11:02:59.226Z",
+      "fresh": false
+    }
+  ],
+  "manifest_provider_statuses_updated": false,
+  "manifest_checked_at_updated": false,
+  "state_updated_at": "2026-11-15T18:03:40.931Z",
+  "review_refreshed": true,
+  "git": {
+    "checkout_unchanged": true,
+    "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
+    "origin_main_fetched": true,
+    "origin_main": "9dfc3626df498ccea97b536d47d7c628ada49fc1",
+    "head_behind_origin_main": 55,
+    "commit_scope": "Only the two new audit JSON files, on top of fetched origin/main using a temporary index; existing branch, real index, manifests and state preserved.",
+    "review_commit_skipped_reason": "Review file had preexisting unrelated changes; refreshed locally, excluded from commit to avoid committing others work.",
+    "push_mode": "normal fast-forward; no force; remote rechecked before push"
+  }
+}
