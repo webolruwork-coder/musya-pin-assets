@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-16T20:11:42.639521+00:00",
+  "server": "metricool",
+  "discovery": {
+    "available_metricool_tools": [],
+    "plugin_search": {
+      "provider": "Metricool",
+      "installed": false,
+      "status": "ENABLED"
+    }
+  },
+  "mcp_probe": {
+    "resources/list": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed: error sending request for url (https://ai.metricool.com/mcp)",
+    "resources/templates/list": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed: error sending request for url (https://ai.metricool.com/mcp)"
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed: error sending request for url (https://ai.metricool.com/mcp)"
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp; HTTP request failed: error sending request for url (https://ai.metricool.com/mcp)"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "day_plan": {
+    "command": "npm run factory:day-plan -- --date 2026-11-16",
+    "completed": true,
+    "today_manifests": 15
+  }
+}
