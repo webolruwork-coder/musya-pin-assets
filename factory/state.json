@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-17T02:11:42.595690+00:00",
+    "checked_at": "2026-11-17T12:05:37.807578+00:00",
     "date_moscow": "2026-11-17",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -919,12 +919,12 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "queue_manifests_scanned": 392,
+    "queue_manifests_scanned": 407,
     "today_manifest_count": 15,
     "local_status_counts": {
       "published": 45,
       "needs_review": 100,
-      "queued": 245,
+      "queued": 260,
       "scheduled": 2
     },
     "ready_unscheduled_candidates": [],
@@ -981,14 +981,14 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP access; verify live Pinterest connection, provider statuses, account quota and complete daily count before retry. Historical ERROR messages report Metricool account limit; current quota unverified."
+      "reason": "Restore Metricool MCP OAuth access; verify live Pinterest connection, statuses, quota, duplicates and complete daily count before retry. Historical ERROR messages report Metricool account limit; current quota is unverified."
     },
-    "evidence": "factory/research/2026-11-17/publisher-check-20261117T021142Z-metricool.json",
-    "result": "factory/research/2026-11-17/publisher-check-20261117T021142Z-result.json",
+    "evidence": "factory/research/2026-11-17/publisher-check-20261117T120537Z-metricool.json",
+    "result": "factory/research/2026-11-17/publisher-check-20261117T120537Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "347d172f45d1e9b7319fd521de0667b3332cea29",
+      "origin_main_checked": "d6bb61ced0feb76f79fa1c460dd1641de4828501",
       "strategy": "Separate temporary index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
