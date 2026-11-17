@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-17T00:12:09.288857+00:00",
+  "server": "metricool",
+  "discovery": {
+    "available_metricool_tools": [],
+    "configured_mcp_endpoint": "https://ai.metricool.com/mcp",
+    "plugin_search": {
+      "provider": "Metricool",
+      "installed": false,
+      "status": "ENABLED"
+    }
+  },
+  "mcp_probe": {
+    "resources/list": "resources/list failed: failed to get client: MCP startup failed: MCP client startup timed out after 30s",
+    "resources/templates/list": "resources/templates/list failed: failed to get client: MCP startup failed: MCP client startup timed out after 30s"
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "MCP startup failed: MCP client startup timed out after 30s"
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "MCP startup failed: MCP client startup timed out after 30s"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "day_plan": {
+    "command": "npm run factory:day-plan -- --date 2026-11-17",
+    "completed": true,
+    "today_manifests": 15,
+    "status_counts": {
+      "needs_review": 8,
+      "queued": 7
+    }
+  }
+}
