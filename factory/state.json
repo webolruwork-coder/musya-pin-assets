@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-17T12:05:37.807578+00:00",
+    "checked_at": "2026-11-17T14:12:53.122264+00:00",
     "date_moscow": "2026-11-17",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
     "blocked_reason": "metricool_mcp_oauth_authorization_required",
-    "decision": "Metricool MCP startup failed on both discovery probes: OAuth authorization required. getBrandSettings and getScheduledPosts unavailable. Current Pinterest connection, provider statuses, duplicates and daily count cannot be verified. No publishing or rescheduling. Historical provider timestamps and IDs/UUIDs preserved.",
+    "decision": "Both Metricool MCP discovery probes failed: OAuth authorization required. getBrandSettings and getScheduledPosts unavailable. Current Pinterest connection, statuses, duplicates and complete daily count cannot be verified. No publishing or rescheduling. Historical verification timestamps and IDs/UUIDs preserved.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -922,12 +922,16 @@
     "queue_manifests_scanned": 407,
     "today_manifest_count": 15,
     "local_status_counts": {
+      "queued": 257,
+      "needs_review": 103,
       "published": 45,
-      "needs_review": 100,
-      "queued": 260,
       "scheduled": 2
     },
     "ready_unscheduled_candidates": [],
+    "today_status_counts": {
+      "needs_review": 8,
+      "queued": 7
+    },
     "historical_error_posts": [
       {
         "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
@@ -981,14 +985,14 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP OAuth access; verify live Pinterest connection, statuses, quota, duplicates and complete daily count before retry. Historical ERROR messages report Metricool account limit; current quota is unverified."
+      "reason": "Restore Metricool MCP OAuth access, then verify live Pinterest connection, statuses, account quota, duplicates and complete daily count. Historical account-limit ERROR is not proof of current quota or connection."
     },
-    "evidence": "factory/research/2026-11-17/publisher-check-20261117T120537Z-metricool.json",
-    "result": "factory/research/2026-11-17/publisher-check-20261117T120537Z-result.json",
+    "evidence": "factory/research/2026-11-17/publisher-check-20261117T141253Z-metricool.json",
+    "result": "factory/research/2026-11-17/publisher-check-20261117T141253Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "d6bb61ced0feb76f79fa1c460dd1641de4828501",
+      "origin_main_checked": "70e65e950365311ffc393ef3c7724c94b6214295",
       "strategy": "Separate temporary index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
