@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-17T16:12:46.080648+00:00",
+  "server": "metricool",
+  "discovery": {
+    "available_metricool_tools": [],
+    "resources/list": "resources/list failed: failed to get client: MCP startup failed: OAuth token refresh failed: Request failed",
+    "resources/templates/list": "resources/templates/list failed: failed to get client: MCP startup failed: OAuth token refresh failed: Request failed",
+    "plugin_search": {
+      "provider": "Metricool",
+      "installed": false,
+      "plugin_id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7"
+    }
+  },
+  "getBrandSettings": {
+    "called": false,
+    "verified": false,
+    "reason": "MCP startup failed: OAuth token refresh failed: Request failed"
+  },
+  "getScheduledPosts": {
+    "called": false,
+    "verified": false,
+    "reason": "MCP startup failed: OAuth token refresh failed: Request failed"
+  },
+  "pinterest_connected": null,
+  "daily_history_complete": false,
+  "mutations": {
+    "createScheduledPost": 0,
+    "updateScheduledPost": 0
+  },
+  "day_plan": {
+    "date": "2026-11-17",
+    "command": "npm run factory:day-plan -- --date 2026-11-17",
+    "exit_code": 0
+  },
+  "historical_provider_data_is_not_live": true
+}
