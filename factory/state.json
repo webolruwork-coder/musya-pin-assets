@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-17T00:12:09.288857+00:00",
+    "checked_at": "2026-11-17T01:12:06.134624+00:00",
     "date_moscow": "2026-11-17",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_startup_timeout",
-    "decision": "Metricool MCP client startup timed out after 30s on both resource discovery probes. getBrandSettings and getScheduledPosts unavailable. Current Pinterest connection, provider statuses, duplicates and daily count cannot be verified. No publishing or rescheduling. Historical provider timestamps and IDs/UUIDs preserved.",
+    "blocked_reason": "metricool_mcp_oauth_metadata_discovery_failed",
+    "decision": "Metricool MCP startup failed on both discovery probes: OAuth metadata discovery HTTP request failed. getBrandSettings and getScheduledPosts unavailable. Current Pinterest connection, provider statuses, duplicates and daily count cannot be verified. No publishing or rescheduling. Historical provider timestamps and IDs/UUIDs preserved.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -981,15 +981,15 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP access, then verify live Pinterest connection, provider statuses, account quota and complete daily count. Historical ERROR messages report Metricool account limit; current quota is unverified."
+      "reason": "Restore Metricool MCP access; verify live Pinterest connection, provider statuses, account quota and complete daily count before retry. Historical ERROR messages report Metricool account limit; current quota unverified."
     },
-    "evidence": "factory/research/2026-11-17/publisher-check-20261117T001209Z-metricool.json",
-    "result": "factory/research/2026-11-17/publisher-check-20261117T001209Z-result.json",
+    "evidence": "factory/research/2026-11-17/publisher-check-20261117T011206Z-metricool.json",
+    "result": "factory/research/2026-11-17/publisher-check-20261117T011206Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "52b45193d70a9acc4fdd343cb15a8c7758cd5c0e",
-      "strategy": "Separate index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
+      "origin_main_checked": "66049db5df6ba6b01f418412b1682d2df82b9d42",
+      "strategy": "Separate temporary index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
 }
