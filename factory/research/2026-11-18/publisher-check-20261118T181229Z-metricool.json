@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-18T18:12:29.163229+00:00",
+  "server": "metricool",
+  "tools_exposed": false,
+  "discovery_probes": [
+    {
+      "method": "resources/list",
+      "error": "resources/list failed: failed to get client: MCP startup failed: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/.well-known/oauth-protected-resource; HTTP request failed while sending request to metadata URL"
+    }
+  ],
+  "metadata_head_probe": {
+    "url": "https://ai.metricool.com/.well-known/oauth-protected-resource",
+    "http_status": 404,
+    "note": "Unauthenticated HEAD diagnostic only; does not establish OAuth authorization or Pinterest status."
+  },
+  "app_discovery": {
+    "provider": "Metricool",
+    "installed": false,
+    "plugin_id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+    "last_suggested_at": "2026-11-12T10:25:33.907794Z"
+  },
+  "getBrandSettings": {
+    "attempted": false,
+    "reason": "Metricool MCP failed during OAuth metadata discovery; tool unavailable."
+  },
+  "getScheduledPosts": {
+    "attempted": false,
+    "reason": "Metricool MCP failed during OAuth metadata discovery; tool unavailable."
+  },
+  "pinterest_connected": null,
+  "daily_count_verified": false,
+  "mutation_requests_sent": 0,
+  "day_plan": {
+    "command": "npm run factory:day-plan -- --date 2026-11-18",
+    "exit_code": 0,
+    "manifest_count": 15,
+    "status_counts": {
+      "needs_review": 6,
+      "queued": 9
+    }
+  }
+}
