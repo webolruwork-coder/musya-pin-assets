@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-18T21:12:09.154992+00:00",
+    "checked_at": "2026-11-18T23:13:02.579042+00:00",
     "date_moscow": "2026-11-19",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_startup_timeout",
-    "decision": "Metricool MCP client startup timed out. getBrandSettings and getScheduledPosts unavailable. Current Pinterest connection, provider statuses, duplicates and complete daily count cannot be verified. No publication or rescheduling; historical provider verification timestamps and existing IDs/UUIDs preserved.",
+    "blocked_reason": "metricool_mcp_oauth_refresh_failed",
+    "decision": "Metricool MCP startup failed: OAuth token refresh failed: Request failed. Fresh Pinterest connection, provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERROR statuses are not evidence of current Pinterest disconnection or current quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -919,11 +919,11 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "queue_manifests_scanned": 420,
+    "queue_manifests_scanned": 422,
     "all_manifests_scanned": 422,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "published": 43,
+      "published": 45,
       "needs_review": 111,
       "queued": 264,
       "scheduled": 2
@@ -988,8 +988,8 @@
       }
     ],
     "skipped_reasons": {
-      "queued_or_needs_review": "Quality gate approval required; publishing routine does not generate or approve pins.",
-      "historical_error_posts": "Fresh connection, status, quota and daily count unavailable. Preserve existing ID/UUID; defer updateScheduledPost.",
+      "queued_or_needs_review": "Quality gate approval required; publisher does not generate or approve pins.",
+      "historical_error_posts": "Fresh connection, status, quota and daily count unavailable. Preserve ID/UUID; defer updateScheduledPost.",
       "new_schedule": "Daily capacity and duplicates cannot be verified."
     },
     "recovery": {
@@ -997,14 +997,14 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP access, then verify fresh Pinterest connection, provider statuses, account quota, duplicates and complete daily count before retry. Historical ERROR does not establish current connection or quota."
+      "reason": "Restore Metricool MCP OAuth access, then verify Pinterest connection, statuses, quota, duplicates and complete daily history before retry."
     },
-    "evidence": "factory/research/2026-11-19/publisher-check-20261118T211209Z-metricool.json",
-    "result": "factory/research/2026-11-19/publisher-check-20261118T211209Z-result.json",
+    "evidence": "factory/research/2026-11-19/publisher-check-20261118T231302Z-metricool.json",
+    "result": "factory/research/2026-11-19/publisher-check-20261118T231302Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "2a3dcfa4d0c194e41576f06315b32ad23730a28b",
+      "origin_main_checked": "69bc8e30eddb0a5101b1c973a136d891ebb1010b",
       "strategy": "Separate temporary index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }

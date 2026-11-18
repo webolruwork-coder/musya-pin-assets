@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-18T23:13:02.579042+00:00",
+  "configured_server": "metricool",
+  "endpoint": "https://ai.metricool.com/mcp",
+  "current_metricool_tool_count": 0,
+  "mcp_discovery": [
+    {
+      "operation": "resources/list",
+      "error": "resources/list failed: failed to get client: MCP startup failed: OAuth token refresh failed: Request failed"
+    }
+  ],
+  "plugin_discovery": {
+    "query": "Metricool",
+    "plugin_id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+    "status": "ENABLED",
+    "installed": false
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "Metricool MCP OAuth token refresh failed; tool unavailable"
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "Metricool MCP OAuth token refresh failed; tool unavailable"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily_history_complete": false,
+  "mutation_requests_sent": 0
+}
