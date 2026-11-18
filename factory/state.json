@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-18T00:11:49.311185+00:00",
+    "checked_at": "2026-11-18T13:12:18.353449+00:00",
     "date_moscow": "2026-11-18",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_oauth_authorization_required",
-    "decision": "Both Metricool MCP discovery probes failed: OAuth authorization required. getBrandSettings and getScheduledPosts unavailable. Current Pinterest connection, provider statuses, duplicates and complete daily count cannot be verified. No publication or rescheduling; historical verification timestamps and existing IDs/UUIDs preserved.",
+    "blocked_reason": "metricool_mcp_startup_timeout",
+    "decision": "Both Metricool MCP discovery probes failed: MCP client startup timed out after 30s. getBrandSettings and getScheduledPosts unavailable. Current Pinterest connection, provider statuses, duplicates and complete daily count cannot be verified. No publication or rescheduling; historical provider verification timestamps and existing IDs/UUIDs preserved.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -922,14 +922,14 @@
     "queue_manifests_scanned": 407,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 106,
       "queued": 254,
+      "needs_review": 106,
+      "published": 45,
       "scheduled": 2
     },
     "today_status_counts": {
-      "needs_review": 6,
-      "queued": 9
+      "queued": 9,
+      "needs_review": 6
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -985,14 +985,14 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP OAuth access; verify live Pinterest connection, statuses, account quota, duplicates and complete daily count before retry. Historical ERROR does not prove current connection or quota."
+      "reason": "Restore Metricool MCP access; verify live Pinterest connection, statuses, account quota, duplicates and complete daily count before retry. Historical ERROR does not prove current connection or quota."
     },
-    "evidence": "factory/research/2026-11-18/publisher-check-20261118T001149Z-metricool.json",
-    "result": "factory/research/2026-11-18/publisher-check-20261118T001149Z-result.json",
+    "evidence": "factory/research/2026-11-18/publisher-check-20261118T131218Z-metricool.json",
+    "result": "factory/research/2026-11-18/publisher-check-20261118T131218Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "2bf82d4411b1443fc4300246426e3db3fc651f70",
+      "origin_main_checked": "bae611aa8442d834c62c73d092c1b2233706f620",
       "strategy": "Separate temporary index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
