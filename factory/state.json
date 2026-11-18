@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-17T23:35:36.525105+00:00",
+    "checked_at": "2026-11-18T00:11:49.311185+00:00",
     "date_moscow": "2026-11-18",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -922,14 +922,14 @@
     "queue_manifests_scanned": 407,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "queued": 254,
-      "needs_review": 106,
       "published": 45,
+      "needs_review": 106,
+      "queued": 254,
       "scheduled": 2
     },
     "today_status_counts": {
-      "queued": 9,
-      "needs_review": 6
+      "needs_review": 6,
+      "queued": 9
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -987,12 +987,12 @@
       "save_returned_id": true,
       "reason": "Restore Metricool MCP OAuth access; verify live Pinterest connection, statuses, account quota, duplicates and complete daily count before retry. Historical ERROR does not prove current connection or quota."
     },
-    "evidence": "factory/research/2026-11-18/publisher-check-20261117T233536Z-metricool.json",
-    "result": "factory/research/2026-11-18/publisher-check-20261117T233536Z-result.json",
+    "evidence": "factory/research/2026-11-18/publisher-check-20261118T001149Z-metricool.json",
+    "result": "factory/research/2026-11-18/publisher-check-20261118T001149Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "e53756488758f5ef37c9f8068f8f5957e9a14ec4",
+      "origin_main_checked": "2bf82d4411b1443fc4300246426e3db3fc651f70",
       "strategy": "Separate temporary index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
