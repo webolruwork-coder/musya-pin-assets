@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-18T15:12:42.893733+00:00",
+  "server": "metricool",
+  "configured_endpoint": "https://ai.metricool.com/mcp",
+  "tools_exposed": false,
+  "discovery_probes": [
+    {
+      "method": "resources/list",
+      "error": "resources/list failed: failed to get client: MCP startup failed: OAuth authorization required"
+    },
+    {
+      "method": "resources/templates/list",
+      "error": "resources/templates/list failed: failed to get client: MCP startup failed: OAuth authorization required"
+    }
+  ],
+  "app_discovery": {
+    "provider": "Metricool",
+    "installed": false,
+    "plugin_id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+    "last_suggested_at": "2026-11-12T10:25:33.907794Z"
+  },
+  "getBrandSettings": {
+    "attempted": false,
+    "reason": "Tool unavailable because MCP startup requires OAuth authorization."
+  },
+  "getScheduledPosts": {
+    "attempted": false,
+    "reason": "Tool unavailable because MCP startup requires OAuth authorization."
+  },
+  "pinterest_connected": null,
+  "daily_count_verified": false,
+  "mutation_requests_sent": 0,
+  "day_plan": {
+    "command": "npm run factory:day-plan -- --date 2026-11-18",
+    "exit_code": 0,
+    "manifest_count": 15,
+    "status_counts": {
+      "needs_review": 6,
+      "queued": 9
+    }
+  }
+}
