@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-19T12:23:34.515563+00:00",
+    "checked_at": "2026-11-19T12:24:14.329034+00:00",
     "date_moscow": "2026-11-19",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
     "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Metricool MCP startup failed: OAuth authorization required. Current Pinterest connection, provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERROR does not establish current disconnection or quota.",
+    "decision": "Fresh Metricool MCP resources/list failed: MCP startup failed: OAuth authorization required. Pinterest connection, real provider statuses, duplicates and complete Moscow-day count could not be verified. No publication or rescheduling. Historical ERROR does not establish current Pinterest disconnection or account quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -986,14 +986,14 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP OAuth; verify fresh Pinterest connection, provider statuses, account quota, duplicates and complete daily count before retry. Keep historical verification timestamps."
+      "reason": "Restore Metricool MCP OAuth authorization; verify fresh Pinterest connection, provider statuses, account quota, duplicates and complete daily count before retry. Preserve text, media and pinterestData; exclude network fields absent from providers."
     },
-    "evidence": "factory/research/2026-11-19/publisher-check-20261119T122334Z-metricool.json",
-    "result": "factory/research/2026-11-19/publisher-check-20261119T122334Z-result.json",
+    "evidence": "factory/research/2026-11-19/publisher-check-20261119T122414Z-metricool.json",
+    "result": "factory/research/2026-11-19/publisher-check-20261119T122414Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "f1fd1ad1fd904094ce751310064dfc7265cfec88",
+      "origin_main_checked": "b2a191df79e596a6721956b72a17b1f7386b15ac",
       "strategy": "Separate temporary index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
