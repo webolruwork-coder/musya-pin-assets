@@ -1,0 +1,24 @@
+{
+  "attempted_at": "2026-11-19T14:12:30.739477+00:00",
+  "metricool_mcp": {
+    "operation": "resources/list",
+    "server": "metricool",
+    "success": false,
+    "error": "resources/list failed: failed to get client: MCP startup failed: MCP client startup timed out after 30s"
+  },
+  "plugin_discovery": {
+    "provider": "Metricool",
+    "id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+    "installed": false
+  },
+  "getBrandSettings": {
+    "executed": false,
+    "reason": "MCP client could not start"
+  },
+  "getScheduledPosts": {
+    "executed": false,
+    "reason": "MCP client could not start"
+  },
+  "provider_status_verified": false,
+  "pinterest_connected": null
+}
