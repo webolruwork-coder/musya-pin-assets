@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-19T12:20:35.905836+00:00",
+    "checked_at": "2026-11-19T12:20:36.626172+00:00",
     "date_moscow": "2026-11-19",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Metricool MCP startup failed: OAuth authorization required. Fresh Pinterest connection, provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERROR statuses are not evidence of current Pinterest disconnection or current quota.",
+    "blocked_reason": "metricool_mcp_startup_timeout",
+    "decision": "Metricool MCP startup timed out. Current Pinterest connection, provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERROR does not establish current disconnection or quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -920,12 +920,12 @@
     },
     "target_url": "https://musya.app/image-generation",
     "queue_manifests_scanned": 422,
-    "all_manifests_scanned": 422,
+    "all_manifests_scanned": 437,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 111,
       "queued": 264,
+      "needs_review": 111,
+      "published": 45,
       "scheduled": 2
     },
     "today_status_counts": {
@@ -981,16 +981,15 @@
         }
       }
     ],
-    "unindexed_manifests": [],
     "recovery": {
       "retry_deferred": true,
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP OAuth authorization; verify fresh Pinterest connection, provider statuses, account quota, duplicates and complete daily count before retry. Historical ERROR does not establish current connection or quota."
+      "reason": "Restore Metricool MCP availability; verify fresh Pinterest connection, provider statuses, account quota, duplicates and complete daily count before retry. Keep historical verification timestamps."
     },
-    "evidence": "factory/research/2026-11-19/publisher-check-20261119T122035Z-metricool.json",
-    "result": "factory/research/2026-11-19/publisher-check-20261119T122035Z-result.json",
+    "evidence": "factory/research/2026-11-19/publisher-check-20261119T122036Z-metricool.json",
+    "result": "factory/research/2026-11-19/publisher-check-20261119T122036Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
