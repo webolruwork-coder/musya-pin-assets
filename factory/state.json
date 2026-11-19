@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-19T19:12:41.604199+00:00",
+    "checked_at": "2026-11-19T20:13:10.830671+00:00",
     "date_moscow": "2026-11-19",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
     "blocked_reason": "metricool_mcp_unavailable",
-    "decision": "Metricool MCP tools absent from session; plugin discovery reports installed=false. Current Pinterest connection, real provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERRORs do not confirm current disconnection or quota.",
+    "decision": "Metricool MCP tools absent from session; fresh plugin discovery reports installed=false. Current Pinterest connection, real provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERRORs do not confirm current disconnection or quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -923,9 +923,9 @@
     "all_manifests_scanned": 437,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "queued": 264,
-      "needs_review": 111,
       "published": 45,
+      "needs_review": 111,
+      "queued": 264,
       "scheduled": 2
     },
     "today_status_counts": {
@@ -988,12 +988,12 @@
       "save_returned_id": true,
       "reason": "Restore access to Metricool MCP, then verify fresh Pinterest connection, statuses, duplicates and complete daily count. Preserve text, media and pinterestData; omit network fields absent from providers."
     },
-    "evidence": "factory/research/2026-11-19/publisher-check-20261119T191241Z-metricool.json",
-    "result": "factory/research/2026-11-19/publisher-check-20261119T191241Z-result.json",
+    "evidence": "factory/research/2026-11-19/publisher-check-20261119T201310Z-metricool.json",
+    "result": "factory/research/2026-11-19/publisher-check-20261119T201310Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "aa658b11ebf06e695bb577937f7e026458761e5a",
+      "origin_main_checked": "2108607b130fa923fc892f148b2fafe6d3775dfb",
       "strategy": "Separate temporary index based on freshly fetched origin/main. Commit only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, actual index and unrelated edits. Fast-forward push only."
     }
   }

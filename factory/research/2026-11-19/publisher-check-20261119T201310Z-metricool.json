@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-19T20:13:10.830671+00:00",
+  "source": "current session tool discovery and Plugin Management search_plugins",
+  "metricool_tool_count": 0,
+  "metricool_tools": [],
+  "plugin_discovery": {
+    "query": "Metricool",
+    "plugin": {
+      "id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+      "display_name": "Metricool",
+      "status": "ENABLED",
+      "installation_policy": "AVAILABLE",
+      "installed": false
+    },
+    "last_suggested_at": "2026-11-19T15:11:59.116087Z",
+    "suggestion_repeated": false,
+    "suggestion_not_repeated_reason": "Already suggested within the past seven days."
+  },
+  "getBrandSettings": {
+    "called": false,
+    "reason": "No Metricool MCP tool available in this session."
+  },
+  "getScheduledPosts": {
+    "called": false,
+    "reason": "No Metricool MCP tool available in this session."
+  },
+  "pinterest_connected": null,
+  "live_provider_statuses_verified": false,
+  "daily_history_complete": false,
+  "historical_provider_statuses_preserved": true,
+  "note": "Absence of Metricool MCP does not prove current Pinterest disconnection, OAuth failure or current Metricool quota. No direct API or browser publication fallback attempted."
+}
