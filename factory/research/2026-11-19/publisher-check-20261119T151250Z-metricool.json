@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-19T15:12:50.874733+00:00",
+  "date_moscow": "2026-11-19",
+  "method": "Available session MCP tool discovery and Plugin Management search for Metricool",
+  "metricool_tools_available": [],
+  "plugin_search": {
+    "display_name": "Metricool",
+    "installed": false,
+    "status": "ENABLED"
+  },
+  "plugin_suggestion_requested": true,
+  "getBrandSettings": {
+    "called": false,
+    "reason": "Metricool MCP tools unavailable in this session"
+  },
+  "getScheduledPosts": {
+    "called": false,
+    "reason": "Metricool MCP tools unavailable in this session"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "history_complete": false,
+  "note": "No fresh provider response obtained. Historical ERRORs do not establish current Pinterest disconnection or an active account limit. No secrets or OAuth credentials read."
+}
