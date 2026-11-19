@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-19T22:19:23.981908+00:00",
+    "checked_at": "2026-11-19T23:23:40.774801+00:00",
     "date_moscow": "2026-11-20",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -988,12 +988,12 @@
       "save_returned_id": true,
       "reason": "Restore Metricool MCP OAuth access, verify live Pinterest connection, statuses, quota, duplicates and full daily history. Update ERROR posts using existing ID/UUID, preserve text/media/pinterestData, exclude network fields absent from providers and save returned ID."
     },
-    "evidence": "factory/research/2026-11-20/publisher-check-20261119T221923Z-metricool.json",
-    "result": "factory/research/2026-11-20/publisher-check-20261119T221923Z-result.json",
+    "evidence": "factory/research/2026-11-20/publisher-check-20261119T232340Z-metricool.json",
+    "result": "factory/research/2026-11-20/publisher-check-20261119T232340Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "f7948a01cc670333ec455ff218dcdf319a54709a",
+      "origin_main_checked": "ff0336f67bb798233f67f39cffcffc5c6ed4cbdc",
       "strategy": "Separate temporary index based on freshly fetched origin/main. Commit only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, actual index and unrelated edits. Fast-forward push only."
     }
   }

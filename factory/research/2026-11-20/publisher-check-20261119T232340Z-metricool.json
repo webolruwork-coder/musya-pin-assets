@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-19T23:23:40.774801+00:00",
+  "source": "Current session tool discovery, Metricool MCP resources calls and Plugin Management search_plugins",
+  "metricool_tool_count": 0,
+  "metricool_tools": [],
+  "mcp_resource_checks": {
+    "resources/list": {
+      "success": false,
+      "error": "MCP startup failed: OAuth authorization required"
+    },
+    "resources/templates/list": {
+      "success": false,
+      "error": "MCP startup failed: OAuth authorization required"
+    }
+  },
+  "plugin_discovery": {
+    "query": "Metricool",
+    "plugin": {
+      "id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+      "display_name": "Metricool",
+      "status": "ENABLED",
+      "installation_policy": "AVAILABLE",
+      "installed": false
+    },
+    "last_suggested_at": "2026-11-19T15:11:59.116087Z",
+    "suggestion_repeated": false,
+    "suggestion_not_repeated_reason": "Already suggested within the past seven days."
+  },
+  "getBrandSettings": {
+    "called": false,
+    "reason": "Metricool MCP startup failed with OAuth authorization required; no callable tool available."
+  },
+  "getScheduledPosts": {
+    "called": false,
+    "reason": "Metricool MCP startup failed with OAuth authorization required; no callable tool available."
+  },
+  "pinterest_connected": null,
+  "live_provider_statuses_verified": false,
+  "daily_history_complete": false,
+  "historical_provider_statuses_preserved": true,
+  "note": "OAuth failure and absent plugin access do not confirm current Pinterest disconnection or quota. No publication fallback attempted.",
+  "mcp_configuration": {
+    "server": "metricool",
+    "enabled": true,
+    "auth_status": "o_auth",
+    "source": "codex mcp list --json (selected non-secret fields only)"
+  },
+  "queue_check": {
+    "command": "npm run factory:day-plan -- --date 2026-11-20",
+    "exit_code": 0,
+    "all_manifests": 437,
+    "today_manifests": 15,
+    "ready_unscheduled_candidates": 0
+  }
+}
