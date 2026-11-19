@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-19T20:13:10.830671+00:00",
-    "date_moscow": "2026-11-19",
+    "checked_at": "2026-11-19T21:12:21.006822+00:00",
+    "date_moscow": "2026-11-20",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_unavailable",
-    "decision": "Metricool MCP tools absent from session; fresh plugin discovery reports installed=false. Current Pinterest connection, real provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERRORs do not confirm current disconnection or quota.",
+    "blocked_reason": "metricool_mcp_startup_timeout",
+    "decision": "Metricool MCP resources/list and resources/templates/list failed with startup timeout after 30s. No Metricool tools available; plugin discovery reports installed=false. Live connection, statuses, duplicates and complete daily count are unknown. No publication or rescheduling. Historical ERRORs do not confirm current disconnection or quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -919,13 +919,13 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "queue_manifests_scanned": 422,
+    "queue_manifests_scanned": 437,
     "all_manifests_scanned": 437,
     "today_manifest_count": 15,
     "local_status_counts": {
       "published": 45,
-      "needs_review": 111,
-      "queued": 264,
+      "needs_review": 116,
+      "queued": 274,
       "scheduled": 2
     },
     "today_status_counts": {
@@ -986,14 +986,14 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore access to Metricool MCP, then verify fresh Pinterest connection, statuses, duplicates and complete daily count. Preserve text, media and pinterestData; omit network fields absent from providers."
+      "reason": "Restore Metricool MCP access, verify live Pinterest connection, statuses, quota, duplicates and full daily history. Update ERROR posts using existing ID/UUID, preserve text/media/pinterestData, exclude network fields absent from providers and save returned ID."
     },
-    "evidence": "factory/research/2026-11-19/publisher-check-20261119T201310Z-metricool.json",
-    "result": "factory/research/2026-11-19/publisher-check-20261119T201310Z-result.json",
+    "evidence": "factory/research/2026-11-20/publisher-check-20261119T211221Z-metricool.json",
+    "result": "factory/research/2026-11-20/publisher-check-20261119T211221Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "2108607b130fa923fc892f148b2fafe6d3775dfb",
+      "origin_main_checked": "c3b9a03d7b446cef39cace48a04072bfba81ca59",
       "strategy": "Separate temporary index based on freshly fetched origin/main. Commit only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, actual index and unrelated edits. Fast-forward push only."
     }
   }
