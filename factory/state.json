@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-19T12:21:50.353676+00:00",
+    "checked_at": "2026-11-19T12:23:34.515563+00:00",
     "date_moscow": "2026-11-19",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
     "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Fresh Metricool MCP discovery failed: OAuth authorization required. Live Pinterest connection, provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERROR statuses do not establish current disconnection or current quota.",
+    "decision": "Metricool MCP startup failed: OAuth authorization required. Current Pinterest connection, provider statuses, duplicates and complete Moscow-day count cannot be verified. No publication or rescheduling. Historical ERROR does not establish current disconnection or quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -986,15 +986,15 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP OAuth authorization; verify live Pinterest connection, provider statuses, quota, duplicates and complete daily count before retry."
+      "reason": "Restore Metricool MCP OAuth; verify fresh Pinterest connection, provider statuses, account quota, duplicates and complete daily count before retry. Keep historical verification timestamps."
     },
-    "evidence": "factory/research/2026-11-19/publisher-check-20261119T122150Z-metricool.json",
-    "result": "factory/research/2026-11-19/publisher-check-20261119T122150Z-result.json",
+    "evidence": "factory/research/2026-11-19/publisher-check-20261119T122334Z-metricool.json",
+    "result": "factory/research/2026-11-19/publisher-check-20261119T122334Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "057d38b840172fb63fa89a97a9932b3b56bdbdf9",
-      "strategy": "Separate temporary index based on freshly fetched origin/main. Commit only this run evidence, publisher_last_blocked_attempt and review notice; preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
+      "origin_main_checked": "f1fd1ad1fd904094ce751310064dfc7265cfec88",
+      "strategy": "Separate temporary index based on freshly fetched origin/main; only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
 }
