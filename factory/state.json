@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-20T12:13:14.977132+00:00",
+    "checked_at": "2026-11-20T13:12:49.149317+00:00",
     "date_moscow": "2026-11-20",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
     "blocked_reason": "metricool_mcp_oauth_authorization_required",
-    "decision": "Metricool MCP startup failed: OAuth authorization required. getBrandSettings/getScheduledPosts unavailable. Pinterest connection, live statuses, duplicates and complete daily count unknown. No publication or rescheduling. Historical ERRORs do not confirm current disconnection or quota.",
+    "decision": "Metricool MCP startup failed: OAuth authorization required. Pinterest connection, live statuses, duplicates and complete daily count are unknown. No publication or rescheduling. Historical ERRORs do not confirm current disconnection or quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -988,12 +988,12 @@
       "save_returned_id": true,
       "reason": "Restore Metricool MCP OAuth; verify fresh brand settings, statuses, quota, duplicates and full daily history. Retry ERROR using existing ID/UUID; retain text/media/pinterestData, exclude fields for absent providers and save returned ID."
     },
-    "evidence": "factory/research/2026-11-20/publisher-check-20261120T121314Z-metricool.json",
-    "result": "factory/research/2026-11-20/publisher-check-20261120T121314Z-result.json",
+    "evidence": "factory/research/2026-11-20/publisher-check-20261120T131249Z-metricool.json",
+    "result": "factory/research/2026-11-20/publisher-check-20261120T131249Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "e5c629f2159b82e26ab7b18303cec9b5f557a819",
+      "origin_main_checked": "2d6d0b11116622fa039a96bd8cfc259ca0e37c7b",
       "strategy": "Separate temporary index based on freshly fetched origin/main. Commit only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
