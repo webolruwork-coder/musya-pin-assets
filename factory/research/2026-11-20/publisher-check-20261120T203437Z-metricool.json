@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-11-20T20:34:37Z",
+  "server": "metricool",
+  "brand_id": 6880455,
+  "mcp_probes": [
+    {
+      "method": "resources/list",
+      "result": "failed",
+      "error": "resources/list failed: failed to get client: MCP startup failed: MCP client startup timed out after 30s"
+    },
+    {
+      "method": "resources/list",
+      "result": "failed",
+      "error": "resources/list failed: failed to get client: MCP startup failed: MCP client startup timed out after 30s"
+    }
+  ],
+  "tools_available": {
+    "getBrandSettings": false,
+    "getScheduledPosts": false,
+    "createScheduledPost": false,
+    "updateScheduledPost": false
+  },
+  "local_config_status": "codex mcp list: metricool enabled, OAuth; configuration does not confirm live connectivity",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily_history_complete": false,
+  "note": "Metricool MCP startup timed out after 30s on two resources/list probes. getBrandSettings/getScheduledPosts unavailable; Pinterest connection, live statuses, duplicates and complete daily count unknown. No publication or rescheduling. Historical errors are not evidence of current disconnection or quota."
+}
