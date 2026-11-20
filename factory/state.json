@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-20T20:34:37Z",
-    "date_moscow": "2026-11-20",
+    "checked_at": "2026-11-20T22:12:12Z",
+    "date_moscow": "2026-11-21",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_startup_timeout",
-    "decision": "Metricool MCP startup timed out after 30s on two resources/list probes. getBrandSettings/getScheduledPosts unavailable; Pinterest connection, live statuses, duplicates and complete daily count unknown. No publication or rescheduling. Historical errors are not evidence of current disconnection or quota.",
+    "blocked_reason": "metricool_mcp_authentication_required",
+    "decision": "Metricool MCP startup failed: OAuth authorization required. getBrandSettings/getScheduledPosts unavailable; live Pinterest connection, provider statuses, duplicates and complete daily count unknown. No publication or rescheduling. Historical errors do not establish current disconnection or quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -919,18 +919,18 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "queue_manifests_scanned": 437,
+    "queue_manifests_scanned": 452,
     "all_manifests_scanned": 452,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "queued": 274,
-      "needs_review": 116,
+      "needs_review": 123,
+      "queued": 282,
       "published": 45,
       "scheduled": 2
     },
     "today_status_counts": {
-      "queued": 10,
-      "needs_review": 5
+      "needs_review": 7,
+      "queued": 8
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -986,19 +986,19 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP availability; verify fresh brand settings, statuses, quota, duplicates and full daily history. Retry ERROR using existing ID/UUID; retain text/media/pinterestData, exclude fields for absent providers and save returned ID."
+      "reason": "Reauthenticate Metricool MCP, verify fresh brand settings, provider statuses, quota, duplicates and full daily history. Retry ERROR with current ID/UUID, retain text/media/pinterestData, omit fields for absent providers, save returned ID; reread after any uncertain response."
     },
-    "evidence": "factory/research/2026-11-20/publisher-check-20261120T203437Z-metricool.json",
-    "result": "factory/research/2026-11-20/publisher-check-20261120T203437Z-result.json",
+    "evidence": "factory/research/2026-11-21/publisher-check-20261120T221212Z-metricool.json",
+    "result": "factory/research/2026-11-21/publisher-check-20261120T221212Z-result.json",
     "day_plan": {
-      "command": "npm run factory:day-plan -- --date 2026-11-20",
+      "command": "npm run factory:day-plan -- --date 2026-11-21",
       "exit_code": 0,
       "manifest_count": 15
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "089313ced680a107fda000ee45899beee3a654d8",
+      "origin_main_checked": "409b2ba6ff238d1c64505e96059a7cb37332b9c0",
       "strategy": "Separate temporary index based on freshly fetched origin/main; commit only this run evidence, publisher_last_blocked_attempt and one review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
