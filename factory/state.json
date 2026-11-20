@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-19T23:23:40.774801+00:00",
+    "checked_at": "2026-11-20T00:12:27.772737+00:00",
     "date_moscow": "2026-11-20",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
-    "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Metricool MCP resources/list and resources/templates/list failed with OAuth authorization required. No Metricool tools available; plugin discovery reports installed=false. Live connection, statuses, duplicates and complete daily count are unknown. No publication or rescheduling. Historical ERRORs do not confirm current disconnection or quota.",
+    "blocked_reason": "metricool_mcp_oauth_refresh_failed",
+    "decision": "Metricool MCP startup failed: OAuth token refresh failed: Request failed. getBrandSettings/getScheduledPosts unavailable. Pinterest connection, live statuses, duplicates and complete daily count unknown. No publication or rescheduling. Historical ERRORs do not confirm current disconnection or quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -923,14 +923,14 @@
     "all_manifests_scanned": 437,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "published": 45,
-      "needs_review": 116,
       "queued": 274,
+      "needs_review": 116,
+      "published": 45,
       "scheduled": 2
     },
     "today_status_counts": {
-      "needs_review": 5,
-      "queued": 10
+      "queued": 10,
+      "needs_review": 5
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -986,15 +986,15 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP OAuth access, verify live Pinterest connection, statuses, quota, duplicates and full daily history. Update ERROR posts using existing ID/UUID, preserve text/media/pinterestData, exclude network fields absent from providers and save returned ID."
+      "reason": "Restore Metricool MCP OAuth; verify fresh brand settings, statuses, quota, duplicates and full daily history. Retry ERROR using existing ID/UUID; retain text/media/pinterestData, exclude fields for absent providers and save returned ID."
     },
-    "evidence": "factory/research/2026-11-20/publisher-check-20261119T232340Z-metricool.json",
-    "result": "factory/research/2026-11-20/publisher-check-20261119T232340Z-result.json",
+    "evidence": "factory/research/2026-11-20/publisher-check-20261120T001227Z-metricool.json",
+    "result": "factory/research/2026-11-20/publisher-check-20261120T001227Z-result.json",
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "ff0336f67bb798233f67f39cffcffc5c6ed4cbdc",
-      "strategy": "Separate temporary index based on freshly fetched origin/main. Commit only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, actual index and unrelated edits. Fast-forward push only."
+      "origin_main_checked": "4b847be1e3521a66c633e734b80784bc459c1d03",
+      "strategy": "Separate temporary index based on freshly fetched origin/main. Commit only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
 }

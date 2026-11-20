@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-20T00:12:27.772737+00:00",
+  "source": "Current session Metricool MCP discovery, resources/list and resources/templates/list, Plugin Management search_plugins",
+  "metricool_tool_count": 0,
+  "mcp_resource_checks": {
+    "resources/list": {
+      "success": false,
+      "error": "MCP startup failed: OAuth token refresh failed: Request failed"
+    },
+    "resources/templates/list": {
+      "success": false,
+      "error": "MCP startup failed: OAuth token refresh failed: Request failed"
+    }
+  },
+  "plugin_discovery": {
+    "query": "Metricool",
+    "plugin": {
+      "id": "plugin_asdk_app_69d73fc8aa5c8191bec1583760b130c7",
+      "display_name": "Metricool",
+      "installed": false
+    },
+    "last_suggested_at": "2026-11-19T15:11:59.116087Z",
+    "suggestion_repeated": false
+  },
+  "getBrandSettings": {
+    "called": false,
+    "reason": "MCP startup failed: OAuth token refresh failed: Request failed"
+  },
+  "getScheduledPosts": {
+    "called": false,
+    "reason": "MCP startup failed: OAuth token refresh failed: Request failed"
+  },
+  "pinterest_connected": null,
+  "live_provider_statuses_verified": false,
+  "daily_history_complete": false,
+  "historical_provider_statuses_preserved": true,
+  "note": "OAuth refresh failure does not establish that Pinterest is disconnected or that account quota is exceeded. No fallback publication attempted.",
+  "queue_check": {
+    "command": "npm run factory:day-plan -- --date 2026-11-20",
+    "exit_code": 0,
+    "all_manifests": 437,
+    "current_and_past_manifests": 437,
+    "today_manifests": 15,
+    "ready_unscheduled_candidates": 0
+  }
+}
