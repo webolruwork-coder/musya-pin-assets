@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-21T02:13:08Z",
+    "checked_at": "2026-11-21T18:00:46Z",
     "date_moscow": "2026-11-21",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -920,12 +920,18 @@
     },
     "target_url": "https://musya.app/image-generation",
     "queue_manifests_scanned": 452,
-    "all_manifests_scanned": 452,
+    "all_manifests_scanned": 467,
     "today_manifest_count": 15,
     "local_status_counts": {
       "published": 45,
       "needs_review": 123,
       "queued": 282,
+      "scheduled": 2
+    },
+    "all_local_status_counts": {
+      "published": 45,
+      "needs_review": 123,
+      "queued": 297,
       "scheduled": 2
     },
     "today_status_counts": {
@@ -988,8 +994,8 @@
       "save_returned_id": true,
       "reason": "Restore Metricool OAuth, verify fresh brand settings, provider statuses, quota, duplicates and full daily history. Retry ERROR with current ID/UUID, retain text/media/pinterestData, omit absent provider fields, save returned ID; reread after any uncertain response."
     },
-    "evidence": "factory/research/2026-11-21/publisher-check-20261121T021308Z-metricool.json",
-    "result": "factory/research/2026-11-21/publisher-check-20261121T021308Z-result.json",
+    "evidence": "factory/research/2026-11-21/publisher-check-20261121T180046Z-metricool.json",
+    "result": "factory/research/2026-11-21/publisher-check-20261121T180046Z-result.json",
     "day_plan": {
       "command": "npm run factory:day-plan -- --date 2026-11-21",
       "exit_code": 0,
@@ -998,7 +1004,7 @@
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "f17525332db35d09441338323b9812bff416b424",
+      "origin_main_checked": "bc9888337d6447dea11912903445476b4cd18b09",
       "strategy": "Separate temporary index based on freshly fetched origin/main; commit only this run evidence, publisher_last_blocked_attempt and one review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
