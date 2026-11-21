@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-11-21T18:12:56Z",
+  "server": "metricool",
+  "brand_id": 6880455,
+  "mcp_probes": [
+    {
+      "method": "resources/list",
+      "result": "failed",
+      "error": "resources/list failed: failed to get client: MCP startup failed: OAuth authorization required"
+    }
+  ],
+  "tools_available": {
+    "getBrandSettings": false,
+    "getScheduledPosts": false,
+    "createScheduledPost": false,
+    "updateScheduledPost": false
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "daily_history_complete": false,
+  "note": "Metricool MCP startup failed: OAuth authorization required. getBrandSettings/getScheduledPosts unavailable; live Pinterest connection, provider statuses, duplicates and complete daily count unknown. No publication or rescheduling. Historical errors do not establish current disconnection or quota."
+}
