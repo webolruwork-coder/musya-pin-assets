@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-22T07:04:23Z",
+  "server": "metricool",
+  "tool_discovery": {
+    "metricool_tools_available": false
+  },
+  "mcp_probe": {
+    "method": "resources/list",
+    "success": false,
+    "error": "resources/list failed: failed to get client: MCP startup failed: failed to resolve OAuth metadata before using stored credentials: Metadata error: OAuth metadata discovery failed for https://ai.metricool.com/mcp. Caused by: HTTP request failed: http/request failed: error sending request for url (https://ai.metricool.com/mcp)"
+  },
+  "plugin_discovery": {
+    "query": "Metricool",
+    "success": false,
+    "error": "Transport send error: HTTP request failed: error sending request for url (https://chatgpt.com/backend-api/ps/mcp)"
+  },
+  "getBrandSettings": {
+    "called": false,
+    "reason": "MCP client startup failed; tool unavailable"
+  },
+  "getScheduledPosts": {
+    "called": false,
+    "reason": "MCP client startup failed; tool unavailable"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false
+}
