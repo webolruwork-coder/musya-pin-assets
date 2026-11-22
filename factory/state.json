@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-22T03:08:34Z",
+    "checked_at": "2026-11-22T03:09:51Z",
     "date_moscow": "2026-11-22",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -923,20 +923,14 @@
     "all_manifests_scanned": 467,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "published": 45,
       "needs_review": 124,
       "queued": 296,
-      "scheduled": 2
-    },
-    "all_local_status_counts": {
       "published": 45,
-      "needs_review": 124,
-      "queued": 296,
       "scheduled": 2
     },
     "today_status_counts": {
-      "needs_review": 1,
-      "queued": 14
+      "queued": 14,
+      "needs_review": 1
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -992,10 +986,10 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool OAuth, verify fresh brand settings, provider statuses, quota, duplicates and full daily history. Retry ERROR with current ID/UUID, retain text/media/pinterestData, omit absent provider fields, save returned ID; reread after any uncertain response."
+      "reason": "Restore Metricool OAuth, verify fresh brand settings, statuses, quota, duplicates and complete daily history. Retry ERROR with current ID/UUID, retain text/media/pinterestData, omit fields for absent providers, save returned ID; reread after uncertain responses."
     },
-    "evidence": "factory/research/2026-11-22/publisher-check-20261122T030834Z-metricool.json",
-    "result": "factory/research/2026-11-22/publisher-check-20261122T030834Z-result.json",
+    "evidence": "factory/research/2026-11-22/publisher-check-20261122T030951Z-metricool.json",
+    "result": "factory/research/2026-11-22/publisher-check-20261122T030951Z-result.json",
     "day_plan": {
       "command": "npm run factory:day-plan -- --date 2026-11-22",
       "exit_code": 0,
@@ -1004,7 +998,7 @@
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "0e729c15da534c9fe99bebc6a6e98b63d426f6e0",
+      "origin_main_checked": "b07240b1b491ddc60390bf3ccca66656d28b9aac",
       "strategy": "Separate temporary index based on freshly fetched origin/main; commit only this run evidence, publisher_last_blocked_attempt and one review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
     }
   }
