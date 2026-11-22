@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-22T03:09:51Z",
+    "checked_at": "2026-11-22T03:12:25Z",
     "date_moscow": "2026-11-22",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
     "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Metricool MCP startup failed: OAuth authorization required. getBrandSettings/getScheduledPosts unavailable; live Pinterest connection, provider statuses, duplicates and complete daily count unknown. No publication or rescheduling. Historical errors do not establish current disconnection or quota.",
+    "decision": "Fresh Metricool MCP resources/list failed: MCP startup failed: OAuth authorization required. getBrandSettings/getScheduledPosts unavailable; live Pinterest connection, provider statuses, duplicates and complete daily count unknown. No publication or rescheduling. Historical errors do not establish current disconnection or quota.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -923,14 +923,14 @@
     "all_manifests_scanned": 467,
     "today_manifest_count": 15,
     "local_status_counts": {
+      "published": 45,
       "needs_review": 124,
       "queued": 296,
-      "published": 45,
       "scheduled": 2
     },
     "today_status_counts": {
-      "queued": 14,
-      "needs_review": 1
+      "needs_review": 1,
+      "queued": 14
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -986,10 +986,10 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool OAuth, verify fresh brand settings, statuses, quota, duplicates and complete daily history. Retry ERROR with current ID/UUID, retain text/media/pinterestData, omit fields for absent providers, save returned ID; reread after uncertain responses."
+      "reason": "Restore Metricool OAuth; verify fresh connection, provider statuses, quota, duplicates and complete daily history. Retry ERROR with current ID/UUID, preserve text/media/pinterestData, omit network fields absent from providers, save returned ID; reread after uncertain responses."
     },
-    "evidence": "factory/research/2026-11-22/publisher-check-20261122T030951Z-metricool.json",
-    "result": "factory/research/2026-11-22/publisher-check-20261122T030951Z-result.json",
+    "evidence": "factory/research/2026-11-22/publisher-check-20261122T031225Z-metricool.json",
+    "result": "factory/research/2026-11-22/publisher-check-20261122T031225Z-result.json",
     "day_plan": {
       "command": "npm run factory:day-plan -- --date 2026-11-22",
       "exit_code": 0,
@@ -998,8 +998,8 @@
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "b07240b1b491ddc60390bf3ccca66656d28b9aac",
-      "strategy": "Separate temporary index based on freshly fetched origin/main; commit only this run evidence, publisher_last_blocked_attempt and one review notice. Preserve checkout, HEAD, real index and unrelated edits. Fast-forward push only."
+      "origin_main_checked": "01e98a69bd61fdd8488affb96db12626a2ae3e73",
+      "strategy": "Separate temporary index based on freshly fetched origin/main. Commit only this run evidence, publisher_last_blocked_attempt and one review notice; preserve checkout/HEAD, real index and unrelated changes. Re-fetch before fast-forward push; no force."
     }
   }
 }

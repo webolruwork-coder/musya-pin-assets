@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-22T03:12:25Z",
+  "server": "metricool",
+  "operation": "resources/list",
+  "error": "resources/list failed: failed to get client: MCP startup failed: OAuth authorization required",
+  "getBrandSettings": "unavailable: MCP client startup failed",
+  "getScheduledPosts": "unavailable: MCP client startup failed",
+  "plugin_discovery": {
+    "display_name": "Metricool",
+    "installed": false,
+    "previous_suggestion_at": "2026-11-19T15:11:59.116087Z",
+    "new_suggestion_sent": false
+  },
+  "codex_mcp_list": {
+    "name": "metricool",
+    "enabled": true,
+    "auth_status": "o_auth"
+  },
+  "live_pinterest_connection_verified": false,
+  "complete_daily_history_verified": false,
+  "publication_requests": 0
+}
