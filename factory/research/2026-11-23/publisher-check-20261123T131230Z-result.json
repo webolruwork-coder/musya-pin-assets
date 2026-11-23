@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-11-23T13:12:30.840594Z",
+  "date_moscow": "2026-11-23",
+  "brand_id": "6880455",
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "blocked_reason": "metricool_mcp_authentication_required",
+  "decision": "Fresh Metricool MCP startup failed: OAuth authorization required. Pinterest connection, current provider statuses, duplicates and complete daily count cannot be verified. No publishing or rescheduling. Pinterest disconnection is not confirmed. Preserve historical verification timestamps and existing IDs/UUIDs.",
+  "daily": {
+    "limit": 15,
+    "history_complete": false,
+    "published_confirmed": null,
+    "pending_confirmed": null,
+    "remaining": null
+  },
+  "actions": {
+    "created": 0,
+    "rescheduled": 0,
+    "newly_confirmed_published": 0,
+    "backlog_slots_reassigned": 0
+  },
+  "target_url": "https://musya.app/image-generation",
+  "queue_manifests_scanned": 482,
+  "all_manifests_scanned": 482,
+  "today_manifest_count": 15,
+  "local_status_counts": {
+    "published": 45,
+    "needs_review": 126,
+    "queued": 309,
+    "scheduled": 2
+  },
+  "today_status_counts": {
+    "needs_review": 2,
+    "queued": 13
+  },
+  "ready_unscheduled_candidates": [],
+  "historical_error_posts": [
+    {
+      "run_id": "2026-10-25-slot-06-beauty-cosmetic-photography-prompt",
+      "publishing": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-11-10T13:00:00+03:00",
+        "metricool_post_id": "422900181",
+        "metricool_uuid": "-2732908720757584197",
+        "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-2732908720757584197",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "checked_at": "2026-11-12T11:02:59.226Z",
+        "provider_media_urls": [
+          "https://static.metricool.com/planner/202611/6880455-file-10901130648615773047.png"
+        ],
+        "provider_error": "You have reached your Metricool account limit."
+      }
+    },
+    {
+      "run_id": "2026-11-04-slot-02-ai-product-photography-prompt",
+      "publishing": {
+        "provider": "metricool",
+        "brand": "musya_gpt",
+        "blog_id": 6880455,
+        "timezone": "Europe/Moscow",
+        "board": "Промпты для нейросетей",
+        "target_url": "https://musya.app/image-generation",
+        "scheduled_at": "2026-11-10T14:30:00+03:00",
+        "metricool_post_id": "422900240",
+        "metricool_uuid": "-6148691217174344003",
+        "planner_url": "https://app.metricool.com/planner/calendar?blogId=6880455&openWithPostUuid=-6148691217174344003",
+        "provider_status": "ERROR",
+        "detailedStatus": "You have reached your Metricool account limit.",
+        "detailed_status": "You have reached your Metricool account limit.",
+        "checked_at": "2026-11-12T11:02:59.226Z",
+        "provider_media_urls": [
+          "https://static.metricool.com/planner/202611/6880455-file-9208351632448418766.png"
+        ],
+        "provider_error": "You have reached your Metricool account limit."
+      }
+    }
+  ],
+  "recovery": {
+    "retry_deferred": true,
+    "method": "updateScheduledPost",
+    "preserve_existing_id_and_uuid": true,
+    "save_returned_id": true,
+    "reason": "Restore OAuth authorization for Metricool MCP, then verify fresh getBrandSettings and complete getScheduledPosts history, connection, quota, duplicates and available daily slots. Retry ERROR posts using current ID and UUID, preserve text/media/pinterestData, omit network fields absent from providers. Save returned ID and unchanged UUID; reread Metricool after uncertain results."
+  },
+  "evidence": "factory/research/2026-11-23/publisher-check-20261123T131230Z-metricool.json",
+  "result": "factory/research/2026-11-23/publisher-check-20261123T131230Z-result.json",
+  "day_plan": {
+    "command": "npm run factory:day-plan -- --date 2026-11-23",
+    "exit_code": 0,
+    "manifest_count": 15
+  },
+  "git": {
+    "checkout": "refs/heads/natashakorchagina/pinterest-automation",
+    "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
+    "origin_main_checked": "e40d28d4bc5599780c7ae66efa71fa2d4b2778f4",
+    "strategy": "Separate temporary index based on freshly fetched origin/main; project only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
+  }
+}

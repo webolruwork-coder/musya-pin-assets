@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-22T11:25:56Z",
-    "date_moscow": "2026-11-22",
+    "checked_at": "2026-11-23T13:12:30.840594Z",
+    "date_moscow": "2026-11-23",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
     "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Fresh Metricool MCP resources/list failed with OAuth authorization required. Pinterest connection, actual provider statuses, duplicates and complete daily history could not be verified. No publication or rescheduling. Historical ERROR records do not establish the current Pinterest connection or quota.",
+    "decision": "Fresh Metricool MCP startup failed: OAuth authorization required. Pinterest connection, current provider statuses, duplicates and complete daily count cannot be verified. No publishing or rescheduling. Pinterest disconnection is not confirmed. Preserve historical verification timestamps and existing IDs/UUIDs.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -919,18 +919,18 @@
       "backlog_slots_reassigned": 0
     },
     "target_url": "https://musya.app/image-generation",
-    "queue_manifests_scanned": 467,
+    "queue_manifests_scanned": 482,
     "all_manifests_scanned": 482,
     "today_manifest_count": 15,
     "local_status_counts": {
       "published": 45,
-      "needs_review": 124,
-      "queued": 296,
+      "needs_review": 126,
+      "queued": 309,
       "scheduled": 2
     },
     "today_status_counts": {
-      "needs_review": 1,
-      "queued": 14
+      "needs_review": 2,
+      "queued": 13
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -986,20 +986,20 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore OAuth authorization for Metricool MCP. First verify fresh getBrandSettings and complete getScheduledPosts history, connection, quota, duplicates and available daily slots. For ERROR posts preserve text, media and pinterestData; omit fields for providers absent from providers. Save any returned new ID and unchanged UUID; reread Metricool after an uncertain result."
+      "reason": "Restore OAuth authorization for Metricool MCP, then verify fresh getBrandSettings and complete getScheduledPosts history, connection, quota, duplicates and available daily slots. Retry ERROR posts using current ID and UUID, preserve text/media/pinterestData, omit network fields absent from providers. Save returned ID and unchanged UUID; reread Metricool after uncertain results."
     },
-    "evidence": "factory/research/2026-11-22/publisher-check-20261122T112556Z-metricool.json",
-    "result": "factory/research/2026-11-22/publisher-check-20261122T112556Z-result.json",
+    "evidence": "factory/research/2026-11-23/publisher-check-20261123T131230Z-metricool.json",
+    "result": "factory/research/2026-11-23/publisher-check-20261123T131230Z-result.json",
     "day_plan": {
-      "command": "npm run factory:day-plan -- --date 2026-11-22",
+      "command": "npm run factory:day-plan -- --date 2026-11-23",
       "exit_code": 0,
       "manifest_count": 15
     },
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "76d01a1ffae0db1b4eb3c8d44513bc344214ef31",
-      "strategy": "Separate temporary index from freshly fetched origin/main; project only this run evidence, publisher_last_blocked_attempt and one review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
+      "origin_main_checked": "e40d28d4bc5599780c7ae66efa71fa2d4b2778f4",
+      "strategy": "Separate temporary index based on freshly fetched origin/main; project only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
     }
   }
 }
