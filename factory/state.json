@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-23T16:12:15.910864Z",
+    "checked_at": "2026-11-23T17:13:01.963Z",
     "date_moscow": "2026-11-23",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -923,20 +923,20 @@
     "all_manifests_scanned": 497,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "needs_review": 128,
-      "queued": 322,
       "published": 45,
+      "needs_review": 129,
+      "queued": 321,
       "scheduled": 2
     },
     "queue_status_counts": {
+      "published": 45,
       "needs_review": 126,
       "queued": 309,
-      "published": 45,
       "scheduled": 2
     },
     "today_status_counts": {
-      "queued": 13,
-      "needs_review": 2
+      "needs_review": 2,
+      "queued": 13
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -994,8 +994,8 @@
       "save_returned_id": true,
       "reason": "Restore Metricool MCP OAuth, then verify fresh getBrandSettings and complete getScheduledPosts, connection, quota, duplicates and daily count. Reschedule ERROR with current ID/UUID; preserve text/media/pinterestData, omit network fields absent from providers; save returned ID. Reread Metricool after uncertain results."
     },
-    "evidence": "factory/research/2026-11-23/publisher-check-20261123T161215Z-metricool.json",
-    "result": "factory/research/2026-11-23/publisher-check-20261123T161215Z-result.json",
+    "evidence": "factory/research/2026-11-23/publisher-check-20261123T171301Z-metricool.json",
+    "result": "factory/research/2026-11-23/publisher-check-20261123T171301Z-result.json",
     "day_plan": {
       "command": "npm run factory:day-plan -- --date 2026-11-23",
       "exit_code": 0,
@@ -1004,7 +1004,7 @@
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "9f5efed115dd29af5b81506ce7a414ed08d56eca",
+      "origin_main_checked": "e00981df93a24a66c637e0088898a2976c59cbc6",
       "strategy": "Temporary index based on freshly fetched origin/main; project only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
     }
   }
