@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-23T14:12:29.197176Z",
+    "checked_at": "2026-11-23T15:12:17.233776Z",
     "date_moscow": "2026-11-23",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -924,8 +924,8 @@
     "today_manifest_count": 15,
     "local_status_counts": {
       "published": 45,
-      "needs_review": 127,
-      "queued": 323,
+      "needs_review": 128,
+      "queued": 322,
       "scheduled": 2
     },
     "queue_status_counts": {
@@ -992,10 +992,10 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore OAuth authorization for Metricool MCP, then verify fresh getBrandSettings and complete getScheduledPosts history, connection, quota, duplicates and available daily slots. Retry ERROR posts using current ID and UUID, preserve text/media/pinterestData, omit network fields absent from providers. Save returned ID and unchanged UUID; reread Metricool after uncertain results."
+      "reason": "Restore Metricool MCP OAuth, then verify fresh getBrandSettings and complete getScheduledPosts, connection, quota, duplicates and daily count. Reschedule ERROR with current ID/UUID; preserve text/media/pinterestData, omit network fields absent from providers; save returned ID. Reread Metricool after uncertain results."
     },
-    "evidence": "factory/research/2026-11-23/publisher-check-20261123T141229Z-metricool.json",
-    "result": "factory/research/2026-11-23/publisher-check-20261123T141229Z-result.json",
+    "evidence": "factory/research/2026-11-23/publisher-check-20261123T151217Z-metricool.json",
+    "result": "factory/research/2026-11-23/publisher-check-20261123T151217Z-result.json",
     "day_plan": {
       "command": "npm run factory:day-plan -- --date 2026-11-23",
       "exit_code": 0,
@@ -1004,8 +1004,8 @@
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "8aae440a9e7eb9dc06e0d7b1e6f376fef2a3a879",
-      "strategy": "Separate temporary index based on freshly fetched origin/main; project only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
+      "origin_main_checked": "fbaead18441c9f374410e363a73b8b11c9fc9c8e",
+      "strategy": "Temporary index based on freshly fetched origin/main; project only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
     }
   }
 }
