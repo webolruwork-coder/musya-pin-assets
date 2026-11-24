@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-24T19:11:33.116700+00:00",
+  "server": "metricool",
+  "tool_discovery": {
+    "metricool_tools_available": false
+  },
+  "mcp_probe": {
+    "method": "resources/list",
+    "success": false,
+    "error": "resources/list failed: failed to get client: MCP startup failed: OAuth authorization required"
+  },
+  "getBrandSettings": {
+    "called": false,
+    "reason": "MCP startup failed: OAuth authorization required"
+  },
+  "getScheduledPosts": {
+    "called": false,
+    "reason": "MCP startup failed: OAuth authorization required"
+  },
+  "pinterest_connected": null,
+  "provider_status_verified": false,
+  "plugin_discovery": {
+    "name": "Metricool",
+    "installed": false,
+    "connection_confirmed": false,
+    "last_suggested_at": "2026-11-24T16:11:21.110666Z",
+    "suggested_this_run": false
+  }
+}
