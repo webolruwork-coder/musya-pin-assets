@@ -898,7 +898,7 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-24T16:11:14.780Z",
+    "checked_at": "2026-11-24T17:12:17.875Z",
     "date_moscow": "2026-11-24",
     "brand_id": "6880455",
     "pinterest_connected": null,
@@ -924,8 +924,8 @@
     "today_manifest_count": 15,
     "local_status_counts": {
       "published": 45,
-      "needs_review": 133,
-      "queued": 332,
+      "needs_review": 134,
+      "queued": 331,
       "scheduled": 2
     },
     "queue_status_counts": {
@@ -1000,8 +1000,8 @@
       "save_returned_id": true,
       "reason": "Restore Metricool MCP OAuth; verify fresh getBrandSettings, complete getScheduledPosts, Pinterest connection, quota, daily total and duplicates. Reschedule ERROR using current ID/UUID; preserve text/media/pinterestData, omit network fields outside providers, save returned ID. Reread Metricool after uncertain results."
     },
-    "evidence": "factory/research/2026-11-24/publisher-check-20261124T161219Z-metricool.json",
-    "result": "factory/research/2026-11-24/publisher-check-20261124T161219Z-result.json",
+    "evidence": "factory/research/2026-11-24/publisher-check-20261124T171217Z-metricool.json",
+    "result": "factory/research/2026-11-24/publisher-check-20261124T171217Z-result.json",
     "day_plan": {
       "command": "npm run factory:day-plan -- --date 2026-11-24",
       "exit_code": 0,
@@ -1010,7 +1010,7 @@
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "bc237dec71b4980d9aef363d47b9f1054ad88214",
+      "origin_main_checked": "f1496caa8d0d2c605c7cbcf268f8661e7ffe189b",
       "strategy": "Temporary index based on freshly fetched origin/main; project only new evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
     }
   }
