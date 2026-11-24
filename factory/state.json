@@ -898,13 +898,13 @@
     }
   },
   "publisher_last_blocked_attempt": {
-    "checked_at": "2026-11-24T15:12:49.689Z",
+    "checked_at": "2026-11-24T16:11:14.780Z",
     "date_moscow": "2026-11-24",
     "brand_id": "6880455",
     "pinterest_connected": null,
     "provider_status_verified": false,
     "blocked_reason": "metricool_mcp_authentication_required",
-    "decision": "Fresh Metricool MCP resources/list failed: MCP startup failed: OAuth authorization required. Pinterest connection, current provider statuses, duplicates and complete daily count cannot be verified. No publishing or rescheduling. Pinterest disconnection is not confirmed. Preserve historical verification timestamps and existing IDs/UUIDs.",
+    "decision": "Fresh configured Metricool MCP resources/list failed: OAuth authorization required. Pinterest connection, current provider statuses, duplicates and full daily count cannot be verified. Pinterest disconnection is not confirmed. No publishing or rescheduling; preserve historical provider timestamps, IDs and UUIDs.",
     "daily": {
       "limit": 15,
       "history_complete": false,
@@ -923,20 +923,20 @@
     "all_manifests_scanned": 512,
     "today_manifest_count": 15,
     "local_status_counts": {
-      "needs_review": 132,
-      "queued": 333,
       "published": 45,
+      "needs_review": 133,
+      "queued": 332,
       "scheduled": 2
     },
     "queue_status_counts": {
+      "published": 45,
       "needs_review": 130,
       "queued": 320,
-      "published": 45,
       "scheduled": 2
     },
     "today_status_counts": {
-      "queued": 11,
-      "needs_review": 4
+      "needs_review": 4,
+      "queued": 11
     },
     "ready_unscheduled_candidates": [],
     "historical_error_posts": [
@@ -988,7 +988,7 @@
       }
     ],
     "skipped": {
-      "reason": "No approved validated/hosted manifests in current day or backlog. Pending quality gates preserved; complete provider history unavailable.",
+      "reason": "No approved validated/hosted manifests in current day or backlog. Quality gate unchanged; full provider history unavailable.",
       "today_approval_counts": {
         "pending": 15
       }
@@ -998,10 +998,10 @@
       "method": "updateScheduledPost",
       "preserve_existing_id_and_uuid": true,
       "save_returned_id": true,
-      "reason": "Restore Metricool MCP OAuth, then verify fresh getBrandSettings and complete getScheduledPosts, connection, quota, duplicates and daily count. Reschedule ERROR with current ID/UUID; preserve text/media/pinterestData, omit network fields absent from providers; save returned ID. Reread Metricool after uncertain results."
+      "reason": "Restore Metricool MCP OAuth; verify fresh getBrandSettings, complete getScheduledPosts, Pinterest connection, quota, daily total and duplicates. Reschedule ERROR using current ID/UUID; preserve text/media/pinterestData, omit network fields outside providers, save returned ID. Reread Metricool after uncertain results."
     },
-    "evidence": "factory/research/2026-11-24/publisher-check-20261124T151249Z-metricool.json",
-    "result": "factory/research/2026-11-24/publisher-check-20261124T151249Z-result.json",
+    "evidence": "factory/research/2026-11-24/publisher-check-20261124T161219Z-metricool.json",
+    "result": "factory/research/2026-11-24/publisher-check-20261124T161219Z-result.json",
     "day_plan": {
       "command": "npm run factory:day-plan -- --date 2026-11-24",
       "exit_code": 0,
@@ -1010,8 +1010,8 @@
     "git": {
       "checkout": "refs/heads/natashakorchagina/pinterest-automation",
       "head_before": "44df05bbecd9b7f4436355a6ed409735b2999475",
-      "origin_main_checked": "d8041bc85c3a76fd58baab30c95009290d3efacb",
-      "strategy": "Temporary index based on freshly fetched origin/main; project only this run evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
+      "origin_main_checked": "bc237dec71b4980d9aef363d47b9f1054ad88214",
+      "strategy": "Temporary index based on freshly fetched origin/main; project only new evidence, publisher_last_blocked_attempt and review notice. Preserve checkout, HEAD, real index and unrelated edits. Re-fetch before ordinary fast-forward push, no force."
     }
   }
 }
